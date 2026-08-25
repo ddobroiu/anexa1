@@ -1,0 +1,162 @@
+import { Metadata } from "next";
+import { Inter, Outfit } from "next/font/google";
+import "./globals.css";
+import { Providers } from "../components/Providers";
+import GlobalStructuredData from "../components/GlobalStructuredData";
+import Header from "../components/Navbar"; // Use Navbar as Header
+import Footer from "../components/Footer";
+import ClientLayoutWrapper from "../components/ClientLayoutWrapper";
+import ContactButton from "../components/ContactButton";
+import CookieConsent from "../components/CookieConsent";
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+});
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.anexa1.ro"),
+  title: {
+    default: "Anexa1.ro - Tipar Digital & Producție Publicitară",
+    template: "%s | Anexa1",
+  },
+  description:
+    "Tipărire bannere, afise si autocolante la comanda cu livrare instanta. Livrare rapidă în toată țara.",
+  keywords: [
+    "tipar digital",
+    "bannere publicitare",
+    "afișe personalizate",
+    "canvas pe pânză",
+    "autocolante vinyl",
+    "materiale rigide",
+    "publicitate outdoor",
+    "print online România",
+    "anexa1"
+  ],
+  manifest: '/manifest.json',
+  icons: {
+    icon: '/logo.svg',
+    shortcut: '/logo.svg',
+    apple: '/logo.svg',
+  },
+  verification: {
+    google: 'FPQT6X0QSD',
+  },
+  openGraph: {
+    title: "Anexa1.ro | Tipar Digital & Producție Publicitară",
+    description:
+      "Tipar digital profesional: bannere, afișe, canvas și autocolante. Configuratoare online cu prețuri instant.",
+    url: "https://www.anexa1.ro",
+    siteName: "Anexa1.ro",
+    locale: "ro_RO",
+    type: "website",
+    images: [
+      {
+        url: "/logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "Anexa1.ro - Tipar Digital Profesional",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Anexa1.ro | Print Digital Online",
+    description: "Bannere, canvas și semnalistică cu personalizare rapidă.",
+    images: ["/logo.svg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="ro" data-theme="light">
+      <head>
+        {/* Consent Mode v2 — must run before gtag.js, so it lives here in the root
+            layout <head>. (`Script strategy="beforeInteractive"` is ignored inside
+            client components, so it cannot live in CookieConsent.) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied',
+                'functionality_storage': 'granted',
+                'security_storage': 'granted',
+                'wait_for_update': 500
+              });
+              try {
+                if (localStorage.getItem('cookie_consent') === 'granted') {
+                  gtag('consent', 'update', {
+                    'ad_storage': 'granted',
+                    'ad_user_data': 'granted',
+                    'ad_personalization': 'granted',
+                    'analytics_storage': 'granted'
+                  });
+                }
+              } catch (e) {}
+            `,
+          }}
+        />
+        {/* GA4 property "anexa1.ro" (520944536). In the initial HTML so Google's
+            tag checker can see it; Consent Mode above gates storage. */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4J0WMEX7J3" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('js', new Date());
+              gtag('config', 'G-4J0WMEX7J3');
+            `,
+          }}
+        />
+        <link rel="icon" href="/logo.svg" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+        <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
+      </head>
+
+      <body className={`${inter.variable} ${outfit.variable} bg-white text-slate-900 antialiased font-sans selection:bg-blue-500 selection:text-white relative`}>
+        <CookieConsent />
+        <Providers>
+          <Header />
+          <main className="w-full overflow-x-hidden">
+            <ClientLayoutWrapper>
+              {children}
+            </ClientLayoutWrapper>
+          </main>
+          <Footer />
+          <GlobalStructuredData />
+          <ContactButton />
+        </Providers>
+      </body>
+    </html>
+  );
+}
