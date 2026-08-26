@@ -3,7 +3,7 @@ import { Facebook, Instagram, Mail, Music } from "lucide-react";
 export const siteConfig = {
     name: "Anexa1",
     domain: "Anexa1.ro",
-    url: "https://www.Anexa1.ro",
+    url: "https://www.anexa1.ro",
     description: "Anexa1.ro - Tipografie Digitală Online.",
     email: "contact@Anexa1.ro",
     phone: "0750 473 111",
