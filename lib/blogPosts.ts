@@ -16,212 +16,153 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "dtg-vs-dtf-vs-serigrafie-ghid-textile",
     source: "Anexa1.ro",
-    title: "Tricouri de firmă și echipe de eveniment: ce tehnologie de print alegi în funcție de comandă",
-    description: "Un manager care comandă 8 polo-uri pentru echipă are nevoi complet diferite de un organizator care are nevoie de 300 de tricouri de eveniment în 3 zile. Ghid practic DTG, DTF și serigrafie pentru comenzi de business.",
+    title: "DTG, DTF sau serigrafie: nu alege tehnologia, alege scenariul de utilizare",
+    description: "Cine decide o comandă de tricouri de firmă nu ar trebui să pornească de la întrebarea „ce tehnologie e mai bună”, ci de la trei scenarii concrete: uniformă permanentă, eveniment unic sau echipă mixtă. Ghid pe scenarii, nu pe tehnologii.",
     date: '2026-05-18T08:00:00.000Z',
     author: "Coordonator Producție Anexa1",
     tags: ["dtg", "dtf", "serigrafie", "print textile", "uniforme firma", "anexa1"],
     hero: "/blog/dtg-vs-dtf.jpg",
     contentHtml: `
-      <p>Aproape săptămânal primim aceeași întrebare de la clienți business: „Ce tehnologie îmi recomandați?”. Răspunsul corect nu depinde de calitatea percepută a fiecărei metode, ci de trei variabile concrete: câte bucăți comanzi, câte culori are logo-ul tău și cât de des vor fi spălate hainele. Acest ghid e scris exact în ordinea în care ar trebui să iei decizia, nu în ordinea alfabetică a tehnologiilor.</p>
+      <p>Persoana care aprobă o comandă de tricouri într-o firmă (HR, marketing sau administrativ) nu are, de regulă, cunoștințe tehnice despre print textile și nici nu ar trebui să aibă nevoie de ele. Problema apare când furnizorul îi pune întrebarea greșită – „DTG, DTF sau serigrafie?” – în loc să întrebe ce anume urmează să facă acele tricouri. Am inversat ordinea acestui ghid: în loc să pornim de la tehnologii, pornim de la cele trei scenarii pe care le vedem cel mai des la comenzile de business, iar tehnologia recomandată reiese natural din fiecare.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Pasul 1: Câte bucăți ai de comandat?</h2>
-      <p>Aceasta este singura întrebare care elimină automat una dintre cele trei opțiuni. Serigrafia presupune pregătirea fizică a unor site (șabloane) pentru fiecare culoare din design – un cost fix care nu se justifică sub 50 de bucăți. Dacă ai nevoie de 5 tricouri pentru fondatori sau 15 hanorace pentru echipa de vânzări, serigrafia îți va costa de câteva ori mai mult pe bucată decât DTG sau DTF.</p>
-      <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>1-49 bucăți:</b> DTG sau DTF. Nu există cost de pregătire, plătești strict pentru ce printezi.</li>
-        <li><b>50-199 bucăți:</b> Zona gri – depinde de numărul de culori din logo (vezi Pasul 2).</li>
-        <li><b>200+ bucăți identice:</b> Serigrafia devine de regulă cea mai ieftină variantă pe bucată.</li>
-      </ul>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Scenariul 1: uniforma permanentă de echipă</h2>
+      <p>Aici vorbim despre tricouri sau polo-uri care intră în rotația zilnică de lucru – echipă de service, curierat, HoReCa, retail – spălate de câteva ori pe săptămână, luni sau ani la rând. Criteriul decisiv nu e prețul per bucată la prima comandă, ci comportamentul logo-ului după 30-40 de spălări industriale. Pentru acest scenariu recomandăm aproape întotdeauna <b>DTF</b>: filmul transferat termic rezistă la cicluri repetate de spălare fără să crape sau să-și piardă culoarea, indiferent dacă materialul e bumbac, poliester sau un amestec (frecvent la echipamentele HoReCa). Dacă volumul depășește 150-200 de bucăți identice și logo-ul are maxim 2-3 culori solide, fără degrade, serigrafia devine de regulă mai ieftină pe bucată pe termen lung, pentru că amortizează costul șabloanelor pe un tiraj mare.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Pasul 2: Câte culori are logo-ul tău?</h2>
-      <p>Un logo corporate cu 2-3 culori solide, fără degrade, este exact scenariul pentru care a fost inventată serigrafia – fiecare culoare Pantone iese identică pe fiecare tricou din tiraj, lot după lot. Dar dacă logo-ul tău are gradient, fotografie sau ilustrație complexă cu multe nuanțe, serigrafia devine impracticabilă (fiecare culoare suplimentară înseamnă un șablon nou, deci un cost nou). Aici <a href="/configurator/tricouri">DTG</a> sau DTF preiau ștafeta, pentru că printează numărul de culori din fișier fără cost suplimentar.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Scenariul 2: evenimentul unic – lansare, conferință, târg</h2>
+      <p>Aici tricoul are o singură misiune: să arate impecabil în fotografiile și impresiile din acea zi, nu să reziste ani de purtare. Cantitatea variază enorm – de la 15 la 300 de bucăți – iar termenul e de regulă scurt. <b>DTG</b> câștigă când comanda e sub 100 de bucăți și designul are gradient sau ilustrație complexă, pentru că oferă cel mai plăcut tact la atingere (cerneala pătrunde în fibra bumbacului) și nu are cost de pregătire per culoare. Pentru echipament outdoor de eveniment (jachete tehnice, materiale sintetice), DTF rămâne soluția corectă, pentru că se aplică bine și pe poliester, unde DTG produce culori șterse.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Pasul 3: Cine poartă tricoul și cât de des îl spală?</h2>
-      <p>Aici e diferența dintre un tricou de eveniment purtat o dată și o uniformă de lucru spălată industrial de două ori pe săptămână.</p>
-      <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Tricou de eveniment/promo, purtat rar:</b> DTG oferă cel mai plăcut tact la atingere – cerneala pătrunde în fibra bumbacului, nu se simte pe piele.</li>
-        <li><b>Uniformă de lucru sau echipament spălat frecvent:</b> DTF câștigă clar. Filmul transferat termic rezistă la zeci de cicluri de spălare industrială fără crăpare sau decolorare, indiferent dacă materialul e bumbac, poliester sau un amestec (foarte comun la echipamentele HoReCa sau service auto).</li>
-        <li><b>Echipament outdoor pentru evenimente/expoziții:</b> Tot DTF, pentru că se aplică și pe materiale tehnice sintetice pe care DTG nu funcționează bine (culorile ies șterse pe poliester la DTG).</li>
-      </ul>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Scenariul 3: echipa mixtă – teren și birou, în aceeași comandă</h2>
+      <p>Cel mai des întâlnit scenariu în practică, și cel mai des tratat greșit ca „o singură comandă, o singură tehnologie”. O firmă de construcții care comandă simultan tricouri pentru echipa de teren (purtate zilnic, pe materiale mixte, spălate des) și polo-uri de prezentare pentru echipa de vânzări (purtate ocazional, la clienți) are de fapt două scenarii diferite ascunse într-o singură comandă. Recomandarea corectă aici nu e o tehnologie unică pentru tot lotul, ci împărțirea comenzii: DTF pentru echipa de teren, DTG pentru polo-urile de prezentare unde tactul moale la atingere contează mai mult decât rezistența la spălare industrială.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Scenariu real de comandă:</h3>
-        <p class="text-blue-800 italic">O firmă de construcții comandă 12 tricouri cu logo pentru echipa de teren (spălate des, pe materiale mixte) și 3 polo-uri elegante pentru echipa de vânzări care merge la clienți. Recomandarea noastră: DTF pentru echipa de teren, DTG pentru polo-urile de prezentare unde tactul moale contează.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Un detaliu care schimbă recomandarea: culoarea materialului</h3>
+        <p class="text-blue-800 italic">Pe tricouri negre sau închise la culoare, DTF are avantaj clar indiferent de scenariu – filmul transferat include propriul strat alb de bază, deci culorile rămân vii pe orice fond. DTG necesită pre-tratament suplimentar pe materiale închise, care adaugă timp și cost, iar rezultatul e ușor mai puțin vibrant decât pe alb.</p>
       </div>
 
-      <div class="overflow-x-auto my-12 shadow-xl rounded-3xl border border-slate-100">
+      <div class="overflow-x-auto my-10 shadow-xl rounded-3xl border border-slate-100">
         <table class="min-w-full bg-white">
           <thead class="bg-slate-900 text-white">
             <tr>
-              <th class="px-6 py-4 text-left font-bold">Criteriu decizie</th>
-              <th class="px-6 py-4 text-center font-bold">DTG</th>
-              <th class="px-6 py-4 text-center font-bold">DTF</th>
-              <th class="px-6 py-4 text-center font-bold">Serigrafie</th>
+              <th class="px-6 py-4 text-left font-bold">Scenariu</th>
+              <th class="px-6 py-4 text-left font-bold">Tehnologie recomandată</th>
+              <th class="px-6 py-4 text-left font-bold">De ce</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-slate-100 text-sm">
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Comandă sub 20 buc</td>
-              <td class="px-6 py-4 text-center text-blue-600 font-bold">Recomandat</td>
-              <td class="px-6 py-4 text-center text-blue-600 font-bold">Recomandat</td>
-              <td class="px-6 py-4 text-center text-red-500 font-bold">Prea scump</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Uniformă permanentă, spălare deasă</td>
+              <td class="px-6 py-4">DTF (sau serigrafie peste 150-200 buc)</td>
+              <td class="px-6 py-4 italic text-slate-600">Rezistență maximă la cicluri repetate de spălare</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Materiale sintetice/mixte</td>
-              <td class="px-6 py-4 text-center text-slate-500 italic">Slab</td>
-              <td class="px-6 py-4 text-center text-blue-600 font-bold">Excelent</td>
-              <td class="px-6 py-4 text-center font-medium">Bun</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Eveniment unic, sub 100 buc</td>
+              <td class="px-6 py-4">DTG</td>
+              <td class="px-6 py-4 italic text-slate-600">Tact moale, fără cost de pregătire per culoare</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Spălare industrială frecventă</td>
-              <td class="px-6 py-4 text-center text-slate-500 italic">Medie</td>
-              <td class="px-6 py-4 text-center text-blue-600 font-bold">Excelentă</td>
-              <td class="px-6 py-4 text-center text-blue-600 font-bold">Excelentă</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Echipament outdoor sintetic</td>
+              <td class="px-6 py-4">DTF</td>
+              <td class="px-6 py-4 italic text-slate-600">Funcționează bine pe poliester, spre deosebire de DTG</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Comandă 200+ buc identice</td>
-              <td class="px-6 py-4 text-center font-medium">Scump</td>
-              <td class="px-6 py-4 text-center font-medium">Mediu</td>
-              <td class="px-6 py-4 text-center text-blue-600 font-bold">Cel mai ieftin</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Comandă mare, logo simplu (2-3 culori)</td>
+              <td class="px-6 py-4">Serigrafie</td>
+              <td class="px-6 py-4 italic text-slate-600">Cel mai ieftin cost per bucată la tiraj mare</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Un detaliu pe care puțini îl întreabă: culoarea materialului</h2>
-      <p>Pe tricouri negre sau închise la culoare, DTF are avantaj clar: filmul transferat conține propriul strat alb de bază, deci culorile rămân vii indiferent de fondul textilei. DTG necesită un pre-tratament special pentru materiale închise, care mai adaugă timp și cost, iar rezultatul e ușor mai puțin vibrant decât pe alb.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă cu logo-ul după 30 de spălări, nu după prima</h2>
+      <p>Diferența reală dintre tehnologii nu se vede la livrare, ci după o lună-două de uz zilnic. DTG, pentru că cerneala e absorbită în fibră, tinde să-și piardă ușor din intensitate în timp, mai ales dacă tricoul e uscat la temperatură mare la uscător – recomandăm spălare pe dos, la maxim 30°C, fără uscător automat. DTF rezistă foarte bine la spălări repetate, inclusiv la temperaturile ceva mai ridicate din spălătoriile industriale, dar la peste 100-150 de cicluri pot apărea fisuri fine la marginile detaliilor foarte subțiri. Serigrafia rămâne, per ansamblu, cea mai rezistentă la spălare industrială intensivă, motiv pentru care e standardul istoric pentru echipamentul de lucru comandat în volum mare.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Cum se comportă fiecare tehnologie la spălare, pe termen lung</h2>
-      <p>Instrucțiunile de îngrijire nu sunt un detaliu minor pentru echipamente de lucru sau uniforme spălate constant. Diferența reală apare de regulă după 20-30 de spălări, nu din primele câteva:</p>
-      <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>DTG:</b> cerneala fiind absorbită în fibra materialului, tinde să-și piardă ușor din intensitate în timp, mai ales dacă tricoul e uscat la temperatură mare la uscător. Recomandăm spălare pe dos, la maxim 30°C, fără uscător automat.</li>
-        <li><b>DTF:</b> filmul transferat termic rezistă foarte bine la spălări repetate, inclusiv la temperaturi ceva mai ridicate folosite în spălătorii industriale, dar la peste 100-150 de cicluri poate începe să apară o ușoară crăpare la marginile unor detalii foarte fine (linii subțiri de 1-2 puncte).</li>
-        <li><b>Serigrafie:</b> rămâne cea mai rezistentă tehnologie la spălare industrială repetată, motiv pentru care e standardul istoric pentru echipamentul de lucru comandat în volum mare de firme cu flotă proprie de angajați.</li>
-      </ul>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă achiziția trece printr-un flux intern de aprobare</h2>
+      <p>La companii cu proceduri interne de achiziție (chiar și fără să fie SEAP/SICAP), o comandă de echipament de lucru personalizat intră adesea la același capitol cu dotările de protecție sau uniformele obligatorii, ceea ce înseamnă factură pe firmă, specificații scrise ale materialului și, uneori, o fișă tehnică atașată la dosarul intern de aprovizionare. La cerere, includem în oferta scrisă compoziția exactă a materialului textil, gramajul și metoda de printare pentru fiecare linie de produs din comandă, astfel încât documentul să poată fi atașat direct dosarului de achiziție internă, fără reformulări ulterioare.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Un exemplu concret de cost, ca reper</h2>
-      <p>Pentru a înțelege practic diferența, un exemplu simplificat: o comandă de 30 de tricouri cu un logo în 2 culori. La serigrafie, costul include pregătirea celor 2 șabloane (cost fix, indiferent dacă tirajul e 30 sau 300 de bucăți), plus un cost mic per bucată la print. La 30 de bucăți, costul fix al șabloanelor cântărește greu în prețul final per tricou. La DTF sau DTG, nu există cost de pregătire – plătești un preț unitar constant, care nu variază cu numărul de culori din design. Diferența devine vizibilă mai ales atunci când compari 30 de bucăți cu 300: la 300 de bucăți, costul fix al serigrafiei se împarte la un tiraj mult mai mare, iar prețul pe unitate scade sub cel al DTF.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce fișier grafic funcționează pentru fiecare tehnologie</h2>
+      <p>Indiferent de tehnologia aleasă, un fișier vectorial (.ai, .eps, .svg) sau o imagine la minim 300 DPI la dimensiunea reală de print dă mereu cel mai bun rezultat. Pentru serigrafie, dacă logo-ul are culori Pantone exacte de brand, trimite codul Pantone specific – fără el, potrivim manual culoarea cea mai apropiată, ceea ce poate introduce o mică diferență față de manualul de identitate vizuală. Pentru DTF, fișierele cu fundal transparent (PNG sau vectorial cu contur clar) sunt esențiale, ca filmul transferat să urmeze exact forma design-ului.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Ce fișier grafic funcționează pentru fiecare tehnologie</h2>
-      <p>Indiferent de tehnologia aleasă, un fișier vectorial (.ai, .eps, .svg) sau o imagine la minim 300 DPI la dimensiunea reală de print dă mereu cel mai bun rezultat. Pentru serigrafie, dacă logo-ul are culori Pantone exacte de brand, trimite-ne codul Pantone specific – fără el, potrivim manual culoarea cea mai apropiată, ceea ce poate introduce o mică diferență față de manualul tău de identitate vizuală. Pentru DTF, fișierele cu fundal transparent (PNG sau fișier vectorial cu contur clar) sunt esențiale, pentru ca filmul transferat să urmeze exact forma design-ului, nu un dreptunghi în jurul lui.</p>
-
-      <p>Dacă nu ești sigur care variantă se potrivește comenzii tale, trimite-ne numărul de bucăți, tipul de material și designul – îți spunem direct în configurator care tehnologie iese mai avantajoasă. Comandă azi în <a href="/configurator/tricouri">configuratorul nostru de tricouri</a> și primești producția gata în cel mai scurt termen posibil.</p>
+      <p>Spune-ne în ce scenariu se încadrează comanda ta – uniformă permanentă, eveniment unic sau echipă mixtă – și numărul aproximativ de bucăți, iar noi îți recomandăm direct tehnologia potrivită în <a href="/configurator/tricouri">configuratorul de tricouri</a>, cu producție gata în cel mai scurt termen posibil.</p>
     `,
   },
   {
     slug: "maximizare-impact-vizual-bannere-print-2026",
     source: "Anexa1.ro",
-    title: "De ce unele bannere se văd de la 100 de metri și altele nu se citesc nici de la 10",
-    description: "Nu e vorba de noroc, e matematică. Explicăm formula de calcul a înălțimii literelor în funcție de distanța de citire, regulile de contrast și greșelile de design care fac un banner scump să treacă neobservat.",
+    title: "Bannerul de 500 de lei pe care nimeni nu-l citește: anatomia unei comenzi greșite",
+    description: "Cel mai scump banner nu e cel prost printat, ci cel pe care trecătorii nu apucă să-l citească. Analizăm, pas cu pas, un caz tipic de banner ilizibil și explicăm exact ce ar fi trebuit schimbat înainte de trimiterea la print.",
     date: '2026-05-25T09:17:00.000Z',
     author: "Departament Producție Anexa1",
     tags: ["marketing outdoor", "design bannere", "lizibilitate", "print afaceri", "anexa1"],
     contentHtml: `
-      <p>Primim frecvent bannere pentru print unde clientul a pus tot ce știe despre firmă pe un singur material: adresă, telefon, program, listă de servicii, slogan și logo, toate la aceeași dimensiune. Rezultatul, montat pe o fațadă privită din mașină în mers, este ilizibil. Impactul vizual nu ține de câtă informație pui pe banner, ci de cât de repede și de la ce distanță creierul privitorului decodează mesajul principal.</p>
+      <p>Iată un caz pe care îl vedem des: un banner de 3x1,5 metri, plătit integral, montat impecabil pe gardul unei firme lângă o șosea cu trafic auto de 50 km/h. Rezultat: aproape nimeni nu îl citește. Nu pentru că materialul e defect sau montajul greșit, ci pentru că șase informații diferite (adresă, telefon, program, listă de servicii, slogan, logo) sunt toate la aceeași dimensiune, deci ochiul nu are unde să se oprească. Am descompus mai jos exact ce ar trebui verificat înainte de a trimite un fișier similar la print, ca să nu repeți aceeași investiție irosită.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Formula pe care o folosim noi: 1 cm înălțime literă = 10 metri distanță</h2>
-      <p>Regula de bază folosită în semnalistica outdoor este simplă: pentru fiecare 10 metri de distanță de la care vrei ca textul să fie citit confortabil, litera are nevoie de aproximativ 1 cm înălțime. Nu e o regulă exactă din punct de vedere optic, dar funcționează foarte bine în practică pentru trafic auto și pietonal:</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Verificarea 1: literele sunt suficient de mari pentru distanța reală</h2>
+      <p>Regula de bază din semnalistica outdoor: pentru fiecare 10 metri de distanță de la care vrei ca textul să fie citit confortabil, litera are nevoie de aproximativ 1 cm înălțime. Bannerul din exemplul de mai sus avea mesajul principal scris cu litere de 15 cm – suficient pentru un trotuar de vizavi, dar mult prea mic pentru un șofer care trece cu 50 km/h de la 40-50 metri distanță.</p>
       <div class="overflow-x-auto my-8">
         <table class="min-w-full bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
           <thead class="bg-slate-50">
             <tr>
-              <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Distanță de citire</th>
+              <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Context de trafic</th>
+              <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Distanță tipică</th>
               <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Înălțime minimă literă</th>
-              <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Context tipic</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-slate-200">
             <tr>
-              <td class="px-6 py-4 font-bold">5 m</td>
+              <td class="px-6 py-4 font-bold">Vitrină, intrare magazin</td>
+              <td class="px-6 py-4">5 m</td>
               <td class="px-6 py-4">5 cm</td>
-              <td class="px-6 py-4 italic text-slate-600">Vitrină, intrare magazin</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold">20 m</td>
+              <td class="px-6 py-4 font-bold">Banner pe gard, trotuar opus</td>
+              <td class="px-6 py-4">20 m</td>
               <td class="px-6 py-4">20 cm</td>
-              <td class="px-6 py-4 italic text-slate-600">Banner pe gard, trotuar opus</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold">50 m</td>
+              <td class="px-6 py-4 font-bold">Trafic auto oraș, viteză redusă</td>
+              <td class="px-6 py-4">50 m</td>
               <td class="px-6 py-4">50 cm</td>
-              <td class="px-6 py-4 italic text-slate-600">Trafic auto viteză redusă (oraș)</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold">100 m</td>
+              <td class="px-6 py-4 font-bold">Trafic auto drum național</td>
+              <td class="px-6 py-4">100 m</td>
               <td class="px-6 py-4">100 cm</td>
-              <td class="px-6 py-4 italic text-slate-600">Trafic auto viteză mare, drum național</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p>Practic, dacă montezi <a href="/configurator/banner">un banner</a> pe un gard lângă un drum cu viteză de 50-70 km/h, literele mesajului principal ar trebui să aibă minim 40-60 cm înălțime ca șoferul să apuce să-l citească înainte să treacă mai departe.</p>
+      <p>Corectat, mesajul principal al bannerului nostru de exemplu ar fi avut nevoie de litere de minim 40-50 cm, nu 15 cm, ca să apuce să fie citit de un șofer în trecere.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ierarhia informației: un singur mesaj câștigă</h2>
-      <p>Ochiul uman procesează un banner outdoor în mai puțin de 3 secunde. Dacă are de ales între 6 informații egale ca mărime, nu reține niciuna clar. Structura care funcționează constant în comenzile noastre:</p>
-      <ol class="list-decimal pl-6 space-y-2 my-6">
-        <li><b>60% din suprafață – un singur mesaj/beneficiu</b> (ex: numele firmei sau oferta principală), în literele cele mai mari.</li>
-        <li><b>25% din suprafață – un element de acțiune</b> (telefon mare, ușor de reținut, sau „la 200m”).</li>
-        <li><b>15% din suprafață – detalii secundare</b> (adresă completă, program, site) – acestea pot fi mici, pentru că cine e interesat oricum se apropie sau caută online.</li>
-      </ol>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Verificarea 2: câte secunde are efectiv privitorul</h2>
+      <p>Un șofer la 50 km/h parcurge aproape 14 metri pe secundă. Pentru un banner lat de 3 metri, vizibilitatea frontală directă durează sub o secundă – timp suficient doar pentru 3-5 cuvinte cheie, nicidecum pentru o listă de servicii. Un pieton, care parcurge în medie 1,4 metri pe secundă, are de câteva ori mai mult timp la dispoziție, deci poate absorbi un plus de detaliu. Bannerul din exemplul nostru era gândit ca și cum ar fi citit doar de pietoni, deși era amplasat lângă o șosea circulată de mașini – o nepotrivire de bază între conținut și public.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Contrastul contează mai mult decât culoarea în sine</h2>
-      <p>Textul negru pe fundal alb sau galben pe fundal albastru închis se citesc de la distanțe mult mai mari decât combinații „la modă” dar cu contrast slab (gri pe alb, roșu pe negru sub soare puternic). Testul simplu înainte de a trimite fișierul la print: transformă imaginea în alb-negru pe ecran. Dacă textul principal tot se distinge clar din fundal, contrastul e suficient pentru exterior.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Verificarea 3: un singur mesaj domină, restul se retrage</h2>
+      <p>Ochiul uman procesează un banner outdoor în mai puțin de 3 secunde. Dacă are de ales între șase informații egale ca mărime, nu reține niciuna clar. Structura care funcționează constant în comenzile noastre corectate:</p>
+      <ul class="list-disc pl-6 space-y-2 my-6">
+        <li><b>60% din suprafață</b> pentru un singur mesaj/beneficiu (numele firmei sau oferta principală), în literele cele mai mari.</li>
+        <li><b>25% din suprafață</b> pentru un element de acțiune (telefon mare, ușor de reținut, sau „la 200m”).</li>
+        <li><b>15% din suprafață</b> pentru detalii secundare (adresă completă, program, site) – acestea pot fi mici, pentru că cine e interesat oricum se apropie sau caută online.</li>
+      </ul>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Greșeala nr. 1 pe care o vedem cel mai des:</h3>
-        <p class="text-blue-800 italic">Fonturi decorative subțiri (script, caligrafice) pe bannere mari. Arată elegant pe monitor, dar la 30-40 metri liniile subțiri „dispar” optic. Pentru orice text citit din mers sau din mașină, folosește fonturi groase (bold), fără serife (sans-serif).</p>
+        <h3 class="text-blue-900 font-bold mb-2">Ce am schimbat concret la bannerul din exemplu:</h3>
+        <p class="text-blue-800 italic">Am păstrat doar numele firmei și un singur beneficiu pe centru, la 50 cm înălțime literă, telefonul dedesubt la 25 cm, iar adresa completă și programul într-un colț, la 8 cm. Restul informațiilor (lista de servicii) a fost mutată pe un afiș de interior, nu pe bannerul stradal.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Materialul influențează și el impactul vizual</h2>
-      <p>Doi bannere identice ca design pot arăta complet diferit în funcție de material: un frontlit standard reflectă lumina și oferă culori vii pe timp de zi, în timp ce un banner iluminat din spate (lightbox) sau montat pe o structură cu retroiluminare are nevoie de material translucid special ca să păstreze contrastul și noaptea. Dacă bannerul tău va fi văzut și seara, spune-ne din start – recomandăm soluția potrivită de material și grosime.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Verificarea 4: fontul ales rezistă la distanță</h2>
+      <p>Bannerul avea sloganul scris cu un font decorativ, subțire, tip caligrafic – arăta elegant pe monitor, dar la 30-40 metri liniile subțiri „dispar” optic. Pentru orice text citit din mers sau din mașină, un font gros (bold), fără serife, e singura opțiune sigură. Testul rapid: transformă imaginea în alb-negru pe ecran – dacă textul principal tot se distinge clar din fundal, contrastul și grosimea sunt suficiente pentru exterior.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Combinații de culori care păstrează contrastul la orice oră a zilei</h2>
-      <p>Nu orice combinație „la modă” funcționează bine la exterior, mai ales sub soare puternic care spală culorile deschise. Din testele noastre de producție, câteva perechi funcționează constant bine pe bannere outdoor:</p>
-      <div class="overflow-x-auto my-8">
-        <table class="min-w-full bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
-          <thead class="bg-slate-50">
-            <tr>
-              <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Fundal</th>
-              <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Text</th>
-              <th class="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider border-b">Observație</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-200">
-            <tr>
-              <td class="px-6 py-4 font-bold">Alb</td>
-              <td class="px-6 py-4">Negru sau albastru închis</td>
-              <td class="px-6 py-4 italic text-slate-600">Contrast maxim, lizibilitate excelentă la orice oră</td>
-            </tr>
-            <tr>
-              <td class="px-6 py-4 font-bold">Galben</td>
-              <td class="px-6 py-4">Negru</td>
-              <td class="px-6 py-4 italic text-slate-600">Foarte vizibil de departe, folosit des la reduceri/oferte</td>
-            </tr>
-            <tr>
-              <td class="px-6 py-4 font-bold">Albastru închis</td>
-              <td class="px-6 py-4">Alb sau galben</td>
-              <td class="px-6 py-4 italic text-slate-600">Profesional, rezistă bine vizual și sub soare puternic</td>
-            </tr>
-            <tr>
-              <td class="px-6 py-4 font-bold">Gri deschis</td>
-              <td class="px-6 py-4">Alb</td>
-              <td class="px-6 py-4 italic text-slate-600">Evită – contrast slab, aproape ilizibil de la distanță</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Verificarea 5: combinația de culori păstrează contrastul sub soare</h2>
+      <p>Nu orice combinație „la modă” funcționează la exterior, mai ales sub soare puternic care spală culorile deschise. Bannerul original folosea text gri pe fundal alb – aproape ilizibil la orice distanță. Din testele noastre de producție, câteva perechi funcționează constant bine pe bannere outdoor: negru sau albastru închis pe alb (contrast maxim), negru pe galben (foarte vizibil de departe, des folosit la oferte), alb sau galben pe albastru închis (profesional, rezistă vizual și la soare puternic). Evită gri pe alb sau roșu pe negru – ambele combinații pierd contrast rapid sub lumină directă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Înălțimea de montaj schimbă și ea percepția</h2>
-      <p>Un banner montat prea sus (deasupra nivelului normal de privire, peste 3-4 metri) are nevoie de litere și mai mari decât indică regula standard de distanță, pentru că unghiul de vizualizare adaugă o distorsiune suplimentară. Pentru montaje înalte pe fațade, recomandăm o marjă suplimentară de 15-20% la înălțimea literelor față de calculul strict bazat pe distanța orizontală, tocmai pentru a compensa unghiul.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Verificarea 6: unghiul de montaj față de trafic</h2>
+      <p>Un banner cu design corect, montat paralel cu direcția de deplasare a privitorului (văzut doar din lateral, în trecere), are un unghi de vizibilitate mult mai scurt decât unul montat perpendicular sau la 30-45 de grade față de sensul de mers. Bannerul din exemplu era montat paralel cu șoseaua – design bun, poziționare greșită. Merită verificat acest detaliu la fața locului înainte de a stabili dimensiunea finală a comenzii, nu după montaj.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cât timp are efectiv un trecător să citească bannerul tău</h2>
-      <p>Un pieton mergând în ritm normal parcurge aproximativ 1,4 metri pe secundă, iar un șofer la 50 km/h parcurge aproape 14 metri pe secundă. Asta înseamnă că, pentru un banner lat de 20 de metri montat lângă un drum cu viteză de 50 km/h, un șofer are la dispoziție aproximativ 1,5 secunde de vizibilitate directă frontală – suficient doar pentru un mesaj de maxim 3-5 cuvinte cheie, nu pentru un paragraf întreg. Pentru trafic pietonal, ai la dispoziție de câteva ori mai mult timp, deci poți include un plus de detaliu (program, adresă) fără să sacrifici lizibilitatea mesajului principal.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Verificarea 7: montajul la înălțime cere o marjă suplimentară</h2>
+      <p>Un banner montat deasupra nivelului normal de privire (peste 3-4 metri) are nevoie de litere și mai mari decât indică regula standard de distanță, pentru că unghiul de vizualizare adaugă o distorsiune suplimentară. Pentru montaje înalte pe fațade, recomandăm o marjă de 15-20% în plus la înălțimea literelor față de calculul strict bazat pe distanța orizontală.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Poziția pe teren contează la fel de mult ca designul</h2>
-      <p>Un banner cu design impecabil, montat într-un unghi greșit față de fluxul principal de trafic, poate fi practic invizibil pentru majoritatea trecătorilor. Regula de bază: bannerul trebuie să fie perpendicular pe direcția principală de deplasare a privitorului, nu paralel cu ea. Un banner montat paralel cu un drum (văzut doar din lateral, în trecere) are un unghi de vizibilitate mult mai scurt decât unul montat perpendicular sau la un unghi de 30-45 de grade față de sensul de mers, unde privitorul îl vede din față pe o durată mai lungă înainte de a trece mai departe. Merită să verifici acest detaliu la fața locului înainte de a stabili dimensiunea finală a comenzii.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Testul final înainte de a trimite fișierul la print</h2>
-      <p>Un truc simplu folosit de designeri profesioniști: micșorează design-ul pe ecran până la o dimensiune de câțiva centimetri (simulând vizual distanța mare de la care va fi privit bannerul real) și privește-l așa. Dacă mesajul principal tot se distinge clar la acea dimensiune redusă, are șanse mari să funcționeze și la scară reală, privit de la distanță. Dacă devine ilizibil, la fel se va întâmpla și cu bannerul montat pe teren.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Testul rapid înainte de a trimite fișierul la print</h2>
+      <p>Micșorează design-ul pe ecran până la câțiva centimetri, simulând vizual distanța mare de la care va fi privit bannerul real. Dacă mesajul principal tot se distinge clar la acea dimensiune redusă, are șanse mari să funcționeze și la scară reală. Dacă devine ilizibil pe ecran, la fel se va întâmpla și pe teren – exact eroarea din exemplul de mai sus, vizibilă retrospectiv în câteva secunde.</p>
 
       <p>Configurează dimensiunea corectă pentru distanța ta de trafic direct în <a href="/configurator/banner">configuratorul de bannere</a> – introduci lățimea și înălțimea, iar noi îți pregătim producția gata de montat, cu tiv și capse incluse.</p>
     `,
@@ -229,61 +170,42 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "ghid-achizitii-publice-print-seap-sicap-2026",
     source: "Anexa1.ro",
-    title: "Achiziții SEAP pentru primării și instituții: 9 întrebări pe care le primim des",
-    description: "Referent achiziții la o primărie sau o școală? Răspundem punctual la întrebările reale primite de la instituții publice despre coduri CPV, termene de plată prin trezorerie și livrare pentru proiecte cu fonduri europene.",
+    title: "Dosarul de achiziție pentru primării și instituții: ce cere, de fapt, un referent SEAP de la furnizorul de print",
+    description: "Numele Anexa1 vine din exact acest reflex: fiecare comandă publică are nevoie de anexele ei corecte. Structurăm pe etapele unui dosar real de achiziție – de la codul CPV până la procesul-verbal de recepție – ce trebuie să primești de la furnizor.",
     date: '2026-06-01T10:34:00.000Z',
     author: "Departament Instituții Publice Anexa1",
     tags: ["SEAP", "SICAP", "achizitii publice", "institutii stat", "PNRR"],
     contentHtml: `
-      <p>Lucrăm constant cu referenți de achiziții din primării, școli, spitale și regii autonome, iar întrebările care revin cel mai des sunt aproape mereu aceleași. Am strâns aici răspunsurile directe, fără formulări administrative inutile, ca să economisești timp la următoarea solicitare de ofertă.</p>
+      <p>Numele Anexa1 nu e întâmplător: în orice achiziție publică, produsul fizic e doar jumătate din poveste – cealaltă jumătate sunt anexele care fac dosarul rezistent la un control ulterior. Lucrăm constant cu referenți de achiziții din primării, școli, spitale și regii autonome, iar tiparul cererilor lor e previzibil: încadrare corectă pe cod CPV, plată prin Trezorerie, și mai ales documentele care însoțesc livrarea. Am organizat acest ghid pe etapele reale ale unui dosar de achiziție, nu ca o listă aleatorie de întrebări.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">1. Sub ce coduri CPV vă găsim în catalog?</h2>
-      <p>Cele mai folosite sunt <b>22462000-6</b> (materiale publicitare tipărite), <b>35261000-1</b> (panouri de informare) și <b>39154100-7</b> (sisteme de expoziție). Dacă achiziția ta e mixtă (de exemplu bannere plus roll-up-uri plus plăci de semnalizare), le putem grupa într-o singură ofertă pe mai multe coduri, ca să nu faci trei solicitări separate.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 1 – Încadrarea corectă în catalog</h2>
+      <p>Cele mai folosite coduri CPV pentru produsele noastre sunt <b>22462000-6</b> (materiale publicitare tipărite), <b>35261000-1</b> (panouri de informare) și <b>39154100-7</b> (sisteme de expoziție). Dacă achiziția ta combină mai multe categorii (bannere plus roll-up-uri plus plăci de semnalizare), le grupăm într-o singură ofertă pe mai multe coduri, ca să nu depui trei solicitări separate. Iar dacă produsul de care ai nevoie nu apare exact în <a href="/seap">catalogul electronic SEAP</a> – frecvent cazul la kituri de vizibilitate PNRR sau semnalistică internă cu specificații foarte punctuale – nu trebuie să renunți la achiziția prin platformă: ne trimiți cerința exactă și publicăm pachetul personalizat, de regulă în aceeași zi.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">2. Ce facem dacă produsul de care avem nevoie nu apare exact în catalogul electronic?</h2>
-      <p>Ni se întâmplă frecvent la kituri de vizibilitate PNRR sau seturi de semnalistică internă cu specificații foarte punctuale (dimensiuni neuzuale, text obligatoriu din manualul de identitate vizuală). În aceste cazuri nu trebuie să renunți la achiziție prin <a href="/seap">catalogul SEAP</a> – ne trimiți cerința exactă și publicăm pachetul personalizat, de regulă în aceeași zi.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 2 – Oferta, semnată și gata de încărcat</h2>
+      <p>Ofertele noastre sunt emise digital, semnate electronic, gata de atașat direct la solicitarea de ofertă din platformă, fără pași suplimentari din partea instituției. Pentru comenzi de valoare mare sau materiale de identitate vizuală care trebuie să respecte exact un manual (culori, proporții, poziționare siglă), putem trimite în plus o mostră fizică la scară redusă înainte de producția integrală, pentru validare – util mai ales la primul contract cu un furnizor nou, ca să eviți surprize la livrarea comenzii complete.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">3. Se poate plăti prin cont de Trezorerie?</h2>
-      <p>Da, fără excepție. Operăm cu conturile de Trezorerie necesare decontărilor legale ale instituțiilor publice, exact cum prevăd normele de execuție bugetară.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 3 – Producția și termenele reale</h2>
+      <p>Pentru majoritatea produselor standard (bannere, roll-up-uri, panouri PVC), producția e gata în maxim 24-48 de ore lucrătoare de la confirmarea comenzii și validarea fișierului grafic. Pentru comenzi mari sau materiale la cerere speciale, termenul se stabilește punctual în ofertă. Iar dacă apare o urgență reală (eveniment, control, vizită oficială), sunați direct înainte de a genera solicitarea de ofertă – de multe ori putem prioritiza producția în aceeași zi pentru materiale simple.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">4. Care e termenul de plată acceptat?</h2>
-      <p>Standard lucrăm cu 30 de zile de la recepție, sau conform termenului stabilit explicit în contractul de achiziție/comanda fermă, dacă acesta e diferit.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 4 – Plata: Trezorerie, termene, RO e-Factura</h2>
+      <p>Operăm fără excepție cu conturile de Trezorerie necesare decontărilor legale ale instituțiilor publice, exact cum prevăd normele de execuție bugetară. Standard lucrăm cu termen de plată de 30 de zile de la recepție, sau conform termenului stabilit explicit în contractul de achiziție, dacă acesta e diferit. Facturarea se transmite automat prin sistemul național RO e-Factura, conform obligațiilor fiscale în vigoare pentru relația cu instituțiile publice.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">5. Emiteți RO e-Factura?</h2>
-      <p>Da, facturarea se transmite automat prin sistemul național RO e-Factura, conform obligațiilor fiscale în vigoare pentru relația cu instituțiile publice.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 5 – Livrarea și anexele obligatorii ale dosarului</h2>
+      <p>Aici stă, de fapt, motivul pentru care numele nostru contează: fiecare livrare este însoțită de factura fiscală (transmisă și prin RO e-Factura), aviz de însoțire a mărfii și, la cerere, proces-verbal de recepție semnat de reprezentantul nostru la livrare. Aceste documente acoperă cerințele standard de dosar pentru orice control ulterior al achiziției – exact „anexele” care transformă o cheltuială justificată în una și demonstrabilă. Pentru instituții cu mai multe puncte de lucru (primării cu sate arondate, rețele de școli sau dispensare dintr-un județ), livrăm direct la fiecare locație, cu facturare centralizată pe instituția contractantă sau, dacă achiziția o cere, cu facturare separată pe fiecare subunitate.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">6. Cât durează de la comandă la livrare?</h2>
-      <p>Pentru majoritatea produselor standard (bannere, roll-up-uri, panouri PVC), producția e gata în maxim 24-48 de ore lucrătoare de la confirmarea comenzii și validarea fișierului grafic. Pentru comenzi mari sau materiale la cerere speciale, termenul se stabilește punctual în ofertă.</p>
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">Garanția, ca parte a dosarului:</h3>
+        <p class="text-blue-800 italic">Pentru bannere și materiale outdoor, garantăm rezistența culorii la radiație UV pe durata declarată a materialului – de la 1-2 ani pentru materiale monomerice temporare până la peste 5 ani pentru Alucobond sau folii polimerice laminate. Orice defect de producție constatat în perioada de garanție se remediază fără costuri suplimentare pentru instituție.</p>
+      </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">7. Ce facem pentru proiectele cu finanțare europeană (PNRR, fonduri structurale)?</h2>
-      <p>Producem panouri temporare de șantier, plăci permanente de informare și autocolante conform manualului de identitate vizuală (MIV) specific fiecărui program de finanțare, respectând poziționarea siglelor, proporțiile și textele obligatorii. Folosim print UV, ceea ce garantează rezistența culorilor pe toată perioada de monitorizare și sustenabilitate a proiectului, care poate ajunge la câțiva ani după finalizare.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cazul special: proiecte cu finanțare europeană (PNRR, fonduri structurale)</h2>
+      <p>Producem panouri temporare de șantier, plăci permanente de informare și autocolante conform manualului de identitate vizuală (MIV) specific fiecărui program de finanțare, respectând poziționarea siglelor, proporțiile și textele obligatorii. Folosim print UV, ceea ce garantează rezistența culorilor pe toată perioada de monitorizare și sustenabilitate a proiectului, care poate ajunge la câțiva ani după finalizare. Pentru proiecte derulate în etape (vizibilitate inițială la semnare, actualizare la finalizare, placă permanentă la recepția finală), programăm din start toate livrările conform calendarului proiectului, cu facturare separată pe etapă dacă bugetul instituției o cere. Menționează calendarul complet la prima discuție, ca să planificăm producția din timp și să evităm întârzieri la etapele critice legate de audit sau control.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">8. Puteți emite ofertă cu semnătură electronică pentru încărcare directă în SEAP?</h2>
-      <p>Da, ofertele noastre sunt emise în format digital, semnate electronic, gata de atașat direct la solicitarea de ofertă din platformă, fără pași suplimentari din partea instituției.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Când manualul de identitate vizuală e foarte strict</h2>
+      <p>Solicităm manualul complet (MIV) încă din faza de ofertă, nu abia la producție. Verificăm punctual codurile de culoare Pantone sau CMYK indicate, proporțiile obligatorii ale siglelor și distanțele minime de siguranță impuse de finanțator, apoi confirmăm în scris conformitatea înainte de a intra în producția integrală. Acest pas elimină riscul unei respingeri la controlul ulterior al proiectului din cauza unei nepotriviri minore de culoare sau proporție – exact tipul de detaliu care, altfel, ar putea invalida o cheltuială altfel corectă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">9. Ce se întâmplă dacă avem o urgență (eveniment, control, vizită oficială)?</h2>
-      <p>Pentru situații cu termen foarte scurt, sunați direct înainte de a genera solicitarea de ofertă – de multe ori putem prioritiza producția aceeași zi pentru materiale simple (bannere, afișe, roll-up-uri).</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">10. Ce documente însoțesc livrarea, pentru dosarul de achiziție?</h2>
-      <p>Fiecare livrare este însoțită de factura fiscală (transmisă și prin RO e-Factura), aviz de însoțire a mărfii și, la cerere, proces-verbal de recepție semnat de reprezentantul nostru la livrare. Aceste documente acoperă cerințele standard de dosar pentru orice control ulterior al achiziției.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">11. Livrăm în mai multe locații ale aceleiași instituții (subunități, filiale)?</h2>
-      <p>Da, frecvent la primării cu mai multe sate arondate sau la rețele de școli/dispensare dintr-un județ. Putem livra direct la fiecare punct de lucru, cu facturare centralizată pe instituția contractantă sau, dacă achiziția o cere, cu facturare separată pe fiecare subunitate.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">12. Oferiți garanție pentru materialele produse?</h2>
-      <p>Da – pentru bannere și materiale outdoor, garantăm rezistența culorii la radiație UV pe durata declarată a materialului (variază în funcție de tipul de suport, de la 1-2 ani pentru materiale monomerice temporare până la peste 5 ani pentru Alucobond sau folii polimerice laminate). Orice defect de producție constatat în perioada de garanție se remediază fără costuri suplimentare pentru instituție.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">13. Putem solicita mostre înainte de a plasa comanda finală?</h2>
-      <p>Pentru comenzi de valoare mare sau materiale de identitate vizuală care trebuie să respecte exact un manual (culori, proporții, poziționare siglă), putem trimite o mostră fizică la scară redusă înainte de producția integrală, pentru validare de către instituție. Acest pas se recomandă mai ales pentru primul contract cu un furnizor nou, ca să eviți surprize la livrarea comenzii complete.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">14. Ce se întâmplă dacă achiziția face parte dintr-un proiect cu mai multe etape de finanțare?</h2>
-      <p>Pentru proiecte derulate în etape (de exemplu vizibilitate inițială la semnarea contractului, apoi actualizare la finalizare, apoi placă permanentă la recepția finală), putem programa din start cele trei livrări conform calendarului proiectului, cu facturare separată pentru fiecare etapă dacă bugetul instituției o cere astfel. Menționează calendarul complet al proiectului la prima discuție, ca să putem planifica producția din timp și să evităm întârzieri la etapele critice (de regulă cele legate de audit sau control).</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">15. Lucrați și cu instituții din alte județe, nu doar din zona noastră?</h2>
-      <p>Da, livrăm la nivel național, indiferent de județul instituției contractante. Pentru comenzi care necesită montaj la fața locului (panouri mari, semnalistică permanentă), coordonăm echipa de montaj direct cu programul instituției, astfel încât intervenția să nu perturbe activitatea curentă.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">16. Ce facem dacă instituția are un manual de identitate vizuală foarte strict?</h2>
-      <p>Solicităm manualul complet (MIV) încă din faza de ofertă, nu abia la producție. Verificăm punctual codurile de culoare Pantone sau CMYK indicate, proporțiile obligatorii ale siglelor și distanțele minime de siguranță impuse de finanțator, apoi confirmăm în scris conformitatea înainte de a intra în producția integrală – acest pas elimină riscul unei respingeri la controlul ulterior al proiectului din cauza unei nepotriviri minore de culoare sau proporție.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Livrare la nivel național, indiferent de județ</h2>
+      <p>Lucrăm cu instituții din toată țara, nu doar din zona unui singur județ. Pentru comenzi care necesită montaj la fața locului (panouri mari, semnalistică permanentă), coordonăm echipa de montaj direct cu programul instituției, astfel încât intervenția să nu perturbe activitatea curentă.</p>
 
       <p>Pentru orice altă întrebare legată de o achiziție prin SEAP/SICAP, scrieți-ne la <b>contact@Anexa1.ro</b> sau sunați la <b>0750.473.111</b> – răspundem de regulă în aceeași zi lucrătoare.</p>
     `,
@@ -291,156 +213,160 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "strategii-de-marketing-2026-print-outdoor-si-gadgeturi",
     source: "Anexa1.ro",
-    title: "Pâlnia de marketing local: de la banner pe stradă la client fidel",
-    description: "Un banner care aduce trecători și un tricou care îi transformă în reclamă mobilă nu funcționează izolat. Explicăm cum se leagă cele trei etape ale unei campanii locale de succes: atragere, conversie, fidelizare.",
+    title: "De ce banner-ul de pe stradă, afișul din vitrină și tricoul oferit clientului ar trebui comandate dintr-un singur brief",
+    description: "O brutărie care comandă separat bannerul, afișele de interior și tricourile de echipă, la momente diferite, ajunge de regulă cu trei nuanțe ușor diferite de aceeași culoare de brand. Explicăm cum eviți asta și cum construiești o secvență coerentă de materiale.",
     date: '2026-06-08T11:51:00.000Z',
     author: "Echipa Anexa1",
     tags: ["marketing local", "print outdoor", "strategie campanie", "fidelizare clienti", "anexa1"],
     contentHtml: `
-      <p>Un banner scump, montat impecabil, dar fără nimic care să continue conversația cu clientul odată intrat pe ușă, este jumătate de investiție irosită. Cele mai eficiente campanii locale pe care le-am văzut la clienții noștri (HoReCa, retail, service auto) nu tratează materialele de print ca produse izolate, ci ca etape ale aceleiași pâlnii: atragi atenția, convertești vizita în vânzare, apoi transformi clientul într-un canal de promovare pe cont propriu.</p>
+      <p>O situație pe care o vedem frecvent: o afacere locală comandă bannerul de exterior de la un furnizor, afișele de interior de la altul (poate luna următoare, poate anul următor) și tricourile de echipă de la un al treilea, oricând apare nevoia. Fiecare comandă în parte pare rezonabilă. Rezultatul final, însă, e o firmă care „nu se simte la fel” de la stradă până în interior – aceeași culoare de brand apare în trei nuanțe ușor diferite, pentru că fiecare furnizor a pornit de la un fișier sau o interpretare diferită. Explicăm mai jos de ce merită tratate ca o singură secvență, nu ca trei comenzi izolate.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 1: Atragerea – vizibilitate de deasupra zgomotului stradal</h2>
-      <p>Rolul unui <a href="/configurator/banner">banner outdoor</a> nu este să vândă în detaliu, ci să funcționeze ca o ancoră vizuală care oprește privirea trecătorului sau șoferului pentru 2-3 secunde. Pentru trafic intens montăm de regulă <b>bannere frontlit</b> cu mesaj scurt și lizibil de la distanță, iar acolo unde bannerul e văzut din ambele sensuri (perpendicular pe stradă) recomandăm varianta <b>blockout</b>, printată diferit pe fiecare față. Un banner reușit la această etapă transmite un singur lucru clar: ce ești, unde ești, de ce să te oprești.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Primul punct de contact: strada, nu magazinul</h2>
+      <p>Înainte ca un client să afle orice despre oferta ta, primul lucru pe care îl vede e <a href="/configurator/banner">bannerul exterior</a>. Rolul lui nu e să vândă în detaliu, ci să funcționeze ca o ancoră vizuală care oprește privirea pentru 2-3 secunde. Pentru trafic intens, un banner frontlit cu mesaj scurt și lizibil de la distanță face treaba; acolo unde bannerul e văzut din ambele sensuri (perpendicular pe stradă), varianta blockout, printată diferit pe fiecare față, evită ca un mesaj să interfereze vizual cu celălalt. La această etapă, singurul lucru pe care mesajul trebuie să-l transmită clar este: ce ești, unde ești, de ce să te oprești.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 2: Conversia – ce primește clientul odată intrat</h2>
-      <p>Odată ce bannerul a funcționat ca teaser, clientul intrat în locație sau la punctul de vânzare trebuie să găsească exact detaliile pe care bannerul le-a promis, nu informații contradictorii. Aici intră materialele de interior: <a href="/configurator/afise">afișele de meniu sau ofertă</a>, pliante cu detaliile complete și semnalistica de la intrare care confirmă vizual promisiunea bannerului (aceeași paletă de culori, același logo, aceeași tipografie). Inconsecvența vizuală între exterior și interior este motivul numărul unu pentru care o campanie „nu se simte reală” în ochii clientului.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Etapa 3: Fidelizarea – clientul devine canal de promovare</h2>
-      <p>Etapa cel mai des ignorată. Un client mulțumit care primește un obiect purtabil de calitate (tricou printat DTF, șapcă, geantă personalizată) cu brandul tău devine, fără să realizeze, o reclamă mobilă activă pe stradă timp de luni de zile – la un cost per afișare incomparabil mai mic decât orice altă formă de publicitate. Diferența dintre un gadget „aruncat în sertar” și unul purtat efectiv stă în calitatea printului: un logo care crapă sau se decolorează după 3 spălări face exact opusul efectului dorit.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Al doilea punct de contact: pragul ușii</h2>
+      <p>Clientul care a intrat pentru că bannerul l-a oprit trebuie să găsească exact ce i s-a promis, nu o experiență vizuală diferită. Aici intră <a href="/configurator/afise">afișele de meniu sau ofertă</a>, pliantele cu detalii complete și semnalistica de la intrare, toate din aceeași paletă de culori, același logo, aceeași tipografie ca bannerul de afară. Inconsecvența vizuală între exterior și interior este motivul numărul unu pentru care o campanie „nu se simte reală” în ochii clientului, chiar dacă acesta nu poate explica exact de ce.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">De ce contează coerența vizuală între etape:</h3>
-        <p class="text-blue-800 italic">Bannerul de pe stradă, afișul de meniu din interior și tricoul oferit clientului fidel ar trebui să iasă din aceleași fișiere sursă CMYK, cu aceleași coduri de culoare exacte. Când producția e făcută separat, în locuri diferite, culorile „aproape la fel” se văd diferit una lângă alta – iar creierul uman sesizează instant inconsistența, chiar dacă nu o poate explica.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Sursa reală a inconsecvenței:</h3>
+        <p class="text-blue-800 italic">Bannerul de pe stradă, afișul de meniu din interior și tricoul oferit clientului fidel ar trebui să iasă din aceleași fișiere sursă CMYK, cu aceleași coduri de culoare exacte. Când producția e făcută separat, în locuri diferite, culorile „aproape la fel” se văd diferit una lângă alta – iar creierul uman sesizează instant diferența, chiar dacă nu o poate numi.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un exemplu concret de secvență pentru o deschidere sau relansare</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Al treilea punct de contact: clientul plecat acasă, cu ceva de la tine</h2>
+      <p>Etapa cel mai des tratată ca „bonus”, nu ca parte a strategiei. Un client mulțumit care primește un obiect purtabil de calitate (tricou printat DTF, șapcă, geantă personalizată) cu brandul tău devine, fără să realizeze, o reclamă mobilă activă pe stradă timp de luni de zile, la un cost per afișare incomparabil mai mic decât orice altă formă de publicitate. Diferența dintre un gadget purtat efectiv și unul aruncat în sertar stă în calitatea printului: un logo care crapă sau se decolorează după 3 spălări transmite exact opusul mesajului dorit.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">O secvență concretă, pentru o deschidere sau relansare</h2>
       <ol class="list-decimal pl-6 space-y-2 my-6">
         <li><b>Cu 2 săptămâni înainte:</b> banner „Deschidem în curând” pe fațadă, cu dată vizibilă de la distanță.</li>
         <li><b>În ziua deschiderii:</b> banner principal montat, plus semnalistică de interior și afișe de ofertă lansare.</li>
         <li><b>Prima lună:</b> gadgeturi personalizate oferite la prag valoric (tricouri, brelocuri, pungi) pentru primii clienți, ca vector de recomandare.</li>
       </ol>
+      <p>Toate cele trei livrabile de mai sus, comandate dintr-un singur brief grafic, ies din exact aceleași fișiere sursă – zero variație de culoare între ele.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum împarți bugetul între cele trei etape, fără date de trafic online</h2>
-      <p>Pentru afacerile locale, spre deosebire de campaniile digitale, nu ai un dashboard cu click-uri și conversii în timp real. Din experiența comenzilor noastre pentru afaceri locale, o împărțire orientativă rezonabilă a bugetului de materiale printate este: <b>50% pe atragere</b> (bannerul principal, elementul cu cea mai mare vizibilitate stradală), <b>30% pe conversie</b> (semnalistică și afișe de interior, care confirmă oferta), și <b>20% pe fidelizare</b> (gadgeturi oferite clienților). Ajustezi acest raport în funcție de cât de mult depinde afacerea ta de trecători ocazionali (mai mult pe atragere) față de clienți repetați (mai mult pe fidelizare).</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cum împarți bugetul, fără un dashboard de conversii</h2>
+      <p>Spre deosebire de campaniile digitale, o afacere locală nu are click-uri și conversii în timp real. Din experiența comenzilor noastre, o împărțire orientativă rezonabilă a bugetului de materiale printate este: 50% pentru elementul cu cea mai mare vizibilitate stradală (bannerul principal), 30% pentru materialele de interior care confirmă oferta (semnalistică, afișe) și 20% pentru gadgeturile oferite clienților fideli. Ajustezi raportul în funcție de cât de mult depinde afacerea ta de trecători ocazionali (mai mult spre banner) față de clienți repetați (mai mult spre gadgeturi).</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum măsori impactul, fără instrumente digitale</h2>
-      <p>Chiar fără analytics, poți evalua eficiența campaniei cu metode simple: un cod sau cuvânt-cheie unic menționat doar pe banner („prezinți acest banner și primești X”), un contor manual la casă în prima săptămână după montaj, sau pur și simplu întrebarea directă „de unde ați aflat de noi” notată de personal timp de două săptămâni. Aceste metode „low-tech” dau, surprinzător, un semnal foarte clar despre care piesă din campanie chiar a adus clienți, ceea ce te ajută să aloci bugetul corect la următoarea rundă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cum măsori ce a funcționat, fără instrumente digitale</h2>
+      <p>Chiar și fără analytics, poți evalua eficiența secvenței cu metode simple: un cuvânt-cheie unic menționat doar pe banner („prezinți acest banner și primești X”), un contor manual la casă în prima săptămână după montaj, sau întrebarea directă „de unde ați aflat de noi”, notată de personal timp de două săptămâni. Aceste metode „low-tech” dau un semnal surprinzător de clar despre care piesă din secvență chiar a adus clienți, util pentru alocarea bugetului la runda următoare.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala de a trata gadgetul ca pe un „bonus”, nu ca pe un canal</h2>
-      <p>Multe afaceri locale tratează tricourile sau obiectele personalizate ca pe un cadou simbolic, oferit fără strategie („mai avem câteva pe stoc, le dăm cui vine”). Diferența dintre un gadget care funcționează ca reclamă mobilă și unul care ajunge direct în sertar ține de intenționalitate: oferă-l condiționat de o acțiune concretă (recomandare, achiziție peste un prag, follow pe rețelele sociale), nu aleatoriu – astfel te asiguri că ajunge la cineva care va și purta obiectul, nu doar la primul trecător.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă gadgetul e oferit aleatoriu, pierde impact</h2>
+      <p>Multe afaceri locale tratează tricourile sau obiectele personalizate ca pe un cadou simbolic, oferit oricui trece pragul, fără nicio condiție. Diferența dintre un gadget care funcționează ca reclamă mobilă și unul care ajunge direct în sertar ține de intenționalitate: oferă-l condiționat de o acțiune concretă (recomandare, achiziție peste un prag, follow pe rețele sociale), nu la întâmplare – astfel ajunge la cineva care chiar îl va purta.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce faci diferit dacă bugetul e foarte limitat</h2>
-      <p>Nu toate afacerile locale pornesc cu buget suficient pentru toate cele trei etape simultan. Dacă trebuie să alegi o singură investiție inițială, banner-ul de atragere rămâne prioritatea, pentru simplul motiv că fără trafic nou nu ai pe cine să convertești sau să fidelizezi ulterior. Materialele de interior (afișe, semnalistică) pot fi implementate la scară mică inițial – chiar și un singur afiș bine făcut, la intrare, e mai eficient decât zece materiale improvizate. Etapa de fidelizare (gadgeturile) poate aștepta până când ai un flux constant de clienți repetați cărora să le oferi obiecte, nu invers.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă bugetul permite o singură investiție inițială</h2>
+      <p>Nu toate afacerile locale pornesc cu buget pentru toate cele trei puncte de contact simultan. Dacă trebuie ales unul singur, bannerul de la stradă rămâne prioritatea – fără trafic nou, nu ai pe cine converti sau fideliza ulterior. Materialele de interior pot porni la scară mică (chiar și un singur afiș bine făcut la intrare depășește zece materiale improvizate), iar gadgeturile pot aștepta până apare un flux constant de clienți repetați cărora să le fie oferite.</p>
 
-      <p>Fiecare piesă din această secvență poate fi comandată separat din configuratoarele noastre online, dar recomandăm să pregătești fișierul grafic o singură dată, la rezoluție și în CMYK, și să-l refolosești pentru toate materialele campaniei – economisești timp și eviți exact problema de coerență descrisă mai sus.</p>
+      <p>Fiecare piesă din această secvență poate fi comandată separat din configuratoarele noastre online, dar recomandăm pregătirea fișierului grafic o singură dată, la rezoluție și în CMYK, refolosit apoi pentru toate materialele campaniei – exact soluția la problema de coerență descrisă mai sus.</p>
     `,
   },
   {
     slug: "cum-alegi-tabloul-perfect-canvas-vs-sticla-acrilica",
     source: "Anexa1.ro",
-    title: "Nu alegi tabloul după gust, ci după lumina din cameră: Canvas sau Sticlă Acrilică?",
-    description: "Aceeași fotografie arată complet diferit pe canvas față de sticlă acrilică, în funcție de câtă lumină naturală și artificială are camera în care o agăți. Explicăm criteriul practic pe care puțini îl folosesc înainte de a comanda.",
+    title: "Trei întrebări de pus înainte să comanzi un tablou, nu una singură („ce material e mai frumos”)",
+    description: "Aceeași fotografie, printată pe canvas și pe sticlă acrilică, arată complet diferit în funcție de lumina camerei, cine locuiește acolo și ce e pe perete lângă ea. Explicăm cele trei întrebări practice care decid materialul, în locul gustului personal.",
     date: '2026-06-15T08:50:00.000Z',
     author: "Echipa Anexa1",
     tags: ["decor interior", "tablouri canvas", "sticla acrilica", "plexiglass", "sfaturi amenajare"],
     contentHtml: `
-      <p>Cea mai frecventă întrebare pe care o primim la comenzile de tablouri nu este „ce material e mai frumos”, ci de fapt o întrebare pe care clienții n-o formulează explicit: „de ce tabloul prietenei mele arată altfel decât cel din poza de pe site?”. Răspunsul, în 90% din cazuri, este lumina camerei în care va fi agățat tabloul, nu materialul în sine. Iată cum alegi corect în funcție de spațiul tău real.</p>
+      <p>„Tabloul prietenei mele arată altfel decât cel din poza de pe site” este, în forma ei nespusă, cea mai frecventă nelămurire pe care o primim la comenzile de tablouri. Clienții cred că întrebarea corectă e „ce material e mai frumos”, dar răspunsul real, în majoritatea cazurilor, nu ține deloc de gust – ține de trei factori concreți din locuința fiecăruia: lumina camerei, ce se întâmplă lângă perete și cine locuiește acolo. Parcurge cele trei întrebări de mai jos înainte de a alege, nu după.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Camera cu multă lumină naturală directă (ferestre mari, sudică)</h2>
-      <p>Aici <a href="/configurator/canvas">canvas-ul</a> este alegerea tehnic corectă, nu doar estetică. Suprafața mată a pânzei de bumbac absoarbe lumina în loc să o reflecte, deci tabloul rămâne clar și confortabil de privit indiferent de unghiul din care intră soarele. O sticlă acrilică lucioasă montată exact în calea unei ferestre mari va crea reflexii și, la anumite ore, poți vedea propria siluetă în loc de imagine – frustrant mai ales pentru living-uri orientate spre sud sau vest.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 1: cât de multă lumină naturală directă primește peretele?</h2>
+      <p>Într-o cameră cu ferestre mari, orientate sudic sau vestic, <a href="/configurator/canvas">canvas-ul</a> este alegerea tehnic corectă, nu doar una estetică. Suprafața mată a pânzei de bumbac absoarbe lumina în loc să o reflecte, deci tabloul rămâne clar și confortabil de privit indiferent de unghiul din care intră soarele. O sticlă acrilică lucioasă, montată exact în calea unei ferestre mari, va crea reflexii, iar la anumite ore poți vedea propria siluetă în loc de imagine.</p>
+      <p>Într-o cameră cu lumină artificială controlată – dormitor, birou, hol fără ferestre – rolurile se inversează. Sticla acrilică (Plexiglass) își arată adevărata forță: lumina trece parțial prin grosimea materialului transparent, creând o profunzime pe care canvas-ul nu o poate reproduce – negrul pare mai intens, culorile saturate ies mai vii, iar sub un spot LED bine poziționat efectul e aproape 3D. Fără lumină naturală puternică, nu există risc de reflexii deranjante, deci beneficiezi de tot impactul vizual, fără dezavantaje.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Camera cu lumină artificială controlată (dormitor, birou, hol fără ferestre)</h2>
-      <p>Aici sticla acrilică (Plexiglass) își arată adevărata forță. Lumina trece parțial prin grosimea materialului transparent, creând un efect de profunzime pe care canvas-ul nu îl poate reproduce – negrul pare mai intens, culorile saturate ies mai vii, iar sub un spot LED bine poziționat efectul este aproape 3D. Într-o cameră fără lumină naturală puternică, nu există risc de reflexii deranjante, deci beneficiezi de tot impactul vizual fără dezavantaje.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 2: ce se întâmplă fizic lângă perete – umiditate, atingere, greutate?</h2>
+      <p>Dacă tabloul urmează să stea în baie, bucătărie sau orice spațiu cu umiditate ridicată, decizia nu mai ține deloc de lumină, ci de rezistență. <a href="/materiale/plexiglass">Sticla acrilică</a> este practic imună la umiditate și se curăță cu o simplă cârpă, spre deosebire de pânza de bumbac, care nu e recomandată lângă duș sau aragaz, oricât de bine tratată ar fi.</p>
+      <p>Greutatea contează la fel de mult, mai ales la formate peste 100x70 cm: un tablou canvas pe șasiu de lemn e semnificativ mai ușor decât o placă de sticlă acrilică de aceeași dimensiune. Pentru canvas, un cui sau un sistem simplu de agățare e suficient. Pentru sticlă acrilică mare, recomandăm montaj cu distanțiere speciale (standoff-uri) fixate în dibluri, nu cârlige simple – mai ales pe pereți de gips-carton, unde trebuie găsită structura de rezistență din spate.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Baie, bucătărie sau alt spațiu cu umiditate</h2>
-      <p>Decizia aici nu mai ține de lumină, ci de rezistență. <a href="/materiale/plexiglass">Sticla acrilică</a> este practic imună la umiditate și se curăță cu o simplă cârpă, spre deosebire de pânza de bumbac care, deși e tratată, nu este soluția recomandată lângă duș sau aragaz.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 3: cine locuiește efectiv în casă?</h2>
+      <p>Dacă în casă sunt copii mici sau animale de companie active, sticla acrilică oferă un avantaj practic pe care puțini îl iau în calcul: rezistă mult mai bine la o atingere accidentală sau la o labă de pisică decât canvas-ul, a cărui suprafață de pânză se zgârie sau se pătează mai ușor la contact direct. Pentru camere de joacă sau spații comune folosite intens de familie, acest criteriu poate cântări la fel de mult ca orientarea ferestrelor din prima întrebare.</p>
 
       <div class="overflow-x-auto my-10 shadow-xl rounded-2xl border border-slate-100">
         <table class="min-w-full bg-white">
           <thead class="bg-slate-900 text-white">
             <tr>
-              <th class="px-6 py-4 text-left">Tipul camerei</th>
-              <th class="px-6 py-4 text-center">Recomandare</th>
-              <th class="px-6 py-4 text-left">De ce</th>
+              <th class="px-6 py-4 text-left">Întrebare</th>
+              <th class="px-6 py-4 text-left">Răspuns tipic</th>
+              <th class="px-6 py-4 text-center">Material recomandat</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-slate-100">
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Living cu ferestre mari</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Lumină naturală directă puternică</td>
+              <td class="px-6 py-4 italic text-slate-600">Living cu ferestre mari, sud/vest</td>
               <td class="px-6 py-4 text-center text-blue-600 font-bold">Canvas</td>
-              <td class="px-6 py-4 italic text-slate-600">Fără reflexii, se vede clar din orice unghi</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Dormitor, birou</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Lumină artificială, controlată</td>
+              <td class="px-6 py-4 italic text-slate-600">Dormitor, birou, hol interior</td>
               <td class="px-6 py-4 text-center text-blue-600 font-bold">Sticlă acrilică</td>
-              <td class="px-6 py-4 italic text-slate-600">Profunzime și saturație maximă, lumină controlată</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Baie / bucătărie</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Umiditate ridicată</td>
+              <td class="px-6 py-4 italic text-slate-600">Baie, bucătărie</td>
               <td class="px-6 py-4 text-center text-blue-600 font-bold">Sticlă acrilică</td>
-              <td class="px-6 py-4 italic text-slate-600">Rezistență la umiditate, se curăță ușor</td>
             </tr>
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Hol/scară, greutate redusă necesară</td>
+              <td class="px-6 py-4 font-bold bg-slate-50">Copii mici / animale active</td>
+              <td class="px-6 py-4 italic text-slate-600">Cameră de joacă, spații comune</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Sticlă acrilică</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Montaj ușor, greutate redusă</td>
+              <td class="px-6 py-4 italic text-slate-600">Hol, casă scării</td>
               <td class="px-6 py-4 text-center text-blue-600 font-bold">Canvas</td>
-              <td class="px-6 py-4 italic text-slate-600">Mult mai ușor, montaj simplu</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un al doilea criteriu, la fel de important: tipul fotografiei</h2>
-      <p>Dincolo de cameră, contează și subiectul imaginii. Portretele și fotografiile de familie câștigă din căldura texturii de pânză – arată mai „artistic”, mai apropiat de o pictură. Peisajele urbane nocturne, fotografiile abstracte sau cele cu multe zone de negru intens câștigă vizibil pe sticlă acrilică, unde contrastul și luciul scot în evidență detaliile.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greutate și montaj: o diferență practică pe care mulți o ignoră</h2>
-      <p>Un tablou canvas pe șasiu de lemn este semnificativ mai ușor decât o placă de sticlă acrilică de aceeași dimensiune – diferența devine relevantă la formate mari (peste 100x70 cm). Pentru canvas, un cui sau un sistem simplu de agățare rezistă fără probleme. Pentru sticlă acrilică de dimensiuni mari, recomandăm montaj cu distanțiere speciale (standoff-uri) fixate în dibluri, nu doar cârlige simple – greutatea suplimentară a materialului cere o fixare mai solidă în perete, mai ales pe pereți de gips-carton unde trebuie găsită structura de rezistență din spate.</p>
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">Un al patrulea factor, mai puțin evident: subiectul fotografiei</h3>
+        <p class="text-blue-800 italic">Portretele și fotografiile de familie câștigă din căldura texturii de pânză – arată mai „artistic”, mai apropiat de o pictură. Peisajele urbane nocturne, fotografiile abstracte sau cele cu multe zone de negru intens câștigă vizibil pe sticlă acrilică, unde contrastul și luciul scot în evidență detaliile.</p>
+      </div>
 
       <h2 class="text-2xl font-bold mt-10 mb-4">Întreținere: ce presupune fiecare material în timp</h2>
       <ul class="list-disc pl-6 space-y-2 my-4">
-        <li><b>Canvas:</b> se curăță cu o cârpă uscată sau ușor umedă, fără apăsare puternică pe suprafață. Nu necesită curățare frecventă – praful nu aderă la fel de vizibil ca pe o suprafață lucioasă.</li>
-        <li><b>Sticlă acrilică:</b> atrage praful electrostatic puțin mai mult decât canvas-ul, dar se curăță ușor cu o cârpă moale de microfibră; evită produse de curățare cu alcool sau amoniac, care pot afecta luciul suprafeței în timp.</li>
+        <li><b>Canvas:</b> se curăță cu o cârpă uscată sau ușor umedă, fără apăsare puternică. Praful nu aderă la fel de vizibil ca pe o suprafață lucioasă.</li>
+        <li><b>Sticlă acrilică:</b> atrage puțin mai mult praf electrostatic, dar se curăță ușor cu o cârpă moale de microfibră; evită produse cu alcool sau amoniac, care pot afecta luciul în timp.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce dimensiune alegi în funcție de perete</h2>
-      <p>Indiferent de material, regula generală de proporție rămâne aceeași: tabloul ar trebui să ocupe vizual între 2/3 și 3/4 din lățimea mobilei de sub el (canapea, birou, comodă). Pentru un perete gol, fără mobilă de referință, o suprafață care acoperă aproximativ 60-70% din lățimea disponibilă a peretelui creează impact fără să domine complet spațiul.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Nu trebuie să alegi un singur material pentru toată camera</h2>
+      <p>O compoziție tip galerie, cu piesa centrală pe sticlă acrilică (pentru impactul vizual maxim) și piese mai mici, complementare, pe canvas în jurul ei, combină avantajele ambelor: profunzimea acrilicului atrage privirea spre centru, iar textura caldă a canvas-ului din jur echilibrează efectul, fără ca ansamblul să pară „prea lucios” sau „prea plat”. Iar dacă te muți des sau schimbi frecvent decorul, ține cont și de transport: canvas-ul, flexibil pe margini, suportă mult mai bine loviturile accidentale decât sticla acrilică, care poate crăpa la un impact punctual pe colț.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">O combinație pe care puțini o iau în calcul: un set mixt canvas + acrilic</h2>
-      <p>Nu trebuie neapărat să alegi un singur material pentru toată camera. O compoziție tip galerie, cu piesa centrală pe sticlă acrilică (pentru impactul vizual maxim) și piese mai mici, complementare, pe canvas în jurul ei, combină avantajele ambelor: profunzimea acrilicului atrage privirea spre centru, iar textura caldă a canvas-ului din jur echilibrează efectul, fără ca ansamblul să pară „prea lucios” sau „prea plat”.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cât de mare să fie tabloul, indiferent de material</h2>
+      <p>Regula generală de proporție: tabloul ar trebui să ocupe vizual între 2/3 și 3/4 din lățimea mobilei de sub el (canapea, birou, comodă). Pentru un perete gol, fără mobilă de referință, o suprafață de aproximativ 60-70% din lățimea disponibilă a peretelui creează impact fără să domine complet spațiul.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum diferă cele două materiale la manipulare și transport</h2>
-      <p>Un aspect practic, mai ales dacă te muți frecvent sau schimbi des decorul: canvas-ul, fiind flexibil pe margini (pânza întinsă pe șasiu), suportă mult mai bine loviturile accidentale minore din timpul transportului decât sticla acrilică, care poate crăpa la un impact punctual mai puternic pe colț. Dacă locuiești la etaj fără lift sau muți des tablourile între camere, canvas-ul e alegerea mai practică pentru formate mari, indiferent de ce ai decis pe baza criteriilor de lumină descrise mai sus.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un al treilea criteriu, adesea decisiv: cine locuiește în casă</h2>
-      <p>Dacă în casă sunt copii mici sau animale de companie active, sticla acrilică oferă un avantaj practic suplimentar: rezistă mult mai bine la o atingere accidentală sau la o labă de pisică decât canvas-ul, a cărui suprafață de pânză se poate zgâria sau păta mai ușor la contact direct. Pentru camere de joacă sau spații comune folosite intens de familie, acest detaliu poate cântări la fel de mult ca orientarea ferestrelor în decizia finală.</p>
-
-      <p>Nu ești sigur ce variantă se potrivește camerei tale? Descrie-ne orientarea ferestrelor și tipul de iluminat din încăpere, iar noi îți spunem direct care material va arăta cel mai bine. Ambele variante sunt realizate cu print UV de ultimă generație, pentru culori care rezistă zeci de ani fără decolorare. Configurează-ți tabloul acum în <a href="/configurator/canvas">configuratorul de canvas</a>.</p>
+      <p>Nu ești sigur ce variantă se potrivește camerei tale? Descrie-ne orientarea ferestrelor, tipul de iluminat și cine locuiește în casă, iar noi îți spunem direct care material va arăta cel mai bine. Ambele variante sunt realizate cu print UV de ultimă generație, pentru culori care rezistă zeci de ani fără decolorare. Configurează-ți tabloul acum în <a href="/configurator/canvas">configuratorul de canvas</a>.</p>
     `,
   },
   {
     slug: "totul-despre-printul-uv-avantajele-unei-tehnologii-ecologice",
     source: "Anexa1.ro",
-    title: "De ce cerneala UV nu se usucă, ci se \"întărește\": explicația tehnică din spatele bannerelor care nu se decolorează",
-    description: "Cerneala solvent clasică se usucă prin evaporare. Cerneala UV nu se usucă deloc – se solidifică instant printr-o reacție chimică declanșată de lumină. Explicăm diferența și de ce contează pentru orice material expus la soare.",
+    title: "Mitul cernelii care se \"usucă\": ce se întâmplă de fapt pe suprafața unui banner printat UV",
+    description: "Când auzim „cerneala trebuie să se usuce”, ne gândim automat la evaporare. La printul UV nu se evaporă nimic – substanța se solidifică instant printr-o reacție chimică. Explicăm ce înseamnă asta concret pentru rezistența materialelor tale.",
     date: '2026-06-19T09:07:00.000Z',
     author: "Expert Tehnic Anexa1",
     tags: ["print uv", "tehnologie print", "rezistenta culori", "productie publicitara", "materiale rigide"],
     contentHtml: `
-      <p>Majoritatea clienților presupun că toate imprimantele „usucă” cerneala în mod similar, doar mai repede sau mai încet. De fapt, printul UV nu usucă nimic – funcționează pe un principiu chimic complet diferit, iar înțelegerea acestui detaliu explică de ce un banner sau un panou printat UV rezistă ani întregi la soare, în timp ce alte tehnologii se decolorează în câteva luni.</p>
+      <p>Un mit răspândit printre clienți: toate imprimantele „usucă” cerneala, doar unele mai repede decât altele. E o presupunere naturală, dar greșită pentru tehnologia UV, care nu usucă nimic – lucrează pe un principiu chimic diferit de bază. Înțelegerea acestei diferențe explică exact de ce un banner sau un panou printat UV rezistă ani întregi la soare, în timp ce alte tehnologii se estompează în câteva luni.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Uscare prin evaporare vs. solidificare prin polimerizare</h2>
-      <p>Cerneala solvent (folosită tradițional pentru bannere exterioare) conține pigment dizolvat într-un lichid volatil. După print, acel lichid se evaporă treptat în aer, lăsând în urmă doar pigmentul depus pe material. Procesul durează minute sau ore și eliberează în atmosferă compuși organici volatili (VOC).</p>
-      <p>Cerneala UV funcționează diferit: nu conține solvent care se evaporă, ci monomeri și fotoinițiatori – substanțe care rămân lichide până sunt expuse la o lampă cu lumină ultravioletă montată direct pe capul de print. În fracțiuni de secundă de la contactul cu lumina UV, cerneala trece printr-o reacție de polimerizare și se solidifică instant într-un strat dur, asemănător unei pelicule de plastic subțire. Nu se evaporă nimic – toată substanța depusă rămâne pe material.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă efectiv sub capul de print</h2>
+      <p>Cerneala solvent, folosită tradițional pentru bannere exterioare, conține pigment dizolvat într-un lichid volatil. După print, lichidul se evaporă treptat în aer, lăsând în urmă doar pigmentul depus pe material – proces care durează minute sau ore și eliberează în atmosferă compuși organici volatili (VOC).</p>
+      <p>Cerneala UV nu conține niciun solvent care să se evapore. Conține monomeri și fotoinițiatori – substanțe care rămân lichide până sunt expuse la o lampă cu lumină ultravioletă montată direct pe capul de print. În fracțiuni de secundă de la contactul cu lumina UV, cerneala trece printr-o reacție de polimerizare și se solidifică instant într-un strat dur, asemănător unei pelicule subțiri de plastic. Nimic nu se evaporă – toată substanța depusă rămâne fizic pe material.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Consecința directă: contururi care nu se „întind”</h2>
+      <p>Pentru că cerneala se solidifică instant, picătura nu are timp să se întindă (efectul de „bleeding”) pe material, indiferent cât de absorbant e suportul. Rezultatul practic: contururi clare, text lizibil chiar la dimensiuni mici și detalii fotografice nete – motiv pentru care printul UV e des ales pentru <a href="/configurator/afise">afișe cu text fin</a> sau ilustrații detaliate.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">De ce rezistă mai bine la soare, nu doar la data primei priviri</h2>
+      <p>Rezistența la radiație UV a produsului finit nu vine doar din pigment, ci și din faptul că stratul de cerneală polimerizată acționează ca o peliculă protectoare fizică deasupra pigmentului, similară unei lacuri. Combinat cu pigmenți rezistenți la radiație din formulele actuale, rezultatul e o culoare care nu se estompează vizibil ani de zile – esențial pentru <a href="/configurator/banner">bannere outdoor</a> montate pe fațade sau garduri expuse permanent la soare direct.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">De ce contează practic:</h3>
-        <p class="text-blue-800 italic">Pentru că cerneala se solidifică instant, picătura nu are timp să se întindă (efect de „bleeding”) pe material, indiferent cât de absorbant este suportul. Rezultatul: contururi clare, text lizibil chiar la dimensiuni mici, detalii fotografice nete.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Testul simplu al unghiei:</h3>
+        <p class="text-blue-800 italic">Trece unghia ușor peste o zonă cu multă cerneală. Pe un print UV bine polimerizat, suprafața e complet uscată și fermă, fără senzație de lipiciozitate reziduală. Dacă simți urme lipicioase sau moi, lampa UV nu a atins parametrii corecți de curare în acea zonă – un defect real de producție, nu o caracteristică normală a tehnologiei.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce culorile UV rezistă mai bine la soare</h2>
-      <p>Rezistența la radiație UV a produsului final nu vine doar din pigment, ci și din faptul că stratul de cerneală polimerizată acționează ca o peliculă protectoare fizică deasupra pigmentului, similară unei lacuri. Combinat cu pigmenți rezistenți la radiație folosiți în formulele actuale, rezultatul este o culoare care nu se estompează vizibil ani de zile, esențial pentru <a href="/configurator/banner">bannere outdoor</a> montate pe fațade sau garduri expuse permanent la soare direct.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Materiale pe care le poți printa direct, fără folie sau adeziv intermediar</h2>
-      <p>Pentru că nu depinde de absorbția unui solvent în material, printul UV se aplică direct pe suprafețe pe care alte tehnologii nu pot printa deloc:</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Suprafețe pe care alte tehnologii nu pot printa deloc</h2>
+      <p>Pentru că nu depinde de absorbția unui solvent în material, printul UV se aplică direct pe suprafețe pe care print-ul solvent clasic nu funcționează:</p>
       <ul class="list-disc pl-6 space-y-2 my-4">
         <li><b>PVC expandat (Forex):</b> ideal pentru semnalistică rigidă ușoară.</li>
         <li><b>Alucobond/Dibond:</b> panouri compozite aluminiu, pentru firme luminoase și fațade.</li>
@@ -449,74 +375,65 @@ const STATIC_POSTS: BlogPost[] = [
         <li><b>Metal tratat:</b> plăcuțe industriale, semnalistică permanentă.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un beneficiu la fel de important: fără emisii de VOC</h2>
-      <p>Pentru că nu se evaporă niciun solvent, procesul de print UV nu eliberează compuși organici volatili în timpul producției sau ulterior, din materialul finit. Acest lucru face materialele printate UV sigure pentru medii sensibile – spitale, grădinițe, cabinete medicale, spații de birouri fără ventilație industrială – unde emisiile persistente de la print-urile solvent tradiționale ar fi o problemă reală.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Trucul cernelii albe, pentru materiale colorate sau transparente</h2>
+      <p>Un avantaj tehnic mai puțin cunoscut: se poate folosi un strat de cerneală albă ca „bază” sub culorile CMYK. Asta permite printarea unor culori vii și corecte chiar și pe materiale transparente (Plexiglass) sau colorate (PVC negru), unde fără acel strat alb de fundal, culorile CMYK ar apărea decolorate sau distorsionate de culoarea materialului de bază. Tehnica se folosește frecvent la fețele de casete luminoase, unde cerneala albă din spate reflectă lumina interioară uniform pe toată suprafața.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Lămpile LED-UV: a doua generație a acestei tehnologii</h2>
-      <p>Primele echipamente UV foloseau lămpi cu vapori de mercur, care generau căldură considerabilă în procesul de polimerizare – un dezavantaj pe materiale sensibile la temperatură, cum ar fi anumite folii subțiri sau plastice care se pot deforma ușor. Generația actuală de echipamente, inclusiv cele pe care le folosim noi, se bazează pe lămpi LED-UV, care oferă un proces de curare la temperatură mult mai scăzută. Practic, poți printa direct pe materiale termosensibile fără riscul de deformare cauzat de căldura reziduală a lămpii, iar consumul energetic al echipamentului e semnificativ mai mic.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Fără emisii, deci sigur pentru medii sensibile</h2>
+      <p>Pentru că nu se evaporă niciun solvent, procesul de print UV nu eliberează compuși organici volatili (VOC) în timpul producției sau ulterior, din materialul finit. Asta face materialele printate UV sigure pentru medii sensibile – spitale, grădinițe, cabinete medicale, spații de birouri fără ventilație industrială – unde emisiile persistente ale print-urilor solvent tradiționale ar fi o problemă reală.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cerneala albă: cheia pentru print pe materiale colorate sau transparente</h2>
-      <p>Un avantaj tehnic mai puțin cunoscut al printului UV este posibilitatea de a folosi un strat de cerneală albă ca „bază” sub culorile CMYK. Acest lucru permite printarea unor culori vii și corecte chiar și pe materiale transparente (precum Plexiglass-ul) sau colorate (PVC negru, de exemplu), unde fără acel strat alb de fundal culorile CMYK ar apărea decolorate sau distorsionate de culoarea materialului de bază. Tehnica se folosește frecvent la fețele de casete luminoase, unde cerneala albă din spate reflectă lumina interioară uniform pe toată suprafața.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">LED-UV: generația actuală de lămpi, mai puțin agresivă termic</h2>
+      <p>Primele echipamente UV foloseau lămpi cu vapori de mercur, care generau căldură considerabilă în procesul de polimerizare – un dezavantaj pe materiale sensibile la temperatură, cum ar fi anumite folii subțiri care se pot deforma ușor. Generația actuală de echipamente, inclusiv cele folosite de noi, se bazează pe lămpi LED-UV, cu un proces de curare la temperatură mult mai scăzută. Practic, se poate printa direct pe materiale termosensibile fără riscul de deformare cauzat de căldura reziduală a lămpii, iar consumul energetic al echipamentului e semnificativ mai mic.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Limitarea de care puțini vorbesc</h2>
-      <p>Printul UV nu e universal superior în toate scenariile – pe materiale foarte flexibile care se îndoaie constant (de exemplu anumite folii adezive aplicate pe suprafețe curbe), stratul rigid de cerneală polimerizată poate crăpa dacă flexiunea e prea mare. Pentru aceste cazuri recomandăm folii speciale gândite pentru aplicare pe curbe, unde folosim rețete de cerneală adaptate elasticității materialului.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Unde tehnologia UV nu e potrivită</h2>
+      <p>Printul UV nu e universal superior în toate scenariile – pe materiale foarte flexibile care se îndoaie constant (de exemplu anumite folii adezive aplicate pe suprafețe curbe), stratul rigid de cerneală polimerizată poate crăpa dacă flexiunea e prea mare. Pentru aceste cazuri recomandăm folii speciale gândite pentru aplicare pe curbe, cu rețete de cerneală adaptate elasticității materialului.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum recunoști un print UV de calitate la livrare</h2>
-      <p>Un semn simplu: trece unghia ușor peste o zonă cu multă cerneală. Pe un print UV bine polimerizat, suprafața e complet uscată și fermă, fără senzație de lipiciozitate reziduală, indiferent cât de recent a ieșit din producție. Dacă simți urme lipicioase sau moi, e semn că lampa UV nu a atins parametrii corecți de curare în acea zonă – un defect real de producție, nu o caracteristică normală a tehnologiei.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">De ce doi furnizori cu print UV nu produc rezultate identice</h2>
+      <p>Deși principiul de bază (polimerizare instantă sub lumină UV) e același la toate echipamentele, calitatea finală depinde de factori care diferă de la producător la producător: puterea și uniformitatea lămpilor, precizia capetelor de printare și calitatea rețetei de cerneală folosită. Un echipament ieftin, prost calibrat, poate produce un print UV cu aceleași principii teoretice, dar cu rezultate vizibil inferioare – culori mai puțin saturate, strat neuniform sau zone insuficient polimerizate. Calibrarea periodică a echipamentelor și verificarea culorii la fiecare lot de producție rămân la fel de importante ca tehnologia în sine.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce nu toate echipamentele UV produc rezultate identice</h2>
-      <p>Deși principiul de bază (polimerizare instantă sub lumină UV) e același la toate echipamentele, calitatea finală depinde de câțiva factori care diferă de la producător la producător: puterea și uniformitatea lămpilor, precizia capetelor de printare (care determină cât de fine sunt detaliile reproduse) și calitatea rețetei de cerneală folosită. Un echipament ieftin, prost calibrat, poate produce un print UV cu aceleași principii teoretice, dar cu rezultate vizibil inferioare – culori mai puțin saturate, un strat de cerneală neuniform sau chiar zone insuficient polimerizate. De aceea calibrarea periodică a echipamentelor și verificarea culorii la fiecare lot de producție rămân la fel de importante ca tehnologia în sine.</p>
-
-      <p>Indiferent dacă ai nevoie de <a href="/configurator/afise">afișe de înaltă rezoluție</a> sau de panouri rigide pentru semnalistică outdoor, tehnologia UV pe care o folosim la Anexa1.ro îți garantează culori care rezistă în timp, indiferent cât de dur e expuse la soarele românesc.</p>
+      <p>Indiferent dacă ai nevoie de afișe de înaltă rezoluție sau de panouri rigide pentru semnalistică outdoor, tehnologia UV pe care o folosim la Anexa1.ro îți garantează culori care rezistă în timp, indiferent cât de dur e expuse la soarele românesc.</p>
     `,
   },
   {
     slug: "amenajarea-biroului-cu-bannere-canvas-si-stickere-premium",
     source: "Anexa1.ro",
-    title: "Biroul ca instrument de recrutare: ce văd candidații în primele 30 de secunde",
-    description: "Un candidat bun decide instinctiv în primele minute dacă un birou \"arată ca o firmă serioasă\". Explicăm ce elemente de semnalistică interioară influențează concret această percepție și cât costă implementarea lor.",
+    title: "Testul celor două minute de așteptare la recepție: ce citește de fapt un candidat pe pereți",
+    description: "Înainte să răspundă la prima întrebare de interviu, un candidat bun a scanat deja recepția, coridorul și sala de ședință. Descriem exact traseul vizual al unei vizite de recrutare și unde investești cu impact maxim, la buget mic.",
     date: '2026-06-24T10:24:00.000Z',
     author: "Bogdan Dobroiu",
     tags: ["amenajare birou", "employer branding", "wayfinding", "semnalistica interioara", "decor"],
     contentHtml: `
-      <p>Piața muncii din ultimii ani a inversat raportul de forțe la interviuri: candidații buni evaluează firma la fel de atent cum firma îi evaluează pe ei. Biroul este primul „produs” pe care un candidat îl testează, iar decizia subconștientă („aici pare o organizație serioasă” sau „aici pare improvizat”) se formează în câteva minute, mult înainte de a discuta salariul. Semnalistica interioară – deseori tratată ca ultim detaliu de buget – este una dintre cele mai ieftine pârghii pentru a influența acea decizie.</p>
+      <p>Un candidat ajuns la interviu petrece în medie două-trei minute nesupravegheat între intrarea pe ușă și momentul în care cineva vine să-l preia – la recepție, pe hol, uneori chiar în sala de ședință, în timp ce așteaptă. În acel interval scurt, evaluează instinctiv firma la fel de atent cum firma îl va evalua pe el. Piața muncii din ultimii ani a inversat parțial raportul de forțe la interviuri, iar biroul fizic a devenit, fără ca multe firme să realizeze, primul „produs” testat de un candidat bun. Parcurgem mai jos exact acest traseu, punct cu punct, și ce investiție mică schimbă percepția la fiecare etapă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Recepția: locul unde se formează prima impresie</h2>
-      <p>Un logo mare, bine printat, la intrare comunică instant stabilitate. Cel mai accesibil mod de a-l implementa este un <a href="/configurator/autocolante">autocolant decupat la contur</a> aplicat direct pe perete – nu necesită ramă, nu are muchii vizibile și poate fi de orice mărime, de la un logo discret la un perete întreg. Costul este mult sub cel al unei semnalistici tip cutie luminoasă, iar montajul durează sub o oră.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Primul punct: ce vede înainte să vorbească cu cineva</h2>
+      <p>La recepție, un logo mare, bine printat, comunică instant stabilitate – sau lipsa lui comunică instant opusul. Cel mai accesibil mod de a-l implementa este un <a href="/configurator/autocolante">autocolant decupat la contur</a> aplicat direct pe perete: nu necesită ramă, nu are muchii vizibile și poate fi de orice mărime, de la un logo discret la un perete întreg. Costul e mult sub cel al unei semnalistici tip cutie luminoasă, iar montajul durează sub o oră – printre cele mai rapide investiții cu impact vizibil din tot biroul.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Wayfinding: firma care se organizează pe ea însăși transmite încredere</h2>
-      <p>Un candidat plimbat prin birou observă, chiar dacă nu conștientizează, dacă spațiul are indicatoare clare (Sală de ședințe, IT, Zonă relaxare) sau dacă angajații se pierd și ei printre uși identice. Panourile ușoare din <a href="/materiale/pvc-forex">PVC printat</a>, montate la intrarea fiecărei zone, costă puțin comparativ cu impactul: transmit că firma are procese clare, nu doar spații funcționale.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Al doilea punct: drumul spre sala de interviu</h2>
+      <p>Dacă recepționera sau HR-ul îl conduce pe candidat prin birou până la sala de ședință, acel scurt traseu spune multe fără cuvinte. Un birou cu indicatoare clare (Sală de ședințe, IT, Zonă relaxare) transmite procese clare; un birou unde chiar angajații se pierd printre uși identice transmite dezorganizare, indiferent cât de bun e discursul de la interviu. Panourile ușoare din <a href="/materiale/pvc-forex">PVC printat</a>, montate la intrarea fiecărei zone, costă puțin comparativ cu impactul lor asupra acestei impresii.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Pereții de sticlă: o oportunitate ratată des</h2>
-      <p>Birourile moderne open-space folosesc frecvent pereți despărțitori de sticlă între sălile de ședință. Fără nimic aplicat pe ele, transmit „spațiu neterminat”. Cu <a href="/configurator/window-graphics">autocolant perforat sau folie decorativă</a> aplicată cu un model discret sau cu logo-ul companiei repetat, aceiași pereți transmit intenționalitate de design – plus avantajul practic că oamenii nu se mai lovesc de sticla „invizibilă”.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cultura organizațională, vizibilă fizic</h2>
-      <p>Valorile companiei afișate pe un perete ca text generic sunt de regulă ignorate. Ce funcționează mai bine, din experiența clienților noștri: fotografii reale din echipă printate pe <a href="/configurator/canvas">canvas</a>, rezultate/premii reale ale companiei, sau un citat scurt, specific culturii interne (nu generic de tip „Alone we can do so little”). Diferența e autenticitatea – candidații observă imediat conținut generic de stock.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Al treilea punct, cel mai des ignorat: sala unde stă efectiv 30-60 de minute</h2>
+      <p>Aici, nu la recepție, candidatul petrece cel mai mult timp analizând spațiul, pur și simplu pentru că stă pe loc, nu doar traversează. Un panou simplu cu numele sălii (autocolant decupat sau plăcuță din <a href="/materiale/plexiglass">Plexiglass</a>) la ușă, plus un element vizual pe peretele din fața locului unde stă candidatul – nu în spatele echipei de interviu, unde nu se vede – au un impact disproporționat de mare față de costul lor de producție.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Un buget minim, orientativ:</h3>
-        <p class="text-blue-800 italic">Un pachet de bază pentru un birou mediu (logo recepție + 3-4 indicatoare wayfinding + un perete de sticlă decorat) se încadrează de regulă sub costul unei singure luni de abonament la un job board premium – dar efectul rămâne permanent pe toată durata contractului de închiriere.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Un pas ratat frecvent: pereții de sticlă</h3>
+        <p class="text-blue-800 italic">Birourile open-space moderne folosesc pereți despărțitori de sticlă între sălile de ședință. Fără nimic aplicat pe ele, transmit „spațiu neterminat” și au dezavantajul practic că oamenii se lovesc de ele. Un <a href="/configurator/window-graphics">autocolant perforat sau folie decorativă</a>, cu un model discret sau logo-ul repetat, rezolvă ambele probleme deodată.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Zonarea spațiului fără construcție</h2>
-      <p>Dacă biroul e de tip open-space și vrei să separi vizual zona de focus de zona de relaxare fără pereți construiți, <a href="/configurator/rollup">roll-up-urile</a> sau panourile ușoare din PVC montate pe suporturi mobile fac exact acest lucru, cu avantajul suplimentar că pot fi repoziționate când echipa crește sau se reorganizează.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce nu funcționează: cultura organizațională afișată generic</h2>
+      <p>Valorile companiei scrise pe un perete ca text generic sunt de regulă ignorate complet de un candidat atent. Ce funcționează, din experiența clienților noștri: fotografii reale din echipă printate pe <a href="/configurator/canvas">canvas</a>, rezultate sau premii reale ale companiei, ori un citat scurt, specific culturii interne, nu unul generic de tip motivațional. Diferența e autenticitatea – un candidat bun observă imediat conținutul de stock, indiferent cât de bine e printat.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Sălile de ședință: unde candidații petrec cel mai mult timp la interviu</h2>
-      <p>Un detaliu ignorat frecvent: sala de ședință unde se desfășoară efectiv interviul este spațiul pe care candidatul îl analizează cel mai atent, pentru că stă acolo 30-60 de minute, nu doar îl traversează. Un panou simplu cu numele sălii (autocolant decupat sau plăcuță din <a href="/materiale/plexiglass">Plexiglass</a>) la ușă, plus un element vizual pe peretele din fața locului unde stă candidatul (nu în spatele echipei de interviu, unde nu se vede), au impact disproporționat de mare față de costul lor.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă bugetul e limitat, ordinea contează</h2>
+      <p>Dacă nu poți implementa tot dintr-o dată, ordinea care aduce cel mai mult impact pentru cel mai mic cost urmează exact traseul candidatului: întâi recepția (vizibilă la fiecare vizitator, nu doar la interviuri), apoi sala principală de interviu (unde se petrece cel mai mult timp), apoi wayfinding-ul general pe traseu, și abia la final elementele decorative de cultură – utile, dar nu esențiale pentru prima impresie.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">O observație din experiența clienților noștri:</h3>
-        <p class="text-blue-800 italic">Firmele care investesc în semnalistică internă coerentă raportează frecvent că această schimbare le ajută și la retenția angajaților existenți, nu doar la impresia asupra candidaților noi – un spațiu care „arată intenționat” influențează percepția zilnică a echipei asupra propriei firme.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Un beneficiu secundar, observat la clienții noștri:</h3>
+        <p class="text-blue-800 italic">Firmele care investesc în semnalistică internă coerentă raportează frecvent că schimbarea ajută și la retenția angajaților existenți, nu doar la impresia asupra candidaților noi – un spațiu care „arată intenționat” influențează percepția zilnică a echipei asupra propriei firme.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ordinea recomandată de implementare, la buget limitat</h2>
-      <p>Dacă bugetul nu permite o transformare completă dintr-o dată, ordinea de prioritate care aduce cel mai mult impact pentru cel mai mic cost este: întâi recepția (prima impresie, vizibilă la fiecare vizitator), apoi sala principală de interviu/ședință (unde candidații petrec cel mai mult timp), apoi wayfinding-ul general, și abia la final elementele decorative de cultură organizațională, care sunt „bonus”, nu esențiale pentru prima impresie.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cazul biroului hibrid: mize diferite</h2>
+      <p>La firmele cu politică de lucru hibrid, unde biroul fizic e vizitat ocazional, fiecare deplasare la sediu trebuie să „justifice” drumul, iar un spațiu vizual atractiv contribuie la asta mai mult decât la un birou tradițional unde oamenii vin oricum zilnic. Pentru acest scenariu, recomandăm accent pe zonele comune (bucătărie, spații de socializare) mai degrabă decât pe birourile individuale, pentru că acolo se petrece efectiv timpul de calitate al vizitelor ocazionale.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se schimbă la un birou remote-first sau hibrid</h2>
-      <p>Firmele cu politică de lucru hibrid, unde biroul fizic e vizitat ocazional și nu zilnic de toată echipa, au o miză diferită: fiecare vizită la birou trebuie să „justifice” deplasarea, iar un spațiu vizual atractiv și bine organizat contribuie la asta mai mult decât la un birou tradițional unde oamenii vin oricum zilnic. Pentru acest scenariu, recomandăm accent pe zonele comune (bucătărie, spații de socializare) mai degrabă decât pe birouri individuale, pentru că acolo se petrece efectiv timpul de calitate al vizitelor ocazionale la sediu.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un ultim detaliu: coerența cu materialele digitale</h2>
-      <p>Semnalistica fizică din birou ar trebui să folosească aceleași culori exacte și același font ca site-ul firmei sau materialele de prezentare digitale. O nepotrivire vizibilă între „logo-ul de pe site” și „logo-ul de pe perete” transmite subtil lipsă de atenție la detalii – exact opusul mesajului pe care vrei să-l transmiți unui candidat sau client aflat în vizită. Trimite-ne fișierul sursă al brandului tău (logo vectorial, coduri de culoare exacte) încă de la prima comandă, iar noi îl păstrăm în arhivă pentru orice comandă viitoare, astfel încât fiecare piesă nouă adăugată în birou să iasă identică ca nuanță cu tot ce ai comandat anterior.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Detaliul care anulează tot restul: nepotrivirea de culoare</h2>
+      <p>Semnalistica fizică din birou ar trebui să folosească aceleași culori exacte și același font ca site-ul firmei sau materialele de prezentare digitale. O nepotrivire vizibilă între „logo-ul de pe site” și „logo-ul de pe perete” transmite subtil lipsă de atenție la detalii – exact opusul mesajului dorit pentru un candidat sau client aflat în vizită. Trimite fișierul sursă al brandului (logo vectorial, coduri de culoare exacte) încă de la prima comandă; îl păstrăm în arhivă, astfel încât fiecare piesă nouă adăugată în birou să iasă identică ca nuanță cu tot ce ai comandat anterior.</p>
 
       <p>Dacă pregătești un birou pentru o rundă de recrutare sau o relocare, contactează-ne prin pagina de <a href="/contact">contact</a> – pornim de la un plan al spațiului și îți spunem exact ce piese au cel mai mare impact vizual la costul cel mai mic.</p>
     `,
@@ -524,111 +441,91 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "ghid-bannere-publicitare-anexa1",
     source: "Anexa1.ro",
-    title: "Comandă banner online în 5 pași: ce completezi în configurator și de ce contează fiecare câmp",
-    description: "Ghid pas cu pas prin configuratorul de bannere: de la alegerea gramajului potrivit până la poziționarea capselor, ca să obții exact ce ai nevoie din prima comandă, fără corecturi ulterioare.",
+    title: "Ce se ascunde în spatele fiecărui câmp din configuratorul de bannere, de fapt",
+    description: "Nemulțumirile la bannere vin rar din calitatea printului – vin dintr-o comandă plasată fără să știi ce înseamnă un anumit câmp din configurator. Explicăm logica din spatele fiecărei opțiuni, nu doar lista de pași.",
     date: "2026-06-29T10:00:00Z",
     author: "Echipa Anexa1",
     tags: ["banner", "configurator", "print outdoor", "ghid comanda"],
     contentHtml: `
-      <p>Cea mai frecventă sursă de nemulțumire la bannere nu e calitatea printului, ci o comandă plasată fără să știi exact ce înseamnă fiecare opțiune din configurator. Acest ghid parcurge exact pașii pe care îi vezi când comanzi un <a href="/configurator/banner">banner</a> la noi, explicând ce alegi la fiecare și de ce.</p>
+      <p>Cea mai frecventă sursă de nemulțumire la <a href="/configurator/banner">bannere</a> nu e calitatea printului, ci o comandă plasată fără să știi exact ce înseamnă o anumită opțiune din configurator – de unde vin, de fapt, majoritatea corecturilor ulterioare. În loc de o listă seacă de pași, explicăm mai jos logica din spatele fiecărui câmp: ce alegi, de ce contează și ce se întâmplă dacă alegi greșit.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Pasul 1: Dimensiunea – măsoară structura de montaj, nu spațiul dorit</h2>
-      <p>Greșeala tipică este introducerea dimensiunii „aproximative” a spațiului disponibil. Corect: măsori exact structura pe care va fi montat bannerul (gard, cadru, schelă) și scazi câțiva centimetri pe fiecare latură dacă bannerul trebuie să rămână întins fără să atârne peste margini.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dimensiunea: măsori structura, nu spațiul „dorit”</h2>
+      <p>Greșeala tipică e introducerea dimensiunii aproximative a spațiului disponibil, nu a structurii reale de montaj. Corect: măsori exact suportul pe care va sta bannerul – gard, cadru, schelă – și scazi câțiva centimetri pe fiecare latură dacă bannerul trebuie să rămână întins, fără să atârne peste margini. Dacă structura are exact 3x2 metri, comandă bannerul cu 2-3 cm mai mic pe fiecare latură, nu la dimensiune identică – altfel riști să nu se întindă corect din cauza toleranțelor normale de fabricație și montaj.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Pasul 2: Materialul – frontlit sau blockout</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Materialul: frontlit sau blockout, în funcție de unde e privit</h2>
       <ul class="list-disc pl-6 space-y-2 my-4">
         <li><b>PVC Frontlit (440-510 g/mp):</b> standardul pentru afișaj pe o singură față. Opacitate bună, print clar, cel mai bun raport preț-calitate pentru majoritatea proiectelor.</li>
         <li><b>Blockout (față-verso, 500-600 g/mp):</b> conține un strat interior opac care blochează total lumina, permițând print diferit pe fiecare față fără ca imaginile să se „vadă” una prin cealaltă. Necesar dacă bannerul e vizibil din ambele sensuri (perpendicular pe stradă) sau dacă lumina vine din spate.</li>
       </ul>
-      <p>Dacă nu ești sigur care ți se potrivește, citește comparația detaliată din <a href="/blog/banner-frontlit-vs-banner-blockout-alegerea-corecta">ghidul dedicat frontlit vs. blockout</a>.</p>
+      <p>Comparația completă, cu exemple, e în <a href="/blog/banner-frontlit-vs-banner-blockout-alegerea-corecta">ghidul dedicat frontlit vs. blockout</a>.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Pasul 3: Finisajele de montaj</h2>
-      <p>Aici se decide cât de ușor și de sigur va fi montajul la fața locului:</p>
-      <ul class="list-disc pl-6 space-y-2 my-4">
-        <li><b>Tiv perimetral la cald:</b> întărește marginile, previne ruperea sub tensiune sau vânt. Recomandat implicit pentru orice banner montat afară.</li>
-        <li><b>Capse metalice:</b> plasate de regulă la 30-50 cm distanță pe conturul bannerului. Pentru zone cu vânt puternic, cerem distanță mai mică între capse (densitate mai mare de puncte de ancorare).</li>
-        <li><b>Buzunare (tunele):</b> înlocuiesc capsele acolo unde bannerul se montează pe țevi sau cadre rigide prin alunecare, oferind o tensionare mai uniformă decât fixarea punctuală.</li>
-      </ul>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Finisajele de montaj: unde se decide siguranța pe teren</h2>
+      <p>Un tiv perimetral la cald întărește marginile și previne ruperea sub tensiune sau vânt – recomandat implicit pentru orice banner montat afară. Capsele metalice se plasează de regulă la 30-50 cm distanță pe contur; pentru zone cu vânt puternic, o densitate mai mare de capse previne smulgerea materialului – merită menționat din start dacă bannerul e amplasat într-o zonă expusă. Buzunarele (tunele) înlocuiesc capsele acolo unde bannerul se montează pe țevi sau cadre rigide prin alunecare, oferind o tensionare mai uniformă. Dacă bannerul se montează pe o structură cu colțuri sau obstacole (stâlpi, console), spune-ne din start – ajustăm poziția capselor pentru a evita punctele de blocaj.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Pasul 4: Fișierul grafic</h2>
-      <p>Pentru rezultat corect la dimensiuni mari, fișierul trebuie pregătit în CMYK, la rezoluția potrivită distanței de privire (100-150 DPI pentru bannere văzute de la peste 5 metri este suficient – nu are rost să trimiți fișiere de sute de MB pentru un banner privit din mașină în mers). Detalii complete găsești în <a href="/blog/cum-sa-pregatesti-fisierele-pentru-print-ghid-cmky-bleed">ghidul de pregătire fișiere</a>.</p>
-
-      <h2 class="text-xl font-bold mt-10 mb-3">Pasul 5: Verificarea prețului și confirmarea</h2>
-      <p>Configuratorul calculează prețul instant, pe baza dimensiunii, materialului și finisajelor alese, fără să aștepți o ofertă prin email. După confirmare, producția pornește imediat cu cerneluri UV rezistente la soare, care nu-și pierd intensitatea culorii în timp.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Fișierul grafic: unde apar cele mai multe întârzieri</h2>
+      <p>Pentru rezultat corect la dimensiuni mari, fișierul trebuie pregătit în CMYK, la rezoluția potrivită distanței de privire – 100-150 DPI pentru bannere văzute de la peste 5 metri e suficient, nu are rost să trimiți fișiere de sute de MB pentru un banner privit din mașină în mers. Detalii complete în <a href="/blog/cum-sa-pregatesti-fisierele-pentru-print-ghid-cmky-bleed">ghidul de pregătire fișiere</a>.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Sfat rapid înainte să confirmi comanda:</h3>
-        <p class="text-blue-800 italic">Verifică de două ori orientarea dimensiunilor (lățime vs. înălțime) – este cea mai comună greșeală la comenzi online și singura care nu se poate corecta după ce bannerul e deja printat.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Singura greșeală care nu se mai poate corecta ulterior:</h3>
+        <p class="text-blue-800 italic">Verifică de două ori orientarea dimensiunilor (lățime vs. înălțime) înainte de confirmare – e cea mai comună greșeală la comenzi online și singura care nu se poate remedia după ce bannerul e deja printat.</p>
       </div>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Depozitarea între utilizări, pentru bannere refolosibile</h2>
-      <p>Dacă bannerul nu rămâne montat permanent (de exemplu, e folosit doar la evenimente sau expoziții), modul de depozitare influențează cât de bine arată la a doua sau a treia utilizare. Rulează materialul cu fața printată spre exterior, pe un tub de diametru cât mai mare posibil (minim 10 cm), niciodată împăturit – pliurile lasă urme permanente greu de îndepărtat pe suprafața PVC, mai ales pe frig. Depozitează în spațiu uscat, ferit de temperaturi extreme, iar înainte de reutilizare lasă bannerul câteva ore la temperatura camerei ca să se relaxeze materialul.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">De la confirmare la livrare: ce se întâmplă în culise</h2>
+      <p>Configuratorul calculează prețul instant, pe baza dimensiunii, materialului și finisajelor alese, fără să aștepți o ofertă prin email. Odată confirmată comanda și validat fișierul grafic, materialul intră direct la print cu cerneluri UV rezistente la soare, urmat de tăiere la dimensiune, aplicarea tivului la cald și fixarea capselor – întregul proces durează de regulă sub 24 de ore lucrătoare pentru un banner standard. Pentru comenzi multiple sau dimensiuni neobișnuite, termenul se comunică punctual la confirmare, înainte de a intra în producție.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Greșeli de comandă care apar frecvent</h2>
-      <ul class="list-disc pl-6 space-y-2 my-4">
-        <li><b>Uitarea marjei de siguranță la capse:</b> dacă bannerul se montează pe o structură cu colțuri sau obstacole (stâlpi, console), spune-ne din start – putem ajusta poziția capselor pentru a evita punctele de blocaj.</li>
-        <li><b>Comanda „la limită” pe dimensiune:</b> dacă structura de montaj are 3x2 metri exact, comandă bannerul cu 2-3 cm mai mic pe fiecare latură, nu exact la dimensiune – altfel riști să nu se întindă corect din cauza toleranțelor normale de fabricație și montaj.</li>
-        <li><b>Ignorarea direcției vântului dominant:</b> pentru bannere montate în zone expuse, discută cu noi despre densitatea capselor înainte de comandă – o densitate mai mare de puncte de ancorare previne smulgerea materialului la vânt puternic.</li>
-      </ul>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă bannerul nu rămâne montat permanent</h2>
+      <p>Pentru bannere folosite la evenimente sau expoziții, modul de depozitare între utilizări influențează cât de bine arată a doua sau a treia oară. Rulează materialul cu fața printată spre exterior, pe un tub de diametru cât mai mare posibil (minim 10 cm), niciodată împăturit – pliurile lasă urme permanente greu de îndepărtat, mai ales pe frig. Depozitează în spațiu uscat, ferit de temperaturi extreme, iar înainte de reutilizare lasă bannerul câteva ore la temperatura camerei ca să se relaxeze materialul.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Ce se întâmplă după ce plasezi comanda</h2>
-      <p>Odată confirmată comanda și validat fișierul grafic, materialul intră direct la print, urmat de tăiere la dimensiune, aplicarea tivului la cald și fixarea capselor – întregul proces de producție pentru un banner standard durează de regulă sub 24 de ore lucrătoare. Pentru comenzi multiple sau dimensiuni neobișnuite, termenul se comunică punctual la confirmarea comenzii, înainte de a intra în producție, ca să știi exact la ce dată te poți baza pentru montaj.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Comenzi recurente: nu reiei totul de la zero</h2>
+      <p>Multe afaceri comandă același banner (sau o variantă ușor actualizată) periodic – la schimbarea sezonului, la o promoție recurentă sau pentru înlocuirea unui material uzat de vreme. Pentru aceste cazuri, păstrăm fișierul grafic validat la comanda anterioară, ceea ce simplifică reordonarea: trimiți doar modificările și confirmăm rapid, fără să reparcurgi toți pașii de la zero.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Comenzi recurente: ce merită să știi dacă reînnoiești periodic</h2>
-      <p>Multe afaceri comandă același banner (sau o variantă ușor actualizată) periodic – la schimbarea sezonului, la o promoție recurentă sau pur și simplu pentru înlocuirea unui material uzat de vreme. Pentru aceste cazuri, păstrăm fișierul grafic validat la comanda anterioară, ceea ce simplifică reordonarea: trimiți doar modificările (de exemplu prețul actualizat) și confirmăm rapid, fără să reiei toți cei 5 pași de la zero de fiecare dată.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă nu ești sigur ce ai nevoie, descrie-ne scenariul</h2>
+      <p>Nu toți clienții știu din start diferența dintre frontlit și blockout sau ce înseamnă gramajul materialului. Dacă descrii pur și simplu unde și cum va fi montat bannerul (suprafață, expunere la soare/vânt, dacă e văzut din ambele sensuri), echipa noastră recomandă direct configurația corectă înainte să parcurgi singur toți pașii tehnici – util mai ales la prima comandă. Discuția preliminară durează de regulă câteva minute și elimină aproape complet riscul unei comenzi greșit configurate.</p>
 
-      <h2 class="text-xl font-bold mt-10 mb-3">Dacă nu ești sigur ce ai nevoie, spune-ne doar scenariul</h2>
-      <p>Nu toți clienții știu din start diferența dintre frontlit și blockout sau ce înseamnă gramajul materialului. Dacă descrii pur și simplu unde și cum va fi montat bannerul (suprafață, expunere la soare/vânt, dacă e văzut din ambele sensuri), echipa noastră poate recomanda direct configurația corectă înainte să parcurgi singur toți pașii tehnici – util mai ales la prima comandă, când nu ai încă un reper de comparație. Acest tip de discuție preliminară durează de regulă câteva minute și elimină aproape complet riscul unei comenzi greșit configurate, indiferent cât de complex e proiectul tău.</p>
-
-      <p>Intră direct în <a href="/configurator/banner">configuratorul de bannere</a> și parcurge acești 5 pași – ai o cotație imediată și producție gata în cel mai scurt termen posibil.</p>
+      <p>Intră direct în <a href="/configurator/banner">configuratorul de bannere</a> – ai o cotație imediată și producție gata în cel mai scurt termen posibil.</p>
     `,
   },
   {
     slug: "autocolante-personalizate-contur",
     source: "Anexa1.ro",
-    title: "De ce fișierul tău pentru autocolante decupate a fost respins la preflight (și cum îl repari)",
-    description: "Cele mai multe întârzieri la comenzile de stickere decupate la contur nu vin din producție, ci din fișierul grafic trimis greșit. Explicăm exact ce caută un operator de tăiere CNC într-un fișier și cum îl pregătești corect din prima.",
+    title: "„Die-line lipsă” – mesajul de respingere pe care îl vedem cel mai des la fișiere de autocolante",
+    description: "Un fișier grafic perfect ca imagine poate fi respins integral la verificare pentru un singur motiv: lipsa liniei de contur pe care mașina de tăiere o urmează. Explicăm ce e acea linie, cum o construiești corect și ce facem dacă nu o ai.",
     date: "2026-07-03T11:00:00Z",
     author: "Echipa Anexa1",
     tags: ["autocolante", "decupare contur", "fisier vectorial", "pregatire print", "branding"],
     contentHtml: `
-      <p>Un autocolant decupat la contur nu urmează marginea unui dreptunghi, ca o etichetă clasică – urmărește exact forma logo-ului sau ilustrației tale, la milimetru. Asta înseamnă că mașina de tăiere CNC are nevoie de altceva decât o imagine: are nevoie de o linie de contur clar definită, numită tehnic „die-line”. Când acea linie lipsește sau e greșit construită, comanda se blochează la verificare, chiar dacă imaginea în sine arată perfect.</p>
+      <p>Mesajul de respingere pe care echipa noastră de grafică îl trimite cel mai des la comenzile de autocolante decupate nu e legat de rezoluție sau culoare, ci de o singură linie lipsă: die-line-ul. Un autocolant decupat la contur nu urmează marginea unui dreptunghi, ca o etichetă clasică, ci exact forma logo-ului sau ilustrației tale, la milimetru – iar mașina de tăiere CNC are nevoie de un traseu vectorial explicit ca să știe unde să taie, nu de o presupunere bazată pe fundalul transparent al unei imagini.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce este de fapt un die-line și de ce nu e opțional</h2>
-      <p>Die-line-ul este un traseu vectorial (nu o imagine pixelată) care spune mașinii de tăiere exact pe unde să taie folia, după ce printul a fost aplicat. Dacă trimiți doar un PNG sau JPG cu fundal transparent, presupunem greșit unde se termină forma – rezultatul poate fi un contur decupat cu 1-2 mm în plus sau în minus față de grafica reală, vizibil mai ales pe forme cu unghiuri ascuțite sau litere subțiri.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce vede, de fapt, operatorul când deschide fișierul</h2>
+      <p>Dacă trimiți doar un PNG sau JPG cu fundal transparent, presupunem unde se termină forma pe baza pixelilor vizibili – iar rezultatul poate fi un contur decupat cu 1-2 mm în plus sau în minus față de grafica reală, vizibil mai ales pe unghiuri ascuțite sau litere subțiri. Die-line-ul, în schimb, este un traseu vectorial (nu o imagine pixelată) care spune mașinii exact pe unde să taie folia, după ce printul a fost aplicat, fără nicio interpretare.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Cum construiești corect die-line-ul:</h3>
-        <p class="text-blue-800 italic">În Illustrator, creezi un traseu vectorial închis (path) care urmărește exact conturul exterior al design-ului, îl pui pe un strat separat numit clar „Cut” sau „Dieline”, colorat de regulă în magenta 100% pentru identificare rapidă de către operator, fără fill, doar stroke.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Cum arată un die-line construit corect:</h3>
+        <p class="text-blue-800 italic">Un traseu vectorial închis (path) în Illustrator, care urmărește exact conturul exterior al design-ului, plasat pe un strat separat numit clar „Cut” sau „Dieline”, colorat de regulă în magenta 100%, fără fill, doar stroke.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cele trei greșeli care blochează cel mai des comanda</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Trei defecte de fișier care blochează cel mai des verificarea</h2>
+      <p>Dincolo de die-line-ul complet lipsă, trei probleme recurente apar chiar și la fișiere care par corecte la prima vedere:</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Contur cu goluri (path deschis):</b> dacă linia de tăiere nu este un traseu complet închis, mașina nu știe unde se oprește forma. Verifică în Illustrator cu funcția de verificare a traseelor deschise înainte de export.</li>
-        <li><b>Detalii sub 2-3 mm:</b> colțuri foarte ascuțite, vârfuri subțiri sau spații foarte mici între două forme apropiate nu pot fi tăiate fizic curat de cuțitul plotter-ului. Rotunjește ușor colțurile ascuțite acolo unde detaliul nu e critic pentru brand.</li>
-        <li><b>Text needitat convertit la curbe:</b> dacă textul din design rămâne font editabil în loc de contur vectorial, la deschiderea fișierului pe alt calculator fontul poate lipsi și tot designul se deformează. Convertește întotdeauna textul final la curbe înainte de export.</li>
+        <li><b>Traseu deschis, nu închis:</b> dacă linia de tăiere are un gol, chiar și de o fracțiune de milimetru, mașina nu știe unde se oprește forma. Verifică în Illustrator cu funcția de căutare a traseelor deschise înainte de export.</li>
+        <li><b>Detalii sub 2-3 mm:</b> colțuri foarte ascuțite, vârfuri subțiri sau spații foarte mici între două forme apropiate nu pot fi tăiate fizic curat de cuțitul plotter-ului. Rotunjește ușor colțurile acolo unde detaliul nu e critic pentru brand.</li>
+        <li><b>Text neconvertit la curbe:</b> dacă textul rămâne font editabil în loc de contur vectorial, la deschiderea fișierului pe alt calculator fontul poate lipsi, iar tot designul se deformează. Convertește întotdeauna textul final la curbe înainte de export.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Formate de fișier acceptate</h2>
-      <p>Cele mai sigure formate pentru un fișier cu die-line sunt <b>.ai, .eps sau .pdf vectorial</b>, cu straturile de print și de tăiere separate și denumite clar. Dacă lucrezi în Photoshop sau Canva (aplicații bazate pe pixeli, nu pe vectori), exportă imaginea finală la 300 DPI și lasă-ne pe noi să construim manual conturul de tăiere – menționează explicit acest lucru la comandă, pentru a evita întârzieri.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă nu lucrezi în Illustrator sau alt program vectorial</h2>
+      <p>Cele mai sigure formate pentru un fișier cu die-line sunt .ai, .eps sau .pdf vectorial, cu straturile de print și de tăiere separate și denumite clar. Dacă lucrezi în Photoshop sau Canva (aplicații bazate pe pixeli), exportă imaginea finală la 300 DPI și menționează explicit la comandă că ai nevoie de un die-line construit de noi – echipa noastră de grafică desenează manual conturul de tăiere pornind de la marginile vizibile ale designului tău. Pasul suplimentar adaugă puțin timp la producție, motiv pentru care un fișier vectorial gata pregătit rămâne varianta mai rapidă, mai ales la comenzi mari unde precizia formei finale contează.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce contează asta pentru buget, nu doar pentru timp</h2>
-      <p>Un fișier corect din prima elimină nevoia unei runde de corecturi și retrimitere, ceea ce înseamnă că <a href="/configurator/autocolante">producția pornește direct</a>, fără să pierzi ziua de lucru aferentă unui du-te-vino de emailuri. La comenzi mari (etichete de produs, colantări de vitrină), o eroare de contur descoperită abia la aplicare pe produsul final costă mult mai mult decât cele câteva minute investite în verificarea die-line-ului înainte de trimitere.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Testul foarfecii, înainte de a trimite fișierul</h2>
+      <p>Printează design-ul pe o coală obișnuită la dimensiune reală (sau cât mai aproape de ea) și decupează-l manual cu o foarfecă, urmând conturul. Dacă la decuparea manuală descoperi detalii imposibil de urmărit precis – colțuri prea ascuțite, spații prea înguste între forme – aceleași detalii vor crea probleme și mașinii de tăiere automată. E un test simplu, fără niciun cost, care evită runde întregi de corecturi ulterioare.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce forme complexe se pot decupa și unde e limita practică</h2>
-      <p>Tăierea CNC (plotter de tăiere) urmărește vectorial orice traseu, indiferent cât de complicat, dar există limite fizice de care merită să ții cont din faza de design: litere foarte fine cu grosime sub 2 mm pot rupe la manipulare, mai ales pe materiale monomerice mai rigide, iar forme cu „insule” interioare (de exemplu litera „O” sau „A”, unde centrul trebuie să rămână gol) necesită o linie de contur separată pentru interior, altfel operatorul nu poate distinge automat ce parte se scoate și ce parte rămâne pe folie.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Unde e limita fizică a tăierii, dincolo de fișier</h2>
+      <p>Tăierea CNC urmărește vectorial orice traseu, indiferent cât de complicat, dar există limite fizice de luat în calcul din faza de design: litere foarte fine, cu grosime sub 2 mm, se pot rupe la manipulare, mai ales pe materiale monomerice mai rigide. Formele cu „insule” interioare (litera „O” sau „A”, unde centrul rămâne gol) necesită o linie de contur separată pentru interior, altfel operatorul nu poate distinge automat ce parte se scoate și ce parte rămâne pe folie.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Pregătirea suprafeței, înainte de aplicare</h2>
-      <p>Un autocolant decupat impecabil poate arăta prost dacă suprafața pe care se aplică nu e pregătită corect. Pentru vitrine sau suprafețe de sticlă/metal, curăță cu alcool izopropilic (nu detergent obișnuit, care lasă reziduu gras), lasă suprafața să se usuce complet, apoi aplică la o temperatură ambientală de minim 15°C – la temperaturi mai scăzute, adezivul nu prinde uniform și poate apărea desprindere pe margini în primele săptămâni.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">De ce un die-line greșit costă mai mult decât pare</h2>
+      <p>Un fișier corect din prima elimină nevoia unei runde de corecturi și retrimitere, ceea ce înseamnă că <a href="/configurator/autocolante">producția pornește direct</a>, fără să pierzi o zi de lucru pe un du-te-vino de emailuri. La comenzi mari – etichete de produs, colantări de vitrină – o eroare de contur descoperită abia la aplicarea pe produsul final costă mult mai mult decât cele câteva minute investite în verificarea die-line-ului înainte de trimitere.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Backing-ul de transfer – detaliul care simplifică aplicarea design-urilor complexe</h2>
-      <p>Pentru forme cu multe piese separate (de exemplu litere individuale ale unui logo, care trebuie aplicate la aceeași distanță unele față de altele), folosim o folie de transfer aplicată deasupra autocolantelor decupate, care le menține în poziția relativă corectă în timpul transportului de pe hârtia de suport pe suprafața finală. Fără acest strat, fiecare literă ar trebui poziționată manual, individual, cu risc mare de aliniere greșită.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce facem noi cu fișierele care nu au die-line</h2>
-      <p>Dacă trimiți doar o imagine (fără traseu vectorial de tăiere), nu respingem automat comanda. Echipa noastră de grafică construiește manual conturul de tăiere pornind de la imaginea ta, urmărind marginile vizibile ale designului. Acest pas suplimentar adaugă puțin timp la producție față de un fișier deja pregătit corect, motiv pentru care, dacă ai posibilitatea, un fișier vectorial cu die-line inclus rămâne varianta mai rapidă și, la comenzi mari, mai sigură din punct de vedere al preciziei formei finale.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un test rapid înainte de a plasa comanda finală</h2>
-      <p>Printează design-ul tău pe o coală obișnuită la dimensiune reală (sau cât se apropie mai mult de dimensiunea finală) și decupează-l manual cu o foarfecă, urmând conturul. Dacă la decuparea manuală descoperi detalii imposibil de urmărit precis (colțuri prea ascuțite, spații prea înguste între forme), aceleași detalii vor crea probleme și mașinii de tăiere automată – e un test simplu, fără cost, care evită multe runde de corecturi ulterioare.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă după verificare: suprafață și transport</h2>
+      <p>Un autocolant decupat impecabil poate arăta prost dacă suprafața pe care se aplică nu e pregătită corect. Pentru vitrine sau suprafețe de sticlă/metal, curăță cu alcool izopropilic (nu detergent obișnuit, care lasă reziduu gras), lasă suprafața să se usuce complet, apoi aplică la minim 15°C – la temperaturi mai scăzute, adezivul nu prinde uniform și poate apărea desprindere pe margini în primele săptămâni. Pentru forme cu multe piese separate (de exemplu litere individuale ale unui logo), folosim o folie de transfer aplicată deasupra autocolantelor decupate, care le menține în poziția relativă corectă în timpul transportului de pe hârtia de suport pe suprafața finală.</p>
 
       <p>Nu ești sigur dacă fișierul tău e pregătit corect? Trimite-l înainte de a plasa comanda finală prin pagina de <a href="/contact">contact</a> și îți spunem direct dacă e gata de tăiere sau ce trebuie ajustat.</p>
     `,
@@ -636,20 +533,22 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "autocolante-decupate-la-contur-polimeric-sau-monomeric",
     source: "Anexa1.ro",
-    title: "Calandrat vs. Turnat: de ce un autocolant \"la fel\" costă dublu, dar rezistă de trei ori mai mult",
-    description: "Diferența dintre folia monomerică și cea polimerică nu se vede cu ochiul liber pe fișierul digital, dar se vede clar peste 2 ani pe vitrina ta. Explicăm chimia din spatele celor două tipuri de folie și cum să nu greșești alegerea.",
+    title: "Un sfat simplu înainte de a comanda autocolante: întreabă „cât timp trebuie să reziste”, nu „ce folie e mai bună”",
+    description: "Doi clienți comandă vizual „același sticker” și primesc facturi diferite ca preț. Explicăm de ce durata de viață dorită, nu bugetul, ar trebui să decidă între folia monomerică (calandrată) și cea polimerică (turnată/cast).",
     date: '2026-07-07T11:21:00.000Z',
     author: "Expert Print Anexa1",
     tags: ["autocolante", "folie polimerica", "folie monomerica", "colantare auto", "ghid materiale"],
     contentHtml: `
-      <p>Doi clienți pot comanda aparent „același sticker” – aceleași dimensiuni, aceeași grafică – și pot primi facturi diferite ca preț. Motivul aproape mereu este procesul de fabricație al foliei folosite: calandrată (monomerică) sau turnată (polimerică/cast). Diferența nu se vede la comandă, dar se vede clar în timp, mai ales la exterior sub soarele românesc.</p>
+      <p>Doi clienți pot comanda aparent „același sticker” – aceleași dimensiuni, aceeași grafică – și pot primi facturi diferite ca preț, fără să înțeleagă de ce. Întrebarea pe care ar trebui să și-o pună înainte de a alege nu este „ce folie e mai bună”, ci „cât timp are nevoie materialul să reziste și pe ce tip de suprafață merge”. Răspunsul la aceste două întrebări elimină automat una dintre cele două variante: folia monomerică (calandrată) sau cea polimerică (turnată/cast).</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum se fabrică cele două tipuri de folie</h2>
-      <p>Folia <b>monomerică (calandrată)</b> se obține prin trecerea materialului plastic topit printre role industriale sub presiune, care îl întind la grosimea finală – un proces rapid și ieftin, dar care „îngheață” în material tensiuni interne. Aceste tensiuni sunt motivul pentru care folia monomerică tinde să se contracte ușor (shrinkage) în timp, mai ales la căldură.</p>
-      <p>Folia <b>polimerică (cast/turnată)</b> se obține prin turnarea materialului lichid direct pe o suprafață, unde se solidifică fără presiune mecanică. Procesul e mai lent și mai scump, dar rezultatul e un material fără tensiuni interne, extrem de subțire și flexibil, care nu se contractă practic deloc în timp.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Prima întrebare: suprafața e plană sau curbă?</h2>
+      <p>Pe o suprafață perfect plană (vitrină, panou rigid), diferența dintre cele două tipuri de folie e mai puțin vizibilă pe termen scurt. Dar pe o suprafață curbă – bara unei mașini, o oglindă laterală, un colț rotunjit de vitrină – folia monomerică, fiind mai rigidă și cu tensiuni interne rămase din procesul de fabricație, tinde să se ridice de pe margini în câteva luni. Folia polimerică, flexibilă și fără tensiuni interne, urmează curbura fără să se dezlipească, motiv pentru care este singura variantă recomandată pentru <b>colantări auto complete sau parțiale</b>.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce contează asta pe o suprafață curbă</h2>
-      <p>Pe o suprafață perfect plană (vitrină, panou rigid), diferența de comportament e mai puțin vizibilă pe termen scurt. Dar pe o suprafață curbă – bara unei mașini, o oglindă laterală, un colț rotunjit de vitrină – folia monomerică, fiind mai rigidă și cu tensiuni interne, tinde să se ridice de pe margini în câteva luni. Folia polimerică, fiind flexibilă și fără tensiuni, urmează curbura fără să se dezlipească, motiv pentru care este singura variantă recomandată pentru <b>colantări auto complete sau parțiale</b>.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">A doua întrebare: cât timp rămâne materialul pe loc?</h2>
+      <p>Nu recomandăm automat varianta scumpă. Dacă știi din start că materialul va fi înlocuit în 1-2 ani – etichete de produs pentru o campanie sezonieră, colantare temporară de vitrină pentru o promoție, panouri de șantier pentru un proiect cu termen fix – plătești degeaba diferența pentru o rezistență pe care n-o vei folosi niciodată. Monomericul e alegerea rațională pentru orice <a href="/configurator/autocolante">autocolant decupat la contur</a> cu ciclu de viață scurt și predictibil. Dacă însă ai nevoie de peste 3-4 ani de rezistență la exterior, indiferent de forma suprafeței, polimericul rămâne opțiunea corectă.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">De unde vine, de fapt, diferența de comportament</h2>
+      <p>Folia <b>monomerică (calandrată)</b> se obține prin trecerea materialului plastic topit printre role industriale sub presiune, care îl întind la grosimea finală – un proces rapid și ieftin, dar care „îngheață” în material tensiuni interne. Aceste tensiuni sunt motivul pentru care folia monomerică tinde să se contracte ușor (shrinkage) în timp, mai ales la căldură. Folia <b>polimerică (cast/turnată)</b> se obține prin turnarea materialului lichid direct pe o suprafață, unde se solidifică fără presiune mecanică. Procesul e mai lent și mai scump, dar rezultatul e un material fără tensiuni interne, extrem de subțire și flexibil, care nu se contractă practic deloc în timp.</p>
 
       <div class="overflow-x-auto my-10 shadow-xl rounded-2xl border border-slate-100">
         <table class="min-w-full bg-white">
@@ -690,26 +589,22 @@ const STATIC_POSTS: BlogPost[] = [
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Când folia monomerică este de fapt alegerea corectă</h2>
-      <p>Nu recomandăm automat varianta scumpă. Dacă știi din start că materialul va fi înlocuit în 1-2 ani (etichete de produs pentru o campanie sezonieră, colantare temporară de vitrină pentru o promoție, panouri de șantier pentru un proiect cu termen fix), plătești degeaba diferența pentru o rezistență pe care nu o vei folosi niciodată. Monomericul e alegerea rațională pentru orice <a href="/configurator/autocolante">autocolant decupat la contur</a> cu ciclu de viață scurt și predictibil.</p>
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">Un strat care se aplică peste oricare din cele două:</h3>
+        <p class="text-blue-800 italic">Laminarea (mată sau lucioasă), disponibilă în <a href="/configurator/autocolante">configurator</a>, blochează radiația UV care decolorează cerneala, previne zgârieturile din contactul zilnic și permite curățarea cu agenți ușori, fără a afecta imaginea. Pe folie polimerică, laminarea prelungește practic durata de viață utilă până aproape de limita fizică a materialului de bază.</p>
+      </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Laminarea – protecția care se aplică peste ambele</h2>
-      <p>Indiferent de tipul de folie ales, laminarea (mată sau lucioasă) adăugată în <a href="/configurator/autocolante">configurator</a> funcționează ca un strat protector suplimentar peste print: blochează radiația UV care decolorează cerneala, previne zgârieturile din contactul zilnic și permite curățarea suprafeței cu agenți ușori, fără a afecta imaginea. Pentru colantări auto pe folie polimerică, laminarea prelungește practic durata de viață utilă până aproape de limita fizică a materialului de bază.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Metoda de aplicare depinde și ea de suprafață</h2>
+      <p>La suprafețe mici sau forme simple, aplicarea uscată (folia se lipește direct, fără lichid) e mai rapidă și oferă aderență imediată maximă, potrivită pentru ambele tipuri de folie. La suprafețe mari, cum sunt colantările auto complete pe folie polimerică, folosim aplicarea umedă: o soluție de apă cu puțin detergent pulverizată pe suprafață permite repoziționarea foliei înainte de fixarea finală, eliminând bulele de aer prin presare cu racletă dinspre centru spre margini. Folia monomerică, fiind mai rigidă, se pretează mai puțin la această tehnică pe suprafețe curbe.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Aplicare uscată sau umedă: ce se potrivește fiecărui tip de folie</h2>
-      <p>Metoda de aplicare influențează și ea rezultatul final. La suprafețe mici sau forme simple, <b>aplicarea uscată</b> (folia se lipește direct, fără lichid) e mai rapidă și oferă aderență imediată maximă – potrivită pentru ambele tipuri de folie. La suprafețe mari, precum colantările auto complete pe folie polimerică, folosim <b>aplicarea umedă</b>: o soluție de apă cu puțin detergent pulverizată pe suprafață permite repoziționarea foliei înainte de fixarea finală, eliminând bulele de aer prin presare cu racletă dinspre centru spre margini. Folia monomerică, fiind mai rigidă, se pretează mai puțin la această tehnică pe suprafețe curbe – un motiv în plus pentru care polimericul rămâne standardul pentru colantări auto de suprafață mare.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Costul anual real, nu doar cel de la comandă</h2>
+      <p>Pentru aceeași suprafață și complexitate de decupare, folia polimerică costă de regulă cu 40-70% mai mult decât cea monomerică. Privit ca preț de comandă, pare o diferență mare. Împărțit însă la durata de viață utilă (5-7 ani față de 1-3 ani), costul anual real al polimericului e adesea comparabil sau chiar mai mic decât al monomericului, dacă iei în calcul și costul de reînlocuire a materialului mai ieftin la fiecare 1-2 ani – un calcul pe care merită să-l faci înainte de a alege exclusiv după prețul afișat în configurator.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cât de mare e diferența de preț, în practică</h2>
-      <p>Pentru aceeași suprafață și aceeași complexitate de decupare, folia polimerică costă de regulă cu 40-70% mai mult decât cea monomerică, în funcție de furnizor și grosime. Diferența pare mare la prima vedere, dar împărțită la durata de viață utilă (5-7 ani față de 1-3 ani), costul anual real al polimericului este adesea comparabil sau chiar mai mic decât al monomericului, dacă iei în calcul și costul de reînlocuire a materialului mai ieftin la fiecare 1-2 ani.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Colantarea auto totală nu admite compromis</h2>
+      <p>Pentru o colantare completă a unei mașini (schimbare de culoare sau grafică publicitară pe toată caroseria), folosim exclusiv folie polimerică de tip cast, cu grosime și elasticitate calibrate pentru a urma curburile caroseriei fără a se rupe sau desprinde la colțuri. O folie monomerică aplicată pe o suprafață curbă de mari dimensiuni, cum e capota sau aripa unei mașini, va ceda vizibil în câteva luni, cu ridicări pe margini și fisuri la colțuri strânse – aici nu există variantă „mai ieftină, dar suficient de bună”.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un caz special: folia polimerică pentru colantare auto totală</h2>
-      <p>Pentru o colantare completă a unei mașini (schimbare de culoare sau grafică publicitară pe toată caroseria), folosim exclusiv folie polimerică de tip cast, gândită special pentru această aplicație, cu grosime și elasticitate calibrate pentru a urma curburile caroseriei fără a se rupe sau desprinde la colțuri. O folie monomerică aplicată pe o suprafață curbă de mari dimensiuni, cum e capota sau aripa unei mașini, va ceda vizibil în câteva luni, cu ridicări pe margini și fisuri la colțuri strânse.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Dezlipirea la final: diferența contează și aici</h2>
-      <p>Un beneficiu mai puțin cunoscut al foliei polimerice de calitate: la dezlipire, după ani de utilizare, se desprinde de regulă curat, fără să lase reziduu de adeziv pe suprafață sau să deterioreze vopseaua de dedesubt (relevant mai ales pentru colantări auto temporare, unde mașina revine la culoarea originală). Folia monomerică ieftină, mai ales dacă a stat mult timp la soare, poate lăsa urme de adeziv întărit, greu de îndepărtat fără produse chimice specializate.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">O regulă simplă de reținut, dacă nu vrei să memorezi toată chimia din spate</h2>
-      <p>Dacă suprafața e plană și materialul rămâne pe loc sub 2 ani – monomeric. Dacă suprafața e curbă sau materialul trebuie să reziste peste 3-4 ani la exterior – polimeric. Pentru orice caz la limită (suprafață plană, dar rezistență lungă necesară, sau invers), recomandăm întotdeauna varianta polimerică – costul suplimentar e mai mic decât riscul unei reaplicări premature.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Un beneficiu mai puțin cunoscut, vizibil abia la dezlipire</h2>
+      <p>Folia polimerică de calitate, la dezlipire după ani de utilizare, se desprinde de regulă curat, fără să lase reziduu de adeziv pe suprafață sau să deterioreze vopseaua de dedesubt – relevant mai ales pentru colantări auto temporare, unde mașina trebuie să revină la culoarea originală. Folia monomerică ieftină, mai ales dacă a stat mult timp la soare, poate lăsa urme de adeziv întărit, greu de îndepărtat fără produse chimice specializate.</p>
 
       <p>Dacă nu ești sigur ce tip de folie se potrivește proiectului tău, spune-ne suprafața pe care se aplică și durata dorită de utilizare – îți recomandăm direct varianta corectă înainte să plasezi comanda în <a href="/configurator/autocolante">configuratorul de autocolante</a>.</p>
     `,
@@ -717,48 +612,48 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "cum-sa-pregatesti-fisierele-pentru-print-ghid-cmky-bleed",
     source: "Anexa1.ro",
-    title: "5 greșeli de fișier care întârzie o comandă de print, explicate cu exemple reale",
-    description: "Nu teoria CMYK vs RGB, ci exact ce vede un operator de producție când primește un fișier greșit pregătit și de ce oprește comanda în loc să printeze direct. Ghid practic pentru orice tip de material.",
+    title: "Fișierul respins la preflight: ce vede un operator de producție și tu nu",
+    description: "Când o comandă de print e oprită înainte de mașină, motivul se încadrează aproape mereu în același set de 5 probleme de fișier – vizibile pentru un operator din prima secundă, dar invizibile pe ecranul tău. Le trecem în revistă cu exemple concrete.",
     date: '2026-07-11T12:38:00.000Z',
     author: "Departamentul Grafică Anexa1",
     tags: ["ghid print", "cmyk", "bleed", "rezolutie fisier", "pregatire grafica"],
     contentHtml: `
-      <p>Fișierele care ajung la producție trec printr-o verificare (preflight) înainte de a fi trimise la mașina de print. Cele mai multe respingeri sau întrebări suplimentare pe care le trimitem clienților se încadrează în același set de 5 greșeli, indiferent dacă vorbim de un banner, un afiș sau un tablou canvas. Le explicăm în ordinea frecvenței cu care apar.</p>
+      <p>Înainte de a ajunge la mașina de print, orice fișier trece printr-o verificare tehnică (preflight). Din perspectiva unui client, un fișier „arată bine” dacă se vede corect pe ecran. Din perspectiva operatorului care face verificarea, contează cu totul alte lucruri – profilul de culoare, rezoluția reală la dimensiunea fizică, marginile de siguranță. Iată exact ce caută un operator și de ce oprește o comandă în loc să o trimită direct la print.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 1: fișier exportat în RGB, nu CMYK</h2>
-      <p>Ecranul tău construiește culorile din lumină (RGB), imprimanta le construiește din cerneală (CMYK). Un verde „neon” sau un albastru electric care arată superb pe monitor pur și simplu nu există fizic în gama de cerneluri CMYK – la conversie, culoarea se apropie de cea mai saturată variantă posibilă, dar niciodată identică. Dacă exportul se face abia la noi în producție, tu nu mai ai control asupra rezultatului. Soluția corectă: setează documentul în CMYK direct din Illustrator sau Photoshop, din prima zi de lucru la design, nu doar la export – astfel vezi din timp cum arată culorile reale.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se schimbă când culoarea trece de pe ecran pe material</h2>
+      <p>Ecranul construiește culorile din lumină (RGB), imprimanta le construiește din cerneală (CMYK). Un verde „neon” sau un albastru electric care arată superb pe monitor pur și simplu nu există fizic în gama de cerneluri CMYK – la conversie, culoarea se apropie de cea mai saturată variantă posibilă, dar niciodată identică. Dacă acest export se întâmplă abia la noi în producție, clientul pierde controlul asupra rezultatului final. Soluția corectă: documentul se setează în CMYK direct din Illustrator sau Photoshop, din prima zi de lucru la design, nu doar la momentul exportului – astfel vezi din timp cum arată culorile reale, nu o aproximare optimistă pe ecran.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 2: rezoluție insuficientă pentru dimensiunea fizică</h2>
-      <p>O imagine descărcată de pe internet, la 72 DPI, arată perfect pe telefon, dar mărită la dimensiunea unui banner de 2x1 metri devine vizibil pixelată. Regula depinde de distanța de la care va fi privit produsul:</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se schimbă când o imagine mică devine un produs mare</h2>
+      <p>O imagine descărcată de pe internet, la 72 DPI, arată perfect pe telefon, dar mărită la dimensiunea unui banner de 2x1 metri devine vizibil pixelată. Regula corectă depinde de distanța de la care va fi privit produsul finit, nu de o cifră fixă:</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
         <li><b>Privit de aproape (sub 1 metru):</b> autocolante, pliante, cărți de vizită, tablouri <a href="/configurator/canvas">canvas</a> – minim 300 DPI la scara 1:1.</li>
         <li><b>Privit de la 2-5 metri:</b> afișe mari, panouri interioare – 150-200 DPI este suficient.</li>
         <li><b>Privit de la peste 5 metri:</b> <a href="/configurator/banner">bannere outdoor mari</a> – 100-150 DPI, pentru că ochiul uman nu mai distinge detaliul fin de la acea distanță.</li>
       </ul>
-      <p>Testul rapid înainte de a trimite fișierul: mărește imaginea la 100% în Photoshop și privește-o de la distanța reală la care va fi văzut produsul finit. Dacă e neclară pe ecran de aproape, dar produsul va fi văzut de departe, de regulă e în regulă.</p>
+      <p>Un test rapid: mărește imaginea la 100% în Photoshop și privește-o de la distanța reală la care va fi văzut produsul finit. Dacă pare neclară pe ecran de aproape, dar produsul va fi văzut de departe, de regulă e în regulă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 3: lipsa bleed-ului (marginea de scurgere)</h2>
-      <p>Utilajele de tăiere au o toleranță mecanică de câțiva milimetri. Dacă fundalul design-ului se oprește exact la marginea produsului, orice mică deviere la tăiere lasă o linie subțire albă vizibilă pe contur. Soluția: extinde fundalul cu 3-5 mm dincolo de dimensiunea finală pe toate laturile, iar textul sau elementele importante ține-le la minim 5-10 mm distanță de marginea de tăiere, ca să nu riști să fie retezate.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă când tăierea nu e perfect exactă (niciodată nu e)</h2>
+      <p>Utilajele de tăiere au o toleranță mecanică de câțiva milimetri. Dacă fundalul design-ului se oprește exact la marginea produsului, orice mică deviere la tăiere lasă o linie subțire albă vizibilă pe contur – exact motivul pentru care fișierele fără bleed sunt oprite la verificare. Soluția: extinde fundalul cu 3-5 mm dincolo de dimensiunea finală pe toate laturile, iar textul sau elementele importante ține-le la minim 5-10 mm distanță de marginea de tăiere.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 4: text needitat convertit la curbe (sau fonturi lipsă)</h2>
-      <p>Dacă trimiți un fișier .ai sau .indd cu text încă în format editabil, iar noi nu avem exact același font instalat, programul îl înlocuiește automat cu altul – design-ul se strică vizibil, uneori fără avertisment clar. Regula simplă: înainte de export final, selectează tot textul și aplică „Convertește la curbe” (Create Outlines). După acest pas, textul devine formă vectorială fixă, identică pe orice calculator.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 5: fișier PDF salvat cu compresie web, nu print</h2>
-      <p>Multe aplicații (inclusiv unele instrumente online de design) au implicit un profil de export „optimizat pentru web” care comprimă agresiv imaginile din interiorul PDF-ului, indiferent ce rezoluție avea fișierul original. Rezultatul: un PDF care pare corect ca dimensiune de fișier, dar conține imagini interne la rezoluție mult redusă. Verifică mereu opțiunea de export „PDF pentru print/high quality print”, nu varianta implicită „web” sau „email”.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă când fontul tău nu există pe alt calculator</h2>
+      <p>Dacă trimiți un fișier .ai sau .indd cu text încă în format editabil, iar noi nu avem exact același font instalat, programul îl înlocuiește automat cu altul – design-ul se strică vizibil, uneori fără avertisment clar în timpul deschiderii fișierului. Regula simplă: înainte de export final, selectează tot textul și aplică „Convertește la curbe” (Create Outlines). După acest pas, textul devine formă vectorială fixă, identică pe orice calculator, indiferent ce fonturi are instalate.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Formate acceptate fără conversii suplimentare:</h3>
-        <p class="text-blue-800 italic">PDF (High Quality Print), TIFF necomprimat sau fișiere vectoriale .ai/.eps/.svg cu textul convertit la curbe. Dacă fișierul tău e în alt format, trimite-l oricum – îl verificăm și îți spunem exact ce trebuie ajustat înainte de a intra în producție.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Capcana din spatele unui PDF „aparent corect”:</h3>
+        <p class="text-blue-800 italic">Multe aplicații, inclusiv unele instrumente online de design, au implicit un profil de export „optimizat pentru web” care comprimă agresiv imaginile din interiorul PDF-ului, indiferent ce rezoluție avea fișierul original. Rezultatul: un PDF care pare corect ca dimensiune de fișier, dar conține imagini interne la rezoluție mult redusă. Verifică mereu opțiunea de export „PDF pentru print/high quality print”, nu varianta implicită „web” sau „email”.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un detaliu tehnic avansat: acoperirea totală de cerneală (Total Ink Coverage)</h2>
-      <p>Pentru designeri mai avansați: fiecare din cele patru canale CMYK poate ajunge teoretic la 100%, ceea ce înseamnă că suma maximă teoretică e 400%. În practică, majoritatea materialelor (mai ales cele rigide sau textilele) nu absorb bine mai mult de 240-280% acoperire totală de cerneală – peste acest prag, cerneala nu se usucă/polimerizează corect, iar culorile foarte închise (negru „îmbogățit” cu toate cele patru culori la maxim) pot ieși pătate sau lipicioase. Dacă lucrezi cu zone mari de negru intens, verifică în Photoshop opțiunea de afișare a acoperirii totale de cerneală înainte de export.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Formate care trec verificarea fără conversii suplimentare</h2>
+      <p>PDF (High Quality Print), TIFF necomprimat sau fișiere vectoriale .ai/.eps/.svg cu textul convertit la curbe – acestea sunt formatele care ajung la producție fără întrebări suplimentare din partea noastră. Dacă fișierul tău e în alt format, trimite-l oricum – îl verificăm și îți spunem exact ce trebuie ajustat înainte de a intra în producție.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Atenție la instrumentele online de design (Canva și similare)</h2>
-      <p>Aplicațiile online gratuite sunt excelente pentru schițe rapide, dar au frecvent limitări pentru print profesional: multe exportă implicit în RGB fără opțiune vizibilă de CMYK, comprimă imaginile la export și nu oferă control asupra bleed-ului. Dacă ai făcut design-ul într-un astfel de instrument, exportă la cea mai mare rezoluție disponibilă și menționează-ne explicit sursa fișierului – ajustăm noi ce se poate ajusta, dar rezultatul nu va fi identic cu un fișier nativ CMYK din Illustrator.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Un detaliu tehnic avansat: acoperirea totală de cerneală</h2>
+      <p>Pentru designeri mai avansați: fiecare din cele patru canale CMYK poate ajunge teoretic la 100%, deci suma maximă teoretică e 400%. În practică, majoritatea materialelor (mai ales cele rigide sau textilele) nu absorb bine mai mult de 240-280% acoperire totală de cerneală – peste acest prag, cerneala nu se usucă sau polimerizează corect, iar culorile foarte închise (negru „îmbogățit” cu toate cele patru culori la maxim) pot ieși pătate sau lipicioase. Dacă lucrezi cu zone mari de negru intens, verifică în Photoshop opțiunea de afișare a acoperirii totale de cerneală înainte de export.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce fișierele Word sau PowerPoint nu sunt potrivite pentru print profesional</h2>
-      <p>Primim ocazional fișiere .docx sau .pptx pentru comenzi de afișe sau bannere. Problema nu e neapărat conținutul, ci faptul că aceste programe nu au fost gândite pentru producție de print: nu gestionează corect profilurile de culoare CMYK, imaginile inserate păstrează rezoluția originală de multe ori mult sub necesar, iar la export în PDF adaugă frecvent artefacte de compresie invizibile pe ecran, dar vizibile clar pe un material mare printat. Dacă ai deja conținutul într-un astfel de fișier, cel mai sigur e să ni-l trimiți așa cum e, iar noi îl recreăm corect pentru producție, în loc să riști un export direct din Word.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Limitele instrumentelor online de design</h2>
+      <p>Aplicațiile online gratuite sunt excelente pentru schițe rapide, dar au frecvent limitări pentru print profesional: multe exportă implicit în RGB fără opțiune vizibilă de CMYK, comprimă imaginile la export și nu oferă control asupra bleed-ului. Dacă ai făcut design-ul într-un astfel de instrument, exportă la cea mai mare rezoluție disponibilă și menționează-ne explicit sursa fișierului – ajustăm ce se poate ajusta, dar rezultatul nu va fi identic cu un fișier nativ CMYK din Illustrator.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">De ce Word sau PowerPoint nu sunt potrivite pentru print profesional</h2>
+      <p>Primim ocazional fișiere .docx sau .pptx pentru comenzi de afișe sau bannere. Problema nu e neapărat conținutul, ci faptul că aceste programe nu au fost gândite pentru producție de print: nu gestionează corect profilurile de culoare CMYK, imaginile inserate păstrează rezoluția originală de multe ori mult sub necesar, iar la export în PDF adaugă frecvent artefacte de compresie invizibile pe ecran, dar vizibile clar pe un material mare printat. Dacă ai deja conținutul într-un astfel de fișier, cel mai sigur e să ni-l trimiți așa cum e, iar noi îl recreăm corect pentru producție.</p>
 
       <p>Ai un fișier gata și vrei confirmare rapidă că e pregătit corect? Încarcă-l direct în <a href="/configurator/afise">configuratorul potrivit produsului tău</a> – sistemul nostru semnalează automat problemele evidente de rezoluție sau format.</p>
     `,
@@ -766,71 +661,86 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "banner-frontlit-vs-banner-blockout-alegerea-corecta",
     source: "Anexa1.ro",
-    title: "Testul \"lanternei\": cum recunoști dacă ai nevoie de banner blockout înainte să comanzi",
-    description: "Un banner frontlit montat greșit devine translucid la lumina soarelui și textul dispare. Explicăm testul simplu prin care afli, înainte de comandă, dacă structura ta de montaj cere material blockout, nu frontlit standard.",
+    title: "Un banner care „dispare” la prânz nu e defect – e materialul greșit pentru locul acela",
+    description: "Reclamația clasică: la anumite ore, textul de pe banner devine aproape invizibil, iar materialul pare translucid. Nu e o problemă de producție, ci de potrivire între tipul de montaj și material. Explicăm cum verifici corect înainte de comandă.",
     date: '2026-07-15T13:55:00.000Z',
     author: "Echipa Anexa1.ro",
     tags: ["bannere", "frontlit", "blockout", "structura banner", "publicitate outdoor"],
     contentHtml: `
-      <p>Cea mai frecventă reclamație legată de un banner nou nu ține de calitatea printului, ci de un fenomen fizic simplu: la anumite ore ale zilei, textul „dispare”, iar materialul pare aproape transparent. Nu e o problemă de producție – e o problemă de material ales greșit pentru tipul de montaj. Iată cum verifici din start dacă ai nevoie de frontlit sau de blockout.</p>
+      <p>O reclamație pe care o auzim relativ des: „bannerul nou, la prânz, aproape că dispare – vedem prin el”. Clientul suspectează un defect de producție, dar cauza reală e alta: materialul montat nu era potrivit pentru tipul de structură pe care stă. Nu e o chestiune de calitate a printului, ci de fizică simplă a luminii care traversează materialul.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Testul simplu: de unde vine lumina pe banner?</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă, de fapt, cu materialul standard</h2>
+      <p>Bannerul frontlit este construit dintr-o singură structură de poliester țesut, îmbrăcat într-un strat de PVC – suficient de opac pentru lumină reflectată normal din față, dar nu blochează complet lumina care trece direct prin grosimea materialului atunci când soarele o lovește din spate, la intensitate mare. La acele ore, contrastul textului scade dramatic, uneori până la ilizibilitate completă. Bannerul <a href="/configurator/banner-verso">blockout</a> rezolvă exact această problemă printr-o inserție interioară opacă (un strat de polimer sau carbon negru) sandvișată între două straturi de PVC printabile – practic trei straturi lipite, față de structura simplă a frontlitului.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Testul de un minut, înainte de a plasa comanda</h2>
       <p>Pune-ți o singură întrebare despre locul unde va sta bannerul montat: <b>lumina soarelui (sau a unui reflector) ajunge vreodată direct din spatele materialului spre privitor?</b></p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Dacă bannerul e montat pe un perete plin, un gard solid sau o suprafață opacă din spate:</b> lumina cade doar din față, deci un <a href="/configurator/banner">banner frontlit</a> standard funcționează perfect – acesta e de altfel cazul pentru majoritatea montajelor pe fațade și garduri de șantier.</li>
-        <li><b>Dacă bannerul e montat pe un cadru liber, între doi stâlpi, pe o structură de tip gard de plasă, sau oriunde soarele îl poate „traversa”:</b> materialul frontlit devine parțial translucid la lumină puternică din spate, iar contrastul textului scade dramatic, uneori până la ilizibilitate completă la prânz.</li>
+        <li><b>Dacă bannerul e montat pe un perete plin, un gard solid sau o suprafață opacă din spate:</b> lumina cade doar din față, deci un <a href="/configurator/banner">banner frontlit</a> standard funcționează perfect – acesta e cazul pentru majoritatea montajelor pe fațade și garduri de șantier.</li>
+        <li><b>Dacă bannerul e montat pe un cadru liber, între doi stâlpi, pe o structură de tip gard de plasă, sau oriunde soarele îl poate „traversa”:</b> ai nevoie de blockout, indiferent cât de bun e designul sau cât de scump materialul frontlit ales inițial.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce se întâmplă asta fizic</h2>
-      <p>Bannerul frontlit este construit dintr-o singură structură de poliester țesut, îmbrăcat într-un strat de PVC – suficient de opac pentru lumină reflectată normal, dar nu blochează complet lumina care trece direct prin grosimea materialului la intensitate mare. Bannerul <a href="/configurator/banner-verso">blockout</a> rezolvă exact această problemă printr-o inserție interioară opacă (un strat de polimer sau carbon negru) sandvișată între două straturi de PVC printabile – practic trei straturi lipite, față de structura simplă a frontlitului.</p>
-
-      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Bonus tehnic: printul față-verso</h3>
-        <p class="text-blue-800 italic">Pentru că stratul interior blochează lumina complet, un banner blockout poate avea grafică diferită pe fiecare față fără ca cele două imagini să „se vadă” una prin cealaltă în transparență – esențial pentru steaguri perpendiculare pe clădiri sau bannere văzute din ambele sensuri ale unei străzi.</p>
+      <div class="overflow-x-auto my-10 shadow-xl rounded-2xl border border-slate-100">
+        <table class="min-w-full bg-white">
+          <thead class="bg-slate-900 text-white">
+            <tr>
+              <th class="px-6 py-4 text-left">Situație de montaj</th>
+              <th class="px-6 py-4 text-center">Material corect</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100">
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Fațadă plină de beton sau perete solid</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Frontlit</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Suspendat între doi stâlpi de iluminat</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Blockout</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50"><a href="/configurator/rollup">Roll-up</a> interior, lumini de tavan puternice</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Blockout</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Steag perpendicular, vizibil din ambele sensuri</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Blockout (print diferit pe fiecare față)</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Diferența de greutate, și de ce contează</h2>
-      <p>Frontlitul standard cântărește de regulă 440-510 g/mp. Structura suplimentară de trei straturi a blockout-ului îl duce la 500-600 g/mp, ceea ce înseamnă un material vizibil mai rigid și mai puțin flexibil la vânt puternic – un avantaj suplimentar pentru montaje permanente, dar și un cost de transport/montaj ușor mai mare la suprafețe foarte mari.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce câștigi în plus, dincolo de opacitate</h2>
+      <p>Pentru că stratul interior blochează lumina complet, un banner blockout poate avea grafică diferită pe fiecare față fără ca cele două imagini să „se vadă” una prin cealaltă în transparență – esențial pentru steaguri perpendiculare pe clădiri sau bannere văzute din ambele sensuri ale unei străzi. În plus, structura de trei straturi îl face vizibil mai rigid decât frontlitul (500-600 g/mp față de 440-510 g/mp), deci mai puțin flexibil la vânt puternic – un avantaj pentru montaje permanente expuse.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Scenarii tipice, rezolvate rapid</h2>
-      <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Banner pe fațadă plină de beton:</b> frontlit, fără discuție.</li>
-        <li><b>Banner suspendat între doi stâlpi de iluminat:</b> blockout, ca să nu depinzi de unghiul soarelui.</li>
-        <li><b><a href="/configurator/rollup">Roll-up expozițional</a> pentru interior cu lumini de tavan puternice:</b> blockout, pentru opacitate maximă și contrast constant.</li>
-        <li><b>Steag perpendicular pe clădire, vizibil din ambele sensuri de mers:</b> blockout cu print diferit pe fiecare față.</li>
-      </ul>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cât te costă în plus și când merită</h2>
+      <p>Structura suplimentară de trei straturi face blockout-ul de regulă cu 25-40% mai scump pe metru pătrat față de un frontlit standard, la aceeași dimensiune. Diferența se justifică doar dacă ai efectiv nevoie de una din cele două proprietăți esențiale: opacitate totală la lumină din spate sau print diferit pe cele două fețe. Dacă niciuna nu se aplică situației tale, plătești în plus pentru o proprietate pe care n-o folosești. Pentru comenzi standard, ambele materiale ies din producție în același interval scurt, de regulă în 24 de ore; la blockout cu grafică diferită pe cele două fețe adăugăm un pas de aliniere între cele două printuri, ceea ce poate adăuga câteva ore la suprafețe foarte mari.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Diferența de cost, ca reper de bugetare</h2>
-      <p>Structura suplimentară de trei straturi a blockout-ului îl face de regulă cu 25-40% mai scump pe metru pătrat față de un frontlit standard, la aceeași dimensiune. Diferența se justifică doar dacă ai efectiv nevoie de una din cele două proprietăți esențiale ale blockout-ului: opacitate totală la lumină din spate sau print diferit pe cele două fețe. Dacă niciuna nu se aplică situației tale, plătești în plus pentru o proprietate pe care nu o folosești.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Diferența la termenul de producție</h2>
-      <p>Pentru comenzi standard, ambele materiale ies din producție în același interval scurt, de regulă în 24 de ore. La comenzi mari de blockout cu grafică diferită pe cele două fețe, adăugăm un pas suplimentar de aliniere între cele două printuri (astfel încât marginile să coincidă perfect după tăiere), ceea ce poate adăuga câteva ore la termenul standard pentru suprafețe foarte mari sau forme neregulate.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">O greșeală comună: confuzia cu bannerul „dublu strat”</h2>
-      <p>Unii clienți cer un „banner dublu” crezând că înseamnă pur și simplu două bannere frontlit lipite spate în spate. Structura nu funcționează la fel ca blockout-ul adevărat: fără stratul central opac specializat, chiar și două straturi de frontlit lipite pot lăsa să treacă suficientă lumină încât imaginile să interfereze vizual una cu cealaltă la soare puternic, plus un cost de material aproape dublu, fără avantajul real de opacitate al unui blockout produs corect din fabrică.</p>
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">O confuzie frecventă: „bannerul dublu” nu e blockout</h3>
+        <p class="text-blue-800 italic">Unii clienți cer un „banner dublu” crezând că înseamnă două bannere frontlit lipite spate în spate. Fără stratul central opac specializat, chiar și două straturi de frontlit lipite pot lăsa să treacă suficientă lumină încât imaginile să interfereze vizual la soare puternic – plus un cost de material aproape dublu, fără avantajul real de opacitate al unui blockout produs corect din fabrică.</p>
+      </div>
 
       <h2 class="text-2xl font-bold mt-10 mb-4">Cum verifici la livrare dacă ai primit materialul corect</h2>
-      <p>Un test simplu, fără echipament special: ridică bannerul spre o sursă de lumină puternică (o fereastră însorită sau un bec puternic). Pe un frontlit veritabil, vei vedea clar lumina traversând materialul, cu o umbră vagă a printului. Pe un blockout autentic, lumina nu trece practic deloc, iar materialul rămâne complet opac indiferent de intensitatea sursei din spate. Acest test simplu confirmă în câteva secunde dacă materialul primit corespunde comenzii plasate.</p>
+      <p>Un test simplu, fără echipament special: ridică bannerul spre o sursă de lumină puternică (o fereastră însorită sau un bec puternic). Pe un frontlit veritabil, vei vedea clar lumina traversând materialul, cu o umbră vagă a printului. Pe un blockout autentic, lumina nu trece practic deloc, indiferent de intensitatea sursei din spate. Testul confirmă în câteva secunde dacă materialul primit corespunde comenzii plasate.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce faci dacă nu ești sigur din ce direcție va bate lumina peste ani</h2>
-      <p>Uneori structura de montaj se schimbă în timp – un gard plin poate fi înlocuit cu unul de plasă, sau un cadru fix poate fi mutat într-o zonă mai deschisă. Dacă există șanse rezonabile ca bannerul să fie remontat altundeva în viitor, investiția inițială în blockout, deși mai scumpă, elimină riscul de a descoperi problema translucidității abia după ce bannerul e deja montat pe noua structură. Pentru bannere gândite să dureze mai mulți ani și să fie relocate ocazional, acest cost suplimentar de la comandă devine, în timp, mai mic decât costul unei reproducții complete atunci când problema devine vizibilă abia la fața locului.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă structura de montaj se poate schimba în timp</h2>
+      <p>Uneori structura de montaj se modifică – un gard plin poate fi înlocuit cu unul de plasă, sau un cadru fix poate fi mutat într-o zonă mai deschisă. Dacă există șanse rezonabile ca bannerul să fie remontat altundeva în viitor, investiția inițială în blockout, deși mai scumpă, elimină riscul de a descoperi problema translucidității abia după relocare. Pentru bannere gândite să dureze mai mulți ani, acest cost suplimentar devine, în timp, mai mic decât o reproducție completă atunci când problema devine vizibilă abia la fața locului.</p>
 
-      <p>Pentru amândouă tipurile de material asigurăm gratuit tiv perimetral la cald și capse metalice plasate corespunzător pentru montaj sigur. Dacă nu ești sigur din ce parte va bate lumina pe structura ta, descrie-ne montajul înainte de comandă în <a href="/configurator/banner">configuratorul de bannere</a> – te ajutăm să alegi materialul corect din prima, nu după ce observi problema la fața locului.</p>
+      <p>Pentru amândouă tipurile de material asigurăm gratuit tiv perimetral la cald și capse metalice plasate corespunzător pentru montaj sigur. Dacă nu ești sigur din ce parte va bate lumina pe structura ta, descrie-ne montajul înainte de comandă în <a href="/configurator/banner">configuratorul de bannere</a> – te ajutăm să alegi materialul corect din prima.</p>
     `,
   },
   {
     slug: "dimensiuni-hartie-a0-a1-a2-a3-a4-a5-a6",
-    title: "De ce A4 nu are 21x30 cm rotund: matematica din spatele formatelor ISO 216",
-    description: "Formatele A0-A6 nu au apărut întâmplător – stau pe un raport matematic exact (rădăcina din 2) care permite înjumătățirea perfectă fără resturi. Explicăm logica din spate și cum o folosești practic la comanda de print.",
+    title: "Cum se face că un A3 mărit „la fix” pe A4 nu lasă niciodată o margine albă ciudată",
+    description: "Nu e coincidență – e o proprietate matematică deliberată a standardului ISO 216, ascunsă în raportul dintre laturile fiecărui format. Explicăm de unde vine și cum o folosești practic la o comandă de print pe mai multe dimensiuni.",
     date: '2026-07-19T14:12:00.000Z',
     author: "Expert Print Anexa1",
     tags: ["dimensiuni hartie", "standard iso 216", "format a3", "format a4", "ghid print"],
     source: "Anexa1.ro",
     contentHtml: `
-      <p>Majoritatea oamenilor știu că A4 e „foaia standard de birou” fără să se întrebe de ce are exact 210 x 297 mm și nu, de exemplu, 200 x 300 mm – ar fi fost un raport mai simplu de reținut. Răspunsul e o decizie matematică deliberată din standardul internațional ISO 216, iar odată ce o înțelegi, calculezi mental orice format din serie fără să cauți un tabel.</p>
+      <p>Un detaliu pe care puțini clienți îl remarcă, dar de care beneficiază constant: un design pregătit pentru A3 se scalează pe A4 fără să lase o margine albă neintenționată sau să deformeze proporțiile. Nu e o coincidență fericită, ci o proprietate matematică deliberată a standardului internațional ISO 216, care stă la baza întregii serii de formate A0-A6. Odată ce o înțelegi, calculezi mental orice format din serie fără să mai cauți un tabel.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Secretul: raportul dintre laturi este rădăcina din 2 (≈1,414)</h2>
-      <p>Toate formatele seriei A păstrează același raport între latura lungă și cea scurtă: aproximativ 1,414 (rădăcina pătrată din 2). Acest raport specific are o proprietate unică: dacă tai o foaie exact pe jumătate, pe latura lungă, cele două jumătăți rezultate păstrează același raport 1,414 între laturile lor – doar că sunt mai mici. Niciun alt raport de aspect nu are această proprietate. De aceea, înjumătățirea unui A3 dă exact două foi A4, fără resturi și fără deformarea proporției.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Numărul din spatele tuturor formatelor: rădăcina din 2</h2>
+      <p>Toate formatele seriei A păstrează același raport între latura lungă și cea scurtă: aproximativ 1,414 (rădăcina pătrată din 2). Acest raport specific are o proprietate unică – dacă tai o foaie exact pe jumătate, pe latura lungă, cele două jumătăți rezultate păstrează același raport 1,414 între laturile lor, doar că sunt mai mici. Niciun alt raport de aspect nu are această proprietate. De aceea, înjumătățirea unui A3 dă exact două foi A4, fără resturi și fără deformarea proporției – exact fenomenul din exemplul de la început.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
         <h3 class="text-blue-900 font-bold mb-2">Cum calculezi mental orice format din serie:</h3>
@@ -894,60 +804,59 @@ const STATIC_POSTS: BlogPost[] = [
           </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce contează asta practic la o comandă de print</h2>
-      <p>Dincolo de curiozitate matematică, proprietatea de înjumătățire are consecințe reale în producție: un design pregătit corect pentru A3 se poate imprima direct pe A4 la scară 1:1,414 fără să distorsionezi proporțiile sau să lași margini albe ciudate. La <a href="/configurator/afise">materialele noastre A3/A4</a>, asta simplifică enorm reutilizarea unui design pe mai multe dimensiuni pentru aceeași campanie.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce înseamnă asta concret pentru o campanie pe mai multe dimensiuni</h2>
+      <p>Un design pregătit corect pentru A3 se scalează direct pe A4, la un raport fix de 1:1,414, fără să distorsionezi proporțiile sau să lași margini albe neintenționate. La <a href="/configurator/afise">materialele noastre A3/A4</a>, asta simplifică enorm reutilizarea unui singur fișier pentru mai multe dimensiuni ale aceleiași campanii – nu trebuie recreat design-ul de la zero pentru fiecare format.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Există și seriile B și C – la ce folosesc?</h2>
-      <p>Pe lângă seria A, standardul ISO 216 definește și seria B (folosită rar la print, mai des pentru cărți și postere de artă, cu formate intermediare între cele A) și seria C, folosită exclusiv pentru plicuri – un plic C4 este dimensionat exact ca o foaie A4 să încapă neîndoit în el. De aici vine și mărimea „ciudată” a plicurilor de birou, care de fapt nu e deloc întâmplătoare.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Un singur număr de reținut, dacă nu vrei tabelul întreg</h2>
+      <p>Un A4 are aproximativ 1/16 dintr-un metru pătrat, deci ai nevoie de 16 coli A4 puse cap la cap ca să acoperi suprafața unui A0. E un mod rapid de a vizualiza mental cât de mare e de fapt un poster A0, fără să cauți dimensiunile exacte de fiecare dată.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Rezoluția fișierului contează la fel de mult ca formatul</h2>
-      <p>Dimensiunea fizică corectă nu ajută dacă fișierul nu are rezoluția potrivită. Pentru formate mici (A4-A6) privite de aproape, ai nevoie de minim 300 DPI la scara 1:1. Pentru postere mari (A0-A2), privite de la minim 1 metru distanță, 150-200 DPI sunt suficiente – ochiul nu mai distinge detaliul fin la acea distanță.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Plicurile de birou nu au dimensiuni întâmplătoare nici ele</h2>
+      <p>Pe lângă seria A, standardul ISO 216 definește și seria B (rar folosită la print, mai des pentru cărți și postere de artă, cu formate intermediare între cele A) și seria C, folosită exclusiv pentru plicuri – un plic C4 e dimensionat exact ca o foaie A4 să încapă neîndoit în el. De aici vine mărimea „ciudată” a plicurilor de birou, care de fapt nu e deloc întâmplătoare, ci calculată din același raport de bază.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce SUA folosește alt sistem (Letter, Legal) și ce înseamnă asta pentru tine</h2>
-      <p>Dacă primești fișiere de la clienți sau colaboratori din SUA, s-ar putea să întâlnești formatul „US Letter” (215,9 x 279,4 mm), ușor diferit de A4 (210 x 297 mm) – mai lat, dar mai scurt. Diferența pare mică, dar poate strica un layout gândit pentru A4 dacă fișierul e trimis fără ajustare: text sau elemente pot ieși din cadru sau poate apărea o margine albă neintenționată la tăiere. Dacă lucrezi cu fișiere din SUA, verifică explicit dimensiunea documentului înainte de a-l trimite la print, nu presupune că „arată ca A4”.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dimensiunea corectă nu ajută fără rezoluția corectă</h2>
+      <p>Formatul fizic potrivit nu compensează un fișier slab pregătit. Pentru formate mici (A4-A6) privite de aproape, ai nevoie de minim 300 DPI la scara 1:1. Pentru postere mari (A0-A2), privite de la minim 1 metru distanță, 150-200 DPI sunt suficiente, pentru că ochiul nu mai distinge detaliul fin la acea distanță.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Legătura dintre formatul de hârtie și distanța de citire pentru bannere</h2>
-      <p>Aceeași logică matematică din spatele formatelor ISO se aplică, la altă scară, și la <a href="/configurator/banner">bannerele outdoor</a>: un A0 (aproape 1 mp) este confortabil de citit de la 1-2 metri, dar la un banner de 2x3 metri – de peste 6 ori mai mare – distanța confortabilă de citire crește proporțional, până la 15-20 de metri. Regula practică rămâne aceeași indiferent de suport: cu cât suprafața de print e mai mare, cu atât distanța optimă de la care se citește crește, iar dimensiunea textului trebuie ajustată corespunzător, nu păstrată identică cu formatul mic.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Capcana fișierelor venite din SUA: US Letter nu e A4</h2>
+      <p>Dacă primești fișiere de la clienți sau colaboratori din SUA, s-ar putea să întâlnești formatul „US Letter” (215,9 x 279,4 mm), ușor diferit de A4 (210 x 297 mm) – mai lat, dar mai scurt. Diferența pare mică, dar poate strica un layout gândit pentru A4 dacă fișierul e trimis fără ajustare: text sau elemente pot ieși din cadru, sau poate apărea o margine albă neintenționată la tăiere. Verifică explicit dimensiunea documentului înainte de a-l trimite la print, nu presupune că „arată ca A4”.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un detaliu practic pentru pliante: formatul deschis vs. formatul închis</h2>
-      <p>La comenzile de pliante pliate, e important să distingi între dimensiunea „deschisă” (foaia întinsă complet, înainte de pliere) și dimensiunea „închisă” (produsul finit, așa cum îl ține clientul în mână). Un pliant tri-fold pornit de la un A4 deschis are, după pliere, dimensiunea închisă aproximativ egală cu o treime dintr-un A4 – aproape cât un DL (format specific plicurilor de corespondență). Când trimiți comanda, specifică mereu clar care dintre cele două dimensiuni o menționezi, ca să eviți neînțelegeri la producție.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Aceeași logică, la scară de banner</h2>
+      <p>Principiul „suprafață mai mare înseamnă distanță de citire mai mare” se aplică, la altă scară, și la <a href="/configurator/banner">bannerele outdoor</a>: un A0 (aproape 1 mp) e confortabil de citit de la 1-2 metri, dar un banner de 2x3 metri – de peste 6 ori mai mare – cere o distanță de citire proporțional mai mare, de 15-20 de metri. Cu cât suprafața de print crește, cu atât dimensiunea textului trebuie ajustată corespunzător, nu păstrată identică cu formatul mic.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Formatele personalizate: când te abați de la standardul ISO</h2>
-      <p>Nu orice proiect trebuie să respecte strict formatele A0-A6. Bannere, roll-up-uri sau panouri de semnalistică au frecvent dimensiuni complet personalizate, dictate de spațiul fizic de montaj, nu de un standard de hârtie. În aceste cazuri, regulile de rezoluție rămân aceleași (300 DPI de aproape, 100-150 DPI de la distanță mare), dar nu mai poți folosi trucul de „njumătățire” al seriei A pentru a calcula rapid alte dimensiuni – fiecare comandă personalizată se calculează individual, pornind de la dimensiunea reală a spațiului de montaj.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Pliante: nu confunda dimensiunea deschisă cu cea închisă</h2>
+      <p>La comenzile de pliante pliate, e esențial să distingi între dimensiunea „deschisă” (foaia întinsă complet, înainte de pliere) și dimensiunea „închisă” (produsul finit, așa cum ajunge în mâna clientului). Un pliant tri-fold pornit de la un A4 deschis are, după pliere, dimensiunea închisă aproximativ egală cu o treime dintr-un A4 – aproape cât un DL. Specifică mereu clar care dintre cele două dimensiuni o menționezi la comandă, ca să eviți neînțelegeri la producție.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Un reper rapid, dacă vrei să reții un singur număr</h2>
-      <p>Dacă trebuie să reții un singur reper din tot acest ghid: un A4 are aproximativ 1/16 dintr-un metru pătrat, deci ai nevoie de 16 coli A4 puse cap la cap ca să acoperi suprafața unui A0. E un mod rapid de a vizualiza mental cât de mare e de fapt un poster A0, fără să cauți dimensiunile exacte de fiecare dată.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Când nu te mai poți baza pe standardul ISO</h2>
+      <p>Nu orice proiect trebuie să respecte strict formatele A0-A6. Bannere, roll-up-uri sau panouri de semnalistică au frecvent dimensiuni complet personalizate, dictate de spațiul fizic de montaj, nu de un standard de hârtie. Regulile de rezoluție rămân aceleași (300 DPI de aproape, 100-150 DPI de la distanță mare), dar trucul de înjumățire al seriei A nu mai ajută să calculezi rapid alte dimensiuni – fiecare comandă personalizată se calculează individual, pornind de la dimensiunea reală a spațiului de montaj.</p>
 
       <p>Vrei să începi un proiect de print? Alege formatul potrivit în <a href="/configuratoare">configuratoarele noastre online</a> și primești prețul instant!</p>
     `,
   },
   {
     slug: "ghid-materiale-rigide-semnalistica-pvc-alucobond-plexiglass",
-    title: "Panoul tău se montează cu șuruburi vizibile sau cu distanțiere? Alegerea materialului rigid pornește de aici",
-    description: "Grosimea, greutatea pe metru pătrat și tipul de montaj decid practic ce material rigid poți folosi, nu doar bugetul. Ghid decizional pentru PVC Forex, Alucobond și Plexiglass, pornind de la scenariul real de instalare.",
+    title: "Panoul ales corect pe hârtie, deformat la montaj: unde greșesc majoritatea comenzilor de semnalistică rigidă",
+    description: "Materialul rigid potrivit nu se alege după preț, ci după cum se montează efectiv panoul – lipit, suspendat pe distanțiere sau retroiluminat. Ghid decizional pentru PVC Forex, Alucobond și Plexiglass, pornind de la scenariul de instalare.",
     date: '2026-07-23T15:29:00.000Z',
     author: "Expert Signage Anexa1",
     tags: ["semnalistica", "pvc forex", "alucobond", "plexiglass", "montaj panouri"],
     source: "Anexa1.ro",
     contentHtml: `
-      <p>Clienții aleg de multe ori materialul rigid pornind doar de la preț, apoi descoperă la montaj că varianta ieftină nu suportă greutatea proprie pe o suprafață mare sau se deformează la fixarea cu șuruburi. Ordinea corectă de decizie e inversă: întâi stabilești unde și cum se montează panoul, abia apoi alegi materialul care rezistă fizic la acel montaj.</p>
+      <p>Un tipar pe care îl vedem des: clientul alege materialul rigid exclusiv după preț, comandă, iar la montaj descoperă că varianta aleasă nu suportă greutatea proprie pe o suprafață mare sau se deformează la fixarea cu șuruburi. Ordinea corectă de decizie e inversă – stabilești întâi unde și cum se montează panoul, abia apoi alegi materialul care rezistă fizic la acel tip de montaj, nu invers.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 1: Panoul stă suspendat liber sau lipit pe o suprafață?</h2>
-      <p>Dacă panoul urmează să fie montat pe distanțiere (standoff-uri metalice), lăsat la câțiva centimetri de perete pentru efect vizual premium, ai nevoie de un material suficient de rigid încât să nu se curbeze la mijloc sub propria greutate. <a href="/materiale/pvc-forex">PVC-ul (Forex)</a> subțire nu ține forma pe suprafețe mari montate astfel – recomandăm Alucobond sau Plexiglass de grosime mai mare (minim 5-8 mm) pentru acest tip de montaj.</p>
-      <p>Dacă panoul se lipește direct pe perete sau pe o structură plană cu adeziv dublu-adeziv sau cașerare, greutatea proprie nu mai e o problemă – aici PVC-ul expandat, mult mai ușor, este alegerea rațională.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Montajul decide materialul, nu bugetul disponibil</h2>
+      <p>Dacă panoul urmează să fie montat pe distanțiere (standoff-uri metalice), lăsat la câțiva centimetri de perete pentru efect vizual premium, ai nevoie de un material suficient de rigid încât să nu se curbeze la mijloc sub propria greutate. <a href="/materiale/pvc-forex">PVC-ul (Forex)</a> subțire nu ține forma pe suprafețe mari montate astfel – recomandăm Alucobond sau Plexiglass de grosime mai mare (minim 5-8 mm). Dacă panoul se lipește direct pe perete sau pe o structură plană cu adeziv dublu-adeziv sau cașerare, greutatea proprie nu mai e o problemă, iar PVC-ul expandat, mult mai ușor, devine alegerea rațională.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 2: Panoul e expus permanent la soare direct?</h2>
-      <p>PVC-ul expandat poate suferi o ușoară deformare (curbare) după 2-3 ani de expunere continuă la soare arzător, mai ales pe suprafețe mari fără ramă de susținere. Alucobondul, fiind un compozit cu miez de polietilenă între două foi de aluminiu, practic nu se ondulează la căldură, indiferent de durata expunerii – de aceea este standardul pentru firme luminoase montate permanent pe fațade.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Al doilea filtru: cât de mult soare direct prinde panoul</h2>
+      <p>PVC-ul expandat poate suferi o ușoară deformare (curbare) după 2-3 ani de expunere continuă la soare arzător, mai ales pe suprafețe mari fără ramă de susținere. Alucobondul, fiind un compozit cu miez de polietilenă între două foi de aluminiu, practic nu se ondulează la căldură, indiferent de durata expunerii – de aceea rămâne standardul pentru firme luminoase montate permanent pe fațade.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 3: Ai nevoie ca lumina să treacă prin panou?</h2>
-      <p>Aici alegerea e automată: doar <a href="/materiale/plexiglass">Plexiglass-ul (PMMA)</a> permite trecerea luminii, fiind singura opțiune pentru fețe de casete luminoase sau litere volumetrice retroiluminate. Nici PVC-ul, nici Alucobondul nu sunt translucide.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Al treilea filtru, dar unul care elimină automat două opțiuni</h2>
+      <p>Dacă panoul are nevoie ca lumina să treacă prin el, alegerea e automată: doar <a href="/materiale/plexiglass">Plexiglass-ul (PMMA)</a> permite trecerea luminii, fiind singura opțiune pentru fețe de casete luminoase sau litere volumetrice retroiluminate. Nici PVC-ul, nici Alucobondul nu sunt translucide, indiferent de grosime.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">Detaliu tehnic despre montajul cu șuruburi:</h3>
-        <p class="text-blue-800 italic">Plexiglass-ul se dilată și se contractă termic vizibil mai mult decât metalul sau PVC-ul. Găurile de prindere trebuie făcute cu un joc de 1-2 mm în plus față de diametrul șurubului, altfel panoul poate crăpa la variații mari de temperatură între vară și iarnă. La Alucobond și PVC acest joc suplimentar nu este necesar.</p>
+        <h3 class="text-blue-900 font-bold mb-2">Un detaliu tehnic ușor de ratat la montajul cu șuruburi:</h3>
+        <p class="text-blue-800 italic">Plexiglass-ul se dilată și se contractă termic vizibil mai mult decât metalul sau PVC-ul. Găurile de prindere trebuie făcute cu un joc de 1-2 mm în plus față de diametrul șurubului, altfel panoul poate crăpa la variații mari de temperatură între vară și iarnă. La Alucobond și PVC acest joc suplimentar nu e necesar.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Grosimi disponibile și când contează</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Grosimea, aleasă în funcție de cât de mult trebuie să „țină singură” forma</h2>
       <ul class="list-disc pl-6 space-y-2 my-4">
         <li><b>3 mm:</b> potrivit pentru panouri mici de interior, plăcuțe de birou, formate sub A2.</li>
         <li><b>5 mm:</b> cel mai versatil pentru semnalistică generală, panouri de dimensiuni medii montate pe cadru.</li>
@@ -987,181 +896,202 @@ const STATIC_POSTS: BlogPost[] = [
           </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Print direct UV sau cașerare cu autocolant – o alegere separată de material</h2>
-      <p>Pe toate cele trei materiale, imaginea poate ajunge pe suprafață în două moduri: <b>print UV direct</b> pe placă (cerneala se aplică și se solidifică direct pe suportul rigid) sau <b>cașerare</b> – un autocolant printat separat, aplicat ulterior pe placă. Printul direct oferă rezistență superioară la zgârieturi, pentru că nu există un strat adeziv suplimentar care se poate dezlipi pe margini în timp. Cașerarea are un avantaj practic: dacă vrei să schimbi doar grafica fără să înlocuiești placa (de exemplu la un panou de meniu care se actualizează sezonier), poți dezlipi și reaplica un autocolant nou, păstrând aceeași structură rigidă.</p>
+      <div class="overflow-x-auto my-10 shadow-xl rounded-2xl border border-slate-100">
+          <table class="min-w-full bg-white">
+              <thead class="bg-slate-900 text-white">
+                  <tr>
+                      <th class="px-6 py-4 text-left">Scenariu de montaj</th>
+                      <th class="px-6 py-4 text-center">Material recomandat</th>
+                  </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                  <tr>
+                      <td class="px-6 py-4 font-bold bg-slate-50">Lipit pe perete, interior, buget redus</td>
+                      <td class="px-6 py-4 text-center text-blue-600 font-bold">PVC Forex</td>
+                  </tr>
+                  <tr>
+                      <td class="px-6 py-4 font-bold bg-slate-50">Suspendat pe distanțiere, suprafață mare</td>
+                      <td class="px-6 py-4 text-center text-blue-600 font-bold">Alucobond</td>
+                  </tr>
+                  <tr>
+                      <td class="px-6 py-4 font-bold bg-slate-50">Exterior, fațadă, expunere permanentă la soare</td>
+                      <td class="px-6 py-4 text-center text-blue-600 font-bold">Alucobond</td>
+                  </tr>
+                  <tr>
+                      <td class="px-6 py-4 font-bold bg-slate-50">Casetă luminoasă, litere volumetrice</td>
+                      <td class="px-6 py-4 text-center text-blue-600 font-bold">Plexiglass</td>
+                  </tr>
+                  <tr>
+                      <td class="px-6 py-4 font-bold bg-slate-50">Plăcuță de birou, decor de lux</td>
+                      <td class="px-6 py-4 text-center text-blue-600 font-bold">Plexiglass</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Finisarea muchiilor – detaliu vizibil de la distanță mică</h2>
-      <p>Pentru panouri văzute de aproape (plăcuțe de birou, semnalistică de interior), finisarea muchiei tăiate contează vizual: o muchie tăiată drept, fără șlefuire, poate avea un aspect ușor „industrial” pe Plexiglass transparent, unde marginea groasă se vede clar. Pentru un aspect premium, recomandăm șlefuirea și lustruirea muchiilor la panourile de Plexiglass expuse la vedere de aproape – un pas suplimentar de finisare care nu se justifică la panouri montate la înălțime sau la distanță mare, unde muchia oricum nu se observă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Modul de aplicare a imaginii, independent de materialul ales</h2>
+      <p>Pe toate cele trei materiale, imaginea ajunge pe suprafață în două moduri: print UV direct pe placă (cerneala se aplică și se solidifică direct pe suportul rigid) sau cașerare – un autocolant printat separat, aplicat ulterior pe placă. Printul direct oferă rezistență superioară la zgârieturi, pentru că nu există strat adeziv suplimentar care se poate dezlipi pe margini în timp. Cașerarea are un avantaj practic: dacă vrei să schimbi doar grafica fără să înlocuiești placa (de exemplu la un panou de meniu actualizat sezonier), poți dezlipi și reaplica un autocolant nou, păstrând aceeași structură rigidă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Combinarea materialelor pe același proiect</h2>
-      <p>Nu ești obligat să alegi un singur material pentru tot proiectul. La firme luminoase, de exemplu, combinăm frecvent Alucobond pentru corpul rigid al casetei (rezistență la exterior) cu Plexiglass pentru fața retroiluminată (transluciditate). La standuri expoziționale, PVC ușor pentru panourile mari de fundal și Plexiglass pentru elementele de accent (logo, plăcuțe) oferă un echilibru bun între cost total și impact vizual pe zonele care contează cel mai mult.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Muchia tăiată contează doar dacă panoul e văzut de aproape</h2>
+      <p>Pentru panouri văzute de aproape (plăcuțe de birou, semnalistică de interior), finisarea muchiei tăiate contează vizual: o muchie tăiată drept, fără șlefuire, poate avea un aspect ușor „industrial” pe Plexiglass transparent, unde marginea groasă se vede clar. Pentru un aspect premium, șlefuirea și lustruirea muchiilor merită investiția la panourile expuse la vedere de aproape – un pas care nu se justifică la panouri montate la înălțime sau la distanță mare, unde muchia oricum nu se observă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întreținerea în timp, pe scurt</h2>
-      <p>PVC-ul și Alucobondul se curăță simplu, cu apă și detergent neutru, fără riscuri notabile pentru suprafață. Plexiglass-ul cere ceva mai multă atenție: evită produsele de curățare pe bază de alcool sau amoniac, care pot afecta luciul original în timp, și folosește o cârpă moale, nu materiale abrazive care lasă zgârieturi fine vizibile mai ales pe suprafețele lucioase transparente. Pentru panouri montate la exterior, o curățare periodică (de 2-3 ori pe an) prelungește vizibil aspectul „ca nou” al oricăruia dintre cele trei materiale.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Nu trebuie să rămâi la un singur material pe tot proiectul</h2>
+      <p>La firme luminoase, de exemplu, combinăm frecvent Alucobond pentru corpul rigid al casetei (rezistență la exterior) cu Plexiglass pentru fața retroiluminată (transluciditate). La standuri expoziționale, PVC ușor pentru panourile mari de fundal și Plexiglass pentru elementele de accent (logo, plăcuțe) oferă un echilibru bun între cost total și impact vizual pe zonele care chiar contează.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum se comportă fiecare material la temperaturi negative</h2>
-      <p>Iarna românească aduce un test suplimentar pentru materialele montate afară. PVC-ul expandat poate deveni ușor mai casant la temperaturi foarte scăzute, ceea ce înseamnă că manipularea sau montajul în ger puternic cere puțin mai multă grijă la colțuri. Alucobondul practic nu e afectat de frig, păstrându-și rigiditatea constant. Plexiglass-ul rămâne stabil dimensional, dar contracția termică descrisă mai devreme la găurile de montaj devine și mai relevantă iarna, când diferența de temperatură față de vară e maximă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se schimbă iarna, pentru materialele montate afară</h2>
+      <p>PVC-ul expandat poate deveni ușor mai casant la temperaturi foarte scăzute, ceea ce înseamnă că manipularea sau montajul în ger puternic cere puțin mai multă grijă la colțuri. Alucobondul practic nu e afectat de frig, păstrându-și rigiditatea constant. Plexiglass-ul rămâne stabil dimensional, dar contracția termică de la găurile de montaj (menționată mai sus) devine și mai relevantă iarna, când diferența de temperatură față de vară e maximă. Pentru întreținere, PVC-ul și Alucobondul se curăță simplu cu apă și detergent neutru; Plexiglass-ul cere o cârpă moale și evitarea produselor pe bază de alcool sau amoniac, care afectează luciul în timp.</p>
 
       <p>Nu ești sigur cum va fi montat panoul tău la fața locului? Descrie-ne scenariul (suprafață, distanță de perete, expunere la soare) și îți recomandăm direct materialul și grosimea potrivite, înainte să comanzi. Folosim print UV direct pe toate aceste materiale, pentru aderență perfectă și claritate fotografică. Vizitează secțiunea de <a href="/shop/semnalistica">Semnalistică</a> pentru gama completă.</p>
     `,
   },
   {
     slug: "psihologia-culorilor-publicitate-vanzari",
-    title: "Ce culoare de banner funcționează pentru domeniul tău: ghid pe industrii, nu pe emoții",
-    description: "În loc de liste generice \"roșu înseamnă pasiune\", explicăm ce culori funcționează concret pentru HoReCa, servicii medicale, auto și retail, plus un detaliu tehnic ignorat: nu toate culorile rezistă la fel de bine la soare pe un banner exterior.",
+    title: "Roșul aprins arată superb pe ecran – și e printre primele culori care se estompează la soare",
+    description: "Un detaliu tehnic pe care majoritatea ghidurilor de marketing îl ignoră: pigmenții rezistă diferit la radiația UV. Pornim de acolo și explicăm apoi ce combinații de culori funcționează dovedit pe industrii, nu din liste generice de emoții.",
     date: '2026-07-28T16:46:00.000Z',
     author: "Marketing Strategist Anexa1",
     tags: ["psihologia culorilor", "branding pe industrii", "design banner", "rezistenta culori print"],
     source: "Anexa1.ro",
     contentHtml: `
-      <p>Sfaturile generice de tipul „roșul înseamnă pasiune, albastrul înseamnă încredere” sunt adevărate, dar nu îți spun ce să faci cu banner-ul comenzii tale de mâine. Mai util e să pornești de la domeniul tău de activitate și să vezi ce combinații funcționează deja dovedit în piață, apoi să înțelegi și un detaliu tehnic pe care majoritatea ghidurilor de marketing îl ignoră complet: nu toate culorile rezistă la fel de bine la print exterior sub soare.</p>
+      <p>Înainte de orice discuție despre ce culoare „transmite” încredere sau apetit, există un detaliu tehnic pe care majoritatea ghidurilor de marketing îl ignoră complet: nu toate culorile rezistă la fel de bine la print exterior sub soare. Pigmenții din cerneală au rezistențe diferite la radiația UV – roșiile și portocaliile intense sunt printre cele mai sensibile la decolorare în timp, în timp ce albastrul, negrul și verdele închis rezistă vizibil mai bine pe termen lung. Nu înseamnă că trebuie evitat roșul pe un banner outdoor – <a href="/blog/totul-despre-printul-uv-avantajele-unei-tehnologii-ecologice">print-ul UV</a> reduce mult acest efect față de solvenții clasici – dar dacă materialul stă montat afară mai mulți ani, nuanțele saturate de roșu-portocaliu cer o verificare periodică mai atentă decât un design în tonuri de albastru sau verde închis. Cu acest detaliu în minte, iată ce combinații funcționează dovedit, pe industrii.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">HoReCa (restaurant, fast-food, cafenea)</h2>
-      <p>Combinația roșu-galben domină acest domeniu, și nu întâmplător: roșul stimulează apetitul și crează senzație de urgență („vino acum”), iar galbenul acaparează atenția de la distanță fără agresivitatea roșului pur. Pentru un <a href="/configurator/banner">banner de meniu sau ofertă</a>, folosește roșu pentru elementul de preț/reducere și galben pentru fundal sau accente – niciodată invers, pentru că galbenul ca text pe roșu are contrast slab și devine greu de citit.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">HoReCa: roșu pentru urgență, galben pentru vizibilitate de la distanță</h2>
+      <p>Combinația roșu-galben domină acest domeniu, și nu întâmplător: roșul stimulează apetitul și creează senzație de urgență („vino acum”), iar galbenul acaparează atenția de la distanță fără agresivitatea roșului pur. Pentru un <a href="/configurator/banner">banner de meniu sau ofertă</a>, folosește roșu pentru elementul de preț/reducere și galben pentru fundal sau accente – niciodată invers, pentru că galbenul ca text pe roșu are contrast slab și devine greu de citit.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Servicii medicale, juridice, financiar-bancare</h2>
-      <p>Aici albastrul rămâne alegerea sigură – este culoarea universal asociată cu încredere și stabilitate, motiv pentru care o găsești la aproape toate băncile și clinicile serioase. Pentru materiale de tip <a href="/configurator/afise">afișe și plăcuțe de cabinet</a>, un albastru închis combinat cu alb transmite rigoare fără să pară rece sau distant.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Medical, juridic, financiar-bancar: albastrul rămâne alegerea sigură</h2>
+      <p>Albastrul e culoarea universal asociată cu încredere și stabilitate, motiv pentru care apare la aproape toate băncile și clinicile serioase. Pentru <a href="/configurator/afise">afișe și plăcuțe de cabinet</a>, un albastru închis combinat cu alb transmite rigoare fără să pară rece sau distant – și, avantaj tehnic, rezistă bine la soare pe termen lung, potrivit pentru semnalistică exterioară permanentă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Service auto, construcții, industrie</h2>
-      <p>Galbenul intens (cel de avertizare, folosit și pe <a href="/shop/semnalistica">semnalistica de protecția muncii</a>) combinat cu negru comunică instant profesionalism tehnic și seriozitate industrială – e o combinație pe care ochiul o recunoaște deja ca „atenție, aici se lucrează serios”, fără să fie nevoie de alt mesaj explicit.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Service auto, construcții, industrie: galben-negru, recunoscut instant</h2>
+      <p>Galbenul intens (cel de avertizare, folosit și pe <a href="/shop/semnalistica">semnalistica de protecția muncii</a>) combinat cu negru comunică instant profesionalism tehnic și seriozitate industrială – ochiul o recunoaște deja ca „atenție, aici se lucrează serios”, fără să fie nevoie de alt mesaj explicit.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Produse bio, farmacii, wellness/spa</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Bio, farmacii, wellness: verde, dar nu oricât de saturat</h2>
       <p>Verdele funcționează aproape universal aici, asociat instinctiv cu prospețime și sănătate. Atenție însă la saturație: un verde prea intens, aproape fluorescent, poate sugăra opusul – artificial, chimic. Pentru acest domeniu recomandăm verde de saturație medie, apropiat de tonurile naturale, nu neon.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Produse de lux, tehnologie premium, imobiliare high-end</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Lux, tehnologie premium, imobiliare high-end: negru cu accent metalic</h2>
       <p>Negrul cu accente aurii sau argintii transformă instant percepția unui produs în „premium”, motiv pentru care apare constant la <a href="/configurator/canvas">materiale de prezentare de lux</a> și branding minimalist. Folosește-l cu măsură – negrul pe suprafețe foarte mari poate deveni opresiv fără accentele metalice care „îl deschid”.</p>
 
       <div class="my-10 p-8 border-2 border-dashed border-amber-300 rounded-3xl bg-amber-50">
-          <h3 class="text-xl font-bold text-amber-900 mb-2">Regula 60-30-10, aplicată practic:</h3>
-          <p class="text-amber-800">Indiferent de industrie, evită să pui 4-5 culori contrastante pe același material. Formula sigură: 60% culoarea principală de brand, 30% culoare secundară de sprijin, 10% culoare de accent rezervată strict pentru elementul pe care vrei să-l vadă primul ochiul (preț, telefon, buton de acțiune).</p>
+          <h3 class="text-xl font-bold text-amber-900 mb-2">Regula 60-30-10, valabilă pentru orice industrie:</h3>
+          <p class="text-amber-800">Evită să pui 4-5 culori contrastante pe același material. Formula sigură: 60% culoarea principală de brand, 30% culoare secundară de sprijin, 10% culoare de accent rezervată strict pentru elementul pe care vrei să-l vadă primul ochiul (preț, telefon, buton de acțiune).</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Detaliul tehnic pe care puțini îl știu: nu toate culorile rezistă la fel la soare</h2>
-      <p>Pigmenții folosiți în cerneala de print au rezistențe diferite la radiația UV. Roșiile și portocaliile intense, în general, sunt printre cele mai sensibile la decolorare în timp sub expunere solară directă, în timp ce albastrul, negrul și verdele închis rezistă vizibil mai bine pe termen lung. Nu înseamnă că trebuie să eviți roșul pe un banner outdoor – tehnologia noastră de <a href="/blog/totul-despre-printul-uv-avantajele-unei-tehnologii-ecologice">print UV</a> reduce mult acest efect față de solvenții clasici – dar dacă bannerul va sta montat afară mai mulți ani, merită să știi din start că nuanțele foarte saturate de roșu-portocaliu cer o verificare periodică mai atentă decât un design în tonuri de albastru sau verde închis.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Combinații pe care le vedem des, dar care nu funcționează</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Combinații frecvente care, de fapt, nu funcționează</h2>
       <ul class="list-disc pl-6 space-y-2 my-4">
-        <li><b>Roșu pe verde (sau invers):</b> pentru persoanele cu deficiențe de vedere a culorilor (daltonism roșu-verde, cea mai comună formă, afectând aproximativ 1 din 12 bărbați), această combinație poate fi practic imposibil de distins. Evită să folosești roșu și verde ca singurul element de contrast text-fundal.</li>
+        <li><b>Roșu pe verde (sau invers):</b> pentru persoanele cu daltonism roșu-verde (cea mai comună formă, afectând aproximativ 1 din 12 bărbați), combinația poate fi practic imposibil de distins. Evită s-o folosești ca singurul contrast text-fundal.</li>
         <li><b>Galben pe alb sau alb pe galben deschis:</b> contrast prea slab, ilizibil mai ales la exterior sub lumină puternică.</li>
-        <li><b>Prea multe culori saturate simultan:</b> un material cu roșu, verde și albastru intens pe aceeași suprafață „obosește” privirea și niciun element nu iese ca prioritate vizuală clară.</li>
+        <li><b>Prea multe culori saturate simultan:</b> roșu, verde și albastru intens pe aceeași suprafață „obosesc” privirea, fără ca vreun element să iasă ca prioritate vizuală clară.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Accesibilitate: un detaliu de business, nu doar etic</h2>
-      <p>Pentru materiale cu informații esențiale (prețuri, numere de telefon, indicații), verifică mereu contrastul text-fundal independent de paleta de brand aleasă. Un test rapid: transformă design-ul în alb-negru pe ecran – dacă textul principal tot se distinge clar, contrastul e suficient pentru a fi citit corect inclusiv de persoane cu deficiențe de vedere a culorilor, nu doar de ochiul „standard”.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Testul de accesibilitate, indiferent de paleta aleasă</h2>
+      <p>Pentru materiale cu informații esențiale (prețuri, numere de telefon, indicații), verifică mereu contrastul text-fundal independent de paleta de brand. Un test rapid: transformă design-ul în alb-negru pe ecran – dacă textul principal tot se distinge clar, contrastul e suficient pentru a fi citit corect inclusiv de persoane cu deficiențe de vedere a culorilor.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum se schimbă percepția culorii sub lumină artificială interioară</h2>
-      <p>O culoare care arată corect la lumina naturală de zi poate căpăta o nuanță ușor diferită sub iluminatul artificial dintr-un magazin sau birou (mai ales sub becuri cu temperatură de culoare foarte caldă sau foarte rece). Pentru materiale destinate exclusiv spațiilor de interior cu iluminat artificial fix, merită să verifici mostra fizică chiar în locația finală de montaj, nu doar pe ecran sau la lumina zilei, înainte de a valida comanda finală pentru un tiraj mare.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">O regulă simplă pentru orice combinație nouă pe care vrei să o testezi</h2>
-      <p>Dacă ești în dubiu între două palete de culori pentru un material nou, o metodă practică e să le compari nu una lângă alta pe ecran, ci printate fizic, la scară mică, în condițiile reale de lumină ale locației finale (fie ea o vitrină exterioară sau un interior de birou). Diferența dintre „arată bine pe monitor” și „arată bine montat pe teren” e adesea mai mare decât se așteaptă majoritatea clienților, mai ales la comenzi de volum mare unde o corecție ulterioară costă timp și buget suplimentar.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Culoarea „corectă” pe ecran nu e mereu cea corectă montată</h2>
+      <p>O culoare care arată corect la lumina naturală de zi poate căpăta o nuanță ușor diferită sub iluminatul artificial dintr-un magazin sau birou, mai ales sub becuri cu temperatură de culoare foarte caldă sau foarte rece. Pentru materiale destinate exclusiv spațiilor de interior cu iluminat fix, verifică mostra fizică chiar în locația finală de montaj, nu doar pe ecran, înainte de a valida comanda pentru un tiraj mare. Dacă ești în dubiu între două palete pentru un material nou, compară-le nu una lângă alta pe ecran, ci printate fizic, la scară mică, în condițiile reale de lumină ale locației finale – diferența dintre „arată bine pe monitor” și „arată bine montat pe teren” e adesea mai mare decât se așteaptă majoritatea clienților.</p>
 
       <p>Nu ești sigur ce combinație funcționează pentru domeniul tău? Spune-ne tipul de afacere și unde va fi montat materialul – te ajutăm să alegi o paletă care arată bine acum și rezistă vizual în timp. Configurează-ți materialele promoționale direct pe site!</p>
     `,
   },
   {
     slug: "cum-sa-aranjezi-tablouri-canvas-perete-design-interior",
-    title: "Unde pui tabloul canvas, cameră cu cameră: living, dormitor, hol și scară",
-    description: "Regulile de amplasare a unui tablou canvas nu sunt aceleași într-un living cu canapea, într-un dormitor sau pe o scară interioară. Ghid camera-cu-cameră, cu măsurători exacte pentru fiecare context.",
+    title: "„La nivelul ochilor” e un sfat incomplet: la nivelul ochilor cui, și față de ce mobilă?",
+    description: "Regula generică de amplasare a unui tablou canvas nu spune dacă privitorul stă în picioare sau așezat, nici raportat la ce piesă de mobilier. Ghid camera-cu-cameră, cu măsurători exacte pentru living, dormitor, hol și scară.",
     date: '2026-08-02T17:03:00.000Z',
     author: "Designer Anexa1",
     tags: ["decor interior", "tablouri canvas", "amenajare living", "design pereti"],
     source: "Anexa1.ro",
     contentHtml: `
-      <p>Regula generică „agață tabloul la nivelul ochilor” e un punct de plecare corect, dar nu răspunde la întrebarea reală: nivelul ochilor față de cine, stând sau șezând, și raportat la ce mobilă? Răspunsul diferă vizibil de la o cameră la alta. Iată cum se aplică practic în cele patru contexte cele mai comune dintr-o locuință.</p>
+      <p>„Agață tabloul la nivelul ochilor” e sfatul pe care îl auzi peste tot, dar lasă deschisă întrebarea reală: la nivelul ochilor cui – al cuiva în picioare sau așezat – și raportat la ce mobilă din apropiere? Răspunsul corect diferă vizibil de la o cameră la alta, pentru că fiecare spațiu are propriul mod de a fi privit. Parcurgem cele patru contexte cele mai comune dintr-o locuință, cu măsurători exacte pentru fiecare.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Living: deasupra canapelei</h2>
-      <p>În living, oamenii petrec timp atât în picioare (la intrare) cât și așezați (pe canapea), deci punctul de referință corect e undeva la mijloc – centrul tabloului la <b>145-155 cm</b> de podea funcționează ca un compromis bun pentru ambele poziții. Regula de lățime: <a href="/configurator/canvas">tabloul canvas</a> (sau setul de piese) trebuie să ocupe <b>2/3 până la 3/4</b> din lățimea canapelei de dedesubt – mai îngust pare „rătăcit” pe perete, mai lat pare disproporționat. Marginea de jos a tabloului stă la <b>15-25 cm</b> deasupra spătarului canapelei, suficient cât să nu se atingă la o eventuală mișcare a mobilei, dar suficient de aproape încât cele două elemente să se citească vizual împreună.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Scara interioară: cazul cel mai des greșit</h2>
+      <p>În loc să respecți o înălțime fixă de la podea (care dă un aspect „în trepte” inconsistent), tablourile de lângă o scară trebuie aliniate după o linie diagonală imaginară, paralelă cu unghiul scării, păstrând aceeași distanță – de regulă 10-15 cm – între marginea superioară a fiecărui tablou și linia diagonală de referință. Cel mai simplu mod de a verifica înainte de a găuri peretele: întinde o sfoară de-a lungul pantei scării, ca ghid vizual.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Dormitor: deasupra patului</h2>
-      <p>Aici referința de măsurare diferă de living, pentru că patul are un tăblie mai înaltă decât spătarul unei canapele. Centrul tabloului rămâne tot la aproximativ 145-150 cm de podea, dar distanța față de tăblia patului poate fi puțin mai mică, 12-20 cm, pentru un aspect mai intim, „încadrat”. Pentru dormitor, un singur tablou canvas de dimensiune mare are de regulă un efect mai calm și mai odihnitor decât o compoziție de tip galerie cu multe piese mici, care poate fi vizual agitată chiar înainte de somn.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Hol și coridor: se privește în trecere, nu așezat</h2>
+      <p>Un hol funcționează diferit față de un living – oamenii trec prin el, nu stau. Aici merge bine un format vertical, îngust, sau o serie de tablouri mici aliniate orizontal la aceeași înălțime, între 150-160 cm centru, ușor mai sus decât în living, pentru că perspectiva de privire e mereu din picioare, în mișcare. Evită tablourile foarte late într-un hol îngust – nu ai distanța necesară să le privești integral, iar ochiul percepe doar fragmente.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Hol și coridor: perete îngust, trecere rapidă</h2>
-      <p>Un hol se privește diferit față de un living – oamenii trec prin el, nu stau așezați. Aici funcționează bine un format vertical, îngust, sau o serie de tablouri mici aliniate orizontal la aceeași înălțime, între <b>150-160 cm</b> centru, ușor mai sus decât în living, pentru că perspectiva de privire e mai mereu din picioare, în mișcare. Evită tablourile foarte late într-un hol îngust – nu ai distanța necesară să le privești integral, iar ochiul percepe doar fragmente.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dormitor: un singur tablou mare, nu o galerie</h2>
+      <p>Deasupra patului, referința de măsurare diferă de living, pentru că tăblia e mai înaltă decât spătarul unei canapele. Centrul tabloului rămâne la aproximativ 145-150 cm de podea, dar distanța față de tăblie poate fi puțin mai mică, 12-20 cm, pentru un aspect mai intim, „încadrat”. Pentru dormitor, un singur <a href="/configurator/canvas">tablou canvas</a> de dimensiune mare are de regulă un efect mai calm și mai odihnitor decât o compoziție de tip galerie cu multe piese mici, vizual agitată chiar înainte de somn.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Scară interioară: linia diagonală</h2>
-      <p>Aranjarea pe lângă o scară este cazul cel mai des greșit. În loc să respecți o înălțime fixă de la podea (care ar da un aspect „în trepte” inconsistent), tablourile trebuie aliniate după o linie diagonală imaginară paralelă cu unghiul scării, păstrând aceeași distanță (de regulă 10-15 cm) între marginea superioară a fiecărui tablou și linia diagonală de referință. Cel mai simplu mod de a verifica înainte de a găuri peretele: întinde o sfoară de-a lungul pantei scării ca ghid vizual.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Living: compromisul între „în picioare” și „așezat”</h2>
+      <p>Aici oamenii petrec timp atât în picioare (la intrare) cât și așezați (pe canapea), deci punctul de referință corect e la mijloc – centrul tabloului la 145-155 cm de podea e un compromis bun pentru ambele poziții. Regula de lățime: tabloul (sau setul de piese) trebuie să ocupe 2/3 până la 3/4 din lățimea canapelei de dedesubt – mai îngust pare „rătăcit” pe perete, mai lat pare disproporționat. Marginea de jos stă la 15-25 cm deasupra spătarului, suficient cât să nu se atingă la o eventuală mișcare a mobilei, dar suficient de aproape încât cele două elemente să se citească vizual împreună.</p>
 
       <div class="my-10 p-8 bg-slate-50 border-l-8 border-amber-500 rounded-2xl shadow-sm">
           <h3 class="text-xl font-bold text-slate-800 mb-2">Trucul șablonului de hârtie, valabil în orice cameră:</h3>
           <p class="text-slate-600 italic">Înainte de a da prima gaură, decupează din hârtie de ziar conturul exact al fiecărui tablou, lipește-le pe perete cu bandă adezivă și trăiește o zi-două cu aranjamentul „schițat”. Ajustezi gratuit de câte ori vrei, fără nicio gaură inutilă în perete.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Când folosești un set multicanvas (3 sau 5 piese)</h2>
-      <p>Regula de distanță se schimbă complet față de o galerie de piese diferite: pentru un <a href="/shop/canvas">set multicanvas</a> tratat ca un singur ansamblu vizual, distanța dintre piese trebuie să fie mică și constantă, 2-3 cm, suficient să separe fizic panourile, dar suficient de aproape încât ochiul să recompună automat imaginea unică. O distanță mai mare de 3-4 cm rupe vizual compoziția în piese separate în loc de un singur tablou.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Setul multicanvas cere o regulă de distanță diferită</h2>
+      <p>Pentru un <a href="/shop/canvas">set multicanvas</a> (3 sau 5 piese) tratat ca un singur ansamblu vizual, distanța dintre piese trebuie să fie mică și constantă – 2-3 cm, suficient să separe fizic panourile, dar suficient de aproape încât ochiul să recompună automat imaginea unică. O distanță mai mare de 3-4 cm rupe vizual compoziția în piese separate, în loc de un singur tablou.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Iluminarea, camera cu cameră</h2>
-      <p>Un tablou bine poziționat, dar prost iluminat, pierde din impact. În living, un spot LED orientabil montat pe tavan, la aproximativ 30-45 de grade unghi față de suprafața tabloului, scoate în evidență textura pânzei fără reflexii dure. În dormitor, o lumină mai caldă (2700-3000K) și mai difuză creează atmosfera potrivită fără să „strige” vizual înainte de somn. Pe hol sau scară, unde tabloul e văzut în trecere, o iluminare generală a spațiului e de regulă suficientă – nu are rost un spot dedicat pentru o piesă privită doar câteva secunde.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Iluminarea schimbă percepția la fel de mult ca poziția</h2>
+      <p>Un tablou bine poziționat, dar prost iluminat, pierde din impact. În living, un spot LED orientabil montat pe tavan, la 30-45 de grade unghi față de suprafața tabloului, scoate în evidență textura pânzei fără reflexii dure. În dormitor, o lumină mai caldă (2700-3000K) și mai difuză creează atmosfera potrivită fără să „strige” vizual înainte de somn. Pe hol sau scară, unde tabloul e văzut în trecere, o iluminare generală a spațiului e de regulă suficientă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Sisteme de montaj, în funcție de greutate</h2>
-      <p>Tablourile canvas pe șasiu de lemn sunt suficient de ușoare încât un singur cui sau un cârlig adeziv de perete rezistă fără probleme la formate mici-medii (până la aproximativ 60x90 cm). Pentru formate mari sau seturi multicanvas cu greutate cumulată mai mare, recomandăm un sistem cu două puncte de prindere (nu unul singur), care previne înclinarea tabloului în timp și distribuie greutatea uniform pe perete – important mai ales pe pereți de gips-carton, unde un singur punct de prindere poate ceda în timp sub greutate constantă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Montajul depinde de greutate, nu de estetică</h2>
+      <p>Tablourile canvas pe șasiu de lemn sunt suficient de ușoare încât un singur cui sau un cârlig adeziv rezistă fără probleme la formate mici-medii (până la aproximativ 60x90 cm). Pentru formate mari sau seturi multicanvas cu greutate cumulată mai mare, recomandăm un sistem cu două puncte de prindere, care previne înclinarea în timp și distribuie greutatea uniform pe perete – important mai ales pe gips-carton, unde un singur punct poate ceda sub greutate constantă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala frecventă a simetriei forțate</h2>
-      <p>Mulți încearcă să alinieze perfect fiecare tablou cu marginea unei uși, ferestre sau colț de mobilă din apropiere, ceea ce de multe ori dă un rezultat mai rigid și mai puțin natural decât o compoziție centrată strict pe perete sau pe piesa de mobilier de referință. Regula practică folosită de designeri: centrează compoziția față de mobila sau elementul arhitectural cel mai apropiat, nu față de întreaga cameră – ochiul percepe corectitudinea aranjamentului local, nu simetria globală a spațiului.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Cum verifici rezultatul înainte de a găuri definitiv peretele</h2>
-      <p>Dincolo de șablonul de hârtie descris mai sus, un truc suplimentar util pentru compoziții mari, de tip galerie: fotografiază peretele gol cu telefonul, apoi editează digital poziția aproximativă a tablourilor pe fotografie înainte de a decide măsurătorile finale. Acest pas rapid, de câteva minute, îți dă o imagine de ansamblu mult mai clară decât încercarea de a vizualiza mental compoziția finală direct pe peretele gol.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Simetria forțată strică mai mult decât ajută</h2>
+      <p>Mulți încearcă să alinieze perfect fiecare tablou cu marginea unei uși, ferestre sau colț de mobilă din apropiere, ceea ce dă adesea un rezultat mai rigid și mai puțin natural decât o compoziție centrată strict pe mobila sau elementul arhitectural cel mai apropiat. Ochiul percepe corectitudinea aranjamentului local, nu simetria globală a întregii camere.</p>
 
       <p>La Anexa1.ro realizăm tablouri canvas pe șasiu de lemn, gata de agățat direct pe perete, în orice dimensiune de care ai nevoie pentru spațiul tău. Începe transformarea casei tale în <a href="/configurator/canvas">configuratorul de tablouri canvas</a>.</p>
     `,
   },
   {
     slug: "cadou-personalizat-tablou-canvas-nunta-botez-amintiri",
-    title: "Tablou canvas ca dar de nuntă sau botez: întrebările pe care ți le pui înainte să comanzi",
-    description: "Vrei un cadou personalizat pentru nuntă sau botez, dar te întrebi ce poză se pretează, ce dimensiune să alegi și dacă rezistă în timp. Răspunsuri directe, fără reclamă inutilă.",
+    title: "Cadoul de nuntă care nu ajunge în dulap: ce trebuie să știi înainte să comanzi un tablou canvas",
+    description: "Un tablou canvas personalizat rămâne pe perete, nu într-un sertar, dar exact de aceea ridică întrebări reale înainte de comandă. Răspundem direct la ce ne întreabă de fapt oamenii la telefon, în ordinea în care apar deciziile.",
     date: '2026-03-04T08:20:00.000Z',
     author: "Specialist Evenimente Anexa1",
     tags: ["cadouri personalizate", "nunta", "botez", "tablouri canvas", "idee cadou"],
     source: "Anexa1.ro",
     hero: "/products/canvas/canvas-1.webp",
     contentHtml: `
-      <p>Un tablou canvas e printre puținele cadouri de nuntă sau botez care nu ajunge într-un dulap. Dar exact pentru că e personalizat, ridică întrebări reale înainte de comandă: ce poză se potrivește, ce dimensiune alegi fără să o vezi fizic, cât ține în timp. Le luăm pe rând, așa cum ne sunt puse de obicei la telefon.</p>
+      <p>Dintre cadourile personalizate pentru o nuntă sau un botez, tabloul canvas are un avantaj simplu: e dintre puținele care chiar rămân expuse, nu ajung într-un dulap. Exact pentru că e personalizat, însă, ridică întrebări reale înainte de a plasa comanda – ce poză se pretează, ce dimensiune alegi fără să vezi spațiul fizic, cât rezistă în timp. Le luăm în ordinea în care apar de obicei în discuția cu un client.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Orice poză merge, sau trebuie să fie profesională?”</h2>
-      <p>Nu trebuie să fie făcută de fotograf. Contează rezoluția, nu sursa: o poză făcută cu un telefon recent, la lumină bună, printată la dimensiune rezonabilă (40x60 cm sau mai mic) iese perfect. Problema apare la poze vechi, scanate sau trimise pe WhatsApp de mai multe ori — compresia repetată le strică detaliul, iar mărite pe pânză de 80-100 cm arată neclar. Dacă poza e singura variantă disponibilă și e mică, alege o dimensiune mai mică de tablou în loc să forțezi o mărire care nu ține.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Care e diferența față de o ramă foto obișnuită?”</h2>
-      <p>Pânza e întinsă pe șasiu de lemn, fără ramă și fără sticlă — marginile laterale sunt acoperite tot cu imagine, deci obiectul stă bine pe perete din orice unghi, fără reflexii de sticlă care strică poza în fotografii ulterioare de eveniment. E și motivul pentru care se potrivește la fel de bine într-un apartament modern minimalist și într-o casă cu mobilier clasic — nu aduce un stil anume, doar imaginea.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Ține mult timp sau se îngălbenește ca o poză normală?”</h2>
-      <p>Diferența e în material și cerneală: pânza de bumbac premium și cerneala UV rezistentă la lumină nu se comportă ca hârtia foto clasică, care se decolorează și capătă o tentă gălbuie în câțiva ani sub lumină directă. Un tablou canvas ținut departe de expunere solară directă permanentă își păstrează culorile decenii — motivul pentru care rămâne un cadou pe care generația următoare încă îl găsește pe perete, nu într-o cutie de amintiri.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Ce dimensiune aleg dacă nu știu exact unde îl vor pune?”</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Prima decizie: ce dimensiune, dacă nu știi exact unde va sta</h2>
       <ul class="list-disc pl-6 space-y-2 my-4">
-          <li><strong>30x40 sau 40x50 cm:</strong> variantă sigură pentru un cadou secundar sau un colț de hol — greu de greșit chiar dacă nu cunoști perfect casa mirilor sau a nașilor.</li>
-          <li><strong>60x90 cm sau mai mare:</strong> ideal ca piesă centrală într-un living, dar merită confirmat un perete liber înainte — un tablou mare pus într-un spațiu aglomerat pierde din impact.</li>
-          <li><strong>Set de 2-3 tablouri mici:</strong> variantă din ce în ce mai cerută pentru nunți — o secvență de 3 poze de la eveniment, aranjate orizontal, în loc de un singur tablou mare.</li>
+          <li><strong>30x40 sau 40x50 cm:</strong> variantă sigură pentru un cadou secundar sau un colț de hol – greu de greșit chiar dacă nu cunoști perfect casa mirilor sau a nașilor.</li>
+          <li><strong>60x90 cm sau mai mare:</strong> ideal ca piesă centrală într-un living, dar merită confirmat un perete liber înainte – un tablou mare pus într-un spațiu aglomerat pierde din impact.</li>
+          <li><strong>Set de 2-3 tablouri mici:</strong> variantă din ce în ce mai cerută pentru nunți – o secvență de 3 poze de la eveniment, aranjate orizontal, în loc de un singur tablou mare.</li>
       </ul>
 
+      <h2 class="text-2xl font-bold mt-10 mb-4">A doua decizie: ce poză se pretează, de fapt</h2>
+      <p>Nu trebuie să fie făcută de fotograf profesionist. Contează rezoluția, nu sursa: o poză făcută cu un telefon recent, la lumină bună, printată la dimensiune rezonabilă (40x60 cm sau mai mic) iese perfect. Problema apare la poze vechi, scanate sau trimise pe WhatsApp de mai multe ori – compresia repetată le strică detaliul, iar mărite pe pânză de 80-100 cm arată neclar. Dacă poza e singura variantă disponibilă și e mică, alege o dimensiune mai mică de tablou în loc să forțezi o mărire care nu ține calitate.</p>
+
       <div class="my-10 p-8 border-2 border-blue-200 bg-blue-50 rounded-3xl">
-          <h3 class="text-xl font-bold text-blue-900 mb-2">„Pot să comand chiar înainte de eveniment, cu poza de la petrecere?”</h3>
-          <p class="text-blue-800">Da, cu o rezervă realistă de timp: dacă vrei să oferi tabloul la o masă festivă ulterioară sau la o revedere, calculează timpul de producție și livrare, nu doar timpul de procesare a pozei. Pentru cadouri „pe loc”, alege dinainte o poză de rezervă din care știi sigur că poți produce tabloul la timp, în loc să te bazezi doar pe poza de la eveniment.</p>
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Dacă vrei să comanzi chiar cu poza de la eveniment</h3>
+          <p class="text-blue-800">Se poate, dar cu o rezervă realistă de timp: dacă vrei să oferi tabloul la o masă festivă ulterioară sau la o revedere, calculează timpul de producție și livrare, nu doar timpul de procesare a pozei. Pentru cadouri „pe loc”, alege dinainte o poză de rezervă din care știi sigur că poți produce tabloul la timp, în loc să te bazezi doar pe poza făcută chiar la eveniment.</p>
       </div>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">De ce nu e, de fapt, „ca o ramă foto”</h2>
+      <p>Pânza e întinsă pe șasiu de lemn, fără ramă și fără sticlă – marginile laterale sunt acoperite tot cu imagine, deci obiectul stă bine pe perete din orice unghi, fără reflexii de sticlă care strică poza în fotografii ulterioare de eveniment. E și motivul pentru care se potrivește la fel de bine într-un apartament modern minimalist și într-o casă cu mobilier clasic – nu aduce un stil anume, doar imaginea.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ultima întrebare, dar cea mai importantă pe termen lung: rezistă în timp?</h2>
+      <p>Diferența față de o poză obișnuită e în material și cerneală: pânza de bumbac premium și cerneala UV rezistentă la lumină nu se comportă ca hârtia foto clasică, care se decolorează și capătă o tentă gălbuie în câțiva ani sub lumină directă. Un tablou canvas ținut departe de expunere solară directă permanentă își păstrează culorile decenii – motivul pentru care rămâne un cadou pe care generația următoare încă îl găsește pe perete, nu într-o cutie de amintiri.</p>
 
       <p>Dacă tot ce-ți lipsește e o poză bună și o decizie de dimensiune, restul procesului e simplu: încarci fotografia în <a href="/configurator/canvas">configuratorul de tablouri canvas</a>, vezi randarea în timp real și confirmi comanda. Dacă poza pare prea mică pentru dimensiunea aleasă, sistemul te avertizează înainte de finalizare.</p>
     `,
   },
   {
     slug: "mesh-publicitar-vs-banner-frontlit-diferente",
-    title: "Mesh sau frontlit? Testul rapid în 4 întrebări înainte să lansezi comanda",
-    description: "Ai de acoperit o fațadă, o schelă sau un gard cu reclamă și nu știi dacă alegi mesh perforat sau banner frontlit plin. Un test scurt, cu criterii tehnice reale, nu presupuneri.",
+    title: "Bannerul plin montat pe schelă se comportă ca o velă: de ce alegerea mesh vs. frontlit e despre vânt, nu despre buget",
+    description: "Pe o structură deschisă vântului, un banner frontlit plin transferă toată forța vântului direct pe capse și prinderi. Explicăm de ce alegerea dintre mesh perforat și frontlit plin e, în primul rând, o decizie de siguranță structurală.",
     date: '2026-03-14T09:37:00.000Z',
     author: "Inginer Producție Anexa1",
     tags: ["mesh", "banner frontlit", "publicitate outdoor", "siguranta", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/mesh/mesh_publicitar_personalizat.jpg",
     contentHtml: `
-      <p>Diferența dintre mesh și frontlit nu e o chestiune de gust, ci de fizică: unul lasă aerul să treacă, celălalt nu. Alegerea greșită pe o suprafață mare nu înseamnă doar o reclamă mai puțin arătoasă — înseamnă presiune suplimentară pe o structură care poate să nu fie dimensionată pentru ea. În loc de o listă lungă de explicații, iată patru întrebări care decid rapid ce material îți trebuie.</p>
+      <p>Diferența dintre mesh și frontlit nu e o chestiune de gust vizual, ci de fizică: unul lasă aerul să treacă, celălalt nu. Alegerea greșită pe o suprafață mare nu înseamnă doar o reclamă mai puțin arătoasă – înseamnă presiune suplimentară pe o structură care poate să nu fie dimensionată pentru ea. Explicăm mai jos ce decide, de fapt, alegerea corectă, pornind de la ce contează cel mai mult: siguranța montajului.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 1: Materialul stă pe o suprafață plină sau pe una deschisă vântului?</h2>
-      <p>Un gard din beton plin, o clădire sau un panou pe cadru rigid susțin fără probleme un <a href="/configurator/banner">banner frontlit</a> — suprafața din spate blochează deja fluxul de aer, deci bannerul plin nu adaugă o presiune nouă semnificativă. Pe o schelă de construcție, un gard de plasă metalică sau orice structură suspendată între stâlpi, fluxul de aer trece liber prin spate — acolo un frontlit plin se comportă ca o velă și transferă toată forța vântului direct pe prinderi.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă fizic pe o structură deschisă vântului</h2>
+      <p>Un gard din beton plin, o clădire sau un panou pe cadru rigid susțin fără probleme un <a href="/configurator/banner">banner frontlit</a> – suprafața din spate blochează deja fluxul de aer, deci bannerul plin nu adaugă o presiune nouă semnificativă. Pe o schelă de construcție, un gard de plasă metalică sau orice structură suspendată între stâlpi, fluxul de aer trece liber prin spate – acolo un frontlit plin se comportă ca o velă și transferă toată forța vântului direct pe capse și prinderi, cu risc real de smulgere sau deteriorare a structurii de montaj.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 2: Ce suprafață are materialul?</h2>
-      <p>Sub 10-15 mp, riscul mecanic e de obicei gestionabil chiar și cu frontlit, dacă structura de prindere e solidă. Peste acest prag, presiunea crește proporțional cu suprafața expusă — iar la 30-40 mp, diferența de sarcină pe capse între frontlit și mesh devine semnificativă. Aici mesh-ul nu mai e opțional, e o decizie de siguranță structurală, mai ales pe schele de fațadă unde am detaliat deja specificul montajului în <a href="/blog/mesh-publicitar-schela-fatada-renovare-firme-constructii">ghidul dedicat renovărilor de fațadă</a>.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">De la ce suprafață devine mesh-ul obligatoriu, nu opțional</h2>
+      <p>Sub 10-15 mp, riscul mecanic e de obicei gestionabil chiar și cu frontlit, dacă structura de prindere e solidă. Peste acest prag, presiunea crește proporțional cu suprafața expusă, iar la 30-40 mp diferența de sarcină pe capse între frontlit și mesh devine semnificativă. Aici mesh-ul nu mai e o preferință estetică, ci o decizie de siguranță structurală, mai ales pe schele de fațadă, unde am detaliat deja specificul montajului în <a href="/blog/mesh-publicitar-schela-fatada-renovare-firme-constructii">ghidul dedicat renovărilor de fațadă</a>.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 3: Contează lumina naturală din spate?</h2>
-      <p>Dacă suprafața acoperă ferestre — o schelă pe fațada unui birou, un gard temporar în fața unei vitrine — mesh-ul lasă parțial lumina să treacă prin perforații, păstrând spațiul din spate utilizabil. Frontlit-ul blochează total lumina; e potrivit doar când suprafața din spate oricum n-are nevoie de lumină (gard plin, panou de construcție).</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Al doilea criteriu: ce se întâmplă cu spațiul din spate</h2>
+      <p>Dacă suprafața acoperă ferestre – o schelă pe fațada unui birou, un gard temporar în fața unei vitrine – mesh-ul lasă parțial lumina să treacă prin perforații, păstrând spațiul din spate utilizabil. Frontlit-ul blochează total lumina; e potrivit doar când suprafața din spate oricum n-are nevoie de lumină (gard plin, panou de construcție).</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 4: Contează maximul de contrast al imaginii?</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Compromisul de contrast, dacă imaginea e văzută de aproape</h2>
       <p>Aici mesh-ul cedează puțin teren: perforațiile reprezintă spații goale în material, deci saturația culorii e vizibil mai mică de aproape decât pe un frontlit plin. Diferența dispare practic la distanța normală de citire a unui banner mare (peste 5-6 metri), dar pentru grafică văzută de foarte aproape (o vitrină la stradă, un afiș citit de pietoni), frontlit-ul rămâne opțiunea cu impact vizual maxim.</p>
 
       <div class="overflow-x-auto my-10 shadow-lg rounded-2xl border border-slate-100">
@@ -1198,70 +1128,70 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "5-greseli-design-bannere-outdoor-vizibilitate",
-    title: "Autoevaluare rapidă: bannerul tău trece testul de 4 secunde de la stradă?",
-    description: "Înainte să trimiți fișierul la print, bifează-le pe rând. Un checklist practic de autoevaluare, cu criteriile reale pe care le verificăm și noi înainte de aprobarea unui banner outdoor.",
+    title: "3-4 secunde: atât are un șofer să înțeleagă bannerul tău. Restul e detaliu",
+    description: "Un banner nu e un pliant citit de aproape, e un panou citit din mișcare, în câteva secunde. Explicăm, pe rând, cele șase criterii care decid dacă mesajul principal ajunge la privitor sau se pierde în zgomot vizual.",
     date: '2026-03-26T10:54:00.000Z',
     author: "Creative Director Anexa1",
     tags: ["design grafic", "bannere", "publicitate", "sfaturi", "vizibilitate"],
     source: "Anexa1.ro",
     hero: "/products/banner/banner-1.webp",
     contentHtml: `
-      <p>O mașină care trece pe lângă un <a href="/configurator/banner">banner publicitar</a> montat la stradă are, în medie, 3-4 secunde de contact vizual cu el. Nu contează câte informații ai reușit să încapi în design — contează doar ce apucă ochiul să proceseze în acest interval. Înainte să trimiți fișierul la print, parcurge acest checklist scurt; e practic lista pe care o folosim și noi la verificarea grafică înainte de aprobarea comenzii.</p>
+      <p>O mașină care trece pe lângă un <a href="/configurator/banner">banner publicitar</a> montat la stradă are, în medie, 3-4 secunde de contact vizual cu el. Nu contează câte informații ai reușit să încapi în design – contează doar ce apucă ochiul să proceseze în acel interval scurt. Explicăm mai jos, pe rând, criteriile pe care le verificăm și noi înainte de a aproba grafica pentru print, ca fișierul tău să treacă testul din prima.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Un singur mesaj, nu trei concurând pentru atenție</h2>
+      <p>„Mai mult text pare mai profesional” e o presupunere greșită la reclama outdoor – un banner nu e un pliant citit de la 30 cm, e un panou citit din mișcare. Un titlu, un beneficiu, un singur îndemn la acțiune. Restul e zgomot vizual care fură din timpul de procesare al privitorului, deja limitat la câteva secunde.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Testul rapid „micșorat la mărimea unui telefon”</h2>
+      <p>Deschide fișierul, micșorează-l pe ecran până are mărimea unui telefon și privește-l de la distanță normală de citit, de la aproximativ 2 metri. Dacă trebuie să te apropii sau să te concentrezi ca să înțelegi mesajul, aceeași problemă se va întâmpla și la scară reală, dintr-o mașină în mers.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Fontul gros bate întotdeauna fontul „elegant”</h2>
+      <p>Literele subțiri sau scrise de mână „se topesc” vizual la distanță și în mișcare – arată bine pe ecranul de laptop, dispar la 3 metri pe stradă. Un font sans-serif, gros, rămâne lizibil în toate condițiile de lumină și viteză, indiferent cât de simplu pare pe monitor.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Contrastul contează mai mult decât alegerea de culoare în sine</h2>
+      <p>Combinațiile cu contrast real – negru pe galben, alb pe albastru închis, alb pe roșu – rămân lizibile chiar și cu soare puternic direct pe suprafață, unde nuanțele apropiate „se spală” complet și devin practic ilizibile la distanță.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Rezoluția reală, nu cea suficientă pe ecranul telefonului</h2>
+      <p>O poză bună pe ecranul mic al telefonului poate fi complet insuficientă mărită la 2-3 metri lățime. Ca reper de lucru, ținta e minim 100-150 DPI calculat la dimensiunea finală de print, nu la dimensiunea la care arată bine pe ecran.</p>
 
       <div class="my-10 p-8 border-2 border-slate-200 rounded-3xl bg-slate-50">
-        <h3 class="text-xl font-bold text-slate-900 mb-4">Checklist de autoevaluare (bifează fiecare punct):</h3>
-        <ul class="space-y-3 text-slate-700">
-          <li>☐ Am un singur mesaj principal, nu trei mesaje concurente pe aceeași suprafață</li>
-          <li>☐ Titlul e citibil chiar dacă micșorez imaginea la mărimea unui telefon, de la 2 metri distanță</li>
-          <li>☐ Am folosit un font gros, tip Sans-Serif (nu cursiv, nu ultra-subțire)</li>
-          <li>☐ Combinația de culori text-fundal are contrast puternic, nu nuanțe apropiate</li>
-          <li>☐ Pozele nu sunt trase de pe Facebook/WhatsApp la o rezoluție prea mică pentru dimensiunea finală</li>
-          <li>☐ Am un element de contact clar: telefon, adresă scurtă sau săgeată direcțională</li>
-        </ul>
+        <h3 class="text-xl font-bold text-slate-900 mb-4">Omisiunea care anulează tot restul</h3>
+        <p class="text-slate-700">Un element de contact clar – telefon, adresă scurtă sau săgeată direcțională – pare evident, dar e cea mai frecventă lipsă pe care o vedem. Un banner care arată impecabil, dar nu spune clar unde sau cum ajungi la afacere, a cheltuit bugetul degeaba, indiferent cât de bine a trecut celelalte criterii.</p>
       </div>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">De ce contează fiecare punct, pe rând</h2>
-      <p><strong>Un singur mesaj principal:</strong> „mai mult text pare mai profesional” e o presupunere greșită la reclama outdoor — un banner nu e un pliant citit de la 30 cm, e un panou citit din mișcare. Un titlu, un beneficiu, un call-to-action. Restul e zgomot vizual care fură din timpul de procesare al privitorului.</p>
-      <p><strong>Testul „de la 2 metri, micșorat”:</strong> deschide fișierul, micșorează-l pe ecran până are mărimea unui telefon și privește-l de la distanță normală de citit. Dacă trebuie să te apropii sau să te concentrezi ca să înțelegi mesajul, aceeași problemă se va întâmpla și la scară reală, din mașină.</p>
-      <p><strong>Fonturile groase, nu decorative:</strong> literele subțiri sau scrise de mână „se topesc” vizual la distanță și în mișcare — arată bine pe ecranul de laptop, dispar la 3 metri pe stradă.</p>
-      <p><strong>Contrastul, nu doar culoarea:</strong> combinațiile cu contrast real (negru pe galben, alb pe albastru închis, alb pe roșu) rămân lizibile chiar și cu soare puternic direct pe suprafață, unde nuanțele apropiate „se spală” complet.</p>
-      <p><strong>Rezoluția reală, nu cea de pe telefon:</strong> o poză bună pe ecranul mic al telefonului poate fi complet insuficientă mărită la 2-3 metri lățime. Ca reper de lucru, ținta e minim 100-150 DPI calculat la dimensiunea finală de print, nu la dimensiunea de pe ecran.</p>
-      <p><strong>Elementul de contact:</strong> pare evident, dar e cea mai frecventă omisiune — un banner care arată impecabil, dar nu spune clar unde sau cum ajungi la afacere, a cheltuit bugetul degeaba.</p>
 
       <div class="my-10 p-10 bg-slate-900 text-white rounded-[2rem] shadow-2xl relative overflow-hidden">
           <div class="absolute top-0 right-0 p-4 opacity-10">
               <svg width="100" height="100" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
           </div>
-          <h3 class="text-2xl font-black mb-4">Scor final:</h3>
-          <p class="text-lg text-slate-300">6 din 6 bife — trimite fișierul la print cu încredere. Sub 4 bife — merită revizuit designul înainte de comandă, nu după ce bannerul e deja montat afară.</p>
+          <h3 class="text-2xl font-black mb-4">Rezultatul autoevaluării:</h3>
+          <p class="text-lg text-slate-300">Dacă bifezi toate cele șase criterii de mai sus, trimite fișierul la print cu încredere. Dacă mai mult de două rămân nebifate, merită revizuit designul înainte de comandă, nu după ce bannerul e deja montat afară.</p>
       </div>
 
-      <p>Dacă nu ești sigur cum stă designul tău la testul de mai sus, echipa Anexa1.ro face <strong>verificare grafică gratuită</strong> înainte de print — dacă vedem un risc de lizibilitate, te anunțăm înainte să lansăm producția. Comandă-ți bannerul de impact în <a href="/configurator/banner">configuratorul nostru online</a>.</p>
+      <p>Dacă nu ești sigur cum stă designul tău la criteriile de mai sus, echipa Anexa1.ro face verificare grafică gratuită înainte de print – dacă vedem un risc de lizibilitate, te anunțăm înainte să lansăm producția. Comandă-ți bannerul de impact în <a href="/configurator/banner">configuratorul nostru online</a>.</p>
     `,
   },
   {
     slug: "print-uv-vs-print-solvent-diferente-tehnologie",
-    title: "Print UV vs. print solvent: ce e adevărat și ce e mit din ce auzi despre ele",
-    description: "Printul UV și cel solvent au fiecare o reputație, dar nu tot ce circulă despre ele e corect. Trecem prin afirmațiile cele mai des auzite și explicăm ce e tehnic exact și ce e exagerare.",
+    title: "Bannerul „miroase a chimicale” după print: de ce nu ți se întâmplă asta cu UV",
+    description: "Solventul clasic n-a dispărut din industrie, dar diferența dintre el și print-ul UV se simte concret la livrare – timp de uscare, miros, precizia detaliilor fine. Trecem prin diferențele reale, fără mituri de-a lungul drumului.",
     date: '2026-04-03T11:11:00.000Z',
     author: "Expert Tehnic Anexa1",
     tags: ["tehnologie print", "print uv", "print solvent", "ecologie", "calitate", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/canvas/canvas-4.webp",
     contentHtml: `
-      <p>Când comanzi <a href="/configurator/banner">bannere</a> sau <a href="/configurator/autocolante">autocolante</a>, tehnologia de print rar apare explicit în discuție — dar diferența dintre UV și solvent se vede clar în rezultatul final. Circulă multe afirmații despre cele două, nu toate exacte. Le trecem pe rând.</p>
+      <p>Când comanzi <a href="/configurator/banner">bannere</a> sau <a href="/configurator/autocolante">autocolante</a>, tehnologia de print rar apare explicit în discuție, dar diferența dintre UV și solvent se simte concret la livrare – de la mirosul materialului proaspăt printat până la precizia unui text mic. Solventul n-a dispărut din industrie, cum se crede uneori; rămâne folosit pe scară largă pentru materiale mari la costuri reduse. Explicăm mai jos unde diferă real cele două tehnologii, nu unde „ar trebui" să difere.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Printul solvent e depășit, nimeni nu-l mai folosește” — Mit</h2>
-      <p>Fals. Cerneala solvent rămâne folosită pe scară largă în industrie, inclusiv pentru materiale mari la costuri reduse. Adevărul e mai nuanțat: solventul funcționează prin pătrundere chimică ușoară în material, care se usucă prin evaporare — un proces mai lent (uneori nevoie de ore bune de uscare înainte de manipulare) și care emite compuși organici volatili (VOC) cu miros caracteristic „de chimic” resimțit la un banner proaspăt printat.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se întâmplă chimic, pe scurt</h2>
+      <p>Cerneala solvent funcționează prin pătrundere chimică ușoară în material, care se usucă apoi prin evaporare – un proces mai lent, uneori cu nevoie de ore bune de uscare înainte de manipulare, care emite compuși organici volatili (VOC) cu mirosul caracteristic „de chimic" resimțit la un banner proaspăt printat. Cerneala UV se polimerizează (se întărește) instant sub lămpi UV de mare putere, fără proces de evaporare – rezultă un strat solid, aderent, fără mirosuri semnificative.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„UV-ul rezistă de câteva ori mai mult la soare” — Adevărat, cu nuanță</h2>
-      <p>Cerneala UV se polimerizează (se întărește) instant sub lămpi UV de mare putere, în loc să se usuce prin evaporare. Rezultatul e un strat de vopsea solid, aderent, mai rezistent mecanic și la radiație solară decât un strat solvent uscat clasic. Nuanța: rezistența finală a unui banner outdoor depinde și de gramajul și calitatea materialului suport, nu doar de cerneală — cerneala UV pe un material subțire de proastă calitate tot se degradează, doar mai încet decât solventul pe același material.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce înseamnă asta pentru un spațiu ocupat imediat</h2>
+      <p>Aici diferența nu e o nuanță, e directă: printul UV, fără proces de evaporare, e potrivit pentru spații ocupate imediat după montaj – cabinete medicale, farmacii, grădinițe, locuințe. E și motivul pentru care folosim tehnologia UV la <a href="/configurator/canvas">tablourile canvas</a> destinate interiorului locuinței, nu doar la materialele outdoor. Solventul, din cauza VOC-urilor eliberate la uscare, cere de regulă o perioadă de ventilare înainte ca spațiul să fie ocupat confortabil.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Nu contează tehnologia pentru claritatea imaginii” — Fals</h2>
-      <p>Picătura de cerneală solvent are tendința să se întindă puțin pe material înainte de uscare, ceea ce poate „rotunji” ușor detaliile fine — text mărunt sau linii subțiri. Cerneala UV se întărește instant la impact, deci picătura rămâne aproape de forma originală, cu contur mai precis. Diferența e vizibilă mai ales la fonturi mici sau grafică cu detaliu fin, nu la un banner cu text mare, unde practic nu se observă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Rezistența la soare: adevărată, dar cu o condiție</h2>
+      <p>Stratul de cerneală UV polimerizată e mai rezistent mecanic și la radiație solară decât un strat solvent uscat clasic. Condiția: rezistența finală a unui banner outdoor depinde și de gramajul și calitatea materialului suport, nu doar de cerneală – cerneala UV pe un material subțire de proastă calitate tot se degradează, doar mai lent decât solventul pe același material slab.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Printul UV e sigur pentru interior, solventul nu” — Adevărat</h2>
-      <p>Aici mitul e de fapt fapt: mirosul de „chimic” de la un banner nou vine din VOC-urile emise de cerneala solvent la uscare. Printul UV, fără acest proces de evaporare, nu emite mirosuri semnificative și e potrivit pentru spații ocupate imediat — cabinete medicale, farmacii, grădinițe, locuințe. E și motivul pentru care folosim tehnologia UV la <a href="/configurator/canvas">tablourile canvas</a> destinate interiorului locuinței, nu doar la materialele outdoor.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Unde se vede, de fapt, diferența de claritate</h2>
+      <p>Picătura de cerneală solvent are tendința să se întindă puțin pe material înainte de uscare, ceea ce poate „rotunji" ușor detaliile fine – text mărunt sau linii subțiri. Cerneala UV se întărește instant la impact, deci picătura rămâne aproape de forma originală, cu contur mai precis. Diferența e vizibilă mai ales la fonturi mici sau grafică cu detaliu fin, nu la un banner cu text mare, unde practic nu se observă.</p>
 
       <div class="overflow-x-auto my-10 shadow-lg rounded-2xl border border-slate-100">
           <table class="min-w-full bg-white">
@@ -1297,48 +1227,48 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "roll-up-standard-vs-roll-up-premium-diferente",
-    title: "Standard sau Premium la Roll-Up: 3 întrebări care îți dau răspunsul în 30 de secunde",
-    description: "Nu ai nevoie de o comparație tehnică stufoasă ca să alegi corect caseta unui roll-up. Trei întrebări simple despre cum îl folosești îți arată direct dacă merită diferența de preț.",
+    title: "Diferența dintre Roll-Up Standard și Premium nu e în imagine, e în cât de des îl strângi",
+    description: "La Anexa1.ro folosim același material de print de top pe ambele variante de roll-up — diferența e strict mecanică, în caseta care întinde și retrage materialul. Explicăm exact ce uzează mecanismul și când merită plătit în plus.",
     date: '2026-04-14T12:28:00.000Z',
     author: "Account Manager Anexa1",
     tags: ["roll-up", "evenimente", "sisteme expozitionale", "comparatie", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/rollup/rollup-1.webp",
     contentHtml: `
-      <p>Diferența de preț dintre un <a href="/configurator/rollup">roll-up Standard și unul Premium</a> nu ține de calitatea imaginii printate — la Anexa1.ro folosim același material de top pe ambele variante. Diferența e strict mecanică, în caseta care întinde și retrage materialul. Ca să nu plătești în plus degeaba sau, invers, să nu subestimezi ce ai nevoie, răspunde-ți sincer la trei întrebări.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 1: De câte ori pe lună îl strângi și îl desfaci?</h2>
-      <p>O dată sau de două ori pe an, la un eveniment izolat — caseta Standard, din aluminiu subțire cu mecanism de bază, face treaba fără probleme, pentru că uzura mecanică vine din cicluri repetate de întindere-retragere, nu din simpla existență a produsului. Dacă mergi la târguri sau prezentări de mai multe ori pe lună, fiecare ciclu de desfacere pune stres pe arcul interior, iar caseta Premium, cu mecanism mai robust, e construită exact pentru frecvența asta.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 2: Stă într-un loc cu curent de aer sau trafic dens de oameni?</h2>
-      <p>Caseta Standard e mai ușoară, deci mai puțin stabilă dacă e lovită accidental de trecători sau dacă stă lângă o ușă des deschisă. Varianta Premium, cu design tip „lacrimă” (teardrop) și bază mai grea, rămâne stabilă chiar și în spații aglomerate — un criteriu de luat în calcul mai ales la evenimente cu flux mare de vizitatori, unde un roll-up răsturnat înseamnă și o pauză neplanificată din prezentare.</p>
-
-      <h2 class="text-2xl font-bold mt-10 mb-4">Întrebarea 3: Contextul evenimentului cere o finisare vizibil mai elegantă?</h2>
-      <p>Într-un magazin sau la o promoție sezonieră, caseta Standard trece neobservată — atenția e pe grafică, nu pe suport. Într-un spațiu premium (hotel, gală, eveniment corporate), caseta groasă și finisajul Premium contribuie vizual la percepția generală a standului, chiar dacă tehnic materialul printat e identic.</p>
+      <p>O presupunere greșită frecventă: diferența de preț dintre un <a href="/configurator/rollup">roll-up Standard și unul Premium</a> ține de calitatea imaginii printate. Nu e cazul – la Anexa1.ro folosim același material de top pe ambele variante. Toată diferența e mecanică, în caseta care întinde și retrage materialul, iar ea contează diferit în funcție de cum îl folosești. Trei factori decid dacă merită plătit în plus.</p>
 
       <div class="my-10 p-8 border-2 border-dashed border-slate-300 rounded-3xl bg-slate-50">
           <h3 class="text-xl font-bold text-slate-800 mb-2">Ce rămâne identic pe ambele variante:</h3>
           <ul class="list-disc pl-6 space-y-2 text-slate-600">
-            <li>Materialul printat — film polipropilenă cu spate gri (blockout), care nu lasă umbra tijei să se vadă prin imagine la lumină din spate.</li>
-            <li>Rezistența la curbare pe margini (anti-curl) — materialul rămâne drept, nu se ondulează la colțuri.</li>
-            <li>Calitatea printului UV — aceleași culori vii, indiferent de caseta aleasă.</li>
+            <li>Materialul printat – film polipropilenă cu spate gri (blockout), care nu lasă umbra tijei să se vadă prin imagine la lumină din spate.</li>
+            <li>Rezistența la curbare pe margini (anti-curl) – materialul rămâne drept, nu se ondulează la colțuri.</li>
+            <li>Calitatea printului UV – aceleași culori vii, indiferent de caseta aleasă.</li>
           </ul>
       </div>
 
-      <p>Dacă răspunsurile tale ies majoritar spre „o dată pe an, loc fix, context obișnuit” — Standard acoperă nevoia fără cost suplimentar. Dacă bifezi două din trei spre utilizare frecventă sau context premium, diferența de preț la Premium se recuperează rapid prin faptul că nu rămâi blocat cu un mecanism uzat exact înainte de o prezentare. Configurează-ți sistemul potrivit în <a href="/configurator/rollup">configuratorul de Roll-Up</a>.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce uzează, de fapt, mecanismul: frecvența, nu vechimea</h2>
+      <p>Uzura mecanică vine din cicluri repetate de întindere-retragere, nu din simpla existență a produsului pe raft. La un eveniment izolat, o dată sau de două ori pe an, caseta Standard, din aluminiu subțire cu mecanism de bază, face treaba fără probleme. Dacă mergi la târguri sau prezentări de mai multe ori pe lună, fiecare ciclu de desfacere pune stres pe arcul interior, iar caseta Premium, cu mecanism mai robust, e construită exact pentru frecvența asta.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">A doua întrebare: cât de expus e roll-up-ul la lovituri accidentale</h2>
+      <p>Caseta Standard e mai ușoară, deci mai puțin stabilă dacă e lovită accidental de trecători sau dacă stă lângă o ușă des deschisă. Varianta Premium, cu design tip „lacrimă" (teardrop) și bază mai grea, rămâne stabilă chiar și în spații aglomerate – un criteriu de luat în calcul mai ales la evenimente cu flux mare de vizitatori, unde un roll-up răsturnat înseamnă și o pauză neplanificată din prezentare.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">A treia întrebare: ce context vizual cere locația</h2>
+      <p>Într-un magazin sau la o promoție sezonieră, caseta Standard trece neobservată – atenția e pe grafică, nu pe suport. Într-un spațiu premium (hotel, gală, eveniment corporate), caseta groasă și finisajul Premium contribuie vizual la percepția generală a standului, chiar dacă tehnic materialul printat e identic pe ambele variante.</p>
+
+      <p>Dacă răspunsurile ies majoritar spre „o dată pe an, loc fix, context obișnuit", Standard acoperă nevoia fără cost suplimentar. Dacă bifezi două din trei spre utilizare frecventă sau context premium, diferența de preț la Premium se recuperează rapid prin faptul că nu rămâi blocat cu un mecanism uzat exact înainte de o prezentare. Configurează-ți sistemul potrivit în <a href="/configurator/rollup">configuratorul de Roll-Up</a>.</p>
     `,
   },
   {
     slug: "ghid-alegere-material-carton-carti-vizita",
-    title: "Carton, plastifiere sau material de lux: ce alegi în funcție de domeniul tău",
-    description: "În loc de o listă generică de materiale, un tabel practic care leagă fiecare opțiune de tipul de activitate — de la carton standard mat la Alucobond metalic — ca să alegi rapid ce se potrivește brandului tău.",
+    title: "Ce simte în mână un client înainte să citească un cuvânt de pe cartea ta de vizită",
+    description: "Greutatea, textura și modul în care reflectă lumina o carte de vizită comunică ceva înainte de orice text citit. Ghid pe domenii de activitate, de la cartonul mat standard până la Alucobond metalic sau lemn natural.",
     date: '2026-04-24T13:45:00.000Z',
     author: "Product Manager Anexa1",
     tags: ["carti de vizita", "print digital", "materiale premium", "sfaturi branding", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/carti-vizita/carti-vizita-1.webp",
     contentHtml: `
-      <p>Materialul unei <a href="/configurator/carti-vizita">cărți de vizită</a> comunică ceva înainte ca cineva să citească măcar un cuvânt de pe ea — greutatea în mână, textura la atingere, felul în care reflectă lumina. În loc de o descriere generică „acesta e mai bun decât acela”, cel mai practic e să pornești de la domeniul tău și de la ce impresie vrei să lase cartea de vizită.</p>
+      <p>O <a href="/configurator/carti-vizita">carte de vizită</a> comunică ceva înainte ca cineva să citească măcar un cuvânt de pe ea – greutatea în mână, textura la atingere, felul în care reflectă lumina. În loc de o listă generică „acesta e mai bun decât acela", cel mai practic e să pornești de la domeniul tău de activitate și de la impresia pe care vrei să o lase obiectul fizic, nu doar informația tipărită pe el.</p>
 
       <div class="overflow-x-auto my-10 shadow-xl rounded-3xl border border-slate-100">
         <table class="min-w-full bg-white">
@@ -1351,24 +1281,14 @@ const STATIC_POSTS: BlogPost[] = [
           </thead>
           <tbody class="divide-y divide-slate-100 text-sm">
             <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Avocați, contabili, consultanți</td>
-              <td class="px-6 py-4 text-center">Carton 350g, finisaj mat</td>
-              <td class="px-6 py-4">Aspect sobru, lizibil sub orice lumină, fără reflexii care distrag</td>
-            </tr>
-            <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Fotografi, designeri, HoReCa</td>
-              <td class="px-6 py-4 text-center">Carton 350g, finisaj lucios</td>
-              <td class="px-6 py-4">Scoate în evidență culorile vibrante și imaginile din portofoliu</td>
-            </tr>
-            <tr>
-              <td class="px-6 py-4 font-bold bg-slate-50">Branduri premium, retail high-end</td>
-              <td class="px-6 py-4 text-center text-amber-600 font-bold">Carton + plastifiere Soft Touch</td>
-              <td class="px-6 py-4">Textură catifelată memorabilă la atingere, senzație de lux imediată</td>
-            </tr>
-            <tr>
               <td class="px-6 py-4 font-bold bg-slate-50">Reprezentanți vânzări, networking intens</td>
               <td class="px-6 py-4 text-center">Plastifiere anti-zgâriere</td>
               <td class="px-6 py-4">Rezistă la frecarea zilnică din portofel sau geantă, fără uzură vizibilă</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Avocați, contabili, consultanți</td>
+              <td class="px-6 py-4 text-center">Carton 350g, finisaj mat</td>
+              <td class="px-6 py-4">Aspect sobru, lizibil sub orice lumină, fără reflexii care distrag</td>
             </tr>
             <tr>
               <td class="px-6 py-4 font-bold bg-slate-50">Servicii financiare, imobiliare premium</td>
@@ -1376,9 +1296,19 @@ const STATIC_POSTS: BlogPost[] = [
               <td class="px-6 py-4">Rigid, impermeabil, senzație similară unui card bancar</td>
             </tr>
             <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Fotografi, designeri, HoReCa</td>
+              <td class="px-6 py-4 text-center">Carton 350g, finisaj lucios</td>
+              <td class="px-6 py-4">Scoate în evidență culorile vibrante și imaginile din portofoliu</td>
+            </tr>
+            <tr>
               <td class="px-6 py-4 font-bold bg-slate-50">Firme industriale, arhitectură corporate</td>
               <td class="px-6 py-4 text-center text-amber-600 font-bold">Alucobond metalic</td>
               <td class="px-6 py-4">Greutate specifică și aspect metalic care transmit stabilitate</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Branduri premium, retail high-end</td>
+              <td class="px-6 py-4 text-center text-amber-600 font-bold">Carton + plastifiere Soft Touch</td>
+              <td class="px-6 py-4">Textură catifelată memorabilă la atingere, senzație de lux imediată</td>
             </tr>
             <tr>
               <td class="px-6 py-4 font-bold bg-slate-50">Artizani, arhitecți, branduri eco</td>
@@ -1389,15 +1319,15 @@ const STATIC_POSTS: BlogPost[] = [
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">De ce plastifierea nu e un lux opțional</h2>
-      <p>Indiferent de cartonul ales, o carte de vizită neplastifiată se uzează vizibil în câteva săptămâni de purtat în portofel — colțuri îndoite, print zgâriat pe text. Plastifierea (folie transparentă aplicată la cald) nu schimbă doar aspectul, prelungește direct durata de viață a fiecărei bucăți printate.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Plastifierea nu e un detaliu estetic opțional</h2>
+      <p>Indiferent de cartonul ales, o carte de vizită neplastifiată se uzează vizibil în câteva săptămâni de purtat în portofel – colțuri îndoite, print zgâriat pe text. Plastifierea (folie transparentă aplicată la cald) nu schimbă doar aspectul, ci prelungește direct durata de viață fizică a fiecărei bucăți printate, indiferent cât de des ajunge scoasă și înmânată.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Materialele de lux merită investiția?</h2>
-      <p>Alucobond, PVC sau lemnul nu sunt materiale „pentru oricine” — costul per bucată e mai mare decât la cartonul standard, plastifiat. Are sens investiția când cartea de vizită e ea însăși parte din prezentarea brandului (un arhitect care lasă o carte de vizită din lemn la o discuție despre un proiect eco), nu doar un suport de contact. Pentru networking de volum mare, unde distribui zeci de cărți pe săptămână, cartonul standard cu plastifiere rămâne alegerea rațională.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Când chiar merită investiția în materiale de lux</h2>
+      <p>Alucobond, PVC sau lemnul nu sunt materiale „pentru oricine" – costul per bucată e mai mare decât la cartonul standard plastifiat. Investiția are sens când cartea de vizită e ea însăși parte din prezentarea brandului (un arhitect care lasă o carte de vizită din lemn la o discuție despre un proiect eco), nu doar un simplu suport de contact. Pentru networking de volum mare, unde se distribuie zeci de cărți pe săptămână, cartonul standard cu plastifiere rămâne alegerea rațională din punct de vedere al costului per contact.</p>
 
       <div class="my-10 p-8 bg-slate-50 border-y border-slate-200">
-          <h3 class="text-xl font-bold text-slate-900 mb-2">Recomandarea noastră implicită:</h3>
-          <p class="text-slate-600">Dacă nu ești sigur ce să alegi, pachetul „Carton standard cu plastifiere mată” acoperă majoritatea profesiilor cu un echilibru bun preț-aspect. Materialele de lux le recomandăm punctual, acolo unde chiar contează impresia tactilă.</p>
+          <h3 class="text-xl font-bold text-slate-900 mb-2">Dacă nu ești sigur ce să alegi:</h3>
+          <p class="text-slate-600">Pachetul „Carton standard cu plastifiere mată" acoperă majoritatea profesiilor cu un echilibru bun preț-aspect. Materialele de lux le recomandăm punctual, doar acolo unde impresia tactilă chiar contează pentru poziționarea brandului.</p>
       </div>
 
       <p>Vezi toate opțiunile de material și finisaj disponibile în <a href="/configurator/carti-vizita">configuratorul de cărți de vizită</a> și alege combinația potrivită brandului tău.</p>
@@ -1405,34 +1335,34 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "cartile-vizita-era-digitala-2026-utilitate",
-    title: "„Nu mai are rost o carte de vizită fizică” — 4 argumente care nu rezistă la verificare",
-    description: "Argumentul apare des în discuții despre networking: profilul digital a înlocuit hârtia. Analizăm punctual de ce nu se confirmă în practică și unde cartea de vizită fizică rămâne mai eficientă.",
+    title: "Ce se pierde exact în momentul în care scoți telefonul să „faci schimb de contact”",
+    description: "Argumentul care revine des la orice discuție despre networking: profilul digital a înlocuit hârtia. Analizăm ce se întâmplă concret, în interacțiune, când alegi telefonul în locul unei cărți de vizită – și unde hârtia încă face treaba mai bine.",
     date: '2026-05-04T14:02:00.000Z',
     author: "Expert Networking Anexa1",
     tags: ["marketing digital", "carti de vizita", "dezvoltare afaceri", "prima impresie", "networking"],
     source: "Anexa1.ro",
     hero: "/products/carti-vizita/carti-vizita-2.webp",
     contentHtml: `
-      <p>Argumentul apare des: „de ce să mai tipărești cărți de vizită când poți trimite profilul de LinkedIn prin QR?”. E o întrebare logică, dar concluzia că formatul fizic a devenit inutil nu rezistă la verificare practică. Iată patru variante ale acestui argument și de ce nu se confirmă în situații reale de networking.</p>
+      <p>„De ce să mai tipărești cărți de vizită când poți trimite profilul de LinkedIn prin QR?" e o întrebare care revine constant în discuțiile despre networking modern. E o întrebare logică, dar concluzia că formatul fizic a devenit inutil nu rezistă la verificare practică. Explicăm mai jos, punctual, unde greșește fiecare variantă a acestui argument.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Argumentul 1: „E mai rapid să faci schimb de contact digital”</h2>
-      <p>Rapid, da — dar rapid nu înseamnă și mai bun social. A scoate telefonul în mijlocul unei discuții pentru „save contact” întrerupe contactul vizual și fluxul conversației într-un mod care se resimte, chiar dacă nimeni nu îl comentează explicit. Înmânarea unei cărți de vizită se face fără să întrerupă discuția — gestul în sine face parte din interacțiune, nu o pauzează.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se pierde fizic în momentul schimbului de contact digital</h2>
+      <p>A scoate telefonul în mijlocul unei discuții pentru „save contact" e rapid, dar rapid nu înseamnă și mai bun social. Gestul întrerupe contactul vizual și fluxul conversației într-un mod care se resimte, chiar dacă nimeni nu îl comentează explicit. Înmânarea unei cărți de vizită se face fără să întrerupă discuția – gestul în sine face parte din interacțiune, nu o pauzează pentru un schimb tehnic de date.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Argumentul 2: „Cartea de vizită nu poate face nimic ce nu face deja un profil online”</h2>
-      <p>De fapt, o carte de vizită bine gândită nu concurează cu prezența digitală, o introduce. Un cod QR printat pe verso duce direct către portofoliu, site sau profil — cartea fizică devine punctul de pornire către tot conținutul digital, nu o alternativă la el. Diferența e că rămâne fizic în buzunar sau pe birou, unde poate fi găsită și scanată mai târziu, spre deosebire de un contact salvat rapid și uitat în lista de contacte a telefonului.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">De ce hârtia rămâne singurul „canal" garantat funcțional</h2>
+      <p>Cartea de vizită fizică funcționează mereu, indiferent de semnal, baterie sau aplicații care nu se deschid la timp. Într-un eveniment aglomerat, cu internet instabil sau telefoane pe terminate, hârtia rămâne singurul canal de contact garantat să funcționeze, exact când contează cel mai mult – la finalul unei zile lungi de conferință, de exemplu.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Argumentul 3: „Nimeni nu-și mai amintește de o bucată de hârtie”</h2>
-      <p>Exact opusul e adevărat din punct de vedere al memoriei: creierul reține informația asociată unui obiect fizic mai bine decât una pur digitală, tocmai pentru că implică un stimul tactil suplimentar. Greutatea cartonului, textura finisajului (mat, lucios, catifelat) — toate acestea sunt markeri senzoriali care rămân în memorie mult după ce conversația s-a terminat, într-un fel în care un e-mail de follow-up nu rămâne.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">De ce un obiect fizic rămâne mai bine în memorie decât un contact salvat</h2>
+      <p>Creierul reține informația asociată unui obiect fizic mai bine decât una pur digitală, tocmai pentru că implică un stimul tactil suplimentar. Greutatea cartonului, textura finisajului (mat, lucios, catifelat) sunt markeri senzoriali care rămân în memorie mult după ce conversația s-a terminat, într-un fel în care un contact salvat rapid și îngropat în lista telefonului nu rămâne.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Argumentul 4: „Depinzi de baterie și semnal, deci digitalul e mai fiabil”</h2>
-      <p>De fapt e invers: cartea de vizită fizică funcționează mereu, indiferent de semnal, baterie sau aplicații care nu se deschid la timp. Într-un eveniment aglomerat, cu internet instabil sau telefoane pe terminate, hârtia rămâne singurul „canal” garantat funcțional.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cartea de vizită nu concurează cu prezența digitală – o introduce</h2>
+      <p>O carte de vizită bine gândită nu înlocuiește un profil online, ci devine punctul de pornire către el. Un cod QR printat pe verso duce direct către portofoliu, site sau profil, iar cartea fizică rămâne în buzunar sau pe birou, unde poate fi găsită și scanată mai târziu – spre deosebire de un contact digital salvat o singură dată și niciodată revizitat.</p>
 
       <div class="my-10 p-10 bg-blue-900 text-white rounded-[2.5rem] shadow-xl relative overflow-hidden">
           <div class="absolute -right-10 -bottom-10 opacity-20">
               <svg width="200" height="200" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 10h2v2H6zm0 4h8v2H6zm10 0h2v2h-2zm-6-4h8v2h-8z"/></svg>
           </div>
           <h3 class="text-2xl font-black mb-4">Concluzie practică:</h3>
-          <p class="text-blue-100 text-lg">Cartea de vizită fizică și profilul digital nu se exclud — cea mai eficientă combinație e o carte de vizită simplă, cu un QR code către prezența ta online. Numele, logo-ul și o singură metodă principală de contact sunt suficiente; restul îl preia codul QR.</p>
+          <p class="text-blue-100 text-lg">Cartea de vizită fizică și profilul digital nu se exclud – cea mai eficientă combinație e o carte simplă, cu un cod QR către prezența online. Numele, logo-ul și o singură metodă principală de contact sunt suficiente; restul îl preia codul QR.</p>
       </div>
 
       <p>Dacă vrei un design curat care combină ambele lumi, configurează-ți setul de <a href="/configurator/carti-vizita">cărți de vizită moderne</a> de la Anexa1.ro, cu opțiune de integrare QR code pe verso.</p>
@@ -1440,27 +1370,27 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "flayere-vs-pliante-alegere-campanie-marketing",
-    title: "Trei afaceri, trei alegeri diferite: flayer sau pliant, în funcție de ce ai de comunicat",
-    description: "Un fast-food, un cabinet de contabilitate și o agenție imobiliară au nevoi de comunicare diferite. Urmărim cum ar alege fiecare între flayer și pliant, și de ce alegerea corectă depinde de mesaj, nu de buget.",
+    title: "Nu alege între flayer și pliant după buget – alege după câte idei separate ai de transmis",
+    description: "Un fast-food, o agenție imobiliară și un cabinet de contabilitate au, de fapt, aceeași întrebare de pus înainte de a comanda: mesajul încape într-o singură propoziție sau are nevoie de secțiuni separate? Explicăm cum decide fiecare corect.",
     date: '2026-05-13T15:19:00.000Z',
     author: "Marketing Expert Anexa1",
     tags: ["flayere", "pliante", "broșuri", "marketing", "strategie", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/flayere/flayere-1.webp",
     contentHtml: `
-      <p>Flayerul și pliantul par variante ale aceluiași lucru — hârtie printată, distribuită direct clientului. De fapt, alegerea corectă depinde aproape exclusiv de complexitatea mesajului pe care trebuie să-l transmiți, nu de bugetul disponibil. Urmărim cum ar decide trei afaceri diferite, cu nevoi de comunicare diferite.</p>
+      <p>Flayerul și pliantul par variante ale aceluiași lucru – hârtie printată, distribuită direct clientului. De fapt, alegerea corectă depinde aproape exclusiv de un singur factor: mesajul tău încape într-o singură idee, citită în câteva secunde, sau are nevoie de secțiuni separate, parcurse în ordine? Bugetul disponibil contează mult mai puțin decât se crede. Urmărim cum decid corect trei afaceri diferite, cu nevoi de comunicare diferite.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Scenariul 1: Un fast-food cu o promoție de o zi</h2>
-      <p>Mesajul e simplu și cu termen scurt: „Azi, meniu la jumătate de preț, doar la livrare”. Nu are nevoie de spațiu pentru explicații — are nevoie de volum mare, cost mic per bucată și un mesaj care se citește în 3 secunde pe stradă sau la ușa blocului. Aici <a href="/configurator/flayere">flayerul</a> e alegerea evidentă: o filă simplă, A5 sau A6, printată față sau față-verso, fără îndoituri, ușor de distribuit rapid către mulți oameni.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cazul cel mai frecvent de confuzie: agenția imobiliară</h2>
+      <p>Pare că ai nevoie de mult spațiu – poze, detalii tehnice, hartă – dar în realitate scopul unui anunț de proprietate e să convingi cititorul să sune sau să programeze o vizionare, nu să-i dai toate detaliile pe hârtie chiar atunci. Soluția practică: un flayer A5 față-verso, cu poze mari și 3-4 caracteristici cheie, plus un pliant disponibil suplimentar la birou sau la vizionare, pentru cei deja interesați care vor detalii tehnice complete.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Scenariul 2: Un cabinet de contabilitate cu servicii complexe</h2>
-      <p>Aici problema e inversă — mesajul nu poate fi comprimat la o singură propoziție. Servicii de contabilitate primară, salarizare, consultanță fiscală, fiecare cu detalii proprii, necesită spațiu organizat, nu un singur slogan. Un <a href="/configurator/pliante">pliant</a> împăturit în trei (tri-fold) permite separarea informației pe secțiuni — fiecare pliu devine o „pagină” cu un subiect propriu, iar cititorul parcurge informația în ordinea în care o deschide, nu haotic.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Mesajul cu termen scurt: un fast-food cu o promoție de o zi</h2>
+      <p>Mesajul e simplu și cu termen scurt: „Azi, meniu la jumătate de preț, doar la livrare". Nu are nevoie de spațiu pentru explicații – are nevoie de volum mare, cost mic per bucată și un mesaj care se citește în 3 secunde pe stradă sau la ușa blocului. Aici <a href="/configurator/flayere">flayerul</a> e alegerea evidentă: o filă simplă, A5 sau A6, printată față sau față-verso, fără îndoituri, ușor de distribuit rapid către mulți oameni.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Scenariul 3: O agenție imobiliară cu o proprietate nouă listată</h2>
-      <p>Cazul cel mai frecvent de confuzie. Pare că ai nevoie de mult spațiu (poze, detalii tehnice, hartă), dar în realitate scopul e să convingi cititorul să sune sau să programeze o vizionare — nu să-i dai toate detaliile pe hârtie. Soluția practică: un flayer A5 față-verso, cu poze mari și 3-4 caracteristici cheie, plus un pliant disponibil suplimentar la birou sau la vizionare, pentru cei deja interesați care vor detalii tehnice complete.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Mesajul care nu se lasă comprimat: un cabinet de contabilitate</h2>
+      <p>Aici problema e inversă – mesajul nu poate fi comprimat la o singură propoziție. Servicii de contabilitate primară, salarizare, consultanță fiscală, fiecare cu detalii proprii, necesită spațiu organizat, nu un singur slogan. Un <a href="/configurator/pliante">pliant</a> împăturit în trei (tri-fold) permite separarea informației pe secțiuni – fiecare pliu devine o „pagină" cu un subiect propriu, iar cititorul parcurge informația în ordinea în care o deschide, nu haotic.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce rămâne constant: hârtia contează la fel de mult ca formatul</h2>
-      <p>Pentru flayere, o hârtie de 130-150g ține costul jos la volume mari, fără să compromită calitatea pentru un material de scurtă durată. Pentru pliante, recomandăm minim 170g — o hârtie mai subțire crapă fibra exact pe linia de biguire după câteva îndoiri, ceea ce arată neîngrijit chiar dacă designul e impecabil.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Hârtia contează la fel de mult ca alegerea formatului</h2>
+      <p>Pentru flayere, o hârtie de 130-150g ține costul jos la volume mari, fără să compromită calitatea pentru un material de scurtă durată. Pentru pliante, recomandăm minim 170g – o hârtie mai subțire crapă fibra exact pe linia de biguire după câteva îndoiri, ceea ce arată neîngrijit chiar dacă designul e impecabil.</p>
 
       <div class="my-10 p-8 border border-slate-200 rounded-3xl bg-slate-50">
           <table class="min-w-full">
@@ -1473,57 +1403,57 @@ const STATIC_POSTS: BlogPost[] = [
               </thead>
               <tbody>
                   <tr class="border-b">
+                      <td class="py-2 font-bold">Anunț de vânzare/proprietate</td>
+                      <td class="py-2 text-blue-600 font-bold">Ambele, combinate</td>
+                      <td class="py-2">Flayer pentru atenție, pliant pentru detaliu</td>
+                  </tr>
+                  <tr class="border-b">
                       <td class="py-2 font-bold">Promoție cu termen scurt</td>
                       <td class="py-2">Flayer</td>
                       <td class="py-2">Volum mare, mesaj unic, cost minim</td>
                   </tr>
-                  <tr class="border-b">
+                  <tr>
                       <td class="py-2 font-bold">Servicii complexe, listă de prețuri</td>
                       <td class="py-2">Pliant</td>
                       <td class="py-2">Spațiu structurat, ierarhie de informație</td>
-                  </tr>
-                  <tr>
-                      <td class="py-2 font-bold">Anunț de vânzare/proprietate</td>
-                      <td class="py-2 text-blue-600 font-bold">Ambele, combinate</td>
-                      <td class="py-2">Flayer pentru atenție, pliant pentru detaliu</td>
                   </tr>
               </tbody>
           </table>
       </div>
 
-      <p>Indiferent de scenariu, la Anexa1.ro tăierea e precisă și culorile rămân vii la print digital de mare viteză. Configurează produsul potrivit campaniei tale în <a href="/configurator/flayere">configuratorul de flayere</a> sau <a href="/configurator/pliante">pliante</a>.</p>
+      <p>Indiferent de scenariu ales, la Anexa1.ro tăierea e precisă și culorile rămân vii la print digital de mare viteză. Configurează produsul potrivit campaniei tale în <a href="/configurator/flayere">configuratorul de flayere</a> sau <a href="/configurator/pliante">pliante</a>.</p>
     `,
   },
   {
     slug: "3-elemente-design-flayer-care-vinde",
-    title: "Testul de 2 secunde pentru flayer: 3 puncte de verificat înainte să dai comanda de print",
-    description: "Majoritatea flayerelor ajung direct la gunoi. Un test scurt, cu 3 puncte de verificat pe designul tău, îți arată dacă flayerul are șanse reale să fie citit sau doar aruncat pe stradă.",
+    title: "De ce majoritatea flayerelor ajung direct la gunoi, la câteva pași de la cel care le-a împărțit",
+    description: "Un flayer primit pe stradă are, în cel mai bun caz, 2 secunde să convingă pe cineva să nu-l arunce imediat. Explicăm exact ce se întâmplă în acele 2 secunde și cele trei elemente de design care decid soarta lui.",
     date: '2026-05-23T16:36:00.000Z',
     author: "Creative Designer Anexa1",
     tags: ["design flayer", "marketing vizual", "conversie", "sfaturi design", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/flayere/flayere-2.webp",
     contentHtml: `
-      <p>Un flayer primit pe stradă are, în cel mai bun caz, 2 secunde să convingă pe cineva să nu-l arunce imediat. Înainte de a trimite designul la print, testează-l chiar tu: arată-l cuiva timp de 2 secunde exacte, apoi ia-l înapoi și întreabă ce a reținut. Dacă răspunsul e vag, unul din cele trei puncte de mai jos are nevoie de ajustare.</p>
+      <p>Un flayer primit pe stradă are, în cel mai bun caz, 2 secunde să convingă pe cineva să nu-l arunce imediat la primul coș de gunoi întâlnit. Nu e o exagerare de marketing – e comportamentul standard pe care îl vedem constant. Înainte de a trimite designul la print, testează-l chiar tu: arată-l cuiva timp de 2 secunde exacte, apoi ia-l înapoi și întreabă ce a reținut. Dacă răspunsul e vag, unul din cele trei elemente de mai jos are nevoie de ajustare.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Punctul 1: Titlul spune un beneficiu, nu doar numele firmei?</h2>
-      <p>Titlul ar trebui să ocupe o porțiune generoasă din suprafața flayerului și să comunice imediat ce câștigă cititorul, nu doar cine ești. „SC Exemplu SRL — Servicii de curățenie” informează, dar nu motivează nimic. „Casă curată în 2 ore, 30% reducere la prima programare” dă un motiv concret să citească mai departe. Diferența nu e stilistică, e strict despre ce anume procesează creierul în primele fracțiuni de secundă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Imaginea decide în prima fracțiune de secundă dacă flayerul pare real</h2>
+      <p>Oamenii recunosc aproape instinctiv o poză de arhivă foto – și o ignoră la fel de repede cum ignoră o reclamă evident falsă. O fotografie reală, cu echipa ta sau cu rezultatul concret al muncii, transmite credibilitate în mod automat, chiar dacă tehnic nu e la fel de „perfectă" ca o poză stock. Condiția tehnică: minim 300 DPI la dimensiunea finală de print, altfel imaginea iese pixelată, oricât de bună ar fi ca sursă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Punctul 2: Imaginea e reală, nu una „de stoc” generică?</h2>
-      <p>Oamenii recunosc aproape instinctiv o poză de arhivă foto — și o ignoră la fel de repede cum ignoră o reclamă evident falsă. O fotografie reală, cu echipa ta sau cu rezultatul concret al muncii, transmite credibilitate în mod automat, chiar dacă tehnic nu e la fel de „perfectă” ca o poză stock. Condiția tehnică: minim 300 DPI la dimensiunea finală de print, altfel imaginea iese pixelată, oricât de bună ar fi ca sursă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Titlul trebuie să spună un beneficiu, nu doar numele firmei</h2>
+      <p>Titlul ar trebui să ocupe o porțiune generoasă din suprafața flayerului și să comunice imediat ce câștigă cititorul, nu doar cine ești. „SC Exemplu SRL – Servicii de curățenie" informează, dar nu motivează nimic. „Casă curată în 2 ore, 30% reducere la prima programare" dă un motiv concret să citească mai departe. Diferența nu e stilistică, e strict despre ce anume procesează creierul în primele fracțiuni de secundă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Punctul 3: Există un motiv clar să acționeze ACUM, nu „la un moment dat”?</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Fără un motiv să acționeze ACUM, flayerul devine informație pasivă</h2>
       <p>Fără un call-to-action cu limită de timp sau beneficiu clar, flayerul rămâne doar informație pasivă, ușor de amânat și de uitat. Variante care funcționează:</p>
       <ul class="list-disc pl-6 space-y-2 my-4">
-          <li>„Prezintă acest flayer până la finalul lunii pentru 10% reducere”</li>
-          <li>„Scanează codul QR pentru oferta valabilă doar online”</li>
-          <li>„Sună în 24 de ore și primești transport gratuit”</li>
+          <li>„Prezintă acest flayer până la finalul lunii pentru 10% reducere"</li>
+          <li>„Scanează codul QR pentru oferta valabilă doar online"</li>
+          <li>„Sună în 24 de ore și primești transport gratuit"</li>
       </ul>
-      <p>Un termen clar sau un beneficiu exclusiv dă cititorului un motiv concret să păstreze flayerul, nu doar să-l vadă și să-l uite.</p>
+      <p>Un termen clar sau un beneficiu exclusiv dă cititorului un motiv concret să păstreze flayerul, nu doar să-l vadă și să-l uite pe stradă.</p>
 
       <div class="my-10 p-10 bg-slate-900 text-white rounded-[2rem] shadow-2xl">
           <h3 class="text-2xl font-black mb-4 text-amber-400">Rezultatul testului de 2 secunde:</h3>
-          <p class="text-lg">3 din 3 puncte clare — designul e gata de print. Dacă persoana testată ezită la oricare punct, problema nu e cantitatea de informație, ci lipsa de claritate pe unul din cele trei elemente de mai sus. Simplifică înainte de a trimite fișierul, nu după ce ai deja stocul tipărit.</p>
+          <p class="text-lg">Dacă persoana testată reține clar imaginea, titlul și acțiunea cerută, designul e gata de print. Dacă ezită la oricare element, problema nu e cantitatea de informație de pe flayer, ci lipsa de claritate pe unul din cele trei puncte de mai sus. Simplifică înainte de a trimite fișierul, nu după ce ai deja stocul tipărit.</p>
       </div>
 
       <p>Ai nevoie de flayere care să producă rezultate reale, nu doar hârtie colorată? Încarcă grafica în <a href="/configurator/flayere">configuratorul nostru online</a> sau contactează echipa de graficieni Anexa1.ro pentru un design ajustat după acest test.</p>
@@ -1531,93 +1461,91 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "design-roll-up-vizibilitate-evenimente-regula-trei-secunde",
-    title: "Ce vede de fapt un vizitator când trece prin dreptul standului tău la un târg",
-    description: "Urmărește traseul vizual real al unui vizitator care trece printr-un hol de conferință aglomerat, de la primul contact vizual cu roll-up-ul tău până la decizia de a se opri sau nu.",
+    title: "39 de standuri concurează pentru aceeași atenție: unde câștigi sau pierzi vizitatorul în 3 secunde",
+    description: "Într-un hol de conferință cu 40 de standuri, un vizitator nu se oprește la fiecare roll-up. Descompunem traseul vizual real, secundă cu secundă, de la primul contact vizual până la decizia de a se opri sau de a trece mai departe.",
     date: '2026-06-03T17:53:00.000Z',
     author: "Event Marketing Anexa1",
     tags: ["roll-up", "design grafic", "evenimente", "vizibilitate", "branding", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/rollup/rollup-2.webp",
     contentHtml: `
-      <p>Imaginează-ți un hol de conferință cu 40 de standuri, fiecare cu propriul <a href="/configurator/rollup">roll-up</a>. Un vizitator mediu parcurge holul într-un ritm alert, fără să se oprească la fiecare stand. Urmărim, pas cu pas, ce se întâmplă în câmpul lui vizual în cele câteva secunde în care trece prin dreptul standului tău — și unde pierzi sau câștigi atenția lui.</p>
+      <p>Un hol de conferință cu 40 de standuri, fiecare cu propriul <a href="/configurator/rollup">roll-up</a>, înseamnă că fiecare vizitator alocă doar câteva secunde fiecărui stand pe lângă care trece, nu un tur complet. Decizia de a se opri sau nu se ia rapid, pe baza a ce apucă să proceseze din mers. Descompunem mai jos traseul vizual real, ca să știi exact unde câștigi sau pierzi atenția înainte ca vizitatorul să treacă la standul următor.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Secunda 0: Privirea scanează la înălțimea ochilor, nu de sus în jos</h2>
-      <p>Din mers, ochiul unui adult scanează instinctiv zona dintre 1,4 și 1,8 metri de la sol — nu partea de jos a roll-up-ului. Dacă logo-ul și mesajul principal sunt plasate în treimea superioară, ele intră automat în câmpul vizual chiar și atunci când în fața standului tău stă o masă sau trec alți vizitatori. Detaliile puse în partea de jos a roll-up-ului sunt practic invizibile pentru cineva din mers — nimeni nu se apleacă să le citească.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Prima fracțiune de secundă: contrastul cu fundalul sălii decide dacă ești remarcat deloc</h2>
+      <p>Într-o sală cu fundal deschis, culorile puternice (bleumarin, roșu, verde smarald) ies în evidență din primul contact vizual. Într-o sală cu fundal întunecat, e nevoie de un design luminos care „sare" din decor, altfel roll-up-ul se pierde vizual în ansamblul sălii chiar înainte ca vizitatorul să apuce să citească vreun cuvânt de pe el.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Secunda 1: Creierul caută un singur punct de focalizare</h2>
-      <p>Dacă standul tău are un titlu mare, clar, cu un singur mesaj central, ochiul se oprește pe el o fracțiune de secundă mai mult decât pe un design aglomerat cu mai multe zone concurente de text. Aici se decide, practic, dacă vizitatorul continuă să se uite sau trece mai departe fără să rețină nimic.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Înălțimea la care privește ochiul, nu de sus în jos</h2>
+      <p>Din mers, ochiul unui adult scanează instinctiv zona dintre 1,4 și 1,8 metri de la sol – nu partea de jos a roll-up-ului. Dacă logo-ul și mesajul principal sunt plasate în treimea superioară, intră automat în câmpul vizual chiar și atunci când în fața standului stă o masă sau trec alți vizitatori. Detaliile puse în partea de jos sunt practic invizibile pentru cineva din mers – nimeni nu se apleacă să le citească într-un hol aglomerat.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Secunda 2: Dacă titlul a funcționat, ochiul coboară spre detaliu</h2>
-      <p>Abia acum vizitatorul citește textul de suport — dar doar dacă e organizat în puncte scurte, nu paragrafe. O singură imagine mare, de calitate (minim 100-150 DPI la scara reală 1:1), susține mesajul mult mai eficient decât un colaj de poze mici, care cer un efort de procesare pe care nimeni nu-l face din mers.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Creierul caută un singur punct de focalizare, nu mai multe</h2>
+      <p>Dacă standul are un titlu mare, clar, cu un singur mesaj central, ochiul se oprește pe el o fracțiune de secundă mai mult decât pe un design aglomerat cu mai multe zone concurente de text. Aici se decide, practic, dacă vizitatorul continuă să se uite sau trece mai departe fără să rețină nimic din stand.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Secunda 3: Decizia — se oprește sau continuă?</h2>
-      <p>Dacă traseul vizual de mai sus a fost clar și rapid, vizitatorul are șansa reală să se oprească. Dacă a trebuit să se concentreze ca să înțeleagă ce oferi, decizia by default e să treacă mai departe — atenția lui e deja disputată de următoarele 39 de standuri din hol.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă titlul a funcționat, abia atunci ochiul coboară spre detaliu</h2>
+      <p>Textul de suport se citește doar dacă e organizat în puncte scurte, nu paragrafe. O singură imagine mare, de calitate (minim 100-150 DPI la scara reală 1:1), susține mesajul mult mai eficient decât un colaj de poze mici, care cer un efort de procesare pe care nimeni nu-l face din mers, între două standuri.</p>
 
-      <div class="my-10 p-8 border-2 border-dashed border-amber-300 rounded-3xl bg-amber-50">
-          <h3 class="text-xl font-bold text-amber-900 mb-2">Detaliu care schimbă rezultatul: contrastul cu fundalul sălii</h3>
-          <p class="text-amber-800 italic">Într-o sală cu fundal deschis, culorile puternice (bleumarin, roșu, verde smarald) ies în evidență din primul contact vizual. Într-o sală cu fundal întunecat, e nevoie de un design luminos care „sare” din decor, altfel roll-up-ul se pierde vizual în ansamblul sălii încă din secunda 0.</p>
-      </div>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Momentul deciziei: se oprește sau trece mai departe</h2>
+      <p>Dacă traseul vizual de mai sus a fost clar și rapid, vizitatorul are șansa reală să se oprească. Dacă a trebuit să se concentreze ca să înțeleagă ce oferi, decizia implicită e să treacă mai departe – atenția lui e deja disputată de următoarele zeci de standuri din hol.</p>
 
-      <p>La Anexa1.ro verificăm gratuit fișierele înainte de print — dacă textul e prea mic sau imaginea prea puțin clară pentru distanța de citire tipică unui eveniment, te anunțăm înainte de a lansa producția. Comandă un <a href="/configurator/rollup">roll-up gândit pentru traseul vizual real</a> al vizitatorilor tăi.</p>
+      <p>La Anexa1.ro verificăm gratuit fișierele înainte de print – dacă textul e prea mic sau imaginea prea puțin clară pentru distanța de citire tipică unui eveniment, te anunțăm înainte de a lansa producția. Comandă un <a href="/configurator/rollup">roll-up gândit pentru traseul vizual real</a> al vizitatorilor tăi.</p>
     `,
   },
   {
     slug: "cum-sa-ai-grija-de-roll-up-sfaturi-intretinere",
-    title: "Roll-Up-ul s-a stricat? Cele mai frecvente probleme și cauza lor reală",
-    description: "Materialul s-a franjurat, arcul nu mai retrage sau caseta stă strâmb — înainte să crezi că produsul e defect, verifică dacă nu e vorba de una din aceste cauze frecvente, ușor de evitat pe viitor.",
+    title: "Nu produsul e defect: aproape orice problemă de roll-up are aceeași cauză ascunsă",
+    description: "Material franjurat, arc de retragere slăbit, casetă îndoită – simptome diferite, dar în spatele lor stă aproape mereu aceeași greșeală de manevrare, repetată de zeci de ori fără să fie observată. Explicăm cauza tehnică din spatele fiecăreia.",
     date: '2026-06-12T08:10:00.000Z',
     author: "Service Tehnic Anexa1",
     tags: ["roll-up", "intretinere", "sfaturi practice", "echipamente", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/rollup/rollup-3.webp",
     contentHtml: `
-      <p>Majoritatea problemelor la un <a href="/configurator/rollup">roll-up</a> — material franjurat, mecanism care se blochează, casetă îndoită — nu apar din cauza unui produs slab, ci din manevrare repetată incorectă. Iată cele mai frecvente probleme raportate și cauza lor tehnică reală, ca să știi ce să corectezi data viitoare.</p>
+      <p>Aproape toate problemele pe care le vedem la un <a href="/configurator/rollup">roll-up</a> – material franjurat, mecanism care se blochează, casetă îndoită – nu apar din cauza unui produs slab, ci din manevrare repetată incorectă, invizibilă utilizatorului pentru că se acumulează treptat. Trecem prin cele mai frecvente simptome raportate și cauza lor tehnică reală, ca să știi exact ce să corectezi data viitoare.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Materialul s-a franjurat pe margini, deși l-am folosit de puține ori”</h2>
-      <p><strong>Cauza probabilă:</strong> tragerea barei superioare dintr-o singură parte, nu de la mijloc cu ambele mâini. Tensiunea inegală creată astfel face ca marginea materialului să se frece constant de peretele interior al casetei la fiecare desfacere, iar franjurarea e efectul cumulat al acestei frecări repetate — nu al unui material slab calitativ.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Simptom: materialul s-a franjurat pe margini, deși a fost folosit de puține ori</h2>
+      <p>Cauza probabilă: tragerea barei superioare dintr-o singură parte, nu de la mijloc cu ambele mâini. Tensiunea inegală creată astfel face ca marginea materialului să se frece constant de peretele interior al casetei la fiecare desfacere, iar franjurarea e efectul cumulat al acestei frecări repetate, nu al unui material slab calitativ.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Arcul de retragere s-a blocat sau pare mai slab”</h2>
-      <p><strong>Cauza probabilă:</strong> demontajul prea brusc, cu bara lăsată să se ruleze singură în casetă cu viteză, în loc să fie însoțită manual până la oprirea completă. Impactul repetat la finalul cursei pune presiune pe pinii de fixare ai arcului intern, iar uzura se acumulează exact acolo.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Simptom: arcul de retragere s-a blocat sau pare mai slab</h2>
+      <p>Cauza probabilă: demontajul prea brusc, cu bara lăsată să se ruleze singură în casetă cu viteză, în loc să fie însoțită manual până la oprirea completă. Impactul repetat la finalul cursei pune presiune pe pinii de fixare ai arcului intern, iar uzura se acumulează exact acolo, invizibil, până devine vizibilă ca defect.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Caseta de aluminiu s-a îndoit și roll-up-ul stă aplecat”</h2>
-      <p><strong>Cauza probabilă:</strong> transportul fără geantă de protecție. Caseta variantei Standard e realizată din aluminiu relativ subțire — suficient de rezistentă la utilizare normală, dar vulnerabilă la lovituri directe în portbagaj sau la depozitare printre alte obiecte. Geanta cu fermoar livrată cu sistemul nu e un accesoriu opțional, e parte din protecția reală a produsului.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Simptom: caseta de aluminiu s-a îndoit și roll-up-ul stă aplecat</h2>
+      <p>Cauza probabilă: transportul fără geantă de protecție. Caseta variantei Standard e realizată din aluminiu relativ subțire – suficient de rezistentă la utilizare normală, dar vulnerabilă la lovituri directe în portbagaj sau la depozitare printre alte obiecte. Geanta cu fermoar livrată cu sistemul nu e un accesoriu opțional, e parte din protecția reală a produsului.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Culorile par mai puțin vii după câteva luni de folosire”</h2>
-      <p><strong>Cauza probabilă:</strong> curățarea cu produse nepotrivite. Solvenții, alcoolul sau detergenții abrazivi pot ataca treptat stratul de cerneală UV, chiar dacă acesta e rezistent în condiții normale. Singurul produs recomandat pentru materialul din polipropilenă e o lavetă de microfibră ușor umezită cu apă simplă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Simptom: culorile par mai puțin vii după câteva luni de folosire</h2>
+      <p>Cauza probabilă: curățarea cu produse nepotrivite. Solvenții, alcoolul sau detergenții abrazivi pot ataca treptat stratul de cerneală UV, chiar dacă acesta e rezistent în condiții normale. Singurul produs recomandat pentru materialul din polipropilenă e o lavetă de microfibră ușor umezită cu apă simplă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">„Materialul s-a ondulat la margini (efect de curling)”</h2>
-      <p><strong>Cauza probabilă:</strong> depozitare în temperaturi extreme — o mașină parcată la soare direct vara sau într-un spațiu neîncălzit iarna. Căldura sau frigul excesiv deformează filmul de polipropilenă anti-curl, exact materialul conceput să reziste la ondulare în condiții normale de utilizare.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Simptom: materialul s-a ondulat la margini (efect de curling)</h2>
+      <p>Cauza probabilă: depozitare în temperaturi extreme – o mașină parcată la soare direct vara sau într-un spațiu neîncălzit iarna. Căldura sau frigul excesiv deformează filmul de polipropilenă anti-curl, exact materialul conceput să reziste la ondulare în condiții normale de utilizare.</p>
 
       <div class="my-10 p-10 bg-slate-900 text-white rounded-[2rem] shadow-2xl">
-          <h3 class="text-2xl font-black mb-4 text-blue-400">Regula generală de reținut:</h3>
-          <p class="text-lg">Aproape toate problemele de mai sus au aceeași cauză de fond — manevrare rapidă, sub presiune de timp, în locul unei manipulări lente și controlate. Un roll-up montat și demontat cu grijă, transportat în geanta lui, rezistă la zeci de utilizări fără uzură vizibilă.</p>
+          <h3 class="text-2xl font-black mb-4 text-blue-400">Firul roșu din toate cele cinci cazuri:</h3>
+          <p class="text-lg">Aproape toate problemele de mai sus au aceeași cauză de fond – manevrare rapidă, sub presiune de timp, în locul unei manipulări lente și controlate. Un roll-up montat și demontat cu grijă, transportat în geanta lui, rezistă la zeci de utilizări fără uzură vizibilă.</p>
       </div>
 
-      <p>Dacă sistemul tău actual a ajuns deja uzat, comandă un <a href="/configurator/rollup">roll-up nou de la Anexa1.ro</a> — folosim mecanisme verificate cu arcuri robuste, gândite pentru utilizare repetată la evenimente.</p>
+      <p>Dacă sistemul tău actual a ajuns deja uzat, comandă un <a href="/configurator/rollup">roll-up nou de la Anexa1.ro</a> – folosim mecanisme verificate cu arcuri robuste, gândite pentru utilizare repetată la evenimente.</p>
     `,
   },
   {
     slug: "one-way-vision-vs-autocolant-opac-vitrine",
-    title: "Planul vitrinei tale, zonă cu zonă: unde pui One Way Vision și unde autocolant opac",
-    description: "Vitrina unui magazin nu e o singură suprafață uniformă. Împărțim vitrina tipică pe zone — geam principal, partea de jos, spatele rafturilor — și arătăm ce material se potrivește fiecăreia și de ce.",
+    title: "O vitrină nu e o singură suprafață: de ce colantarea uniformă pe tot geamul e o greșeală",
+    description: "Cea mai frecventă greșeală la colantarea unei vitrine e tratarea ei ca pe o suprafață unică. De fapt, un geam de magazin are de regulă 2-3 zone cu funcții diferite, fiecare cerând alt material. Explicăm zonă cu zonă.",
     date: '2026-06-22T09:27:00.000Z',
     author: "Specialist Colantări Anexa1",
     tags: ["window graphics", "one way vision", "autocolant vitrine", "publicitate", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/window-graphics/window-graphics-1.webp",
     contentHtml: `
-      <p>Greșeala frecventă e să tratezi vitrina ca pe o singură suprafață și să alegi un singur material pentru tot geamul. De fapt, o vitrină de magazin are de obicei 2-3 zone cu funcții diferite, iar materialul potrivit variază de la o zonă la alta. Iată cum arată împărțirea, zonă cu zonă.</p>
+      <p>Cea mai frecventă greșeală la colantarea unei vitrine e tratarea ei ca pe o singură suprafață uniformă și alegerea unui singur material pentru tot geamul. De fapt, o vitrină de magazin are de obicei 2-3 zone cu funcții diferite, iar materialul potrivit variază de la o zonă la alta. Explicăm mai jos împărțirea corectă, pornind de la zona cea mai vizibilă din stradă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Zona 1: Geamul principal, la nivelul ochilor</h2>
-      <p>Aici trecătorii se opresc să privească vitrina, iar tu, din interior, vrei să vezi afară — să observi trafic, clienți care se apropie, vremea. <a href="/configurator/window-graphics">One Way Vision</a> e materialul potrivit: perforațiile mici lasă aproximativ 50-60% din lumină să treacă, iar din interior geamul rămâne parțial transparent, ca un geam ușor fumuriu. Din exterior, perforațiile devin invizibile la distanța normală de privit o vitrină, iar trecătorii văd doar grafica ta vibrantă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Zona cea mai vizibilă: geamul principal, la nivelul ochilor</h2>
+      <p>Aici trecătorii se opresc să privească vitrina, iar tu, din interior, vrei să vezi afară – să observi trafic, clienți care se apropie, vremea. <a href="/configurator/window-graphics">One Way Vision</a> e materialul potrivit: perforațiile mici lasă aproximativ 50-60% din lumină să treacă, iar din interior geamul rămâne parțial transparent, ca un geam ușor fumuriu. Din exterior, perforațiile devin invizibile la distanța normală de privit o vitrină, iar trecătorii văd doar grafica vibrantă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Zona 2: Partea de jos a vitrinei (sub 1 metru)</h2>
-      <p>Rar privită direct de trecători și rar folosită pentru vizibilitate interior-exterior — de obicei ascunde bordura magazinului sau echipamente tehnice. Aici autocolantul opac e alegerea logică: grafică mai saturată, contrast mai puternic, fără compromisul de transparență parțială al One Way Vision-ului, care oricum nu aduce beneficii în această zonă.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Zona ascunsă de sub raftul de vitrină: sub 1 metru</h2>
+      <p>Rar privită direct de trecători și rar folosită pentru vizibilitate interior-exterior – de obicei ascunde bordura magazinului sau echipamente tehnice. Aici autocolantul opac e alegerea logică: grafică mai saturată, contrast mai puternic, fără compromisul de transparență parțială al One Way Vision-ului, care oricum nu aduce niciun beneficiu în această zonă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Zona 3: Spatele rafturilor sau zona de depozit vizibilă din stradă</h2>
-      <p>Dacă vitrina ta are în spate un depozit, un birou sau pur și simplu dezordine pe care nu vrei să o vadă clienții, aici autocolantul opac plin devine soluția — blochează complet vederea din exterior spre interior, creând practic un perete publicitar opac. One Way Vision nu ajută în acest caz, pentru că scopul lui e tocmai să păstreze o vizibilitate parțială pe care nu ți-o dorești în zona asta.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Zona pe care vrei s-o ascunzi complet: depozit sau spațiu tehnic vizibil din stradă</h2>
+      <p>Dacă în spatele vitrinei se află un depozit, un birou sau pur și simplu dezordine pe care nu vrei s-o vadă clienții, autocolantul opac plin devine soluția – blochează complet vederea din exterior spre interior, creând practic un perete publicitar opac. One Way Vision nu ajută în acest caz, pentru că scopul lui e tocmai să păstreze o vizibilitate parțială, nedorită exact în această zonă.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ce contează pentru întreținere, indiferent de zonă</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce se schimbă la întreținere, în funcție de material</h2>
       <p>Ambele materiale sunt printate cu tehnologie UV rezistentă la decolorare la Anexa1.ro. Diferența practică apare la curățare: perforațiile One Way Vision-ului acumulează praf mai ușor decât o suprafață plină, deci necesită curățare mai frecventă cu apă fără presiune mare, altfel praful acumulat reduce treptat claritatea vederii din interior.</p>
 
       <div class="overflow-x-auto my-10 shadow-lg rounded-2xl border border-slate-100">
@@ -1650,29 +1578,29 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "ghid-aplicare-autocolant-one-way-vision-geam-fara-bule",
-    title: "5 greșeli care strică o aplicare de One Way Vision (și cum le eviți din start)",
-    description: "Majoritatea aplicărilor eșuate de autocolant One Way Vision au aceleași cauze repetitive — nu ținută de îndemânare, ci de ordinea pașilor. Le trecem în revistă înainte să începi montajul.",
+    title: "Bulele de aer de sub autocolant nu vin de la material, vin de la direcția racletei",
+    description: "One Way Vision e mai iertător la montaj decât un autocolant plin, pentru că perforațiile lasă aerul să iasă mai ușor. Totuși, majoritatea aplicărilor eșuate de acasă au aceleași câteva cauze, legate de ordinea pașilor, nu de îndemânare.",
     date: '2026-07-03T10:44:00.000Z',
     author: "Echipa de Montaj Anexa1",
     tags: ["montaj autocolant", "one way vision", "sfaturi practice", "diy", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/window-graphics/window-graphics-2.webp",
     contentHtml: `
-      <p>Aplicarea autocolantului <a href="/configurator/window-graphics">One Way Vision</a> e mai iertătoare decât la un autocolant plin — perforațiile permit aerului să iasă mai ușor din spatele materialului. Totuși, majoritatea aplicărilor eșuate de acasă au aceleași câteva cauze repetitive. Le trecem în revistă, ca să le eviți din prima încercare.</p>
+      <p>Aplicarea autocolantului <a href="/configurator/window-graphics">One Way Vision</a> e mai iertătoare decât la un autocolant plin – perforațiile permit aerului să iasă mai ușor din spatele materialului. Totuși, majoritatea aplicărilor eșuate de acasă au aceleași câteva cauze repetitive, toate legate de ordinea pașilor, nu de lipsa de îndemânare. Le trecem în revistă, ca să le eviți din prima încercare.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 1: Curățarea geamului o singură dată</h2>
-      <p>Orice fir de praf sau rest de grăsime rămas sub autocolant creează o proeminență vizibilă permanent, imposibil de corectat după fixare. Un geam „vizibil curat” nu înseamnă neapărat curat pentru montaj — o singură trecere cu soluție de curățat geamuri lasă adesea urme fine. Curăță geamul de minim două ori, cu lavetă fără scame, chiar dacă la prima vedere pare deja impecabil.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">O singură trecere cu soluție de curățat nu înseamnă geam curat pentru montaj</h2>
+      <p>Orice fir de praf sau rest de grăsime rămas sub autocolant creează o proeminență vizibilă permanent, imposibil de corectat după fixare. Un geam „vizibil curat" nu înseamnă neapărat curat pentru montaj – o singură trecere cu soluție de curățat geamuri lasă adesea urme fine. Curăță geamul de minim două ori, cu lavetă fără scame, chiar dacă la prima vedere pare deja impecabil.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 2: Aplicarea „uscată” fără experiență anterioară</h2>
-      <p>Metoda uscată (fără apă) e mai rapidă, dar nu permite repoziționarea odată ce autocolantul atinge geamul — orice greșeală de aliniere devine permanentă instant. Pentru cineva la prima aplicare, metoda umedă (un strat fin de apă cu puțin săpun lichid pulverizat pe geam) e mult mai sigură: apa permite „glisarea” autocolantului până ajunge exact în poziție, înainte de a-l fixa definitiv cu racleta.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Metoda uscată nu iartă greșeli de aliniere, la prima aplicare</h2>
+      <p>Metoda uscată (fără apă) e mai rapidă, dar nu permite repoziționarea odată ce autocolantul atinge geamul – orice greșeală de aliniere devine permanentă instant. Pentru cineva la prima aplicare, metoda umedă (un strat fin de apă cu puțin săpun lichid pulverizat pe geam) e mult mai sigură: apa permite „glisarea" autocolantului până ajunge exact în poziție, înainte de a-l fixa definitiv cu racleta.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 3: Raclarea de la margini spre centru</h2>
-      <p>Împinsă greșit, apa și aerul rămân prinse la mijloc, sub autocolant, formând bule greu de eliminat ulterior. Direcția corectă e din centru spre margini — practic împingi excesul de apă și aer afară prin margini, nu îl blochezi în interior.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Direcția racletei decide dacă rămân bule sau nu</h2>
+      <p>Împinsă de la margini spre centru, apa și aerul rămân prinse la mijloc, sub autocolant, formând bule greu de eliminat ulterior. Direcția corectă e din centru spre margini – practic împingi excesul de apă și aer afară prin margini, nu îl blochezi în interior.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 4: Tăierea surplusului lipit direct de cauciucul geamului</h2>
-      <p>Pare o finisare îngrijită, dar autocolantul lipit exact pe chederul de cauciuc se dezlipește mult mai repede sub acțiunea soarelui, pentru că marginea rămâne constant expusă la mișcarea și flexibilitatea cauciucului. Lasă o distanță de 1-2 mm între marginea tăiată și cauciuc — diferența de durabilitate e semnificativă pe termen lung.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">O finisare „îngrijită" care de fapt scurtează durata de viață</h2>
+      <p>Tăierea surplusului lipit exact pe chederul de cauciuc al geamului pare o finisare îngrijită, dar autocolantul lipit direct pe cauciuc se dezlipește mult mai repede sub acțiunea soarelui, pentru că marginea rămâne constant expusă la mișcarea și flexibilitatea cauciucului. Lasă o distanță de 1-2 mm între marginea tăiată și cauciuc – diferența de durabilitate e semnificativă pe termen lung.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Greșeala 5: Folosirea mașinii/vitrinei imediat după montaj</h2>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Primele 48 de ore contează mai mult decât pare</h2>
       <p>Autocolantul are nevoie de timp să se fixeze complet pe suprafață. Pe lunetă auto, pornirea degivrării sau folosirea ștergătorului prea devreme poate deplasa marginile încă neuscate complet. Recomandăm minim 48 de ore fără spălare la jet sub presiune și fără degivrare forțată imediat după aplicare.</p>
 
       <div class="my-10 p-10 bg-slate-900 text-white rounded-[2rem] shadow-2xl">
@@ -1685,15 +1613,15 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "ghid-vizibilitate-obligatorie-fonduri-europene-kit",
-    title: "Vizibilitatea proiectului UE, pe faze: ce comanzi la fiecare etapă și de ce",
-    description: "Obligațiile de vizibilitate pentru un proiect cu finanțare europeană nu apar toate deodată — sunt legate de fazele proiectului. Organizăm ghidul pe cronologie: la depunere, în execuție, la finalizare.",
+    title: "O plăcuță montată strâmb sau cu sigla UE deformată poate deveni o corecție financiară pe proiect",
+    description: "Obligațiile de vizibilitate pentru un proiect cu finanțare europeană nu apar toate deodată, ci pe faze — iar fiecare fază are propriul document justificativ de arhivat, nu doar propriul panou de comandat. Organizăm ghidul pe cronologia reală a unui proiect.",
     date: '2026-07-13T11:01:00.000Z',
     author: "Expert Fonduri Anexa1",
     tags: ["fonduri europene", "vizibilitate ue", "panouri obligatorii", "placute permanente", "ghid", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/fonduri/pnrr-1.webp",
     contentHtml: `
-      <p>Obligațiile de vizibilitate pentru un proiect cu finanțare europeană nu sunt toate identice și nu apar toate în același moment — fiecare fază a proiectului are propriile cerințe din Manualul de Identitate Vizuală (MIV). Nerespectarea lor poate duce la corecții financiare, deci merită organizat clar, pe cronologie, nu ca o listă generică.</p>
+      <p>Obligațiile de vizibilitate pentru un proiect cu finanțare europeană nu sunt toate identice și nu apar toate în același moment – fiecare fază a proiectului are propriile cerințe din Manualul de Identitate Vizuală (MIV), plus propriul document justificativ care trebuie să ajungă în dosarul proiectului. Nerespectarea lor, chiar și pe un detaliu minor de proporție a siglei, poate duce la corecții financiare. Merită organizat clar, pe cronologia reală a proiectului, nu ca o listă generică de materiale.</p>
 
       <div class="overflow-x-auto my-10 shadow-xl rounded-3xl border border-slate-100">
         <table class="min-w-full bg-white">
@@ -1724,18 +1652,18 @@ const STATIC_POSTS: BlogPost[] = [
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Faza 1: Execuția — panoul temporar nu e opțional peste un anumit prag</h2>
-      <p>Dacă proiectul implică lucrări de infrastructură sau construcții care depășesc, de regulă, 500.000 euro, panoul temporar la locația proiectului e obligatoriu pe toată durata execuției. Trebuie să conțină titlul proiectului, obiectivul principal și logourile UE și ale programului de finanțare — nu doar sigla firmei tale.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Faza execuției: panoul temporar, obligatoriu peste un anumit prag</h2>
+      <p>Dacă proiectul implică lucrări de infrastructură sau construcții care depășesc, de regulă, 500.000 euro, panoul temporar la locația proiectului e obligatoriu pe toată durata execuției. Trebuie să conțină titlul proiectului, obiectivul principal și logourile UE și ale programului de finanțare, nu doar sigla firmei beneficiare. O fotografie a panoului montat, datată, ar trebui păstrată alături de restul documentelor de execuție ale proiectului, ca dovadă a conformității din această fază.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Faza 2: Pe parcurs — echipamentele achiziționate trebuie marcate imediat</h2>
-      <p>Orice echipament cumpărat din fonduri (laptopuri, utilaje, mobilier) trebuie să poarte un autocolant vizibil și greu de îndepărtat, aplicat cât mai curând după achiziție, nu lăsat pentru „mai târziu”. Alegerea unui autocolant cu plastifiere mată previne zgârierea și decolorarea la curățarea repetată a echipamentelor de-a lungul anilor de monitorizare.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Faza achizițiilor: echipamentul se marchează imediat, nu „mai târziu”</h2>
+      <p>Orice echipament cumpărat din fonduri (laptopuri, utilaje, mobilier) trebuie să poarte un autocolant vizibil și greu de îndepărtat, aplicat cât mai curând după achiziție. Alegerea unui autocolant cu plastifiere mată previne zgârierea și decolorarea la curățarea repetată a echipamentelor de-a lungul anilor de monitorizare – un detaliu care contează pentru că echipamentul poate fi verificat fizic la un control ulterior, la ani de la achiziție.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Faza 3: La finalizare — panoul temporar e înlocuit, nu doar eliminat</h2>
-      <p>La finalul execuției, panoul temporar trebuie înlocuit cu o plăcuță permanentă, nu doar demontat. Aceasta rămâne la locație pe toată perioada de monitorizare — de aici nevoia unui material cu durabilitate reală pe termen lung: Alucobond de 3mm sau Plexiglass, cu print UV direct pe material, nu autocolant cașerat care se dezlipește la colțuri în câțiva ani.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Faza post-implementare: panoul temporar se înlocuiește, nu doar se elimină</h2>
+      <p>La finalul execuției, panoul temporar trebuie înlocuit cu o plăcuță permanentă, nu doar demontat. Aceasta rămâne la locație pe toată perioada de monitorizare – de aici nevoia unui material cu durabilitate reală pe termen lung: Alucobond de 3mm sau Plexiglass, cu print UV direct pe material, nu autocolant cașerat care se dezlipește la colțuri în câțiva ani și obligă la o înlocuire nedocumentată.</p>
 
       <div class="my-10 p-8 border-2 border-blue-300 rounded-3xl bg-blue-50">
-          <h3 class="text-xl font-bold text-blue-900 mb-2">Detaliu tehnic care contează la audit:</h3>
-          <p class="text-blue-800 italic">Sigla Uniunii Europene are o dimensiune minimă specifică și un spațiu de protecție obligatoriu în jurul ei — orice deformare sau nerespectare a proporțiilor e considerată eroare de identitate vizuală. La Anexa1.ro cunoaștem manualele PNRR, POR, POIM și AFIR și livrăm grafică 100% conformă din prima variantă.</p>
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Detaliul care declanșează cel mai des o observație la control:</h3>
+          <p class="text-blue-800 italic">Sigla Uniunii Europene are o dimensiune minimă specifică și un spațiu de protecție obligatoriu în jurul ei – orice deformare sau nerespectare a proporțiilor e considerată eroare de identitate vizuală. La Anexa1.ro cunoaștem manualele PNRR, POR, POIM și AFIR și livrăm grafică 100% conformă din prima variantă, plus confirmarea scrisă a conformității pentru dosarul proiectului.</p>
       </div>
 
       <p>Nu lăsa vizibilitatea pentru ultima sută de metri a proiectului. Comandă acum <a href="/shop/fonduri-europene">Kitul tău de Vizibilitate Fonduri EU</a>, organizat pe faza exactă în care se află proiectul tău.</p>
@@ -1743,27 +1671,27 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "placute-permanente-panouri-eu-audit-reguli",
-    title: "Ce verifică de fapt un monitor de proiect când vine la controlul de vizibilitate",
-    description: "Vizita unui monitor de proiect pentru verificarea vizibilității nu e aleatorie — urmează o secvență previzibilă de puncte de control. Reconstituim traseul unei astfel de vizite, punct cu punct.",
+    title: "Patru puncte de control, aceeași secvență de fiecare dată: cum decurge o vizită de monitorizare a vizibilității",
+    description: "Vizita unui monitor de proiect pentru verificarea vizibilității urmează, indiferent de tipul proiectului, aceeași secvență previzibilă de puncte de control. Reconstituim traseul tipic, ca să știi exact ce să ai pregătit dinainte.",
     date: '2026-07-31T12:18:00.000Z',
     author: "Consultant Branding Anexa1",
     tags: ["audit fonduri eu", "placute permanente", "vizibilitate proiect", "sfaturi", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/fonduri/placa-permanenta-infrastructura-rutiera-pnrr-1-scaled.jpg",
     contentHtml: `
-      <p>Vizita unui monitor de proiect pentru verificarea vizibilității nu e o inspecție la întâmplare — urmează, de regulă, aceeași secvență de puncte de control, indiferent de tipul proiectului. Reconstituim traseul tipic al unei astfel de vizite, ca să știi exact la ce să te aștepți și ce să ai pregătit dinainte.</p>
+      <p>Vizita unui monitor de proiect pentru verificarea vizibilității nu e o inspecție la întâmplare – urmează, de regulă, aceeași secvență de puncte de control, indiferent de tipul proiectului. Reconstituim mai jos traseul tipic al unei astfel de vizite, în ordinea în care apar verificările, ca să știi exact la ce să te aștepți și ce să ai pregătit dinainte.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Primul lucru verificat: materialul e la locul lui?</h2>
-      <p>Înainte de orice detaliu tehnic, monitorul verifică pur și simplu dacă plăcuța sau panoul există fizic la locația declarată. Sună evident, dar e cea mai frecventă problemă întâlnită — materiale mutate, depozitate „temporar” într-un birou din spate, sau demontate din greșeală la o renovare. Locația trebuie să fie publică, ușor accesibilă și vizibilă fără efort — de obicei la intrarea principală în clădire, nu ascunsă pe un hol interior.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Punctul 1: materialul există fizic, la locul declarat?</h2>
+      <p>Înainte de orice detaliu tehnic, monitorul verifică pur și simplu dacă plăcuța sau panoul există fizic la locația declarată inițial în dosarul proiectului. Sună evident, dar e cea mai frecventă problemă întâlnită – materiale mutate, depozitate „temporar" într-un birou din spate, sau demontate din greșeală la o renovare. Locația trebuie să fie publică, ușor accesibilă și vizibilă fără efort, de obicei la intrarea principală în clădire, nu ascunsă pe un hol interior.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Al doilea punct: informația se mai citește?</h2>
-      <p>Un panou tehnic vechi de un an, decolorat sau curbat de intemperii, ridică imediat o observație în raportul de audit — chiar dacă materialul respectă conținutul cerut. Aici diferența dintre materialele ieftine și cele profesionale devine vizibilă concret: un autocolant cașerat pe placă se dezlipește treptat la colțuri, în timp ce printul UV aplicat direct pe suport (Alucobond sau PVC) rezistă intact pe toată perioada de monitorizare, de regulă 3-5 ani.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Punctul 2: informația se mai citește după ani de expunere?</h2>
+      <p>Un panou vechi de un an, decolorat sau curbat de intemperii, ridică imediat o observație în raportul de audit, chiar dacă materialul respectă conținutul cerut. Aici diferența dintre materialele ieftine și cele profesionale devine vizibilă concret: un autocolant cașerat pe placă se dezlipește treptat la colțuri, în timp ce printul UV aplicat direct pe suport (Alucobond sau PVC) rezistă intact pe toată perioada de monitorizare, de regulă 3-5 ani.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Al treilea punct: siglele respectă proporțiile exacte?</h2>
-      <p>Steagul Uniunii Europene și siglele oficiale ale programului de finanțare au proporții și un spațiu de protecție definite strict în manualul de identitate vizuală. O siglă întinsă sau comprimată pentru a se încadra „mai frumos” în design e considerată o eroare gravă, indiferent cât de bine arată vizual rezultatul final.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Punctul 3: siglele respectă proporțiile exacte din manual?</h2>
+      <p>Steagul Uniunii Europene și siglele oficiale ale programului de finanțare au proporții și un spațiu de protecție definite strict în manualul de identitate vizuală. O siglă întinsă sau comprimată pentru a se încadra „mai frumos" în design e considerată o eroare gravă, indiferent cât de bine arată vizual rezultatul final.</p>
 
-      <h2 class="text-2xl font-bold mt-10 mb-4">Al patrulea punct: echipamentele din inventar au autocolantele aplicate?</h2>
-      <p>Dacă proiectul a inclus achiziții de echipamente, monitorul verifică, de regulă prin sondaj, dacă acestea poartă autocolantul obligatoriu cu siglele oficiale. Un echipament fără marcaj, chiar dacă restul proiectului e conform, poate genera o observație separată.</p>
+      <h2 class="text-2xl font-bold mt-10 mb-4">Punctul 4: echipamentele din inventar poartă marcajul obligatoriu?</h2>
+      <p>Dacă proiectul a inclus achiziții de echipamente, monitorul verifică, de regulă prin sondaj, dacă acestea poartă autocolantul obligatoriu cu siglele oficiale. Un echipament fără marcaj, chiar dacă restul proiectului e conform, poate genera o observație separată în raport.</p>
 
       <div class="my-10 p-10 bg-blue-900 text-white rounded-[2.5rem] shadow-xl">
           <h3 class="text-2xl font-black mb-4">Traseul complet, ca listă de verificat înainte de vizită:</h3>
@@ -1780,41 +1708,41 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "ghid-semnalistica-deschidere-magazin",
-    title: "Ghid semnalistică pentru deschiderea unui magazin: ce comanzi întâi și în ce ordine",
-    description: "Deschizi un magazin și nu știi ce semnalistică să comanzi prima dată? Ghid practic cu ordinea corectă de comandă, termenele de producție și greșelile care întârzie deschiderea.",
+    title: "Data deschiderii e fixă, dar termenele de producție a semnalisticii nu se sincronizează automat cu ea",
+    description: "Vitrina goală și firma lipsă în ziua deschiderii nu vin dintr-un furnizor lent, ci dintr-o ordine greșită de comandă. Explicăm secvența corectă, cu termene realiste de producție, pentru o deschidere de magazin fără improvizații.",
     date: '2025-10-14T09:15:00.000Z',
     author: "Consultant Semnalistică Anexa1",
     tags: ["semnalistica", "deschidere magazin", "firma exterioara", "window graphics", "sfaturi", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/window-graphics/window-graphics-1.webp",
     contentHtml: `
-      <p>Deschiderea unui magazin are un termen fix — ziua în care semnezi contractul de spațiu, angajezi personal și anunți clienții că ești „deschis”. Problema este că materialele de semnalistică au propriile lor termene de producție, iar dacă le comanzi în ordinea greșită, riști să deschizi ușile cu o vitrină goală și fără firmă la stradă. Iată ordinea reală în care ar trebui să lucrezi, cu tot ce am văzut că merge (și ce nu merge) la zeci de deschideri de magazine.</p>
+      <p>Deschiderea unui magazin are un termen fix – ziua în care semnezi contractul de spațiu, angajezi personal și anunți clienții că ești „deschis". Materialele de semnalistică, însă, au propriile lor termene de producție, independente de calendarul tău, iar dacă le comanzi în ordinea greșită riști să deschizi ușile cu o vitrină goală și fără firmă la stradă. Explicăm mai jos ordinea reală de lucru, din ce am văzut că funcționează (și ce nu) la zeci de deschideri de magazine.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
         <h3 class="text-blue-900 font-bold mb-2">Sfat rapid:</h3>
         <p class="text-blue-800 italic">Comandă semnalistica exterioară (firmă + vitrină) cu minimum 3-4 săptămâni înainte de data deschiderii, nu cu 3-4 zile. Producția în sine durează puțin, dar aprobarea machetei, corecțiile și eventualele avize de la proprietarul clădirii sau asociația de proprietari consumă cel mai mult timp.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">1. Firma exterioară și bannerul de fațadă — primul pas, obligatoriu</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Prioritatea absolută: magazinul trebuie identificat de pe stradă</h2>
       <p>Înainte de orice altceva, magazinul trebuie să fie identificabil de pe stradă. Dacă firma luminoasă permanentă nu este gata la timp (montajul electric și avizele durează adesea mai mult decât producția în sine), soluția intermediară standard în industrie este un <a href="/configurator/banner">banner frontlit</a> cu numele magazinului și data deschiderii, montat pe fațadă cu capse și șoricei. Este ieftin, se produce în câteva zile lucrătoare și acoperă exact perioada de tranziție până când firma definitivă e montată.</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
         <li><b>Ce comanzi:</b> Banner frontlit 440g cu tiv perimetral și capse, dimensionat după lățimea fațadei disponibile.</li>
         <li><b>Termen realist:</b> 2-4 zile producție, plus timp de montaj propriu (nu necesită echipă specializată dacă ai deja o structură/gard pe care să-l prinzi).</li>
-        <li><b>Greșeală frecventă:</b> Comandarea firmei luminoase fără să existe un plan B pentru primele săptămâni — dacă avizul de la primărie sau asociația de proprietari întârzie, magazinul rămâne fără nicio identificare la stradă.</li>
+        <li><b>Greșeală frecventă:</b> comandarea firmei luminoase fără un plan B pentru primele săptămâni – dacă avizul de la primărie sau asociația de proprietari întârzie, magazinul rămâne fără nicio identificare la stradă.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">2. Vitrina — al doilea pas, cel mai vizibil pentru trecători</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">A doua prioritate: vitrina, văzută zilnic indiferent dacă intră cineva sau nu</h2>
       <p>Vitrina este suprafața pe care trecătorii o văd zilnic, indiferent dacă intră sau nu în magazin. Aici ai două opțiuni principale, care nu se exclud reciproc: <a href="/configurator/window-graphics">window graphics (folie perforată one-way vision)</a> pentru acoperire mare (program, ofertă de lansare, atmosferă de brand) și <a href="/configurator/autocolante">autocolante decupate la contur</a> pentru logo, program de funcționare sau elemente mici de identitate lângă ușă.</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Ce comanzi întâi:</b> Autocolantul cu programul de funcționare și logo-ul — sunt mici, ieftine și te scapă de „geamul gol” chiar din prima zi.</li>
-        <li><b>Ce comanzi pentru lansare:</b> Window graphics pe o secțiune mare a vitrinei, cu mesajul de deschidere sau ofertă introductivă — se poate înlocui ulterior cu grafica permanentă de brand.</li>
+        <li><b>Ce comanzi întâi:</b> autocolantul cu programul de funcționare și logo-ul – sunt mici, ieftine și te scapă de „geamul gol" chiar din prima zi.</li>
+        <li><b>Ce comanzi pentru lansare:</b> window graphics pe o secțiune mare a vitrinei, cu mesajul de deschidere sau ofertă introductivă – se poate înlocui ulterior cu grafica permanentă de brand.</li>
         <li><b>Termen realist:</b> 3-5 zile producție pentru ambele, plus o zi pentru montaj profesionist dacă suprafața depășește 2-3 mp.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">3. Semnalistica interioară — al treilea pas, dar nu ultimul din listă</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">A treia prioritate: interiorul, care poate aștepta câteva zile după deschidere</h2>
       <p>Odată ce clientul a trecut de ușă, are nevoie de indicatoare: casă de marcat, probator, ieșire, zone pe categorii de produse. Aici intră panourile rigide (<a href="/materiale/pvc-forex">PVC Forex</a> sau <a href="/materiale/alucobond">Alucobond</a>) montate pe perete sau suspendate, plus eventuale roll-up-uri pentru oferte temporare care pot fi mutate rapid dintr-o zonă în alta.</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Ce comanzi:</b> Panouri direcționale rigide pentru zonele fixe (nu se schimbă des) și <a href="/configurator/rollup">roll-up-uri</a> pentru mesajele care se vor actualiza (promoții, evenimente).</li>
+        <li><b>Ce comanzi:</b> panouri direcționale rigide pentru zonele fixe (nu se schimbă des) și <a href="/configurator/rollup">roll-up-uri</a> pentru mesajele care se vor actualiza (promoții, evenimente).</li>
         <li><b>Termen realist:</b> 4-6 zile pentru panouri rigide cu print UV direct, 2-3 zile pentru roll-up.</li>
       </ul>
 
@@ -1851,48 +1779,48 @@ const STATIC_POSTS: BlogPost[] = [
         </table>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Ce trebuie să fie gata neapărat înainte de deschidere</h2>
-      <p>Dacă bugetul sau timpul sunt limitate, prioritatea absolută rămâne exteriorul: o firmă/banner vizibil de pe stradă și un program de funcționare lipit pe ușă sau vitrină. Panourile interioare direcționale pot fi completate și în primele zile de funcționare, fără să afecteze prima impresie a clienților care trec pe trotuar.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Dacă bugetul sau timpul sunt limitate, unde tai din listă</h2>
+      <p>Prioritatea absolută rămâne exteriorul: o firmă/banner vizibil de pe stradă și un program de funcționare lipit pe ușă sau vitrină. Panourile interioare direcționale pot fi completate și în primele zile de funcționare, fără să afecteze prima impresie a clienților care trec pe trotuar în ziua deschiderii.</p>
 
       <p>La Anexa1.ro producem toate aceste materiale sub același acoperiș, ceea ce înseamnă că poți plasa comenzile succesiv fără să sincronizezi mai mulți furnizori. Pornește cu <a href="/configurator/banner">bannerul de fațadă</a> sau <a href="/configurator/window-graphics">vitrina</a> ta chiar acum și primești o cotație instant pentru fiecare etapă.</p>
     `,
   },
   {
     slug: "window-graphics-vs-autocolante-vitrina-diferenta",
-    title: "Window Graphics vs. Autocolante pe vitrină: ce diferență contează de fapt",
-    description: "Window graphics (folie perforată one-way vision) sau autocolant decupat la contur? Comparăm tehnic cele două soluții pentru vitrină și când se folosește fiecare.",
+    title: "„Vreau ceva pe geam” ascunde două produse tehnic diferite, nu unul singur",
+    description: "Sub cererea aparent simplă pentru vitrină se ascund window graphics (folie perforată one-way vision) și autocolantul decupat la contur — două produse cu structuri, costuri și utilizări complet diferite. Explicăm ce diferă de fapt.",
     date: '2025-12-09T11:30:00.000Z',
     author: "Specialist Colantări Anexa1",
     tags: ["window graphics", "autocolante", "vitrina magazin", "one way vision", "sfaturi", "noutati"],
     source: "Anexa1.ro",
     contentHtml: `
-      <p>„Vreau ceva pe geam” este cererea cu care pornesc majoritatea clienților care ne contactează pentru vitrină. Problema este că sub această cerere se ascund două produse complet diferite din punct de vedere tehnic: <a href="/configurator/window-graphics">window graphics</a> (folia perforată one-way vision) și <a href="/configurator/autocolante">autocolantul decupat la contur</a>. Confuzia dintre ele duce fie la costuri inutile, fie la un rezultat care nu face ce ți-ai dorit.</p>
+      <p>„Vreau ceva pe geam" este cererea cu care pornesc majoritatea clienților care ne contactează pentru vitrină. Problema e că sub această cerere aparent simplă se ascund două produse complet diferite din punct de vedere tehnic: <a href="/configurator/window-graphics">window graphics</a> (folia perforată one-way vision) și <a href="/configurator/autocolante">autocolantul decupat la contur</a>. Confuzia dintre ele duce fie la costuri inutile, fie la un rezultat care nu face ce ți-ai dorit.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
         <h3 class="text-blue-900 font-bold mb-2">Sfat rapid:</h3>
         <p class="text-blue-800 italic">Ai nevoie să acoperi o suprafață mare de geam și vrei ca personalul din interior să vadă în continuare afară? Alege <b>window graphics</b>. Ai nevoie doar de un logo, un program de funcționare sau un text pe o zonă mică? <b>Autocolantul decupat</b> este mai ieftin și mai simplu de aplicat.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">1. Window Graphics (Folie Perforată One-Way Vision)</h2>
-      <p>Materialul de bază este un PVC alb, perforat cu mii de găurele de circa 1-2 mm, cu spatele vopsit în negru. Structura asta „dublă” este ceea ce face diferența: din exterior ochiul percepe suprafața plină (grafica printată), pentru că perforațiile sunt prea mici ca să fie observate de la distanță de stradă. Din interior, prin aceleași găurele, personalul vede afară aproape normal — stratul negru de pe spate elimină reflexiile care ar face folia opacă și din interior.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Cum funcționează, de fapt, folia perforată</h2>
+      <p>Materialul de bază pentru window graphics este un PVC alb, perforat cu mii de găurele de circa 1-2 mm, cu spatele vopsit în negru. Structura asta „dublă" e ceea ce face diferența: din exterior, ochiul percepe suprafața plină (grafica printată), pentru că perforațiile sunt prea mici ca să fie observate de la distanță de stradă. Din interior, prin aceleași găurele, personalul vede afară aproape normal – stratul negru de pe spate elimină reflexiile care ar face folia opacă și din interior.</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Suprafață acoperită:</b> Panouri mari, tipic vitrina întreagă sau secțiuni de 1-4 mp.</li>
-        <li><b>Vizibilitate interior → exterior:</b> Da, aproximativ 50-60% din lumină trece prin perforații, deci personalul din magazin nu lucrează „pe întuneric”.</li>
-        <li><b>Utilizare tipică:</b> Promoții de sezon pe toată vitrina, acoperirea unei vitrine în renovare, branding complet pe geam pentru saloane, agenții sau showroom-uri.</li>
-        <li><b>Aplicare:</b> Necesită tehnică de montaj (metoda umedă cu apă și racletă) pentru a evita bulele de aer pe o suprafață mare — recomandăm montaj profesionist pentru panouri peste 2 mp.</li>
+        <li><b>Suprafață acoperită:</b> panouri mari, tipic vitrina întreagă sau secțiuni de 1-4 mp.</li>
+        <li><b>Vizibilitate interior → exterior:</b> da, aproximativ 50-60% din lumină trece prin perforații, deci personalul din magazin nu lucrează „pe întuneric".</li>
+        <li><b>Utilizare tipică:</b> promoții de sezon pe toată vitrina, acoperirea unei vitrine în renovare, branding complet pe geam pentru saloane, agenții sau showroom-uri.</li>
+        <li><b>Aplicare:</b> necesită tehnică de montaj (metoda umedă cu apă și racletă) pentru a evita bulele de aer pe o suprafață mare – recomandăm montaj profesionist pentru panouri peste 2 mp.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">2. Autocolantul Decupat la Contur (Cut Vinyl)</h2>
-      <p>Aici vorbim de vinyl monomeric sau polimeric plin (fără perforații), decupat exact pe conturul unui logo, literă sau formă grafică, aplicat direct pe geam ca un sticker. Nu are strat negru, nu filtrează lumina pe o suprafață mare — pur și simplu ocupă spațiul exact al graficii, restul geamului rămânând complet transparent.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">De ce autocolantul decupat nu filtrează nimic, doar ocupă spațiul exact al graficii</h2>
+      <p>Aici vorbim de vinyl monomeric sau polimeric plin (fără perforații), decupat exact pe conturul unui logo, literă sau formă grafică, aplicat direct pe geam ca un sticker. Nu are strat negru, nu filtrează lumina pe o suprafață mare – pur și simplu ocupă spațiul exact al graficii, restul geamului rămânând complet transparent.</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Suprafață acoperită:</b> Mică și medie — logo, text, pictograme, program de funcționare, indicatoare „Deschis/Închis”.</li>
-        <li><b>Vizibilitate interior → exterior:</b> Nemodificată în afara suprafeței graficii — geamul rămâne transparent peste tot unde nu e aplicat autocolantul.</li>
-        <li><b>Utilizare tipică:</b> Logo pe ușa de intrare, programul de funcționare, elemente de identitate vizuală lângă vitrină, semnalizare rapidă și ieftină.</li>
-        <li><b>Aplicare:</b> Simplă, metoda uscată, se poate face chiar de personalul magazinului fără scule speciale în afară de o racletă mică.</li>
+        <li><b>Suprafață acoperită:</b> mică și medie – logo, text, pictograme, program de funcționare, indicatoare „Deschis/Închis".</li>
+        <li><b>Vizibilitate interior → exterior:</b> nemodificată în afara suprafeței graficii – geamul rămâne transparent peste tot unde nu e aplicat autocolantul.</li>
+        <li><b>Utilizare tipică:</b> logo pe ușa de intrare, programul de funcționare, elemente de identitate vizuală lângă vitrină, semnalizare rapidă și ieftină.</li>
+        <li><b>Aplicare:</b> simplă, metoda uscată, se poate face chiar de personalul magazinului fără scule speciale în afară de o racletă mică.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Costul: de ce nu sunt interschimbabile</h2>
-      <p>Prețul per metru pătrat al window graphics este mai mare decât al unui autocolant simplu, pentru că materialul perforat costă mai mult la producție și necesită mai multă atenție la montaj. Din acest motiv, folosirea window graphics pentru un logo mic de 20x20 cm este o risipă de buget — un autocolant decupat la contur face exact același lucru, la un cost mult mai mic. Invers, dacă acoperi toată vitrina doar cu autocolant plin (nu perforat), blochezi complet lumina și vizibilitatea din interior — utilă uneori (depozit, spate de raft), dar nepotrivit dacă ai casă de marcat sau personal lângă geam.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">De ce alegerea greșită te costă în ambele direcții</h2>
+      <p>Prețul per metru pătrat al window graphics e mai mare decât al unui autocolant simplu, pentru că materialul perforat costă mai mult la producție și necesită mai multă atenție la montaj. Folosirea window graphics pentru un logo mic de 20x20 cm e o risipă de buget – un autocolant decupat la contur face exact același lucru, la un cost mult mai mic. Invers, dacă acoperi toată vitrina doar cu autocolant plin (nu perforat), blochezi complet lumina și vizibilitatea din interior – util uneori (depozit, spate de raft), dar nepotrivit dacă ai casă de marcat sau personal lângă geam.</p>
 
       <div class="overflow-x-auto my-12 shadow-xl rounded-3xl border border-slate-100">
         <table class="min-w-full bg-white">
@@ -1936,39 +1864,39 @@ const STATIC_POSTS: BlogPost[] = [
   },
   {
     slug: "mesh-publicitar-schela-fatada-renovare-firme-constructii",
-    title: "Mesh publicitar pe schelă sau fațadă în renovare: ghid pentru firme de construcții",
-    description: "Firmă de construcții sau dezvoltator imobiliar cu un șantier în lucru? Ghid practic despre mesh publicitar pe schelă: de ce e obligatoriu din motive de siguranță și ce informații să incluzi.",
+    title: "O schelă acoperită cu banner plin devine o velă la vânt puternic: de ce mesh-ul nu e opțional pe șantier",
+    description: "O fațadă în renovare e o suprafață publicitară gratuită, dar materialul greșit montat pe schelă nu e doar o reclamă proastă, e un risc de siguranță real. Explicăm mecanica din spatele riscului și ce responsabilitate revine firmei de construcții.",
     date: '2026-02-23T08:45:00.000Z',
     author: "Inginer Producție Anexa1",
     tags: ["mesh", "schela", "firme constructii", "santier", "siguranta", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/mesh/mesh_publicitar_personalizat.jpg",
     contentHtml: `
-      <p>Un șantier de construcții sau o fațadă în renovare este, din perspectivă comercială, o suprafață publicitară gratuită pe care majoritatea firmelor o ignoră. În loc de o schelă goală acoperită cu folie de protecție simplă, poți afișa numele firmei, sigla dezvoltatorului sau chiar o vizualizare a proiectului finalizat. Dar pe o schelă, materialul greșit nu e doar o reclamă proastă — e un risc de siguranță real.</p>
+      <p>O fațadă în renovare sau un șantier de construcții e, din perspectivă comercială, o suprafață publicitară gratuită pe care majoritatea firmelor o ignoră – în loc de o schelă goală acoperită cu folie de protecție simplă, poți afișa numele firmei, sigla dezvoltatorului sau chiar o vizualizare a proiectului finalizat. Dar pe o schelă, alegerea materialului nu e doar o decizie de marketing, e o decizie de siguranță structurală, cu implicații directe pentru firma responsabilă de șantier.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
         <h3 class="text-blue-900 font-bold mb-2">Sfat rapid:</h3>
-        <p class="text-blue-800 italic">Pentru orice suprafață montată pe schelă sau structură temporară, <b>mesh-ul microperforat</b> este singura variantă recomandată tehnic. Un banner plin (frontlit) de aceleași dimensiuni transformă schela într-o pânză de vânt, cu riscuri reale de smulgere a prinderilor.</p>
+        <p class="text-blue-800 italic">Pentru orice suprafață montată pe schelă sau structură temporară, mesh-ul microperforat este singura variantă recomandată tehnic. Un banner plin (frontlit) de aceleași dimensiuni transformă schela într-o pânză de vânt, cu riscuri reale de smulgere a prinderilor.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">De ce mesh și nu banner clasic pe o schelă</h2>
-      <p><a href="/configurator/mesh">Mesh-ul publicitar</a> este un PVC cu mii de micro-perforații care lasă aerul să treacă prin material, în loc să-l blocheze. Diferența pare mică vizual, dar are consecințe mecanice majore: un banner frontlit plin de 6x20 metri montat pe o schelă se comportă ca o velă — la o rafală puternică, presiunea acumulată pe suprafață se transmite integral în punctele de prindere (coliere, cleme, cadrul schelei). Pe mesh, o parte semnificativă din presiunea vântului trece direct prin perforații, reducând sarcina pe structură cu până la 40-60%, în funcție de densitatea perforației materialului.</p>
-      <p>Pe un șantier, asta nu e doar o chestiune de calitate a reclamei — este o chestiune de răspundere. O schelă acoperită integral cu banner plin, într-o zonă cu vânt, poate ceda la prinderi, punând în pericol atât materialul cât și pietonii de la baza clădirii. Firmele de construcții care lucrează cu echipe de montaj schele profesioniste știu deja acest lucru și cer explicit mesh pentru acoperirea integrală a fațadei.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Ce se întâmplă mecanic atunci când vântul lovește suprafața</h2>
+      <p><a href="/configurator/mesh">Mesh-ul publicitar</a> este un PVC cu mii de micro-perforații care lasă aerul să treacă prin material, în loc să-l blocheze. Diferența pare mică vizual, dar are consecințe mecanice majore: un banner frontlit plin de 6x20 metri montat pe o schelă se comportă ca o velă – la o rafală puternică, presiunea acumulată pe suprafață se transmite integral în punctele de prindere (coliere, cleme, cadrul schelei). Pe mesh, o parte semnificativă din presiunea vântului trece direct prin perforații, reducând sarcina pe structură cu până la 40-60%, în funcție de densitatea perforației materialului.</p>
+      <p>Pe un șantier, asta nu e doar o chestiune de calitate a reclamei, e o chestiune de răspundere care revine direct firmei responsabile de structura montată. O schelă acoperită integral cu banner plin, într-o zonă cu vânt, poate ceda la prinderi, punând în pericol atât materialul cât și pietonii de la baza clădirii. Firmele de construcții care lucrează cu echipe de montaj schele profesioniste știu deja acest lucru și cer explicit mesh pentru acoperirea integrală a fațadei.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Utilizări tipice pe șantier</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Un mesh bine gândit e mai mult decât reclamă – e și panou informativ</h2>
+      <p>Un mesh de șantier funcționează și ca panou informativ pentru trecători și pentru eventuale controale, nu doar ca reclamă. Recomandăm includerea următoarelor elemente, indiferent de designul grafic ales:</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Acoperire completă de schelă:</b> Vizualizare render a clădirii finalizate, oferind o imagine de ansamblu profesionistă în locul unei schele goale sau acoperite cu folie transparentă de protecție.</li>
-        <li><b>Bandă publicitară pe gard de șantier:</b> Numele firmei de construcții, al dezvoltatorului și datele de contact, montate pe gardul perimetral.</li>
-        <li><b>Fațade în renovare fără schelă completă:</b> Mesh montat direct pe structura de protecție, util mai ales în zone comerciale unde fațada rămâne vizibilă din stradă luni de zile.</li>
+        <li><b>Avertismente de siguranță:</b> „Șantier în lucru", „Atenție, cădere materiale", „Acces interzis persoanelor neautorizate" – informații standard cerute în multe cazuri de reglementările de protecție a muncii pe șantier.</li>
+        <li><b>Firma constructoare / dezvoltator:</b> nume, logo și date de contact – mesh-ul de șantier este adesea prima interacțiune a unui client potențial cu brandul.</li>
+        <li><b>Numele proiectului:</b> denumirea oficială a ansamblului sau clădirii, mai ales dacă e un proiect rezidențial sau comercial în vânzare.</li>
+        <li><b>Termen estimativ de finalizare:</b> un detaliu simplu care crește credibilitatea proiectului în fața trecătorilor și potențialilor clienți.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Ce informații să incluzi pe mesh</h2>
-      <p>Un mesh de șantier bine gândit face mai mult decât reclamă — funcționează și ca panou informativ pentru trecători și pentru controale. Recomandăm includerea următoarelor elemente, indiferent de designul grafic ales:</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Trei scenarii tipice de utilizare pe șantier</h2>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Numele proiectului:</b> Denumirea oficială a ansamblului sau clădirii, mai ales dacă e un proiect rezidențial sau comercial în vânzare.</li>
-        <li><b>Firma constructoare / dezvoltator:</b> Nume, logo și date de contact — mesh-ul de șantier este adesea prima interacțiune a unui client potențial cu brandul.</li>
-        <li><b>Avertismente de siguranță:</b> „Șantier în lucru”, „Atenție, cădere materiale”, „Acces interzis persoanelor neautorizate” — informații standard cerute în multe cazuri de reglementările de protecție a muncii pe șantier.</li>
-        <li><b>Termen estimativ de finalizare:</b> Un detaliu simplu care crește credibilitatea proiectului în fața trecătorilor și potențialilor clienți.</li>
+        <li><b>Acoperire completă de schelă:</b> vizualizare render a clădirii finalizate, în locul unei schele goale sau acoperite cu folie transparentă de protecție.</li>
+        <li><b>Bandă publicitară pe gard de șantier:</b> numele firmei de construcții, al dezvoltatorului și datele de contact, montate pe gardul perimetral.</li>
+        <li><b>Fațade în renovare fără schelă completă:</b> mesh montat direct pe structura de protecție, util mai ales în zone comerciale unde fațada rămâne vizibilă din stradă luni de zile.</li>
       </ul>
 
       <div class="my-10 p-10 bg-slate-900 text-white rounded-[2rem] shadow-2xl">
@@ -1976,46 +1904,45 @@ const STATIC_POSTS: BlogPost[] = [
         <p class="text-lg">Pentru suprafețe mari de schelă, mesh-ul se livrează pe module croite după structura reală (înălțime pe etaj, lățime pe travee), cu tiv perimetral întărit și capse dese pentru prindere solidă. Trimite-ne planul schelei sau dimensiunile pe secțiuni și croim materialul astfel încât montajul echipei tale să dureze cât mai puțin.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Contrastul dintre imagine și siguranță — un compromis mic</h2>
-      <p>Singurul compromis real al mesh-ului este un contrast ușor mai scăzut față de un banner plin, vizibil doar de la distanță mică — de la nivelul străzii, pe o clădire cu câteva etaje, ochiul uman nu mai distinge perforațiile, iar imaginea arată la fel de clar ca un banner obișnuit. Diferența devine complet nesemnificativă în raport cu riscul evitat.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Singurul compromis real, și de ce contează mai puțin decât pare</h2>
+      <p>Mesh-ul are un contrast ușor mai scăzut față de un banner plin, vizibil doar de la distanță mică. De la nivelul străzii, pe o clădire cu câteva etaje, ochiul uman nu mai distinge perforațiile, iar imaginea arată la fel de clar ca un banner obișnuit. Diferența devine complet nesemnificativă în raport cu riscul structural evitat.</p>
 
       <p>La Anexa1.ro printăm mesh publicitar cu tehnologie UV de înaltă rezoluție, croit pe dimensiunile schelei sau fațadei tale. Calculează prețul pentru proiectul tău în <a href="/configurator/mesh">configuratorul de mesh publicitar</a> și primești o cotație instant.</p>
     `,
   },
   {
     slug: "bannere-afaceri-sezoniere-evenimente-cost-refolosire",
-    title: "Bannere pentru afaceri sezoniere sau evenimente: cum eviți să cheltui de două ori",
-    description: "Agent imobiliar sau organizator de evenimente cu bannere recurente? Ghid practic despre dimensiuni standard, design reutilizabil și diferența 440g vs. 510g pentru a nu comanda de la zero de fiecare dată.",
+    title: "De ce doi agenți imobiliari cu același volum de bannere ajung cu costuri anuale complet diferite",
+    description: "Diferența nu vine din cât plătesc per banner, ci din două decizii luate (sau ratate) din start: gramajul materialului și dacă data e imprimată direct în design. Explicăm cum eviți să reconstruiești bannerul de la zero la fiecare eveniment.",
     date: '2026-05-19T14:20:00.000Z',
     author: "Echipa Anexa1",
     tags: ["bannere", "evenimente", "imobiliare", "frontlit", "cost", "sfaturi", "noutati"],
     source: "Anexa1.ro",
     hero: "/products/banner/banner-1.webp",
     contentHtml: `
-      <p>Dacă organizezi evenimente periodic sau lucrezi în imobiliare, probabil ai comandat deja bannere de mai multe ori pentru practic același tip de mesaj — „De vânzare”, „Târg de toamnă”, „Deschidere sezon”. Diferența dintre firmele care refac bugetul de la zero de fiecare dată și cele care își reduc constant costul per eveniment stă în două decizii luate din start: designul și materialul.</p>
+      <p>Doi agenți imobiliari cu volum comparabil de bannere pe an pot ajunge cu costuri anuale complet diferite, fără ca niciunul să fi negociat un preț mai bun. Diferența nu vine din cât plătesc per bucată, ci din două decizii luate – sau ratate – încă de la prima comandă: gramajul materialului ales și dacă data evenimentului a fost imprimată direct în design. Explicăm mai jos ambele, pornind de la cea cu impact mai mare pe termen lung.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
         <h3 class="text-blue-900 font-bold mb-2">Sfat rapid:</h3>
-        <p class="text-blue-800 italic">Dacă un banner se refolosește de minimum 3-4 ori pe an, costul suplimentar al materialului <b>510g</b> se amortizează rapid față de reproducerea repetată pe <b>440g</b>. Dacă bannerul e cu adevărat temporar (un singur eveniment, câteva zile), 440g rămâne alegerea corectă din punct de vedere al costului.</p>
+        <p class="text-blue-800 italic">Dacă un banner se refolosește de minimum 3-4 ori pe an, costul suplimentar al materialului 510g se amortizează rapid față de reproducerea repetată pe 440g. Dacă bannerul e cu adevărat temporar (un singur eveniment, câteva zile), 440g rămâne alegerea corectă din punct de vedere al costului.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Greșeala nr. 1: dimensiuni „la comandă” de fiecare dată</h2>
-      <p>Cea mai frecventă cauză pentru care o firmă ajunge să comande <a href="/configurator/banner">bannere</a> repetate fără discount de reutilizare este alegerea unei dimensiuni ad-hoc de fiecare dată — 2,87 x 1,15 m la un eveniment, apoi 3,1 x 1,2 m la următorul, pentru că „așa a ieșit locul disponibil”. Rezultatul: fiecare banner e unicat, nu poate fi refolosit pe alt cadru sau altă structură, și designul trebuie regândit de la zero de fiecare dată.</p>
-      <p>Soluția simplă: stabilește 1-2 dimensiuni standard pe care le folosești constant (de exemplu 3x1 m pentru garduri de eveniment, 2x1 m pentru cadre X sau structuri portabile) și păstrează-te la ele. Un banner standard se poate monta pe orice structură compatibilă, an de an, fără să recalculezi nimic.</p>
-
-      <h2 class="text-2xl font-bold mt-12 mb-6">Greșeala nr. 2: date fixe imprimate direct în design</h2>
-      <p>„Reduceri de Black Friday 2025” sau „Târg de Crăciun, 6-8 decembrie” par detalii mici, dar transformă un banner reutilizabil într-un banner de unică folosință. Recomandarea practică: separă mesajul evergreen (numele firmei, sigla, sloganul, categoria de eveniment) de detaliile variabile (data exactă, anul, prețul promoției).</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Decizia cu impactul cel mai mare: 440g sau 510g</h2>
+      <p>Ambele grame sunt variante de <a href="/configurator/banner">poliplan frontlit</a>, diferența fiind grosimea și densitatea materialului. Nu e doar o chestiune de „mai gros e mai bine" – fiecare are un rol economic diferit.</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>Varianta reutilizabilă:</b> Banner principal fără dată fixă („Târg de Toamnă” în loc de „Târg de Toamnă 2025”), plus un banner secundar mic sau o insertă cu data curentă, mult mai ieftin de reprodus separat.</li>
-        <li><b>Pentru imobiliare:</b> „De vânzare” + numărul de telefon rămân valabile ani la rând; doar prețul sau statusul se schimbă — acestea pot fi pe un panou separat, mai mic, atașat lângă banner.</li>
+        <li><b>440g (standard):</b> mai ieftin per metru pătrat, suficient de rezistent pentru câteva săptămâni de expunere continuă sau folosire ocazională (un eveniment, o campanie sezonieră). Recomandat dacă bannerul se schimbă anual oricum din alte motive (rebranding, ofertă nouă).</li>
+        <li><b>510g (durabil):</b> structură mai densă, rezistență mult mai bună la manevrare repetată (montaj/demontaj de multe ori pe an), la umezeală și la expunere UV prelungită. Recomandat pentru bannerele „evergreen" pe care le scoți și le strângi de mai multe ori pe sezon – un banner de agenție imobiliară montat și demontat de 8-10 ori pe an, sau un banner de eveniment recurent lunar.</li>
       </ul>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Frontlit 440g vs. 510g: unde contează diferența</h2>
-      <p>Ambele grame sunt variante de <a href="/configurator/banner">poliplan frontlit</a>, diferența fiind grosimea și densitatea materialului. Nu este doar o chestiune de „mai gros e mai bine” — fiecare are un rol economic diferit.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">A doua decizie: data fixă imprimată direct în design</h2>
+      <p>„Reduceri de Black Friday 2025" sau „Târg de Crăciun, 6-8 decembrie" par detalii mici, dar transformă un banner reutilizabil într-un banner de unică folosință, indiferent cât de bun e materialul ales. Recomandarea practică: separă mesajul evergreen (numele firmei, sigla, sloganul, categoria de eveniment) de detaliile variabile (data exactă, anul, prețul promoției).</p>
       <ul class="list-disc pl-6 space-y-2 my-6">
-        <li><b>440g (standard):</b> Mai ieftin per metru pătrat, suficient de rezistent pentru câteva săptămâni de expunere continuă sau folosire ocazională (un eveniment, o campanie sezonieră). Recomandat dacă bannerul se schimbă anual oricum din alte motive (rebranding, ofertă nouă).</li>
-        <li><b>510g (durabil):</b> Structură mai densă, rezistență mult mai bună la manevrare repetată (montaj/demontaj de multe ori pe an), la umezeală și la expunere UV prelungită. Recomandat pentru bannerele „evergreen” pe care le scoți și le strângi de mai multe ori pe sezon — un banner de agenție imobiliară montat și demontat de 8-10 ori pe an, sau un banner de eveniment recurent lunar.</li>
+        <li><b>Varianta reutilizabilă:</b> banner principal fără dată fixă („Târg de Toamnă" în loc de „Târg de Toamnă 2025"), plus un banner secundar mic sau o insertă cu data curentă, mult mai ieftin de reprodus separat.</li>
+        <li><b>Pentru imobiliare:</b> „De vânzare" + numărul de telefon rămân valabile ani la rând; doar prețul sau statusul se schimbă – acestea pot fi pe un panou separat, mai mic, atașat lângă banner.</li>
       </ul>
+
+      <h2 class="text-2xl font-bold mt-12 mb-6">O a treia sursă de cost ascuns: dimensiuni „la comandă" de fiecare dată</h2>
+      <p>Cea mai frecventă cauză pentru care o firmă ajunge să comande bannere repetate fără discount de reutilizare este alegerea unei dimensiuni ad-hoc de fiecare dată – 2,87 x 1,15 m la un eveniment, apoi 3,1 x 1,2 m la următorul, pentru că „așa a ieșit locul disponibil". Rezultatul: fiecare banner e unicat, nu poate fi refolosit pe alt cadru sau altă structură, și designul trebuie regândit de la zero de fiecare dată. Soluția simplă: stabilește 1-2 dimensiuni standard pe care le folosești constant (de exemplu 3x1 m pentru garduri de eveniment, 2x1 m pentru cadre X sau structuri portabile) și păstrează-te la ele.</p>
 
       <div class="overflow-x-auto my-12 shadow-xl rounded-3xl border border-slate-100">
         <table class="min-w-full bg-white">
@@ -2065,34 +1992,34 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "instalare-banner-caramida-panou-compozit-gard-santier",
     source: "Anexa1.ro",
-    title: "Cărămidă, panou compozit sau gard de plasă: ce sistem de prindere alegi pentru fiecare suprafață",
-    description: "Un banner rezistent cedează repede dacă e prins greșit. Ghid practic de montaj pe cărămidă/beton, fațade compozite, gard de plasă, structuri tubulare și lemn — ce hardware folosești pentru fiecare.",
+    title: "Bannerul rezistent care se rupe în două săptămâni: de obicei nu e vina materialului",
+    description: "Cea mai frecventă cauză pentru care un banner bine printat, din material rezistent, cedează rapid nu e calitatea PVC-ului, ci sistemul de prindere copiat de pe ultimul montaj, fără să se potrivească suprafeței noi. Ghid pe tip de suprafață.",
     date: '2026-06-05T09:20:00.000Z',
     author: "Inginer Producție Anexa1",
     tags: ["montaj banner", "instalare", "hardware montaj", "fatade", "gard santier", "sfaturi"],
     hero: "/products/banner/banner-de-inchiriat.jpg",
     contentHtml: `
-      <p>Un banner iese din producție identic, indiferent unde urmează să fie montat — dar felul în care ajunge pe perete, pe gard sau pe o structură metalică diferă complet în funcție de suprafață. În practică, cea mai frecventă cauză pentru care un banner bine printat, din material rezistent, se rupe sau se smulge în câteva săptămâni nu este calitatea PVC-ului, ci sistemul de prindere ales — de multe ori copiat de pe ultimul montaj, indiferent dacă se potrivea sau nu cu suprafața nouă.</p>
+      <p>Un banner iese din producție identic, indiferent unde urmează să fie montat, dar felul în care ajunge pe perete, pe gard sau pe o structură metalică diferă complet în funcție de suprafață. În practică, cea mai frecventă cauză pentru care un banner bine printat, din material rezistent, se rupe sau se smulge în câteva săptămâni nu este calitatea PVC-ului, ci sistemul de prindere ales – de multe ori copiat de pe ultimul montaj, indiferent dacă se potrivea sau nu cu suprafața nouă. Trecem prin fiecare tip de suprafață și hardware-ul corect pentru ea.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
         <h3 class="text-blue-900 font-bold mb-2">Regula de bază, valabilă pe orice suprafață:</h3>
         <p class="text-blue-800 italic">Distribuie forța pe cât mai multe puncte de prindere, niciodată doar pe cele 4 colțuri. Un banner tensionat pe 8-10 puncte de-a lungul conturului rezistă la vânt de câteva ori mai bine decât unul prins doar în colțuri, indiferent de material sau de suprafața de montaj.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Cărămidă și beton: diblu potrivit greutății, nu cui</h2>
-      <p>Pe zidărie sau beton, cuiul bătut direct e cea mai proastă soluție — mortarul din jurul lui crapă în timp și punctul de prindere cedează exact când ai nevoie de el, de obicei la prima rafală serioasă. Pentru un banner mic sau montat temporar, dibluri de plastic cu șurub (tip fischer, 6-8 mm) sunt suficiente. Pentru suprafețe mari, expuse la vânt, recomandăm dibluri metalice expandabile, cu șaibă largă la exterior care distribuie presiunea pe o suprafață mai mare din material, nu doar pe orificiul capsei. Alege întotdeauna hardware zincat sau inox – șuruburile obișnuite ruginesc în câteva luni de expunere la ploaie și lasă dâre de rugină vizibile pe banner, exact în jurul punctelor de prindere.</p>
-
-      <h2 class="text-2xl font-bold mt-12 mb-6">Fațade compozite (tip Alucobond) și panouri metalice: nu găuri direct materialul de fațadă</h2>
-      <p>Panourile compozite de fațadă sunt, de regulă, proprietatea clădirii sau a asociației de proprietari, iar găurirea lor directă fie nu e permisă, fie compromite garanția și etanșeitatea panoului. Soluția corectă este o ramă proprie – o structură ușoară din profil de aluminiu sau țeavă rectangulară, fixată pe console sau parapete existente, fără a perfora panoul de fațadă. Bannerul se prinde apoi de ramă prin buzunare (tunele) cusute pe laterale sau prin coliere industriale, nu direct în stratul compozit. Pe balustrade sau parapete metalice existente, o alternativă rapidă este fixarea cu bride/coliere reglabile din plastic UV-rezistent, fără nicio găurire.</p>
-
       <h2 class="text-2xl font-bold mt-12 mb-6">Gard de plasă (chain-link) și gard de șantier: coliere, nu sfoară subțire</h2>
       <p>Pe garduri de plasă, cea mai frecventă greșeală e folosirea sforii subțiri sau a sârmei fine pentru fixare – sub tensiune și vânt, acestea taie literalmente materialul PVC în jurul capsei, iar bannerul se rupe punctual, nu global. Coliere de plastic UV-rezistente, montate la 30-40 cm distanță de-a lungul tivului perimetral, sunt varianta corectă: distribuie forța uniform și nu taie materialul. Tivul la cald pe contur este obligatoriu în acest scenariu – fără el, chiar și capsele bine plasate smulg materialul netratat de la margini în timp.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Structuri tubulare și cadre metalice: buzunare, nu capse individuale</h2>
-      <p>Pe cadre X, structuri portabile sau garduri metalice cu bare orizontale (tip Heras), varianta cea mai solidă nu sunt capsele individuale, ci buzunarele (tunelele) cusute pe laterale, prin care bannerul alunecă direct pe țeava structurii. Tensionarea rezultată e uniformă pe toată lungimea, spre deosebire de capse, care concentrează forța în puncte discrete și pot ceda una câte una sub sarcină repetată. Dacă structura ta e reutilizabilă (montezi și demontezi des), buzunarele reduc semnificativ uzura materialului comparativ cu prinderea punctuală.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Cărămidă și beton: diblul potrivit greutății, nu cuiul bătut direct</h2>
+      <p>Pe zidărie sau beton, cuiul bătut direct e cea mai proastă soluție – mortarul din jurul lui crapă în timp și punctul de prindere cedează exact când ai nevoie de el, de obicei la prima rafală serioasă. Pentru un banner mic sau montat temporar, dibluri de plastic cu șurub (tip fischer, 6-8 mm) sunt suficiente. Pentru suprafețe mari, expuse la vânt, recomandăm dibluri metalice expandabile, cu șaibă largă la exterior care distribuie presiunea pe o suprafață mai mare din material, nu doar pe orificiul capsei. Alege întotdeauna hardware zincat sau inox – șuruburile obișnuite ruginesc în câteva luni de expunere la ploaie și lasă dâre de rugină vizibile pe banner, exact în jurul punctelor de prindere.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Lemn: capse industriale, cu compromisul de rigoare</h2>
-      <p>Pe panouri sau garduri de lemn temporare, capsatorul pneumatic cu capse metalice mari, prevăzute cu șaibă, e cea mai rapidă soluție de montaj. Dezavantajul: lemnul se degradează la găuriri repetate, deci metoda nu e ideală pentru un banner pe care vrei să-l remontezi de multe ori pe același suport. Dacă bannerul e reutilizabil, o variantă mai bună este o șipcă subțire de presare, fixată peste marginea materialului cu câteva șuruburi – bannerul rămâne neperforat și poate fi scos și remontat fără găuri noi de fiecare dată.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Structuri tubulare și cadre metalice: buzunare, nu capse individuale</h2>
+      <p>Pe cadre X, structuri portabile sau garduri metalice cu bare orizontale (tip Heras), varianta cea mai solidă nu sunt capsele individuale, ci buzunarele (tunelele) cusute pe laterale, prin care bannerul alunecă direct pe țeava structurii. Tensionarea rezultată e uniformă pe toată lungimea, spre deosebire de capse, care concentrează forța în puncte discrete și pot ceda una câte una sub sarcină repetată. Dacă structura e reutilizabilă (montezi și demontezi des), buzunarele reduc semnificativ uzura materialului comparativ cu prinderea punctuală.</p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-6">Fațade compozite (tip Alucobond) și panouri metalice: nu găuri niciodată materialul de fațadă</h2>
+      <p>Panourile compozite de fațadă sunt, de regulă, proprietatea clădirii sau a asociației de proprietari, iar găurirea lor directă fie nu e permisă, fie compromite garanția și etanșeitatea panoului. Soluția corectă e o ramă proprie – o structură ușoară din profil de aluminiu sau țeavă rectangulară, fixată pe console sau parapete existente, fără a perfora panoul de fațadă. Bannerul se prinde apoi de ramă prin buzunare (tunele) cusute pe laterale sau prin coliere industriale, nu direct în stratul compozit. Pe balustrade sau parapete metalice existente, o alternativă rapidă e fixarea cu bride/coliere reglabile din plastic UV-rezistent, fără nicio găurire.</p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-6">Lemn: rapid cu capse industriale, dar cu un compromis de reținut</h2>
+      <p>Pe panouri sau garduri de lemn temporare, capsatorul pneumatic cu capse metalice mari, prevăzute cu șaibă, e cea mai rapidă soluție de montaj. Dezavantajul: lemnul se degradează la găuriri repetate, deci metoda nu e ideală pentru un banner pe care vrei să-l remontezi de multe ori pe același suport. Dacă bannerul e reutilizabil, o variantă mai bună e o șipcă subțire de presare, fixată peste marginea materialului cu câteva șuruburi – bannerul rămâne neperforat și poate fi scos și remontat fără găuri noi de fiecare dată.</p>
 
       <div class="overflow-x-auto my-12 shadow-xl rounded-3xl border border-slate-100">
         <table class="min-w-full bg-white">
@@ -2142,34 +2069,34 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "brief-comanda-banner-urgenta-print-checklist",
     source: "Anexa1.ro",
-    title: "Banner pentru mâine: ce informații să ai pregătite ca să nu pierzi timp cu întrebări dus-întors",
-    description: "O comandă urgentă de banner nu întârzie din cauza printului, ci din cauza informațiilor lipsă la brief. Checklist practic cu tot ce trebuie să ai pregătit înainte să suni sau să scrii la atelier.",
+    title: "„Cât mai repede posibil” nu e o informație utilă pentru o coadă de producție",
+    description: "O comandă urgentă de banner nu întârzie din cauza printului – un banner standard iese din mașină în câteva ore – ci din cauza a 4-5 informații lipsă la brief. Fiecare rundă de întrebări suplimentare consumă exact timpul pe care nu-l ai.",
     date: '2026-07-01T10:40:00.000Z',
     author: "Echipa Anexa1",
     tags: ["comanda urgenta", "print rapid", "banner", "ghid comanda", "afaceri"],
     hero: "/products/banner/banner-service-auto-1.jpg",
     contentHtml: `
-      <p>„Îmi trebuie un banner pentru mâine dimineață” este, statistic, cererea care generează cele mai multe schimburi de mesaje înainte ca producția să pornească efectiv. Nu pentru că printul în sine durează mult – un banner standard iese de pe mașină în câteva ore – ci pentru că lipsesc, aproape de fiecare dată, aceleași 4-5 informații, iar fiecare rundă de întrebări suplimentare consumă timp pe care o comandă urgentă nu-l are.</p>
+      <p>„Îmi trebuie un banner pentru mâine dimineață" este, statistic, cererea care generează cele mai multe schimburi de mesaje înainte ca producția să pornească efectiv. Nu pentru că printul în sine durează mult – un banner standard iese de pe mașină în câteva ore – ci pentru că lipsesc, aproape de fiecare dată, aceleași 4-5 informații, iar fiecare rundă de întrebări suplimentare consumă timp pe care o comandă urgentă nu-l are.</p>
 
       <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
         <h3 class="text-blue-900 font-bold mb-2">Sfat rapid:</h3>
         <p class="text-blue-800 italic">Cel mai bun mod de a accelera o comandă urgentă nu este să suni de mai multe ori ca să grăbești răspunsul, ci să trimiți toate informațiile de mai jos într-un singur mesaj, de la prima interacțiune. O comandă completă din prima rundă intră în producție cu ore întregi mai devreme decât una clarificată treptat.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">1. Dimensiunea exactă, măsurată, nu estimată</h2>
-      <p>„Cam 3 pe 1 metru” este suficient pentru o discuție generală, dar nu pentru a porni producția. Ai nevoie de lățime și înălțime exacte, măsurate direct pe structura de montaj – gard, cadru, fațadă – nu pe spațiul aproximativ disponibil. O comandă pornită pe o dimensiune „aproape sigură” și corectată ulterior pierde exact timpul pe care o comandă urgentă nu-l are.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Termenul real, nu „cât mai repede posibil”</h2>
+      <p>„Cât mai repede posibil" nu e o informație pe care o poate folosi cineva care planifică o coadă de producție. Ai nevoie de o oră și o dată exactă – momentul în care bannerul trebuie să fie fizic montat, nu ora la care ai vrea să-l ridici teoretic. Diferența contează: dacă evenimentul e sâmbătă la prânz, iar bannerul trebuie montat vineri seară, asta e o informație care schimbă complet prioritizarea comenzii.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">2. Contextul de montaj, în două fraze</h2>
-      <p>Nu trebuie să scrii un raport tehnic, dar câteva detalii schimbă radical configurația recomandată: se montează afară sau la interior? Pe ce se prinde (gard, cadru, perete)? E expus la vânt sau soare direct constant? Aceste răspunsuri decid dacă recomandăm frontlit sau blockout, ce densitate de capse punem și dacă e nevoie de tiv întărit – decizii pe care echipa le ia în câteva secunde dacă are informația, dar care blochează comanda dacă trebuie cerute ulterior.</p>
-
-      <h2 class="text-2xl font-bold mt-12 mb-6">3. Fișierul grafic – sau lipsa lui, spusă din start</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Fișierul grafic – sau lipsa lui, spusă din start</h2>
       <p>Cea mai mare variabilă de timp la o comandă urgentă nu e producția, ci fișierul. Dacă ai deja un fișier gata (CMYK, la rezoluția potrivită), spune-o direct și trimite-l odată cu restul informațiilor. Dacă nu ai fișier și ai nevoie de design de la zero, e esențial să spui asta din prima – design-ul consumă timp separat de producție, iar o comandă urgentă fără fișier gata are un termen realist diferit de una cu fișier validat. A afla abia la jumătatea procesului că nu există fișier este cea mai frecventă cauză de întârziere reală la comenzile „pentru mâine”.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">4. Termenul real, nu „cât mai repede”</h2>
-      <p>„Cât mai repede posibil” nu e o informație pe care o poate folosi cineva care planifică o coadă de producție. Ai nevoie de o oră și o dată exactă – momentul în care bannerul trebuie să fie fizic montat, nu ora la care ai vrea să-l ridici teoretic. Diferența contează: dacă evenimentul e sâmbătă la prânz, iar bannerul trebuie montat vineri seară, asta e o informație care schimbă complet prioritizarea comenzii față de „cât mai repede”.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Dimensiunea exactă, măsurată, nu estimată</h2>
+      <p>„Cam 3 pe 1 metru" e suficient pentru o discuție generală, dar nu pentru a porni producția. Ai nevoie de lățime și înălțime exacte, măsurate direct pe structura de montaj – gard, cadru, fațadă – nu pe spațiul aproximativ disponibil. O comandă pornită pe o dimensiune „aproape sigură" și corectată ulterior pierde exact timpul pe care o comandă urgentă nu-l are.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">5. Modalitatea de ridicare sau livrare</h2>
-      <p>O comandă poate fi gata la ora stabilită, dar dacă livrarea sau ridicarea nu e planificată din timp, timpul câștigat în producție se pierde în așteptare. Precizează dacă ridici personal, trimiți curier propriu sau ai nevoie de livrare – și, dacă locația de livrare e diferită de adresa de facturare, spune-o din start, ca să nu apară confuzii chiar înainte de expediere.</p>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Contextul de montaj, în două fraze</h2>
+      <p>Nu trebuie să scrii un raport tehnic, dar câteva detalii schimbă radical configurația recomandată: se montează afară sau la interior? Pe ce se prinde (gard, cadru, perete)? E expus la vânt sau soare direct constant? Aceste răspunsuri decid dacă recomandăm frontlit sau blockout, ce densitate de capse punem și dacă e nevoie de tiv întărit – decizii pe care echipa le ia în câteva secunde dacă are informația, dar care blochează comanda dacă trebuie cerute ulterior.</p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-6">Modalitatea de ridicare sau livrare</h2>
+      <p>O comandă poate fi gata la ora stabilită, dar dacă livrarea sau ridicarea nu e planificată din timp, timpul câștigat în producție se pierde în așteptare. Precizează dacă ridici personal, trimiți curier propriu sau ai nevoie de livrare – și, dacă locația de livrare e diferită de adresa de facturare, spune-o din start.</p>
 
       <div class="my-10 p-10 bg-slate-900 text-white rounded-[2rem] shadow-2xl">
         <h3 class="text-2xl font-black mb-4 text-amber-400">Checklist de trimis dintr-un singur mesaj</h3>
@@ -2194,33 +2121,33 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "reguli-amplasare-banner-strada-oras-ce-verifici",
     source: "Anexa1.ro",
-    title: "Ce verifici înainte să montezi un banner mare la stradă, ca să nu-l dai jos peste o săptămână",
-    description: "Domeniul public sau proprietate privată, acordul proprietarului, vizibilitatea semnelor de circulație și taxele locale de afișaj – ghid general despre ce merită verificat înainte de montaj, nu legislație aplicată cazului tău.",
+    title: "Bannerul dat jos de primărie după 3 zile nu e o comandă greșită, e un pas sărit din verificare",
+    description: "Cel mai costisitor scenariu pentru un banner outdoor nu e o comandă greșită, ci unul corect, bine printat, ridicat de autorități pentru că amplasarea nu respecta o regulă locală simplă. Listă practică de verificat înainte de montaj.",
     date: '2026-07-25T11:15:00.000Z',
     author: "Echipa Anexa1",
     tags: ["publicitate outdoor", "amplasare banner", "reguli generale", "afaceri locale", "sfaturi"],
     hero: "/products/banner/teren-de-vanzare.jpg",
     contentHtml: `
-      <p>Cel mai costisitor scenariu pentru un banner montat afară nu este o comandă greșită, ci un banner corect, bine printat, dat jos de primărie sau de poliția locală după câteva zile, pentru că amplasarea nu respecta o regulă locală simplă. Acest articol nu este consultanță juridică și nu ține loc de verificarea reglementărilor din localitatea ta – este o listă practică a lucrurilor pe care merită să le verifici înainte de montaj, ca să nu descoperi problema abia după ce bannerul e deja afară.</p>
+      <p>Cel mai costisitor scenariu pentru un banner montat afară nu e o comandă greșită, ci un banner corect, bine printat, dat jos de primărie sau de poliția locală după câteva zile, pentru că amplasarea nu respecta o regulă locală simplă. Acest articol nu e consultanță juridică și nu ține loc de verificarea reglementărilor din localitatea ta – e o listă practică a lucrurilor de verificat înainte de montaj, ca să nu descoperi problema abia după ce bannerul e deja afară.</p>
 
       <div class="my-10 p-8 bg-amber-50 border-l-4 border-amber-500 rounded-r-2xl">
         <h3 class="text-amber-900 font-bold mb-2">Important:</h3>
         <p class="text-amber-800 italic">Regulile de amplasare a publicității outdoor diferă de la o localitate la alta și se pot schimba prin hotărâri ale consiliului local. Informațiile de mai jos sunt generale – pentru orice montaj pe termen lung sau pe suprafață mare, verifică direct la primăria/sectorul unde faci montajul, nu presupune că regula dintr-un oraș se aplică identic în altul.</p>
       </div>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Domeniul public vs. proprietate privată – prima întrebare, nu ultima</h2>
-      <p>Diferența fundamentală: pe proprietate privată (fațada propriei clădiri, gardul propriu, un teren pe care ai drept de folosință), decizia de amplasare îți aparține, cu respectarea eventualelor reguli de urbanism aplicabile clădirii. Pe domeniul public – stâlpi, garduri de spații verzi, poduri, trotuare, terenuri ale primăriei – amplasarea publicității outdoor este de regulă supusă unei taxe sau unui aviz local, indiferent cât de scurtă e perioada de expunere. Confuzia dintre cele două categorii este cea mai frecventă cauză pentru care un banner ajunge dat jos rapid.</p>
-
-      <h2 class="text-2xl font-bold mt-12 mb-6">Dacă montezi pe clădire sau gard care nu e al tău, ai nevoie de acord scris</h2>
-      <p>Pentru fațade de bloc, spații comerciale închiriate sau garduri care aparțin altcuiva (proprietar, asociație de proprietari, administrator de centru comercial), acordul verbal nu e suficient dacă apare o dispută ulterioară. Un acord scris simplu, chiar și un schimb de email cu proprietarul sau administratorul, te protejează dacă cineva contestă ulterior amplasarea – mai ales în cazul asociațiilor de proprietari, unde decizia poate necesita acordul mai multor părți, nu doar al vecinului direct.</p>
-
-      <h2 class="text-2xl font-bold mt-12 mb-6">Vizibilitatea semnelor de circulație rămâne prioritară față de reclamă</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Siguranța rutieră bate orice altă considerație</h2>
       <p>Indiferent de mărimea sau poziția pe care o dorești, un banner care acoperă parțial sau total un indicator rutier, un semafor sau vizibilitatea unei intersecții este, în general, considerat un pericol de siguranță rutieră și poate fi ridicat indiferent dacă amplasarea era altfel corectă. Verifică unghiul de vizibilitate din ambele sensuri de circulație înainte de montaj – o poziție care pare liberă dintr-o direcție poate bloca vizibilitatea din cealaltă.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Dimensiunea și înălțimea pot fi reglementate diferit față de conținutul propriu-zis</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Prima întrebare de pus, nu ultima: domeniu public sau proprietate privată?</h2>
+      <p>Diferența fundamentală: pe proprietate privată (fațada propriei clădiri, gardul propriu, un teren pe care ai drept de folosință), decizia de amplasare îți aparține, cu respectarea eventualelor reguli de urbanism aplicabile clădirii. Pe domeniul public – stâlpi, garduri de spații verzi, poduri, trotuare, terenuri ale primăriei – amplasarea publicității outdoor e de regulă supusă unei taxe sau unui aviz local, indiferent cât de scurtă e perioada de expunere. Confuzia dintre cele două categorii e cea mai frecventă cauză pentru care un banner ajunge dat jos rapid.</p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-6">Dacă montezi pe clădire sau gard care nu e al tău, ai nevoie de un document, nu de o promisiune</h2>
+      <p>Pentru fațade de bloc, spații comerciale închiriate sau garduri care aparțin altcuiva (proprietar, asociație de proprietari, administrator de centru comercial), acordul verbal nu e suficient dacă apare o dispută ulterioară. Un acord scris simplu, chiar și un schimb de email cu proprietarul sau administratorul, te protejează dacă cineva contestă ulterior amplasarea – mai ales în cazul asociațiilor de proprietari, unde decizia poate necesita acordul mai multor părți, nu doar al vecinului direct. Păstrează acest document alături de restul actelor comenzii, nu doar în căsuța de email.</p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-6">Structura fizică poate fi reglementată separat de conținutul mesajului</h2>
       <p>Multe localități reglementează separat structura fizică (dimensiunea maximă admisă, distanța față de carosabil, înălțimea de montaj) de conținutul mesajului. Practic, chiar dacă mesajul bannerului tău e perfect corect, structura fizică – dimensiune, mod de fixare, distanță față de drum – poate necesita un aviz separat dacă depășește anumite praguri. Pentru montaje mari, pe termen lung, pe domeniu public, această verificare merită făcută înainte de a comanda dimensiunea finală, nu după.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Taxa locală de afișaj publicitar</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Taxa locală de afișaj publicitar, ușor de uitat</h2>
       <p>Majoritatea localităților din România percep o taxă pentru afișajul publicitar pe domeniul public, calculată de regulă în funcție de suprafață și perioadă de expunere. Valoarea și modul de calcul diferă semnificativ de la o localitate la alta, iar unele au praguri diferite pentru afișaj temporar (câteva zile) față de afișaj permanent. Verifică direct la direcția de taxe și impozite locale sau la biroul de urbanism/autorizări din primăria relevantă, înainte de montaj, mai ales dacă bannerul rămâne afară mai mult de câteva zile.</p>
 
       <h2 class="text-2xl font-bold mt-12 mb-6">Șantiere și gard de construcție – reguli suplimentare de siguranță</h2>
@@ -2241,31 +2168,31 @@ const STATIC_POSTS: BlogPost[] = [
   {
     slug: "durata-viata-banner-exterior-degradare-uv-inlocuire",
     source: "Anexa1.ro",
-    title: "Cât rezistă de fapt un banner afară: degradarea UV, fisurarea PVC și când e momentul să-l înlocuiești",
-    description: "Un banner exterior nu cedează brusc, ci treptat – radiațiile UV rup pigmentul și rigidizează PVC-ul luni de zile înainte să se vadă cu ochiul liber. Ce se întâmplă tehnic și la ce semne merți atent.",
+    title: "Bannerul nu cedează brusc: cu ce semn fizic afli, înainte de vânt puternic, că a venit momentul înlocuirii",
+    description: "Un banner exterior nu cedează dintr-o dată – radiațiile UV rup pigmentul și rigidizează PVC-ul luni de zile înainte să se vadă cu ochiul liber. Explicăm procesul tehnic din spate și, mai important, semnele fizice la care te uiți.",
     date: '2026-08-05T08:30:00.000Z',
     author: "Departament Producție Anexa1",
     tags: ["durata de viata banner", "degradare UV", "intretinere", "pvc frontlit", "print outdoor"],
     hero: "/products/banner/banner-spalatorie-auto.jpg",
     contentHtml: `
-      <p>Un banner montat afară nu se strică dintr-o dată. Nu există un moment exact în care „cedează” – în schimb, radiațiile UV, temperatura și umezeala lucrează constant asupra materialului, luni de zile înainte ca degradarea să devină vizibilă cu ochiul liber. Înțelegerea acestui proces ajută la două decizii practice: câtă durată de viață poți estima realist pentru un banner exterior și la ce semne te uiți ca să știi când a venit momentul înlocuirii, înainte ca materialul să cedeze exact în ziua în care ai nevoie de el.</p>
+      <p>Un banner montat afară nu se strică dintr-o dată. Nu există un moment exact în care „cedează" – în schimb, radiațiile UV, temperatura și umezeala lucrează constant asupra materialului, luni de zile înainte ca degradarea să devină vizibilă cu ochiul liber. Cel mai practic e să înveți să citești semnele fizice, nu să estimezi o durată de viață fixă în calendar, valabilă pentru orice montaj.</p>
 
-      <h2 class="text-2xl font-bold mt-12 mb-6">Ce se întâmplă, tehnic, cu PVC-ul expus la soare</h2>
-      <p>Un banner frontlit este, structural, o țesătură de poliester acoperită cu un strat de PVC plastifiat pe ambele fețe. Plastifianții din PVC sunt cei care păstrează materialul flexibil – fără ei, PVC-ul pur ar fi rigid și casant, ca o carcasă de plastic dur. Expunerea prelungită la radiații UV și la căldură accelerează migrarea acestor plastifianți către suprafață și evaporarea lor treptată. Rezultatul practic: materialul devine, cu timpul, tot mai rigid și mai casant, în special vizibil la îndoire – un banner nou se pliază fără urme, unul îmbătrânit de soare capătă crăpături albe exact pe linia de îndoire.</p>
-      <p>În paralel, radiațiile UV rup legăturile chimice din pigmenții de culoare (fenomen numit foto-degradare), motiv pentru care culorile saturate – roșu, albastru închis, negru profund – se estompează vizibil mai devreme decât albul sau nuanțele deschise. De aceea un banner vechi pare „spălăcit”, nu doar murdar.</p>
-
-      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
-        <h3 class="text-blue-900 font-bold mb-2">De ce contează cerneala folosită:</h3>
-        <p class="text-blue-800 italic">Cernelurile UV curate, folosite la print, formează un strat solid la suprafața materialului chiar din procesul de producție, spre deosebire de cernelurile solvent tradiționale care se usucă prin evaporare. Acest strat oferă o rezistență suplimentară la spălarea culorii de către radiațiile UV ulterioare, dar nu elimină complet procesul de degradare a plastifianților din PVC – doar îl încetinește parțial la nivelul stratului de culoare. Detalii despre diferența tehnică în <a href="/blog/totul-despre-printul-uv-avantajele-unei-tehnologii-ecologice">articolul dedicat printului UV</a>.</p>
-      </div>
-
-      <h2 class="text-2xl font-bold mt-12 mb-6">Factori care grăbesc sau încetinesc degradarea</h2>
+      <h2 class="text-2xl font-bold mt-12 mb-6">Patru factori care decid cât de repede se vede degradarea</h2>
       <ul class="list-disc pl-6 space-y-2 my-6">
         <li><b>Orientarea față de soare:</b> o suprafață orientată spre sud, cu expunere directă toată ziua, se degradează vizibil mai repede decât una orientată spre nord sau parțial umbrită.</li>
         <li><b>Gramajul materialului:</b> un frontlit 510g are un strat de PVC mai gros decât unul de 440g, ceea ce înseamnă mai mult material „de rezervă” înainte ca degradarea să afecteze structura portantă a țesăturii din interior.</li>
         <li><b>Tensionarea la montaj:</b> un banner montat prea întins sau prea slăbit se mișcă și se freacă în vânt pe punctele de prindere, ceea ce accelerează uzura mecanică local, indiferent de expunerea UV generală.</li>
         <li><b>Poluarea și depunerile:</b> praful și funinginea acumulate acționează ca un abraziv fin sub acțiunea vântului și pot amplifica local efectul radiațiilor UV concentrate pe zonele murdare.</li>
       </ul>
+
+      <h2 class="text-2xl font-bold mt-12 mb-6">Ce se întâmplă, de fapt, în structura PVC-ului</h2>
+      <p>Un banner frontlit este, structural, o țesătură de poliester acoperită cu un strat de PVC plastifiat pe ambele fețe. Plastifianții din PVC sunt cei care păstrează materialul flexibil – fără ei, PVC-ul pur ar fi rigid și casant, ca o carcasă de plastic dur. Expunerea prelungită la radiații UV și la căldură accelerează migrarea acestor plastifianți către suprafață și evaporarea lor treptată. Rezultatul practic: materialul devine, cu timpul, tot mai rigid și mai casant, în special vizibil la îndoire – un banner nou se pliază fără urme, unul îmbătrânit de soare capătă crăpături albe exact pe linia de îndoire.</p>
+      <p>În paralel, radiațiile UV rup legăturile chimice din pigmenții de culoare (fenomen numit foto-degradare), motiv pentru care culorile saturate – roșu, albastru închis, negru profund – se estompează vizibil mai devreme decât albul sau nuanțele deschise. De aceea un banner vechi pare „spălăcit", nu doar murdar.</p>
+
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">De ce contează cerneala folosită:</h3>
+        <p class="text-blue-800 italic">Cernelurile UV curate, folosite la print, formează un strat solid la suprafața materialului chiar din procesul de producție, spre deosebire de cernelurile solvent tradiționale care se usucă prin evaporare. Acest strat oferă o rezistență suplimentară la spălarea culorii de către radiațiile UV ulterioare, dar nu elimină complet procesul de degradare a plastifianților din PVC – doar îl încetinește parțial la nivelul stratului de culoare. Detalii despre diferența tehnică în <a href="/blog/totul-despre-printul-uv-avantajele-unei-tehnologii-ecologice">articolul dedicat printului UV</a>.</p>
+      </div>
 
       <h2 class="text-2xl font-bold mt-12 mb-6">Semnele care indică sfârșitul duratei de viață utile</h2>
       <p>Nu există un termen fix universal valabil pentru toate montajele – expunerea variază prea mult de la o locație la alta. În schimb, câteva semne fizice sunt un indicator mai fiabil decât numărul de luni de la montaj:</p>
@@ -2285,6 +2212,168 @@ const STATIC_POSTS: BlogPost[] = [
       <p>Curățarea periodică (apă și detergent neutru, fără solvenți agresivi) elimină depunerile care amplifică local efectul UV. Evitarea depozitării împăturite între utilizări – detaliată în <a href="/blog/ghid-bannere-publicitare-anexa1">ghidul de comandă</a> – previne fisurile premature în zonele de pliere. Iar dacă bannerul e montat permanent într-o zonă cu expunere solară intensă, alegerea din start a gramajului 510g în locul standardului 440g reprezintă un cost suplimentar mic la comandă, dar întinde vizibil intervalul până la înlocuire.</p>
 
       <p>Când semnele de mai sus devin evidente, cel mai eficient e să reînnoiești bannerul înainte să cedeze fizic, nu după. Comandă rapid o versiune nouă în <a href="/configurator/banner">configuratorul de bannere</a> – dacă design-ul rămâne același, păstrăm fișierul validat de la comanda anterioară, iar procesul durează câteva minute, nu o reluare completă de la zero.</p>
+    `,
+  },
+  {
+    slug: "anexe-obligatorii-dosar-achizitie-print-conformitate",
+    source: "Anexa1.ro",
+    title: "Anexele obligatorii la dosarul de achiziție: ce documente ceri de la furnizorul de print",
+    description: "Certificatul de conformitate, avizul tehnic și procesul-verbal de recepție nu sunt hârtii de birocrație inutilă, ci exact ceea ce face diferența la un control ulterior. Explicăm ce anexe ceri de la furnizor și de ce fiecare contează.",
+    date: '2026-08-12T09:00:00.000Z',
+    author: "Departament Instituții Publice Anexa1",
+    tags: ["anexe achizitie", "certificat conformitate", "proces verbal receptie", "achizitii publice", "dosar achizitie", "anexa1"],
+    contentHtml: `
+      <p>Numele Anexa1 pornește exact de la această observație: un produs livrat corect, fără documentele care îl însoțesc, e o achiziție incompletă din punct de vedere administrativ, oricât de bine ar arăta fizic materialul. La un control ulterior – fie el de la Curtea de Conturi, de la un organism intermediar de fonduri europene sau un audit intern – nu se verifică doar dacă bannerul sau plăcuța există la locul declarat, ci dacă dosarul de achiziție conține anexele corecte, complete și coerente cu factura. Explicăm mai jos ce documente ar trebui să ceri de la orice furnizor de print, indiferent de valoarea comenzii.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Factura fiscală și avizul de însoțire a mărfii – anexa de bază, mereu obligatorie</h2>
+      <p>Fiecare livrare fizică trebuie însoțită de factura fiscală (transmisă și prin RO e-Factura, dacă instituția intră sub incidența acestei obligații) și de avizul de însoțire a mărfii, cu descrierea exactă a produselor livrate – dimensiuni, material, cantitate. Un aviz vag („materiale publicitare, 1 buc") nu ajută la nimic într-un control ulterior, unde se verifică punctual dacă ce a fost facturat corespunde cu ce a fost efectiv comandat și recepționat. Cere întotdeauna un aviz cu descriere tehnică detaliată, identică cu cea din oferta acceptată.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Certificatul de conformitate – dovada că materialul respectă specificația comandată</h2>
+      <p>Certificatul de conformitate atestă că produsul livrat respectă caracteristicile tehnice declarate de furnizor – tipul de material, grosimea sau gramajul, rezistența la radiație UV, tehnologia de print folosită. Pentru materiale cu rol de identificare vizuală obligatorie (panouri PNRR, plăcuțe permanente, semnalistică pentru proiecte cu finanțare europeană), acest document devine esențial la faza de monitorizare, pentru că demonstrează, alb pe negru, că materialul ales corespunde cerințelor din caietul de sarcini, nu doar aspectului vizual din poza trimisă înainte de comandă.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Avizul tehnic sau fișa tehnică a materialului – pentru comenzi cu specificații stricte</h2>
+      <p>Pentru comenzi unde materialul trebuie să respecte un standard tehnic precis – rezistență la vânt pentru bannere montate pe structuri exterioare, rezistență la umiditate pentru materiale de exterior permanente, compoziția exactă a unei folii adezive – o fișă tehnică emisă de furnizor, cu parametrii măsurabili (gramaj, grosime în microni, temperatura de aplicare recomandată), completează certificatul de conformitate cu detalii pe care un control tehnic le poate verifica punctual. La Anexa1.ro includem această fișă la cerere, direct în oferta scrisă, pentru orice comandă care intră într-un dosar de achiziție instituțională.</p>
+
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">Procesul-verbal de recepție – documentul care închide, de fapt, achiziția</h3>
+        <p class="text-blue-800 italic">Semnat de reprezentantul furnizorului și de persoana desemnată din instituție la livrare (sau la finalizarea montajului, dacă acesta e inclus), procesul-verbal de recepție confirmă oficial că produsul a ajuns conform, la locația și în starea agreate. Fără acest document, o achiziție rămâne, formal, nerecepționată – indiferent cât de vizibil e materialul montat la fața locului.</p>
+      </div>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Documentația fotografică – nu obligatorie mereu, dar utilă la orice control</h2>
+      <p>O fotografie datată a materialului montat, atașată dosarului alături de procesul-verbal, e o dovadă suplimentară simplă care elimină ambiguitatea „a fost montat, dar unde exact și când". Pentru panouri temporare de șantier sau plăcuțe permanente cu perioadă lungă de monitorizare, recomandăm această fotografie ca practică standard, chiar dacă nu e cerută explicit de finanțator – costă zero și scurtează considerabil orice discuție la un control ulterior.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Garanția scrisă – anexa care contează abia peste timp</h2>
+      <p>Pentru materiale outdoor, garanția scrisă privind rezistența culorii la radiație UV (de la 1-2 ani pentru materiale monomerice temporare până la peste 5 ani pentru Alucobond sau folii polimerice laminate) documentează un angajament pe care furnizorul și l-a asumat la vânzare. Dacă apare un defect de producție în perioada de garanție, acest document scris e cel care susține solicitarea de remediere fără costuri suplimentare, nu o discuție telefonică ulterioară, greu de dovedit.</p>
+
+      <div class="overflow-x-auto my-10 shadow-xl rounded-2xl border border-slate-100">
+        <table class="min-w-full bg-white">
+          <thead class="bg-slate-900 text-white">
+            <tr>
+              <th class="px-6 py-4 text-left">Document</th>
+              <th class="px-6 py-4 text-left">Ce dovedește</th>
+              <th class="px-6 py-4 text-center">Când e esențial</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 text-sm">
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Factură + aviz de însoțire</td>
+              <td class="px-6 py-4">Ce s-a livrat, exact, și la ce preț</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Întotdeauna</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Certificat de conformitate</td>
+              <td class="px-6 py-4">Materialul respectă specificația comandată</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Achiziții cu specificații tehnice</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Fișă/aviz tehnic</td>
+              <td class="px-6 py-4">Parametri măsurabili ai materialului</td>
+              <td class="px-6 py-4">Comenzi cu cerințe stricte de material</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Proces-verbal de recepție</td>
+              <td class="px-6 py-4">Livrarea a fost confirmată de ambele părți</td>
+              <td class="px-6 py-4 text-center text-blue-600 font-bold">Întotdeauna</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Fotografie datată</td>
+              <td class="px-6 py-4">Materialul e montat la locația declarată</td>
+              <td class="px-6 py-4">Proiecte cu monitorizare pe termen lung</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 font-bold bg-slate-50">Garanție scrisă</td>
+              <td class="px-6 py-4">Angajamentul furnizorului pe durata declarată</td>
+              <td class="px-6 py-4">Materiale outdoor, montaje permanente</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>La Anexa1.ro pregătim din start toate aceste anexe pentru comenzile care intră într-un dosar de achiziție instituțională sau într-un proiect cu finanțare europeană – nu trebuie să le soliciți ulterior, prin emailuri suplimentare, exact atunci când timpul până la un control se scurtează. Scrie-ne la <b>contact@Anexa1.ro</b> sau vezi <a href="/blog/ghid-achizitii-publice-print-seap-sicap-2026">ghidul complet de achiziții SEAP/SICAP</a> pentru restul procesului, de la ofertă până la plată.</p>
+    `,
+  },
+  {
+    slug: "caiet-de-sarcini-materiale-publicitare-oferte-comparabile",
+    source: "Anexa1.ro",
+    title: "Caietul de sarcini vag e motivul pentru care ofertele primite nu se pot compara între ele",
+    description: "Trei oferte pentru „bannere publicitare” pot varia de la simplu la triplu ca preț, fără ca vreuna să fie greșită – pur și simplu au pornit de la specificații diferite. Explicăm ce trebuie să conțină un caiet de sarcini ca ofertele să fie chiar comparabile.",
+    date: '2026-08-19T09:00:00.000Z',
+    author: "Expert Achiziții Anexa1",
+    tags: ["caiet de sarcini", "achizitii publice", "materiale publicitare", "specificatii tehnice", "oferte comparabile", "anexa1"],
+    contentHtml: `
+      <p>Un caiet de sarcini care cere pur și simplu „bannere publicitare, 10 bucăți, dimensiuni diverse" va primi, aproape garantat, trei oferte imposibil de comparat direct – un furnizor ofertează frontlit 440g, altul blockout 510g, un al treilea include montaj și transport, celălalt nu. Niciuna dintre oferte nu e greșită din perspectiva furnizorului; problema e că specificația de la care au pornit a lăsat prea multe decizii tehnice pe seama fiecăruia. Explicăm mai jos ce trebuie precizat explicit, ca ofertele primite să răspundă chiar la aceeași întrebare.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Materialul și gramajul, nu doar „banner” sau „autocolant”</h2>
+      <p>„Banner publicitar” lasă deschisă alegerea între frontlit standard (440-510 g/mp) și blockout cu strat opac interior, două produse cu prețuri și proprietăți diferite. Similar, „autocolant" nu spune dacă e vorba de folie monomerică (mai ieftină, durată de viață 1-3 ani) sau polimerică (mai scumpă, 5-7 ani, obligatorie pe suprafețe curbe). Specifică explicit tipul de material și gramajul minim acceptat, nu doar denumirea generică a produsului – altfel fiecare furnizor completează golul cu propria interpretare, de regulă cea mai avantajoasă pentru oferta sa.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dimensiunile exacte, pe fiecare poziție, nu un total generic</h2>
+      <p>„10 bannere, dimensiuni diverse, total aproximativ 30 mp" obligă fiecare furnizor să presupună o distribuție a dimensiunilor, ceea ce face imposibilă compararea directă a prețului pe metru pătrat între oferte. Listează fiecare poziție cu lățime și înălțime exactă, chiar dacă lista devine mai lungă – un tabel de specificații clar, poziție cu poziție, elimină automat această sursă de neconcordanță.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Tehnologia de print și finisajele, dacă acestea contează pentru scop</h2>
+      <p>Dacă materialul e destinat exteriorului pe termen lung, specifică explicit cerința de print UV rezistent la radiație, nu doar „print color” – diferența de preț dintre print UV și print solvent clasic e reală și trebuie reflectată identic în toate ofertele primite, nu lăsată la latitudinea fiecărui furnizor. Similar, dacă ai nevoie de tiv perimetral, capse la o anumită densitate sau laminare de protecție, menționează-le explicit – fiecare element omis e un element pe care furnizorii îl vor oferi diferit, sau deloc.</p>
+
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">Un exemplu concret de specificație comparabilă:</h3>
+        <p class="text-blue-800 italic">„Banner publicitar frontlit, PVC minim 440 g/mp, print UV color, dimensiune 3,00 x 1,50 m, cu tiv perimetral la cald și capse metalice la maxim 40 cm distanță, livrat cu aviz și factură, montaj neinclus." Fiecare furnizor care ofertează pe această specificație răspunde la exact aceeași întrebare, iar diferența de preț dintre oferte reflectă marja și eficiența furnizorului, nu o interpretare diferită a cerinței.</p>
+      </div>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Documentele de livrare cerute, incluse explicit în caiet</h2>
+      <p>Dacă ai nevoie de certificat de conformitate, fișă tehnică sau proces-verbal de recepție semnat la livrare, menționează-le explicit în caietul de sarcini, nu presupune că vin automat odată cu produsul. Un furnizor care nu include aceste documente în ofertă inițială poate percepe cost sau timp suplimentar pentru ele ulterior, ceea ce schimbă retroactiv comparabilitatea prețurilor deja evaluate. Detaliem ce anexe merită cerute în <a href="/blog/anexe-obligatorii-dosar-achizitie-print-conformitate">ghidul dedicat anexelor obligatorii</a>.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Termenul de livrare, ca și criteriu, nu doar ca detaliu logistic</h2>
+      <p>Dacă termenul contează pentru proiectul tău (eveniment cu dată fixă, etapă de proiect cu deadline), specifică-l ca cerință obligatorie în caiet, nu doar ca întrebare separată la telefon. Altfel, riști să primești oferte bune ca preț, dar cu un termen de producție incompatibil cu nevoia reală, descoperit abia după atribuire.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Criteriile de evaluare, transparente pentru toți ofertanții</h2>
+      <p>Dacă evaluarea nu se face exclusiv pe preț, ci și pe termen de livrare, garanție oferită sau experiență anterioară pe proiecte similare, menționează ponderea fiecărui criteriu direct în caietul de sarcini. Un ofertant care știe din start că garanția contează 20% din punctaj poate structura oferta diferit față de una evaluată exclusiv pe preț – iar comparabilitatea reală a ofertelor depinde de această transparență de la început, nu de o justificare ulterioară a alegerii făcute.</p>
+
+      <p>Dacă pregătești un caiet de sarcini pentru o achiziție de materiale publicitare și vrei un reper tehnic de plecare (gramaje standard, toleranțe uzuale, formulare de specificație), scrie-ne la <b>contact@Anexa1.ro</b> – te ajutăm să formulezi cerințele astfel încât ofertele primite să fie chiar comparabile, indiferent cine le depune.</p>
+    `,
+  },
+  {
+    slug: "arhivarea-documentelor-proiect-facturi-procese-verbale-control",
+    source: "Anexa1.ro",
+    title: "Arhivarea documentelor de proiect: ce păstrezi și pentru cât timp, pentru un control ulterior",
+    description: "Facturile, procesele-verbale și pozele de recepție de la o achiziție de materiale publicitare au valoare abia atunci când pot fi găsite rapid, la ani distanță, la un control neanunțat. Explicăm ce arhivezi, cum le organizezi și pentru cât timp.",
+    date: '2026-08-24T09:00:00.000Z',
+    author: "Expert Fonduri Anexa1",
+    tags: ["arhivare documente", "control ulterior", "facturi", "procese verbale", "fonduri europene", "anexa1"],
+    contentHtml: `
+      <p>Un document de achiziție are valoare reală abia în momentul în care poate fi găsit rapid, la ani distanță de la emitere, exact când cineva îl cere – la un control fiscal, la o verificare ex-post a unui proiect cu fonduri europene sau la un audit intern. Un dosar complet la momentul livrării, dar imposibil de regăsit ulterior într-un teanc nesortat sau într-un folder digital fără structură, oferă practic aceeași protecție ca un dosar incomplet. Explicăm mai jos ce documente merită păstrate pentru materialele de print și semnalistică, pentru cât timp și cum le organizezi ca să le găsești ușor.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Ce păstrezi, indiferent de tipul comenzii</h2>
+      <ul class="list-disc pl-6 space-y-2 my-6">
+        <li><b>Oferta acceptată și comanda fermă:</b> documentul care arată exact ce s-a cerut și la ce preț, util pentru orice discuție ulterioară despre conformitatea livrării cu solicitarea inițială.</li>
+        <li><b>Factura fiscală și avizul de însoțire a mărfii:</b> documentele de bază ale oricărei achiziții, cu descrierea tehnică a produselor livrate.</li>
+        <li><b>Certificatul de conformitate și fișa tehnică a materialului:</b> dovada că produsul livrat respectă specificația tehnică cerută.</li>
+        <li><b>Procesul-verbal de recepție, semnat de ambele părți:</b> confirmarea oficială că livrarea a avut loc conform.</li>
+        <li><b>Fotografii datate ale materialului montat:</b> mai ales pentru semnalistică permanentă sau panouri cu perioadă lungă de monitorizare.</li>
+        <li><b>Garanția scrisă și orice corespondență privind remedierea unui defect:</b> utile dacă apare o discuție despre o problemă constatată ulterior livrării.</li>
+      </ul>
+
+      <div class="my-10 p-8 bg-blue-50 border-l-4 border-blue-500 rounded-r-2xl">
+        <h3 class="text-blue-900 font-bold mb-2">Pentru proiectele cu finanțare europeană, un pas suplimentar:</h3>
+        <p class="text-blue-800 italic">Păstrează separat, alături de documentele comerciale, dovada conformității cu manualul de identitate vizuală (confirmarea scrisă de la furnizor privind respectarea proporțiilor și codurilor de culoare ale siglelor oficiale) – acest document e frecvent cerut punctual la controale de monitorizare, separat de factură sau proces-verbal.</p>
+      </div>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Pentru cât timp păstrezi, în funcție de tipul proiectului</h2>
+      <p>Termenele exacte de păstrare diferă în funcție de tipul finanțării și de reglementările fiscale în vigoare la momentul achiziției, așa că verifică întotdeauna cerința specifică din contractul de finanțare sau de la consultantul fiscal al instituției/firmei tale, nu presupune un termen general valabil pentru orice situație. Ca reper orientativ, documentele financiar-contabile intră de regulă în categoria celor păstrate pe termen lung conform legislației fiscale, iar proiectele cu finanțare europeană au adesea o perioadă de monitorizare și sustenabilitate ce se întinde câțiva ani după finalizarea fizică a proiectului, perioadă pe parcursul căreia dosarul complet trebuie să rămână disponibil pentru verificare.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Cum organizezi arhiva, ca să nu cauți ore întregi la nevoie</h2>
+      <p>O structură simplă, pe foldere, reduce drastic timpul de căutare la un control neanunțat, când răspunsul rapid contează la fel de mult ca documentul în sine:</p>
+      <ul class="list-disc pl-6 space-y-2 my-6">
+        <li><b>Un folder per comandă/proiect</b>, nu un folder general „facturi 2026" în care documentele legate de aceeași achiziție ajung împrăștiate printre altele.</li>
+        <li><b>Denumire clară a fișierelor</b>, cu data și tipul documentului în numele fișierului (ex. „2026-08-12_factura_banner-santier.pdf"), nu doar numărul generat automat de scanner.</li>
+        <li><b>O copie digitală scanată, chiar dacă originalul e pe hârtie</b> – reduce riscul pierderii fizice a unui document și permite căutare rapidă după conținut.</li>
+        <li><b>Backup separat de calculatorul de lucru curent</b> – un dosar de arhivă care există doar pe un singur laptop e un risc inutil pentru documente care trebuie păstrate ani de zile.</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Fotografiile de recepție, tratate ca documente, nu ca poze de telefon</h2>
+      <p>O fotografie a unui panou montat, făcută rapid cu telefonul și lăsată în galeria personală, nu ajută la nimic dacă nu poate fi găsită și datată clar la nevoie. Transferă aceste fotografii în același folder cu restul documentelor comenzii, cu data vizibilă în numele fișierului, imediat după montaj – nu „quando am timp", moment care de regulă nu mai vine până la controlul care le cere.</p>
+
+      <h2 class="text-2xl font-bold mt-10 mb-4">Dacă lucrezi cu mai mulți furnizori, o listă centralizată ajută mai mult decât pare</h2>
+      <p>Pentru instituții sau firme care comandă frecvent materiale de semnalistică din surse diferite, o listă simplă (chiar și un tabel) cu furnizorul, data comenzii, valoarea și locul unde e arhivat dosarul complet economisește timp semnificativ la o solicitare de documente pe un interval mai vechi, unde memoria directă a echipei nu mai e un reper de încredere.</p>
+
+      <p>La Anexa1.ro păstrăm în propria arhivă fișierele grafice validate și documentele emise pentru fiecare comandă, astfel încât, dacă ai nevoie de o copie a unei facturi sau a unui certificat de conformitate mai vechi, o putem retrimite rapid la cerere. Pentru anexele complete recomandate la o achiziție nouă, vezi <a href="/blog/anexe-obligatorii-dosar-achizitie-print-conformitate">ghidul dedicat documentelor obligatorii</a>.</p>
     `,
   }
 ];
