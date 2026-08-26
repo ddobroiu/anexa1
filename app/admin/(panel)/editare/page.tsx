@@ -685,7 +685,7 @@ export default function EditareMaterialePage() {
                             {texts.length === 0 && <p className="text-xs text-slate-400">Niciun text adăugat. Textele sunt trasate HD direct în print.</p>}
                             {texts.map((t, index) => (
                                 <div key={t.id} className="p-3 bg-slate-50 border border-slate-200 rounded-xl relative group">
-                                    <button onClick={() => removeText(t.id)} className="absolute top-2 right-2 text-red-400 hover:text-red-600 transition-colors p-1">
+                                    <button onClick={() => removeText(t.id)} className="absolute top-2 right-2 text-red-600 hover:text-red-600 transition-colors p-1">
                                         <Trash2 size={14} />
                                     </button>
                                     <div className="space-y-3">
@@ -728,7 +728,7 @@ export default function EditareMaterialePage() {
                         <button
                             onClick={handleExportPDF}
                             disabled={isGenerating}
-                            className="w-full flex items-center justify-center gap-3 bg-slate-900 text-white font-black py-4 rounded-xl hover:bg-blue-600 shadow-xl shadow-slate-900/10 transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="w-full flex items-center justify-center gap-3 bg-slate-900 text-slate-900 font-black py-4 rounded-xl hover:bg-blue-600 shadow-xl shadow-slate-900/10 transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
                         >
                             {isGenerating ? <RefreshCw className="animate-spin" size={20} /> : <Download size={20} />}
                             {isGenerating ? "SE GENEREAZĂ PDF HD..." : "EXPORTĂ PDF PENTRU PRINT"}
