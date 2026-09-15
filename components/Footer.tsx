@@ -35,6 +35,7 @@ const GUIDE_LINKS = [
     { href: "/blog", label: "Ghiduri de montaj" },
     { href: "/industrii", label: "Soluții pe industrii" },
     { href: "/judet", label: "Livrare pe județe" },
+    { href: "/dimensiuni", label: "Prețuri pe dimensiuni" },
     { href: "/sectoare-bucuresti", label: "Sectoare București" },
 ];
 

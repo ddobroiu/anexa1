@@ -16,6 +16,9 @@ const nextConfig: NextConfig = {
       },
       // Fosta pagină de schimb de linkuri cu alte domenii; nu mai există.
       { source: '/parteneri', destination: '/', permanent: true },
+      // Vechile pagini de dimensiune /banner/300x100 -> noile pagini /dimensiuni/...
+      { source: '/banner/:size(\d{1,4}x\d{1,4})', destination: '/dimensiuni/banner/:size', permanent: true },
+      { source: '/banner-verso/:size(\d{1,4}x\d{1,4})', destination: '/dimensiuni/banner-verso/:size', permanent: true },
       {
         source: '/product/materiale/:path*',
         destination: '/materiale/:path*',
