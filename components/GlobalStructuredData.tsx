@@ -15,7 +15,7 @@ export default function GlobalStructuredData() {
         "name": siteConfig.name,
         "url": baseUrl,
         "logo": `${baseUrl}/logo.svg`,
-        "description": "Tipografie digitală și producție publicitară online - bannere, afișe, canvas, autocolante și materiale rigide.",
+        "description": "Producător de panouri rigide publicitare și semnalistică pentru firme: PVC Forex, alucobond, plexiglas, polipropilenă și carton plume cu print UV, plăcuțe de sediu și panouri de fațadă, plus bannere, afișe, autocolante, textile și canvas. Producție proprie în județul Buzău, livrare în toată România.",
         "address": {
             "@type": "PostalAddress",
             "addressCountry": "RO",

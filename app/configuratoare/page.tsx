@@ -6,8 +6,8 @@ import { ArrowRight, Settings, Zap, ShieldCheck, Box } from 'lucide-react';
 import { CONFIGURATORS_REGISTRY } from '@/lib/configurators-registry';
 
 export const metadata: Metadata = {
-    title: 'Configuratoare Online Print - Ofertare Imediată',
-    description: 'Folosește configuratoarele noastre online pentru bannere, autocolante, canvas și materiale publicitare. Calculează prețul instant și comandă personalizat.',
+    title: 'Configuratoare cu Preț Instant - Panouri Rigide, Semnalistică și Print',
+    description: 'Introduci dimensiunile, alegi materialul și grosimea, vezi prețul pe loc: panouri PVC Forex, alucobond, plexiglas, polipropilenă, carton plume, bannere, autocolante, afișe, textile și canvas.',
     alternates: { canonical: 'https://www.anexa1.ro/configuratoare' }
 };
 

@@ -8,15 +8,15 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
     if (category?.toLowerCase() === 'semnalistica') {
         return {
             title: 'Semnalistică și Indicatoare PVC/Autocolant',
-            description: 'Cumpără indicatoare de securitate, semnalistică rutieră, SSM și PSI. Produse din PVC, Autocolant sau Dibond cu rezistență maximă. Prețuri directe de producător.',
+            description: 'Indicatoare SSM, PSI, semnalistică de interior și plăcuțe de uși pentru sedii de firmă. Printate UV pe PVC Forex, autocolant sau alucobond, cu sistem de prindere la alegere. Preț de producător.',
             keywords: ['semnalistica', 'indicatoare pvc', 'semne protectia muncii', 'indicatoare ssm', 'indicatoare psi', 'semnalistica magazine'],
             alternates: { canonical: '/shop?category=semnalistica' },
         };
     }
 
     return {
-        title: 'Shop - Toate Produsele și Serviciile',
-        description: 'Explorează gama noastră completă de produse de tipar digital: de la tablouri canvas și acrilice, până la bannere publicitare, autocolante și semnalistică.',
+        title: 'Shop - Panouri Rigide, Semnalistică și Tot Catalogul de Print',
+        description: 'Catalogul complet Anexa1: panouri rigide PVC, alucobond și plexiglas, semnalistică și indicatoare, plus bannere, autocolante, tablouri canvas și kituri pentru fonduri europene. Preț de producător, livrare în toată țara.',
         keywords: ['shop print', 'anexa1 produse', 'bannere online', 'tablouri personalizate', 'autocolante vinyl', 'rollup', 'afise'],
         alternates: { canonical: '/shop' },
     };

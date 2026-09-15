@@ -6,8 +6,8 @@ import { MapPin, ArrowRight, Zap, ShieldCheck, Truck } from 'lucide-react';
 import { getJudetBySlug } from '@/lib/localitati';
 
 export const metadata: Metadata = {
-    title: 'Print & Publicitate pe Sectoare în București',
-    description: 'Servicii rapide de tipar digital în București. Livrare în toate sectoarele: Sector 1, 2, 3, 4, 5 și 6. Producție proprie, preț instant.',
+    title: 'Panouri Rigide, Semnalistică și Print pe Sectoare în București',
+    description: 'Plăcuțe de sediu, panouri de fațadă, semnalistică și materiale publicitare livrate prin curier în toate sectoarele Bucureștiului (1-6). Producție proprie, preț instant în configurator.',
     alternates: { canonical: 'https://www.anexa1.ro/sectoare-bucuresti' }
 };
 

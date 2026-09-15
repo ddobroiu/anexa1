@@ -14,6 +14,8 @@ const nextConfig: NextConfig = {
         destination: "https://www.anexa1.ro/:path*",
         permanent: true,
       },
+      // Fosta pagină de schimb de linkuri cu alte domenii; nu mai există.
+      { source: '/parteneri', destination: '/', permanent: true },
       {
         source: '/product/materiale/:path*',
         destination: '/materiale/:path*',

@@ -28,20 +28,20 @@ export const viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.anexa1.ro"),
   title: {
-    default: "Anexa1.ro - Tipar Digital & Producție Publicitară",
-    template: "%s | Anexa1",
+    default: "Anexa1.ro - Panouri Rigide, Plăcuțe de Sediu și Semnalistică pentru Firme",
+    template: "%s | Anexa1.ro",
   },
   description:
-    "Tipărire bannere, afise si autocolante la comanda cu livrare instanta. Livrare rapidă în toată țara.",
+    "Panouri publicitare rigide printate UV pentru sedii, fațade și semnalistică: PVC Forex, alucobond, plexiglas, polipropilenă, carton plume. Configurator cu preț instant, producție proprie, livrare 24-48h. În catalog și bannere, afișe, autocolante, textile, canvas și kituri fonduri UE.",
   keywords: [
-    "tipar digital",
-    "bannere publicitare",
-    "afișe personalizate",
-    "canvas pe pânză",
-    "autocolante vinyl",
-    "materiale rigide",
-    "publicitate outdoor",
-    "print online România",
+    "panouri rigide publicitare",
+    "panou pvc forex",
+    "placa alucobond personalizata",
+    "placuta sediu plexiglas",
+    "semnalistica firme",
+    "panou fatada magazin",
+    "panou santier",
+    "print uv pe materiale rigide",
     "anexa1"
   ],
   manifest: '/manifest.json',
@@ -54,27 +54,27 @@ export const metadata: Metadata = {
     google: 'FPQT6X0QSD',
   },
   openGraph: {
-    title: "Anexa1.ro | Tipar Digital & Producție Publicitară",
+    title: "Anexa1.ro | Panouri Rigide și Semnalistică pentru Firme",
     description:
-      "Tipar digital profesional: bannere, afișe, canvas și autocolante. Configuratoare online cu prețuri instant.",
+      "PVC Forex, alucobond, plexiglas, polipropilenă și carton plume printate UV, cu sistem de prindere la alegere. Configurator cu preț instant, producție proprie.",
     url: "https://www.anexa1.ro",
     siteName: "Anexa1.ro",
     locale: "ro_RO",
     type: "website",
     images: [
       {
-        url: "/logo.svg",
+        url: "/products/materiale/alucobond/alucobond-1.jpg",
         width: 1200,
         height: 630,
-        alt: "Anexa1.ro - Tipar Digital Profesional",
+        alt: "Anexa1.ro - Panou alucobond printat UV, montat pe fațadă",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anexa1.ro | Print Digital Online",
-    description: "Bannere, canvas și semnalistică cu personalizare rapidă.",
-    images: ["/logo.svg"],
+    title: "Anexa1.ro | Panouri Rigide și Semnalistică pentru Firme",
+    description: "Plăcuțe de sediu, panouri de fațadă și semnalistică pe PVC, alucobond și plexiglas, cu preț instant.",
+    images: ["/products/materiale/alucobond/alucobond-1.jpg"],
   },
   robots: {
     index: true,
@@ -127,14 +127,16 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* GA4 property "anexa1.ro" (520944536). In the initial HTML so Google's
-            tag checker can see it; Consent Mode above gates storage. */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4J0WMEX7J3" />
+        {/* GA4 property "Anexa1.ro", în contul Culoarea din Viata SA SRL.
+            În HTML-ul inițial ca verificatorul Google să îl vadă; Consent Mode
+            de mai sus controlează stocarea. Vechiul ID G-4J0WMEX7J3 era comun
+            cu homeprint.ro și adbanner.ro, în contul mutat la coș. */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0ZF4WEY46" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
               gtag('js', new Date());
-              gtag('config', 'G-4J0WMEX7J3');
+              gtag('config', 'G-E0ZF4WEY46');
             `,
           }}
         />

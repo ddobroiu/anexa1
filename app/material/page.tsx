@@ -5,8 +5,8 @@ import { ArrowRight, Settings, Zap, ShieldCheck } from 'lucide-react';
 import { MATERIALE_DATA } from '@/lib/seo/materialeData';
 
 export const metadata: Metadata = {
-    title: 'Materiale și Suporturi de Print',
-    description: 'Descoperă gama completă de materiale de print: Banner Mesh, Autocolant Sablat, Blueback, Plexiglass Opal. Specificații tehnice și utilizări recomandate.',
+    title: 'Materiale de Print: Panouri Rigide, Folii și Suporturi Flexibile',
+    description: 'Fișe tehnice pentru materialele pe care printăm: PVC Forex 3-10 mm, alucobond 3 mm, plexiglas, polipropilenă, carton plume, dar și frontlit, mesh, folii autocolante și blueback. Grosimi, rezistență la exterior și sistem de prindere recomandat.',
   alternates: { canonical: 'https://www.anexa1.ro/material' }
 };
 

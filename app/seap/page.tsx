@@ -226,10 +226,10 @@ export default function SeapPage() {
 
                         <div className="p-10 bg-slate-50 rounded-[2rem] border border-slate-200 mt-12 mb-12 shadow-inner">
                             <h4 className="flex items-center gap-3 text-2xl font-black mb-4">
-                                <TrendingUp className="text-green-600" /> SEO & Vizibilitate Online
+                                <TrendingUp className="text-green-600" /> Producător direct, nu intermediar
                             </h4>
                             <p>
-                                Pentru a ne asigura că suntem soluția nr. 1 în căutările pentru <strong>achiziții publice print</strong>, <strong>bannere seap</strong>, sau <strong>pliante sicap</strong>, actualizăm constant catalogul nostru. Oferim prețuri competitive de producător, eliminând intermediarii, ceea ce reprezintă un avantaj major în evaluarea ofertelor economice.
+                                Producem în atelier propriu panourile rigide, plăcuțele de sediu, semnalistica, bannerele și materialele tipărite cerute în mod uzual în <strong>achizițiile publice de print</strong>. Prețul afișat în configurator este prețul de producător, fără comisioane de intermediere, iar fiecare ofertă include specificațiile tehnice necesare la evaluarea ofertelor economice: material, grosime, tip de print, finisaj și sistem de prindere.
                             </p>
                         </div>
 

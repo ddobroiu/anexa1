@@ -38,21 +38,21 @@ export function getLocalityPageVariant(locName: string, judetName: string, locSl
     const variants: LocalityPageVariantBase[] = [
         {
             metaTitle: `Tipografie & Print în ${loc}`,
-            metaDescription: `Comandă bannere, autocolante și materiale publicitare personalizate în ${loc}. Producție directă în 24-48h, prețuri competitive și livrare rapidă în tot județul ${jud}.`,
+            metaDescription: `Comandă panouri rigide, plăcuțe de sediu, semnalistică și bannere personalizate în ${loc}. Producție directă în 24-48h, preț de producător și livrare rapidă în tot județul ${jud}.`,
             h1Prefix: "Print & Publicitate",
             subtitle: `Producție și livrare rapidă materiale publicitare în ${loc}. Alege produsele dorite și configurează-le online.`,
             productsHeading: "Produse Configurabile",
             productsSubtitle: "Sistemele noastre de configurare îți permit să alegi dimensiuni, finisaje și materiale specifice, cu preț calculat instant.",
             trustHeading: "Parteneriat Local fără Intermediari",
             faq: [
-                { q: `Ce servicii de print sunt disponibile în ${loc}?`, a: `În ${loc} oferim servicii complete de tipar digital: bannere publicitare, tablouri canvas, autocolante, rollup-uri și materiale rigide, toate cu livrare rapidă direct la adresa ta.` },
+                { q: `Ce servicii de print sunt disponibile în ${loc}?`, a: `În ${loc} livrăm panouri rigide printate UV (PVC Forex, alucobond, plexiglas, polipropilenă), plăcuțe de sediu și semnalistică, dar și bannere, autocolante, roll-up-uri, afișe, canvas sau textile, toate direct la adresa ta.` },
                 { q: `Cât durează livrarea în ${loc}?`, a: "Comenzile sunt produse în 24-48 de ore și expediate prin DPD Express, ajungând de regulă în ziua următoare finalizării producției." },
                 { q: "Cum pot vedea prețurile pentru produsele mele?", a: "Alege orice produs din lista de mai sus și folosește configuratorul online. Prețul se calculează instantaneu pe baza dimensiunilor și opțiunilor tale." },
             ],
         },
         {
             metaTitle: `Comandă Print Online în ${loc} — Configurator cu Preț Instant`,
-            metaDescription: `Bannere, canvas și autocolante personalizate pentru clienții din ${loc}. Configurator online, plată securizată, livrare prin curier rapid.`,
+            metaDescription: `Panouri PVC, alucobond și plexiglas, semnalistică și bannere personalizate pentru firmele din ${loc}. Configurator online, plată securizată, livrare prin curier rapid.`,
             h1Prefix: "Configurator Online pentru",
             subtitle: `Alegi dimensiunile, vezi prețul exact și plasezi comanda din ${loc} fără telefoane sau drumuri la atelier.`,
             productsHeading: "Ce Poți Comanda Online",
@@ -65,7 +65,7 @@ export function getLocalityPageVariant(locName: string, judetName: string, locSl
             ],
         },
         {
-            metaTitle: `${loc}: Bannere, Autocolante și Materiale Publicitare Personalizate`,
+            metaTitle: `${loc}: Panouri Rigide, Semnalistică și Materiale Publicitare`,
             metaDescription: `Afacerile din ${loc} comandă materiale publicitare direct online — configurator, preț fix, producție proprie și livrare rapidă în ${jud}.`,
             h1Prefix: "Materiale Publicitare pentru Afaceri din",
             subtitle: `De la un singur banner de deschidere până la seturi complete de semnalistică pentru afacerea ta din ${loc}.`,
@@ -73,7 +73,7 @@ export function getLocalityPageVariant(locName: string, judetName: string, locSl
             productsSubtitle: "Configurează exact ce ai nevoie — dimensiuni, materiale și finisaje adaptate spațiului tău.",
             trustHeading: "De Ce Ne Aleg Afacerile din Zonă",
             faq: [
-                { q: `Ce comandă cel mai des o afacere mică din ${loc}?`, a: "Bannere pentru exterior, autocolante pentru vitrină și materiale de interior sunt cele mai frecvente comenzi." },
+                { q: `Ce comandă cel mai des o afacere mică din ${loc}?`, a: "Plăcuțe de sediu din plexiglas sau alucobond, panouri PVC Forex pentru semnalistica de interior și bannere pentru exterior sunt cele mai frecvente comenzi." },
                 { q: "Pot comanda pentru mai multe puncte de lucru odată?", a: "Da, procesăm și comenzi de volum mai mare pentru rețele cu mai multe locații." },
                 { q: "Oferiți factură pentru firme?", a: "Da, poți alege facturare pe persoană juridică direct din formularul de comandă." },
             ],
@@ -108,7 +108,7 @@ export function getLocalityPageVariant(locName: string, judetName: string, locSl
         },
         {
             metaTitle: `Furnizor Local de Print pentru ${loc} și Împrejurimi`,
-            metaDescription: `Bannere, semnalistică, autocolante și canvas produse și livrate rapid în ${loc}. Configurator online cu preț instant, fără intermediari.`,
+            metaDescription: `Panouri rigide, semnalistică, bannere și autocolante produse și livrate rapid în ${loc}. Configurator online cu preț instant, fără intermediari.`,
             h1Prefix: "Furnizor de Print pentru",
             subtitle: `De la un singur produs până la comenzi recurente — totul se configurează online pentru clienții din ${loc}.`,
             productsHeading: "Sistemele Noastre de Configurare",
