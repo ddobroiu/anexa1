@@ -150,7 +150,7 @@ export default function Navbar() {
                     <a href={`tel:${siteConfig.phone.replace(/\s+/g, '').replace(/^0/, '+40')}`} className="flex items-center gap-1.5 hover:text-white transition-colors">
                         <Phone size={11} /> {siteConfig.phone}
                     </a>
-                    <span className="text-blue-500">Livrare 24-48h în toată țara</span>
+                    <span className="text-blue-500">Livrare 2-4 zile lucrătoare în toată țara</span>
                 </div>
 
                 {/* ROW 1: Logo, Search, and Actions */}

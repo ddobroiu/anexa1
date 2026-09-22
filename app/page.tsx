@@ -14,7 +14,7 @@ import PromoSection from '@/components/PromoSection';
 export const metadata: Metadata = {
   authors: [{ name: 'Echipa Anexa1.ro', url: 'https://www.anexa1.ro' }],
   title: 'Panouri Rigide Publicitare, Plăcuțe de Sediu și Semnalistică | Preț Instant',
-  description: 'Anexa1 produce panouri publicitare rigide pentru firme: PVC Forex 3-10 mm, alucobond 3 mm, plexiglas, polipropilenă și carton plume, printate UV, cu distanțiere inox, șuruburi sau bandă adezivă. În catalog și bannere, mesh, afișe, autocolante, textile, canvas și kituri fonduri UE. Preț instant, livrare 24-48h.',
+  description: 'Anexa1 produce panouri publicitare rigide pentru firme: PVC Forex 3-10 mm, alucobond 3 mm, plexiglas, polipropilenă și carton plume, printate UV, cu distanțiere inox, șuruburi sau bandă adezivă. În catalog și bannere, mesh, afișe, autocolante, textile, canvas și kituri fonduri UE. Preț instant, livrare 2-4 zile lucrătoare.',
   keywords: ['panouri rigide publicitare', 'panou pvc forex', 'placa alucobond', 'placuta sediu plexiglas', 'semnalistica firme', 'panou fatada', 'panou santier', 'print uv panouri', 'anexa1'],
   other: {
     "article:published_time": "2024-01-01T08:00:00+02:00",
@@ -88,7 +88,7 @@ const FAQ = [
   },
   {
     q: "Livrați panourile rigide în toată țara? Cum sunt ambalate?",
-    a: "Da, prin curier, în 24-48 de ore de la producție, în toată România și în toate sectoarele Bucureștiului. Panourile pleacă cu colțare de protecție și folie, iar plexiglasul păstrează folia de protecție de fabrică până la montaj. Pentru formate de peste 200 cm sau comenzi pentru mai multe sedii ne poți suna pentru un termen și un cost de transport exact."
+    a: "Da, prin curier, în 2-4 zile lucrătoare de la producție, în toată România și în toate sectoarele Bucureștiului. Panourile pleacă cu colțare de protecție și folie, iar plexiglasul păstrează folia de protecție de fabrică până la montaj. Pentru formate de peste 200 cm sau comenzi pentru mai multe sedii ne poți suna pentru un termen și un cost de transport exact."
   },
 ];
 
@@ -385,7 +385,7 @@ export default function Home() {
               {[
                 { icon: Factory, title: "Atelier propriu", desc: "Print UV și debitare CNC la noi, nu la intermediari." },
                 { icon: ShieldCheck, title: "Fișier verificat", desc: "Un grafician verifică bleed-ul, rezoluția și pozițiile găurilor." },
-                { icon: Timer, title: "Gata în 24-48h", desc: "De la bunul de tipar la predarea către curier." },
+                { icon: Timer, title: "Gata în 2-4 zile", desc: "De la bunul de tipar la predarea către curier." },
               ].map((f) => (
                 <li key={f.title} className="flex items-start gap-3 rounded-md border border-slate-200 px-4 py-3">
                   <div className="w-9 h-9 rounded-md bg-sky-50 text-sky-800 flex items-center justify-center shrink-0">
@@ -402,7 +402,7 @@ export default function Home() {
           <div className="lg:col-span-5 rounded-xl border border-slate-200 bg-slate-50 p-6">
             <div className="flex items-center gap-3 mb-3">
               <MapPin size={20} className="text-sky-800" />
-              <h2 className="text-slate-900 font-extrabold text-lg">Livrare în toată țara, 24-48h</h2>
+              <h2 className="text-slate-900 font-extrabold text-lg">Livrare în toată țara, 2-4 zile lucrătoare</h2>
             </div>
             <p className="text-slate-600 text-sm leading-relaxed mb-4">
               Expediem prin curier din atelierul nostru din județul Buzău către orice reședință de județ și către toate sectoarele Bucureștiului. Panourile pleacă cu colțare de protecție și folie, plexiglasul cu folia de fabrică pe ambele fețe.

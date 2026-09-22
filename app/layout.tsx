@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Anexa1.ro",
   },
   description:
-    "Panouri publicitare rigide printate UV pentru sedii, fațade și semnalistică: PVC Forex, alucobond, plexiglas, polipropilenă, carton plume. Configurator cu preț instant, producție proprie, livrare 24-48h. În catalog și bannere, afișe, autocolante, textile, canvas și kituri fonduri UE.",
+    "Panouri publicitare rigide printate UV pentru sedii, fațade și semnalistică: PVC Forex, alucobond, plexiglas, polipropilenă, carton plume. Configurator cu preț instant, producție proprie, livrare 2-4 zile lucrătoare. În catalog și bannere, afișe, autocolante, textile, canvas și kituri fonduri UE.",
   keywords: [
     "panouri rigide publicitare",
     "panou pvc forex",

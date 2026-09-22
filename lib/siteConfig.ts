@@ -4,7 +4,7 @@ export const siteConfig = {
     name: "Anexa1",
     domain: "Anexa1.ro",
     url: "https://www.anexa1.ro",
-    description: "Anexa1.ro - Panouri publicitare rigide și semnalistică pentru firme: PVC Forex, alucobond, plexiglas, polipropilenă și carton plume printate UV, cu sistem de prindere la alegere. Producție proprie, preț instant, livrare 24-48h.",
+    description: "Anexa1.ro - Panouri publicitare rigide și semnalistică pentru firme: PVC Forex, alucobond, plexiglas, polipropilenă și carton plume printate UV, cu sistem de prindere la alegere. Producție proprie, preț instant, livrare 2-4 zile lucrătoare.",
     email: "contact@Anexa1.ro",
     phone: "0750 473 111",
     address: "Jud. Buzău, Sat Topliceni, Com. Topliceni, G Topliceni, nr. 214",
