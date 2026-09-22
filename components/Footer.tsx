@@ -70,10 +70,10 @@ export default function Footer() {
         <footer className="bg-slate-50 text-slate-600 relative isolate border-t border-slate-200 overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-sky-800" />
 
-            <div className="container mx-auto px-6 lg:px-12 !max-w-7xl py-14">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-12">
+            <div className="container mx-auto px-6 lg:px-12 !max-w-7xl py-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-6 mb-8">
                     {/* Brand */}
-                    <div className="lg:col-span-3 flex flex-col gap-5">
+                    <div className="lg:col-span-3 flex flex-col gap-4">
                         <Link href="/" className="inline-flex items-center gap-2.5">
                             <Image
                                 src="/logo.svg"
@@ -86,9 +86,7 @@ export default function Footer() {
                             <span className="text-xl font-black text-slate-900 tracking-tight">Anexa<span className="text-sky-800">1</span>.ro</span>
                         </Link>
                         <p className="text-sm leading-relaxed max-w-sm">
-                            Panouri publicitare rigide și semnalistică pentru firme: PVC Forex, alucobond, plexiglas,
-                            polipropilenă și carton plume printate UV, cu sistemul de prindere ales de tine. Producție
-                            proprie în județul Buzău, livrare prin curier în toată țara.
+                            Panouri rigide și semnalistică pentru firme, print UV în producție proprie, livrare în toată țara.
                         </p>
                         <div className="space-y-3 text-sm">
                             <a href={phoneHref} className="flex items-center gap-3 hover:text-sky-800 transition-colors">
@@ -150,10 +148,10 @@ export default function Footer() {
                     </p>
                     <div className="flex items-center gap-2">
                         <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-                            <img src="/250x50_icon_ANPC-SAL.webp" alt="Soluționarea Alternativă a Litigiilor" width={200} height={40} className="h-10 w-auto" loading="lazy" />
+                            <img src="/250x50-icon-anpc-sal.webp" alt="Soluționarea Alternativă a Litigiilor" width={200} height={40} className="h-10 w-auto" loading="lazy" />
                         </a>
                         <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-                            <img src="/250x50_icon_ANPC-SOL.webp" alt="Soluționarea Online a Litigiilor" width={200} height={40} className="h-10 w-auto" loading="lazy" />
+                            <img src="/250x50-icon-anpc-sol.webp" alt="Soluționarea Online a Litigiilor" width={200} height={40} className="h-10 w-auto" loading="lazy" />
                         </a>
                     </div>
                 </div>
@@ -166,8 +164,8 @@ function FooterColumn({ title, links }: { title: string; links: { href: string; 
     return (
         <div className="lg:col-span-2">
             <h4 className="text-slate-900 text-xs font-bold uppercase tracking-widest mb-4">{title}</h4>
-            <ul className="space-y-2.5 text-sm">
-                {links.map((l) => (
+            <ul className="space-y-1.5 text-[13px]">
+                {[...links.filter((l) => l.href === "/judet" || l.href === "/dimensiuni"), ...links.filter((l) => l.href !== "/judet" && l.href !== "/dimensiuni")].slice(0, 6).map((l) => (
                     <li key={l.href}>
                         <Link href={l.href} className="hover:text-sky-800 transition-colors">
                             {l.label}
