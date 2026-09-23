@@ -1,3 +1,5 @@
+import { getProductDisplayName, localProductTitle } from "@/lib/seo/localTitle";
+import { siteConfig } from "@/lib/siteConfig";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -52,12 +54,13 @@ export async function generateMetadata({ params }: { params: Promise<{ judetSlug
     if (!loc || !judet || !product) return {};
 
     const targetInfo = targetSlug ? getTargetInfo(targetSlug) : null;
-    const productTitle = targetInfo ? `${product.title} ${targetInfo.label}` : product.title;
+    const productBaseName = getProductDisplayName([product.id, baseSlug, (product as any).routeSlug], product.title);
+    const productTitle = targetInfo ? `${productBaseName} ${targetInfo.label}` : productBaseName;
 
     const fromPrice = getFromPrice([baseSlug, (product as any).routeSlug?.replace('configurator/', ''), product.id]);
     const title = fromPrice
-        ? `${productTitle} în ${loc.name} – de la ${fromPrice.text}, gata în 2-4 zile`
-        : `Print ${productTitle} în ${loc.name}`;
+        ? localProductTitle("anexa1", productTitle, loc.name, fromPrice.text)
+        : `${productTitle} în ${loc.name}`;
     const { description: baseDescription } = buildLocalContent({
         brand: "anexa1",
         productTitle,
@@ -71,7 +74,7 @@ export async function generateMetadata({ params }: { params: Promise<{ judetSlug
         ? `De la ${fromPrice.text}/buc (${fromPrice.basis}). ${baseDescription}`.slice(0, 158)
         : baseDescription;
 
-    const routeUrl = `https://Anexa1.ro/judet/${judet.slug}/${loc.slug}/${productSlug.join('/')}`;
+    const routeUrl = `${siteConfig.url}/judet/${judet.slug}/${loc.slug}/${productSlug.join('/')}`;
 
     return {
         title,
@@ -108,7 +111,8 @@ export default async function ProductLocalityPage({ params }: { params: Promise<
     if (!loc || !judet || !product) notFound();
 
     const targetInfo = targetSlug ? getTargetInfo(targetSlug) : null;
-    const productTitle = targetInfo ? `${product.title} ${targetInfo.label}` : product.title;
+    const productBaseName = getProductDisplayName([product.id, baseSlug, (product as any).routeSlug], product.title);
+    const productTitle = targetInfo ? `${productBaseName} ${targetInfo.label}` : productBaseName;
 
     const productImage = (product as any).image || ((product as any).images?.[0]) || "/products/banner/banner-1.webp";
     
@@ -169,7 +173,7 @@ export default async function ProductLocalityPage({ params }: { params: Promise<
                             "image": productImage,
                             "description": `Printăm și livrăm ${productTitle} în ${loc.name}, ${judet.name}. Calitate premium UV.`,
                             "brand": { "@type": "Brand", "name": "Anexa1" },
-                            "manufacturer": { "@type": "Organization", "name": "Anexa1", "url": "https://www.Anexa1.ro" },
+                            "manufacturer": { "@type": "Organization", "name": "Anexa1", "url": `${siteConfig.url}` },
                         }
                     ])
                 }}

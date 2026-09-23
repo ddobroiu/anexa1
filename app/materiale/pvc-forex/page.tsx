@@ -7,7 +7,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: 'Panouri PVC Forex — Semnalistică Instituțională, PNRR și Firme de Magazin | Anexa1',
+    title: 'Panouri PVC Forex — Semnalistică Instituțională, PNRR și Firme de Magazin',
     description: 'Panouri din PVC expandat (Forex), rigide și ușoare, la mijloc între polipropilenă și Alucobond ca durabilitate. Grosimi 3-10mm, conforme MIV pentru panouri de vizibilitate PNRR/fonduri europene, semnalistică SSM și firme de magazin. Preț instant.',
     keywords: ['pvc forex', 'panouri firma magazin', 'pvc expandat semnalistica', 'placi pvc rigide', 'forex outdoor', 'panou vizibilitate pnrr forex', 'placa pvc conforma miv', 'anexa1'],
     alternates: {
@@ -83,9 +83,10 @@ const faqs = [
 
 export default function PVCForexPage() {
     return (
+        <>
+        <h1 className="sr-only">Panouri PVC Forex — Semnalistică Instituțională, Vizibilitate PNRR și Firme de Magazin</h1>
         <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Se încarcă configuratorul PVC Forex...</div>}>
             <div className="pt-20">
-                <h1 className="sr-only">Panouri PVC Forex — Semnalistică Instituțională, Vizibilitate PNRR și Firme de Magazin</h1>
                 <BreadcrumbSchema
                     items={[
                         { name: "Acasă", item: "/" },
@@ -319,5 +320,6 @@ export default function PVCForexPage() {
                 </section>
             </div>
         </Suspense>
+        </>
     );
 }
