@@ -79,8 +79,12 @@ export async function POST(req: NextRequest) {
       // 2. Datele comenzii în metadata (webhook le folosește la fulfillOrder)
       metadata: {
         ...metadata,
-        source: 'anexa1.ro'
+        source: 'anexa1.ro',
+        group: 'print',
+        project: 'anexa1'
       },
+      // Tagged on the payment too: the Stripe account is shared by several sites
+      payment_intent_data: { metadata: { group: 'print', project: 'anexa1', source: 'anexa1.ro' } },
       // 3. Redirect după plată (Embedded Checkout)
       return_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
     });
